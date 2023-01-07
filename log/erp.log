@@ -1,0 +1,1756 @@
+17:01:59 [DEBUG] : Array
+(
+)
+
+17:01:24 [DEBUG] : Array
+(
+)
+
+17:01:09 [DEBUG] : Array
+(
+)
+
+17:01:27 [DEBUG] : Array
+(
+)
+
+17:01:51 [DEBUG] : Array
+(
+)
+
+17:01:51 [DEBUG] : 
+17:01:11 [DEBUG] : Array
+(
+)
+
+17:01:11 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+17:01:14 [DEBUG] : Array
+(
+)
+
+17:01:14 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+17:01:17 [DEBUG] : Array
+(
+)
+
+17:01:17 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+17:01:19 [DEBUG] : Array
+(
+)
+
+17:01:19 [DEBUG] : Array
+(
+)
+
+17:01:19 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+17:01:19 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+18:01:15 [DEBUG] : Array
+(
+)
+
+18:01:15 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+)
+
+18:01:53 [DEBUG] : Array
+(
+)
+
+18:01:57 [DEBUG] : Array
+(
+)
+
+18:01:06 [DEBUG] : Array
+(
+)
+
+18:01:20 [DEBUG] : Array
+(
+)
+
+18:01:22 [DEBUG] : Array
+(
+)
+
+18:01:24 [DEBUG] : Array
+(
+)
+
+18:01:56 [DEBUG] : Array
+(
+)
+
+18:01:59 [DEBUG] : Array
+(
+)
+
+18:01:54 [DEBUG] : Array
+(
+)
+
+18:01:54 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:54 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:54 [DEBUG] : Array
+(
+)
+
+18:01:54 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:54 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : Array
+(
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : Array
+(
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : Array
+(
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : Array
+(
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:51 [DEBUG] : Array
+(
+)
+
+18:01:51 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:51 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : Array
+(
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:52 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:55 [DEBUG] : Array
+(
+)
+
+18:01:55 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:55 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:55 [DEBUG] : Array
+(
+)
+
+18:01:55 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:55 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:10 [DEBUG] : Array
+(
+)
+
+18:01:10 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:10 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:10 [DEBUG] : Array
+(
+)
+
+18:01:10 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:10 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:15 [DEBUG] : Array
+(
+)
+
+18:01:15 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:15 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:15 [DEBUG] : Array
+(
+)
+
+18:01:15 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:15 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:18 [DEBUG] : Array
+(
+)
+
+18:01:18 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:18 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:18 [DEBUG] : Array
+(
+)
+
+18:01:18 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:18 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:20 [DEBUG] : Array
+(
+)
+
+18:01:20 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:20 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:20 [DEBUG] : Array
+(
+)
+
+18:01:20 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:20 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : Array
+(
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:33 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:59 [DEBUG] : Array
+(
+)
+
+18:01:59 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:59 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+11:01:12 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 
+        )
+
+)
+
+18:01:21 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+18:01:21 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+18:01:21 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:55 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:55 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:55 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:55 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:55 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:59 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:59 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:59 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:04 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:04 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:04 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:14 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:14 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:14 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:30 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:30 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:30 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:39 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:39 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:39 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:30 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:30 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:30 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:25 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:25 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:25 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:25 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:25 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+01:01:50 [DEBUG] : SELECT `trans_type`,`prefix`,`description`,`default`,`pattern`,`id`,`inactive` FROM &TB_PREF&reflines WHERE !inactive ORDER BY `trans_type`,`prefix`
+08:01:59 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:59 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:59 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:05 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:05 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:05 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:05 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:05 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:31 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:31 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:31 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:31 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:31 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:41 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:41 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:41 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:44 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:44 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:44 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:47 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:47 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:47 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:14 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+08:01:14 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+08:01:14 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+10:01:25 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+10:01:25 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+10:01:25 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:25 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:25 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:25 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+09:01:25 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:25 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:26 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [package] => demo
+            [name] => demo_mod
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/demo
+            [active] => 1
+        )
+
+)
+
+09:01:26 [DEBUG] : module Object
+(
+    [name] => 基本设置
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
+09:01:26 [DEBUG] : module Object
+(
+    [name] => 杂项
+    [icon] => 
+    [lappfunctions] => Array
+        (
+        )
+
+    [rappfunctions] => Array
+        (
+        )
+
+)
+
