@@ -19,11 +19,10 @@ class Apps extends AppsBase
       // 增加各个模块
       // eg.  $this->add_application(new CustomerApp());
 
-        
-        $this->add_application(new SetupApp());
-
 
         hook_invoke_all('install_tabs', $this);
+
+        $this->add_application(new SetupApp());
       
     }
 }
