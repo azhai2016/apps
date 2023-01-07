@@ -331,7 +331,7 @@ function get_pkg_or_list($type = null, $pkgname = null, $filter = array(), $outk
             display_error(_('OpenSSL have to be available on your server to use extension repository system.'));
             return null;
         }
-        if (openssl_verify($data, $sig, $cert) <= 0) {
+        if (isset($sig) && openssl_verify($data, $sig, $cert) <= 0) {
             if ($refresh) {
                 if (!@unlink($loclist)) {
                     display_error(sprintf(_("Cannot delete outdated '%s' file."), $loclist));
@@ -376,11 +376,11 @@ function get_pkg_or_list($type = null, $pkgname = null, $filter = array(), $outk
             if ($parms['SHA1sum'] != sha1_file($locindex)) { // check subdir index consistency
                 if ($refresh) {
                     if (!@unlink($locindex)) {
-                        display_error(sprintf(_("Cannot delete outdated '%s' file."), $locindex));
+                        display_error(sprintf(_("无法删除过时的“%s”文件。"), $locindex));
                         return null;
                     }
                 } else {
-                    display_error(sprintf(_("Security alert: broken index file in repository '%s'. Please inform repository administrator about this issue."), $fname));
+                    display_error(sprintf(_("安全警报：存储库中的包“%s”已损坏。请将此问题通知存储库管理员。."), $fname));
                     return null;
                 }
             } else {
@@ -413,13 +413,13 @@ function get_pkg_or_list($type = null, $pkgname = null, $filter = array(), $outk
                     if ($download) {
                         $locname = $target_dir . $pkg['Filename'] . '.pkg';
                         if (!url_copy($pkgfullname, $locname)) {
-                            display_error(sprintf(_("Cannot download '%s' file."), $pkgfullname));
+                            display_error(sprintf(_("不能下载 '%s' 文件."), $pkgfullname));
                             return null;
                         }
                         // checking sha1 hash is expensive proces, so chekc the package
                         // consistency just before downloading
                         if ($pkg['SHA1sum'] != sha1_file($locname)) {
-                            display_error(sprintf(_("Security alert: broken package '%s' in repository. Please inform repository administrator about this issue."), $pkgfullname));
+                            display_error(sprintf(_("错误：存储库中的包“%s”已损坏。请将此问题通知存储库管理员。"), $pkgfullname));
                             return null;
                         }
                     }
@@ -534,6 +534,7 @@ function get_extensions_list($type = null)
         $type = array($type);
     }
 
+   
     $pkgs = get_pkg_or_list($type, null, array(
         'Package' => 'package',
         'Version' => 'available',
@@ -545,7 +546,7 @@ function get_extensions_list($type = null)
         // 'MenuEntries' => 'entries',
         'Encoding' => 'encoding',
         // 'AccessExtensions' => 'acc_file',
-        'InstallPath' => 'path',
+        'InstallPath' => 'path'
     ));
 
     // lookup for local extensions
@@ -556,6 +557,8 @@ function get_extensions_list($type = null)
     while (false != ($fname = readdir($moddir))) {
         if (!in_array($fname, array('.', '..', 'CVS', '_cache')) && is_dir($path . $fname)) {
             if (!isset($pkgs[$fname])) {
+                $ctrl = get_control_file($path . $fname . '/_init/config');
+                log_b($ctrl);
                 $pkgs[$fname] = array(
                     'package' => $fname,
                     'name' => $fname,
@@ -564,6 +567,7 @@ function get_extensions_list($type = null)
                     'type' => 'extension',
                     'path' => 'modules/' . $fname,
                     'active' => false,
+                    'description' => $ctrl['Description']
                 );
             }
         }
@@ -703,7 +707,7 @@ function install_language($pkg_name)
             return false;
         }
     } else {
-        display_error(sprintf(_("Package '%s' not found."), $pkg_name));
+        display_error(sprintf(_("模块包 '%s' 没有发现."), $pkg_name));
         return false;
     }
     return true;
@@ -762,7 +766,7 @@ function install_extension($pkg_name)
             return false;
         }
     } else {
-        display_error(sprintf(_("Package '%s' not found."), $pkg_name));
+        display_error(sprintf(_("模块包 '%s' 没有发现."), $pkg_name));
         return false;
     }
     return true;

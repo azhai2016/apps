@@ -2346,10 +2346,10 @@ function extset_list($name, $value=null, $submit_on_change=false) {
 
 	$items = array();
 	foreach ($db_connections as $comp)
-		$items[] = sprintf(_("Activated for '%s'"), $comp['name']);
+		$items[] = sprintf(_("安装到'%s'"), $comp['name']);
 	return array_selector( $name, $value, $items,
 		array(
-			'spec_option'=> _('Available and/or installed'),
+			'spec_option'=> _('安装或已安装'),
 			'spec_id' => -1,
 			'select_submit'=> $submit_on_change,
 			'async' => true

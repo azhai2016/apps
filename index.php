@@ -36,8 +36,6 @@ $route_list = array(
 
 add_access_extensions();
 
-log_b($installed_extensions);
-
 if (isset($installed_extensions)){
     
     foreach ($installed_extensions as $rows) {
