@@ -1593,7 +1593,7 @@ function customer_type_row($label, $name, $selected_id = null, $all_option = fal
     echo "</td>\n</tr>\n";
 }
 
-
+/*
 function customer_data($id)
 {
 	if (isset($id)) {
@@ -1601,7 +1601,7 @@ function customer_data($id)
 	  $result = db_fetch(db_query($sql,''));
       return $result;
 	}
-}
+}*/
 
 function _format_items($row)
 {

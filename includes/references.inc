@@ -72,7 +72,6 @@ class references {
 		$context['pos'] = $_SESSION['wa_current_user']->pos;
 		$out = '';
 
-		log_b($context);
 
 		while(($start = strpos($template, '{')) !==false) {
 
@@ -228,12 +227,10 @@ class references {
 			$refline = $this->reflines->get($line);
 		else {
 			$refs = $this->reflines->get_all("trans_type=".db_escape($type));
-			log_b($refs);
+
 			$refline = db_fetch($refs);
 		}
 
-
-		log_b($refline);
 
 		
 

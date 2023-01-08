@@ -558,7 +558,7 @@ function get_extensions_list($type = null)
         if (!in_array($fname, array('.', '..', 'CVS', '_cache')) && is_dir($path . $fname)) {
             if (!isset($pkgs[$fname])) {
                 $ctrl = get_control_file($path . $fname . '/_init/config');
-                log_b($ctrl);
+     
                 $pkgs[$fname] = array(
                     'package' => $fname,
                     'name' => $fname,
@@ -590,8 +590,7 @@ function get_extensions_list($type = null)
     if ($pkgs) {
         ksort($pkgs);
     }
-
-    return $pkgs;
+     return $pkgs;
 }
 //
 // Return merged list of available and installed extensions as a local
@@ -718,8 +717,9 @@ function install_language($pkg_name)
 function install_extension($pkg_name)
 {
     global $path_to_root, $installed_extensions, $next_extension_id, $Ajax, $db_connections;
-
+    loh_b('+++++++');
     $pkg = get_pkg_or_list(array('extension', 'theme', 'chart'), $pkg_name);
+    
     if ($pkg) {
         $package = new package(VARLIB_PATH . '/' . $pkg['Filename'] . '.pkg');
         $local_exts = get_company_extensions();
@@ -741,7 +741,9 @@ function install_extension($pkg_name)
                 'type' => $pkg['Type'],
                 'active' => @$pkg['DefaultStatus'] == 'active' ? true : false,
                 'path' => $pkg['InstallPath'],
+                'description'=> $pkg['description']
             );
+ 
             if (isset($pkg['SqlScript'])) {
                 $ext['sql'] = $pkg['SqlScript'];
             }

@@ -129,7 +129,7 @@ function write_extensions($extensions=null, $company = -1) {
 		$extensions = $installed_extensions;
 	if (!isset($next_extension_id))
 		$next_extension_id = 1;
-
+	
 	$msg = "<?php\n\n";
 	if ($company == -1)
 		$msg .= "/* List of installed additional extensions. If extensions are added to the list manually make sure they have unique and so far never used extension_ids as a keys, and \$next_extension_id is also updated. More about format of this file yo will find in FA extension system documentation.*/\n\$next_extension_id = $next_extension_id; // unique id for next installed extension\n\n";

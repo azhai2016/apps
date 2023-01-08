@@ -21,7 +21,6 @@ include_once $path_to_root . '/admin/db/designer_db.inc';
 
 $items_id = $_GET['id'];
 
-log_b($_GET);
 
 function getJson()
 {

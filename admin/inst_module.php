@@ -32,6 +32,7 @@ function local_extension($id) {
 	global $next_extension_id, $Ajax, $path_to_root;
 
 	$exts = get_company_extensions();
+	
 	$exts[$next_extension_id++] = array(
 		'package' => $id,
 		'name' => $id,
@@ -39,7 +40,8 @@ function local_extension($id) {
 		'available' => '',
 		'type' => 'extension',
 		'path' => 'modules/'.$id,
-		'active' => false
+		'active' => false,
+		'description'=> ''
 	);
 
 	$local_module_path = $path_to_root.'/modules/'.clean_file_name($id);
@@ -51,6 +53,8 @@ function local_extension($id) {
 	
 		if (key_exists('Name', $ctrl)) $exts[$next_extension_id-1]['name'] = $ctrl['Name'];
 		if (key_exists('Version', $ctrl)) $exts[$next_extension_id-1]['version'] = $ctrl['Version'];
+		if (key_exists('Description', $ctrl)) $exts[$next_extension_id-1]['description'] = $ctrl['Description'];
+
 	}
 	if (file_exists($local_hook_file))
 		include_once($local_hook_file);
@@ -169,10 +173,11 @@ function display_extensions($mods) {
 function company_extensions($id) {
 	start_table(TABLESTYLE);
 	
-	$th = array(_('名称'),_('模块'), _('选项'), _('激活'));
+	$th = array(_('名称'),_('模块说明'), _('选项'), _('激活'));
 	
 	$mods = get_company_extensions();
 	$exts = get_company_extensions($id);
+
 	foreach($mods as $key => $ins) {
 		foreach($exts as $ext)
 			if ($ext['name'] == $ins['name']) {
@@ -190,7 +195,8 @@ function company_extensions($id) {
 		label_cell($mod['name']);
 		$entries = fmt_titles(@$mod['entries']);
 		$tabs = fmt_titles(@$mod['tabs']);
-		label_cell($tabs);
+		label_cell($mod['description']);
+		//label_cell($tabs);
 		label_cell($entries);
 
 		check_cells(null, 'Active'.$i, @$mod['active'] ? 1:0, false, false, "align='center'");
@@ -210,8 +216,9 @@ if ($Mode == 'Delete') {
 
 if (get_post('Refresh')) {
 	$comp = get_post('extset');
+
 	$exts = get_company_extensions($comp);
-    log_b($exts);
+
 	$result = true;
 	foreach($exts as $i => $ext) {
 		if ($ext['package'] && ($ext['active'] ^ check_value('Active'.$i))) {
@@ -228,8 +235,11 @@ if (get_post('Refresh')) {
 		}
 	}
 	write_extensions($exts, get_post('extset'));
+
 	if (get_post('extset') == user_company())
 		$installed_extensions = $exts;
+
+	log_b($installed_extensions);	
 	
 	if(!$result) {
 		display_error(_('某些扩展的状态更改失败。'));
@@ -239,8 +249,10 @@ if (get_post('Refresh')) {
 		display_notification(_('当前活动扩展集已保存。'));
 }
 
-if ($id = find_submit('Update', false))
+if ($id = find_submit('Update', false)) {
+
 	install_extension($id);
+}
 if ($id = find_submit('Local', false))
 	local_extension($id);
 

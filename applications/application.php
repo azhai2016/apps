@@ -106,8 +106,6 @@ class application {
 	function add_module($name, $icon = null) {
 		$module = new module($name, $icon);
 		$this->modules[] = $module;
-
-		log_b($module);
 		return $module;
 	}
 	

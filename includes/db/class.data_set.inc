@@ -288,7 +288,7 @@ class data_set extends record_set {
 				$order_by[$i] = '`'.$fld.'`';
 			$sql .= " ORDER BY ".implode(',', (array)$order_by);
 		}
-		log_b($sql);
+	
 		$result = db_query($sql);
 		if ($result==false)
 			return $this->error("Cannot get record from ".$this->name);

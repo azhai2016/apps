@@ -16,13 +16,13 @@ class Apps extends AppsBase
 
         parent::init();
 
-      // 增加各个模块
-      // eg.  $this->add_application(new CustomerApp());
-
-
+ 
         hook_invoke_all('install_tabs', $this);
+ 
 
         $this->add_application(new SetupApp());
+
+    
       
     }
 }

@@ -10,7 +10,7 @@ include_once $path_to_root . '/admin/db/designer_db.inc';
 if ($_POST) {
 
   $json = $_POST['json'];
-  log_b($json);
+
   update_print_content($_POST['id'],$json);
   
 }
