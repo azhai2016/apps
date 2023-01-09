@@ -17,6 +17,7 @@ See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 global $print_actions,$systypes_array, $bank_account_types, $bank_transfer_types, $payment_person_types, $wo_types_array, $wo_cost_types, $class_types, $quick_actions, $quick_entry_types, $stock_types, $tag_types, $bank_owner;
 
 $systypes_array = array(
+    
 );
 
 $type_shortcuts = array(

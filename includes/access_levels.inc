@@ -53,6 +53,8 @@ $security_areas = array(
     'SA_USERS' => array(SS_SETUP | 3, _('用户设置')),
     'SA_PRINTERS' => array(SS_SETUP | 4, _('打印机设置')),
     'SA_PRINTPROFILE' => array(SS_SETUP | 5, _('打印属性')),
+
+    'SA_FORMSETUP' =>array(SS_SETUP | 6, _('序号设置')),
     
     //
     // Special and common functions

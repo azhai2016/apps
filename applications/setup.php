@@ -19,6 +19,8 @@ class SetupApp extends application
         $this->add_lapp_function(0, _('项目设置(&C)'), 'admin/company_preferences.php?', 'SA_SETUPCOMPANY', MENU_SETTINGS);
         $this->add_lapp_function(0, _('用户管理(&U)'), 'admin/users.php?', 'SA_USERS', MENU_SETTINGS);
         $this->add_lapp_function(0, _('权限设置(&R)'), 'admin/security_roles.php?', 'SA_SECROLES', MENU_SETTINGS);
+        $this->add_rapp_function(0, _('序号格式(&R)'), 'admin/forms_setup.php?', 'SA_FORMSETUP', MENU_SETTINGS);
+        
        
         $this->add_module(_('杂项'));
         $this->add_lapp_function(1, _('报表设计器'), 'admin/view/view_print.php', 'SA_PRINT_DESIGNER', MENU_SETTINGS);

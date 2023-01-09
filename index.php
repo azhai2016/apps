@@ -40,8 +40,14 @@ if (isset($installed_extensions)){
     
     foreach ($installed_extensions as $rows) {
           if ($rows['active']==1) {   
-             $route_list[]=array('GET','/'.$rows['name'],$rows['name']);
+            if (is_array($rows['SubPath'])) {
+              foreach ($rows['SubPath'] as $paths) {
+                $route_list[]=array('GET','/'.$paths,$paths);
+              }  
+            }
+            $route_list[]=array('GET','/'.$rows['name'],$rows['name']);
           }
+
     }
 }
 

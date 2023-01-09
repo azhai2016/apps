@@ -581,3 +581,7588 @@
 11:01:05 [DEBUG] : 1024
 11:01:05 [DEBUG] : 2560
 11:01:05 [DEBUG] : 2816
+08:01:48 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+08:01:25 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+08:01:25 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+08:01:35 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+08:01:35 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+08:01:42 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+08:01:42 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+08:01:48 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+08:01:48 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:05 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:11 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:11 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:20 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:34 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:34 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:42 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:42 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+02:01:49 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+02:01:01 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+02:01:03 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:13 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:13 [DEBUG] : Array
+(
+    [27] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+02:01:31 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:46 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:46 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:47 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:47 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:49 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:49 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:50 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:50 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:05 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:05 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:06 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:20 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:20 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:21 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:21 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:21 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:21 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:22 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:22 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:23 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:23 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:24 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:24 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:24 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:24 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:25 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:25 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:25 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:25 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:26 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:26 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:54 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:54 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:54 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => Baseinfo
+            [3] => /baseinfo
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:09 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:12 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:12 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:12 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:13 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:13 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:13 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:15 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:15 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:15 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:16 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:17 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:17 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:17 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /
+            [2] => /baseinfo
+            [3] => Baseinfo
+        )
+
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /baseinfo
+            [2] => Baseinfo
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [28] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块 --
+        )
+
+)
+
+09:01:18 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [0] => GET
+            [1] => /system
+            [2] => system
+        )
+
+    [1] => Array
+        (
+            [0] => GET
+            [1] => /Bussiness
+            [2] => Bussiness
+        )
+
+    [2] => Array
+        (
+            [0] => GET
+            [1] => /Baseinfo
+            [2] => Baseinfo
+        )
+
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:08 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+09:01:39 [DEBUG] : Array
+(
+    [SA_CREATECOMPANY] => Array
+        (
+            [0] => 257
+            [1] => 安装组件
+        )
+
+    [SA_CREATELANGUAGE] => Array
+        (
+            [0] => 258
+            [1] => 安装语言
+        )
+
+    [SA_CREATEMODULES] => Array
+        (
+            [0] => 259
+            [1] => 安装更新
+        )
+
+    [SA_SOFTWAREUPGRADE] => Array
+        (
+            [0] => 260
+            [1] => 系统升级
+        )
+
+    [SA_SETUPCOMPANY] => Array
+        (
+            [0] => 513
+            [1] => 项目设置
+        )
+
+    [SA_SECROLES] => Array
+        (
+            [0] => 514
+            [1] => 角色权限
+        )
+
+    [SA_USERS] => Array
+        (
+            [0] => 515
+            [1] => 用户设置
+        )
+
+    [SA_PRINTERS] => Array
+        (
+            [0] => 516
+            [1] => 打印机设置
+        )
+
+    [SA_PRINTPROFILE] => Array
+        (
+            [0] => 517
+            [1] => 打印属性
+        )
+
+    [SA_BACKUP] => Array
+        (
+            [0] => 769
+            [1] => 备份/还原
+        )
+
+    [SA_SETUPDISPLAY] => Array
+        (
+            [0] => 770
+            [1] => 显示属性
+        )
+
+    [SA_CHGPASSWD] => Array
+        (
+            [0] => 771
+            [1] => 更换密码
+        )
+
+    [SA_DESIGNER] => Array
+        (
+            [0] => 772
+            [1] => 报表设计器
+        )
+
+    [SA_ATTACHDOCUMENT] => Array
+        (
+            [0] => 773
+            [1] => 附件管理
+        )
+
+    [SA_PRINT_DESIGNER] => Array
+        (
+            [0] => 775
+            [1] => 报表设置
+        )
+
+)
+
+02:01:46 [DEBUG] : Array
+(
+    [2] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+)
+
+02:01:52 [DEBUG] : Array
+(
+    [2] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+)
+
+02:01:54 [DEBUG] : Array
+(
+)
+
+02:01:33 [DEBUG] : Array
+(
+    [Package] => bussiness
+    [Name] => Bussiness
+    [Description] => -- 业务管理模块医药行业 --
+    [Author] => Azhai <1229991003@qq.com>
+    [Maintenance] => azhai <1229991003@qq.com>
+    [Homepage] => https://fourbrother.cn
+    [Type] => extension
+    [InstallPath] => ['modules/baseinfo','modules/bussiness']
+    [Filename] => bussiness
+    [Version] => 0.1.1
+)
+
+02:01:33 [DEBUG] : ['modules/baseinfo','modules/bussiness']
+03:01:16 [DEBUG] : ['Baseinfo']
+03:01:50 [DEBUG] : ['Baseinfo']
+03:01:47 [DEBUG] : ['Baseinfo']
+03:01:56 [DEBUG] : Baseinfo
+03:01:42 [DEBUG] : Baseinfo
+03:01:49 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+06:01:47 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+06:01:40 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+06:01:10 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+06:01:13 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+08:01:17 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+08:01:19 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+09:01:50 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+09:01:53 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+09:01:46 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+09:01:49 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+10:01:26 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+10:01:28 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+10:01:47 [INFO] : Array
+(
+    [0] => 323
+    [loc_code] => 323
+    [1] => 32
+    [location_name] => 32
+    [2] => 32
+    [delivery_address] => 32
+    [3] => 32
+    [phone] => 32
+    [4] => 32
+    [phone2] => 32
+    [5] => 32
+    [fax] => 32
+    [6] => 32
+    [email] => 32
+    [7] => 32
+    [contact] => 32
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+10:01:52 [INFO] : Array
+(
+    [0] => 323
+    [loc_code] => 323
+    [1] => 32
+    [location_name] => 32
+    [2] => 32
+    [delivery_address] => 32
+    [3] => 32
+    [phone] => 32
+    [4] => 32
+    [phone2] => 32
+    [5] => 32
+    [fax] => 32
+    [6] => 32
+    [email] => 32
+    [7] => 32
+    [contact] => 32
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+10:01:54 [INFO] : Array
+(
+    [0] => 323
+    [loc_code] => 323
+    [1] => 324444
+    [location_name] => 324444
+    [2] => 32
+    [delivery_address] => 32
+    [3] => 32
+    [phone] => 32
+    [4] => 32
+    [phone2] => 32
+    [5] => 32
+    [fax] => 32
+    [6] => 32
+    [email] => 32
+    [7] => 32
+    [contact] => 32
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+10:01:57 [INFO] : Array
+(
+    [0] => 323
+    [loc_code] => 323
+    [1] => 324444
+    [location_name] => 324444
+    [2] => 32
+    [delivery_address] => 32
+    [3] => 32
+    [phone] => 32
+    [4] => 32
+    [phone2] => 32
+    [5] => 32
+    [fax] => 32
+    [6] => 32
+    [email] => 32
+    [7] => 32
+    [contact] => 32
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+10:01:00 [INFO] : Array
+(
+    [0] => 323
+    [loc_code] => 323
+    [1] => 324
+    [location_name] => 324
+    [2] => 32
+    [delivery_address] => 32
+    [3] => 32
+    [phone] => 32
+    [4] => 32
+    [phone2] => 32
+    [5] => 32
+    [fax] => 32
+    [6] => 32
+    [email] => 32
+    [7] => 32
+    [contact] => 32
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+11:01:15 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+11:01:17 [DEBUG] : Array
+(
+    [10] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
