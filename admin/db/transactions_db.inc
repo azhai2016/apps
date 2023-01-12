@@ -139,7 +139,7 @@ function get_counterparty_name($trans_type, $trans_no, $full=true) {
 //	Used only for transactions stored in tables without autoincremented key.
 //
 function get_next_trans_no ($trans_type) {
-
+    log_b($trans_type);
 	$st = get_systype_db_info($trans_type);
 
 	if (!($st && $st[0] && $st[3])) {
@@ -164,18 +164,18 @@ function get_next_trans_no ($trans_type) {
 //-----------------------------------------------------------------------------
 
 function get_systype_db_info($type) {
-
+	global $path_to_root,$installed_extensions;
+    
 	switch ($type) {
 
-		case    ST_ORDER_ID : return array(TB_PREF."sales_orders_master", null, null, "order_no", null);
-		case    ST_PRODUCT_ID : return array(TB_PREF."item_codes", null, null,'item_code', null);
-		case    ST_CUSTOMER_ID : return array(TB_PREF."customers", null, null, "code", null);
-		case    ST_SALE_ORDER_ID : return array(TB_PREF."purchase_orders_master", null, null, "purchase_no", null);
-		case    ST_RECEIVABLE_ID   : return array(TB_PREF."refs", "type", 'id', "reference",null);
-		case    ST_MANURECEIVE   : return array(TB_PREF."refs", "type", 'id', "reference",null);
-		case    ST_WORKORDER   : return array(TB_PREF."refs", "type", 'id', "reference",null);
-		case    ST_MANUISSUE   : return array(TB_PREF."refs", "type", 'id', "reference",null);
-		
+	}
+
+	if (isset($installed_extensions)){ 
+		foreach ($installed_extensions as $rows) {
+			$path = $path_to_root .'/'.$rows['path'];
+		   include_once $path.'/includes/systype_db.inc';
+	       return ex_get_systype_db_info($type);
+		}
 	}
 
 	display_db_error("invalid type ($type) sent to get_systype_db_info", '', true);

@@ -8166,3 +8166,3700 @@
 
 )
 
+01:01:33 [DEBUG] : Baseinfo
+01:01:41 [DEBUG] : Array
+(
+    [11] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:57 [DEBUG] : Array
+(
+    [11] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:00 [DEBUG] : Array
+(
+    [11] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:35 [DEBUG] : Array
+(
+    [11] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:38 [DEBUG] : Array
+(
+    [77056] => 客户编号
+)
+
+01:01:39 [DEBUG] : Array
+(
+    [11] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:16 [DEBUG] : Array
+(
+)
+
+01:01:18 [DEBUG] : Array
+(
+)
+
+01:01:25 [DEBUG] : Array
+(
+)
+
+01:01:25 [DEBUG] : Array
+(
+)
+
+01:01:09 [DEBUG] : Baseinfo
+01:01:14 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:19 [DEBUG] : Array
+(
+)
+
+01:01:48 [DEBUG] : Array
+(
+)
+
+01:01:50 [DEBUG] : Array
+(
+)
+
+01:01:50 [DEBUG] : Array
+(
+)
+
+01:01:03 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 0
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:05 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+01:01:07 [DEBUG] : Array
+(
+)
+
+01:01:47 [DEBUG] : Array
+(
+    [76800] => 客户信息编号
+)
+
+01:01:51 [DEBUG] : Array
+(
+    [76800] => 客户信息编号
+)
+
+01:01:06 [DEBUG] : Array
+(
+    [76800] => 客户信息编号
+)
+
+01:01:06 [DEBUG] : 
+01:01:25 [DEBUG] : Array
+(
+    [76800] => 客户信息编号
+)
+
+01:01:25 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 1
+    [default] => 1
+    [4] => {001}/{YYYY}
+    [pattern] => {001}/{YYYY}
+    [5] => 1
+    [id] => 1
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:46 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:46 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 1
+    [default] => 1
+    [4] => {001}/{YYYY}
+    [pattern] => {001}/{YYYY}
+    [5] => 1
+    [id] => 1
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:54 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:54 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 1
+    [default] => 1
+    [4] => {001}/{YYYY}
+    [pattern] => {001}/{YYYY}
+    [5] => 1
+    [id] => 1
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:09 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:09 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 1
+    [default] => 1
+    [4] => {001}/{YYYY}
+    [pattern] => {001}/{YYYY}
+    [5] => 1
+    [id] => 1
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:24 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:24 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 1
+    [default] => 1
+    [4] => {001}/{YYYY}
+    [pattern] => {001}/{YYYY}
+    [5] => 1
+    [id] => 1
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:56 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:01 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:03 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:23 [DEBUG] : Array
+(
+    [76800] => 订单编号
+    [77056] => 客户信息编号
+)
+
+03:01:46 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 1
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+03:01:14 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+03:01:26 [DEBUG] : -------
+03:01:26 [DEBUG] : Array
+(
+    [12] => Array
+        (
+            [package] => bussiness
+            [name] => Bussiness
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+            [SubPath] => Array
+                (
+                    [0] => Baseinfo
+                )
+
+        )
+
+)
+
+03:01:18 [DEBUG] : ..modules/bussiness
+10:01:18 [DEBUG] : .modules/bussiness
+03:01:35 [DEBUG] : ../modules/bussiness
+03:01:53 [DEBUG] : ../modules/bussiness
+11:01:14 [DEBUG] : ./modules/bussiness
+21:01:24 [DEBUG] : ./modules/bussiness
+21:01:30 [DEBUG] : ./modules/bussiness
+21:01:38 [DEBUG] : ./modules/bussiness
+21:01:51 [DEBUG] : ./modules/bussiness
+21:01:55 [DEBUG] : ./modules/bussiness
+01:01:44 [DEBUG] : ./modules/bussiness
+01:01:49 [DEBUG] : ./modules/bussiness
+01:01:55 [DEBUG] : ./modules/bussiness
+01:01:01 [DEBUG] : ./modules/bussiness
+01:01:04 [DEBUG] : ./modules/bussiness
+03:01:36 [DEBUG] : ./modules/bussiness
+03:01:37 [DEBUG] : ./modules/bussiness
+03:01:43 [DEBUG] : ./modules/bussiness
+03:01:04 [DEBUG] : ./modules/bussiness
+03:01:04 [DEBUG] : ./modules/bussiness
+03:01:18 [DEBUG] : ./modules/bussiness
+00:01:11 [DEBUG] : Array
+(
+    [M] => 生产制造类
+    [B] => 订单类
+    [D] => 服务类
+    [T] => 交易类
+)
+
+00:01:10 [DEBUG] : 
+00:01:02 [DEBUG] : 
+00:01:21 [DEBUG] : 77056
+00:01:21 [DEBUG] : 
+00:01:11 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 4
+    [id] => 4
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:11 [DEBUG] : Array
+(
+    [0] => 1
+    [trans_type] => 1
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 3
+    [id] => 3
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:11 [DEBUG] : Array
+(
+    [0] => 2
+    [trans_type] => 2
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 2
+    [id] => 2
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:11 [DEBUG] : Array
+(
+    [0] => 3
+    [trans_type] => 3
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 5
+    [id] => 5
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:34 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+00:01:34 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 4
+    [id] => 4
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:34 [DEBUG] : Array
+(
+    [0] => 1
+    [trans_type] => 1
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 3
+    [id] => 3
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:34 [DEBUG] : Array
+(
+    [0] => 2
+    [trans_type] => 2
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 2
+    [id] => 2
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:34 [DEBUG] : Array
+(
+    [0] => 3
+    [trans_type] => 3
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 5
+    [id] => 5
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:02 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+00:01:02 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 4
+    [id] => 4
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:02 [DEBUG] : Array
+(
+    [0] => 1
+    [trans_type] => 1
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 3
+    [id] => 3
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:02 [DEBUG] : Array
+(
+    [0] => 2
+    [trans_type] => 2
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 2
+    [id] => 2
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:04 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+00:01:04 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 4
+    [id] => 4
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:04 [DEBUG] : Array
+(
+    [0] => 1
+    [trans_type] => 1
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 3
+    [id] => 3
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:05 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+00:01:05 [DEBUG] : Array
+(
+    [0] => 0
+    [trans_type] => 0
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 4
+    [id] => 4
+    [6] => 0
+    [inactive] => 0
+)
+
+00:01:07 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+01:01:23 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+01:01:51 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:51 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+01:01:51 [DEBUG] : Array
+(
+    [0] => 供货单编号
+    [1] => 商品编号
+    [2] => 客户编号
+    [3] => 客销订单号
+    [4] => 应收账款编号
+    [5] => 应付账款编号
+)
+
+01:01:17 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:32 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:32 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:41 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:41 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:41 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:00 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:00 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:00 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:10 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:10 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:10 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:10 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:19 [DEBUG] : 77056
+01:01:19 [DEBUG] : 0000001
+01:01:35 [DEBUG] : 77056
+01:01:35 [DEBUG] : 0000001
+01:01:44 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:44 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:44 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:44 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:49 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+01:01:49 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:49 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:49 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+01:01:58 [DEBUG] : 77056
+01:01:58 [DEBUG] : 10000001
+01:01:50 [DEBUG] : 77056
+01:01:25 [DEBUG] : 77056
+01:01:37 [DEBUG] : 77056
+01:01:37 [DEBUG] : 77056
+01:01:40 [DEBUG] : 77056
+01:01:45 [DEBUG] : 77056
+01:01:59 [DEBUG] : 77056
+01:01:38 [DEBUG] : 77056
+01:01:50 [DEBUG] : 77056
+01:01:00 [DEBUG] : 77056
+01:01:00 [DEBUG] : 10000001
+01:01:53 [DEBUG] : 77056
+01:01:53 [DEBUG] : 10000001
+01:01:57 [DEBUG] : 77056
+01:01:57 [DEBUG] : 10000001
+01:01:42 [DEBUG] : 77056
+01:01:49 [DEBUG] : 77056
+01:01:49 [DEBUG] : 10000002
+01:01:00 [DEBUG] : 77056
+02:01:15 [DEBUG] : 77056
+02:01:15 [DEBUG] : 10000003
+02:01:33 [DEBUG] : 77312
+02:01:51 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+02:01:51 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:51 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:51 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:59 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+02:01:59 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:59 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:59 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:06 [DEBUG] : 77312
+02:01:10 [DEBUG] : 77312
+02:01:58 [DEBUG] : 77568
+03:01:01 [DEBUG] : 76800
+03:01:06 [DEBUG] : 77568
+03:01:43 [DEBUG] : 76800
+03:01:47 [DEBUG] : 76800
+03:01:08 [DEBUG] : 76800
+03:01:16 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 
+    [prefix] => 
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:25 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+03:01:25 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:25 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {1000001}
+    [pattern] => {1000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:25 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:30 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+03:01:30 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:30 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:30 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:34 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+03:01:34 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:34 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:34 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+03:01:43 [DEBUG] : 76800
+03:01:43 [DEBUG] : 76800
+03:01:19 [DEBUG] : 76800
+03:01:42 [DEBUG] : 76800
+03:01:42 [DEBUG] : 
+03:01:14 [DEBUG] : 76800
+03:01:14 [DEBUG] : 
+03:01:40 [DEBUG] : 76800
+03:01:40 [DEBUG] : 
+03:01:43 [DEBUG] : 76800
+03:01:43 [DEBUG] : 
+03:01:44 [DEBUG] : 76800
+03:01:44 [DEBUG] : 
+03:01:09 [DEBUG] : 76800
+03:01:09 [DEBUG] : 
+03:01:00 [DEBUG] : 76800
+03:01:00 [DEBUG] : 
+04:01:06 [DEBUG] : 76800
+04:01:06 [DEBUG] : 
+04:01:10 [DEBUG] : 76800
+04:01:10 [DEBUG] : 
+04:01:35 [DEBUG] : 76800
+04:01:35 [DEBUG] : 
+04:01:35 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63be2a4febdfc
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/11/2023
+    [due_date] => 
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000001
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+04:01:51 [DEBUG] : 76800
+04:01:51 [DEBUG] : 
+04:01:51 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63be2a9bad42a
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/11/2023
+    [due_date] => 
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000001
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+04:01:29 [DEBUG] : 76800
+04:01:29 [DEBUG] : 
+04:01:29 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63be2ac1168e8
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/11/2023
+    [due_date] => 
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000001
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+04:01:37 [DEBUG] : 76800
+04:01:37 [DEBUG] : 
+00:01:58 [DEBUG] : 77568
+00:01:58 [DEBUG] : 
+00:01:58 [DEBUG] : 77568
+00:01:58 [DEBUG] : 
+00:01:01 [DEBUG] : 76800
+00:01:01 [DEBUG] : 
+01:01:09 [DEBUG] : 76800
+01:01:09 [DEBUG] : -1
+01:01:09 [DEBUG] : 
+01:01:41 [DEBUG] : 76800
+01:01:41 [DEBUG] : 
+01:01:41 [DEBUG] : Array
+(
+    [0] => 1
+    [id] => 1
+    [1] => 100001
+    [item_code] => 100001
+    [2] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [3] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [4] => 盒
+    [item_units] => 盒
+    [5] => 9.51
+    [def_price] => 9.51
+    [6] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [7] => 排石颗粒（颗粒剂）_20g×10袋×100盒_广东沙溪制药有限公司
+    [description] => 排石颗粒（颗粒剂）_20g×10袋×100盒_广东沙溪制药有限公司
+)
+
+01:01:12 [DEBUG] : 76800
+01:01:12 [DEBUG] : 
+01:01:12 [DEBUG] : Array
+(
+    [id] => 1
+    [item_code] => 100001
+    [item_spec] => 20g×10袋×100盒
+    [item_factory] => 广东沙溪制药有限公司
+    [item_units] => 盒
+    [def_price] => 9.51
+    [item_name] => 排石颗粒（颗粒剂）
+    [description] => 排石颗粒（颗粒剂）_20g×10袋×100盒_广东沙溪制药有限公司
+)
+
+01:01:19 [DEBUG] : 76800
+01:01:19 [DEBUG] : 
+01:01:19 [DEBUG] : Array
+(
+    [id] => 1
+    [item_code] => 100001
+    [item_spec] => 20g×10袋×100盒
+    [item_factory] => 广东沙溪制药有限公司
+    [item_units] => 盒
+    [def_price] => 9.51
+    [item_name] => 排石颗粒（颗粒剂）
+    [description] => 排石颗粒（颗粒剂）_20g×10袋×100盒_广东沙溪制药有限公司
+)
+
+01:01:03 [DEBUG] : 76800
+01:01:03 [DEBUG] : 
+01:01:48 [DEBUG] : 76800
+01:01:48 [DEBUG] : 
+01:01:48 [DEBUG] : Array
+(
+)
+
+01:01:32 [DEBUG] : 76800
+01:01:32 [DEBUG] : 
+01:01:32 [DEBUG] : Array
+(
+)
+
+01:01:07 [DEBUG] : 76800
+01:01:07 [DEBUG] : 
+01:01:07 [DEBUG] : Array
+(
+)
+
+01:01:20 [DEBUG] : 76800
+01:01:24 [DEBUG] : 76800
+01:01:24 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf5194918bf
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:21 [DEBUG] : 76800
+01:01:21 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf52f972f1f
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:07 [DEBUG] : 76800
+01:01:07 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf5327a7105
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:22 [DEBUG] : 76800
+01:01:22 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf5336ca21a
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:25 [DEBUG] : 76800
+01:01:25 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf53392383f
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:51 [DEBUG] : 76800
+01:01:51 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf535346f85
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:54 [DEBUG] : 76800
+01:01:54 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:54 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf55aea3d36
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:54 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:35 [DEBUG] : 76800
+01:01:35 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:35 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf55d7b5dd7
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:35 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:16 [DEBUG] : 76800
+01:01:16 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:16 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf563c4b570
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:16 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+)
+
+01:01:56 [DEBUG] : 76800
+01:01:56 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf5664aeb89
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:35 [DEBUG] : 76800
+01:01:35 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf568b84c10
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:35 [DEBUG] : 76800
+01:01:35 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf568b9ad57
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:14 [DEBUG] : 76800
+01:01:14 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf576661f76
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:34 [DEBUG] : 76800
+01:01:34 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+    [products_list] => Array
+        (
+            [0] => /bussiness/includes/product_list.php?id=
+            [1] => 选择商品信息
+        )
+
+)
+
+01:01:34 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf577a10c63
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:34 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+    [products_list] => Array
+        (
+            [0] => /bussiness/includes/product_list.php?id=
+            [1] => 选择商品信息
+        )
+
+)
+
+01:01:01 [DEBUG] : 76800
+01:01:01 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+    [products_list] => Array
+        (
+            [0] => /modules/bussiness/includes/product_list.php?id=
+            [1] => 选择商品信息
+        )
+
+)
+
+01:01:01 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf579526f5b
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+01:01:01 [DEBUG] : Array
+(
+    [component] => Array
+        (
+            [0] => /inventory/inquiry/stock_list.php?popup=1&type=component&parent=
+            [1] => &client_id=
+            [2] => Search items
+        )
+
+    [customer] => Array
+        (
+            [0] => /sales/inquiry/customers_list.php?popup=1&client_id=
+            [1] => Search customers
+        )
+
+    [customer_list] => Array
+        (
+            [0] => /bussiness/includes/customer_list.php?id=
+            [1] => 查询客户数据
+        )
+
+    [item_list] => Array
+        (
+            [0] => /bussiness/includes/item_list.php?id=
+            [1] => 查询商品信息
+        )
+
+    [leads_list] => Array
+        (
+            [0] => /customers/includes/leads_list.php?id=
+            [1] => 查询联系人信息
+        )
+
+    [print_data] => Array
+        (
+            [0] => /customers/includes/print_data.php?id=
+            [1] => 查询打印配置信息
+        )
+
+    [find_pur_more] => Array
+        (
+            [0] => /apps/purchase/includes/find_more.php?client_id=
+            [1] => 采购规则查询
+        )
+
+    [products_list] => Array
+        (
+            [0] => /modules/bussiness/includes/product_list.php?id=
+            [1] => 选择商品信息
+        )
+
+)
+
+01:01:18 [DEBUG] : 76800
+01:01:18 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf57a68490a
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+06:01:52 [DEBUG] : 76800
+06:01:52 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf9f804b7a9
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+06:01:24 [DEBUG] : 76800
+06:01:24 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bf9fa082a73
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+06:01:24 [DEBUG] : SELECT i.id as item_id,i.item_code, CONCAT(i.item_name,'_',i.item_spec) as descr, i.description, count(*)>1 as kit,
+			 i.inactive, if(count(*)>1, '0','1') as editable,i.item_spec,item_units,def_price,s.description as d
+			FROM &TB_PREF&item_codes i, &TB_PREF&stock_category s 
+			where i.item_category=s.category_id  GROUP BY i.item_code
+06:01:50 [DEBUG] : 76800
+06:01:50 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfa0aaad683
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+06:01:53 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfa0aaad683
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 2
+    [item_id] => 2
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => KlMEuH61zLCPfGeEPA6lmQxx
+    [_random] => 623717.2924076738
+)
+
+08:01:36 [DEBUG] : 76800
+08:01:36 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfb88428f69
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+08:01:38 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [item_id] => 1
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => uTA6GaaKML78EAb40M0OPgxx
+    [_random] => 641412.1681966024
+)
+
+08:01:40 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 47vp_O3iP5moTfA911Tzbwxx
+    [_random] => 270572.0158435699
+)
+
+08:01:42 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 2
+    [item_id] => 2
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 22.52
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => c1xBpjkQldT9UtVemG6eBQxx
+    [_random] => 641656.5898822666
+)
+
+08:01:45 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => z2CAjS78p_zs7tFqefBBRwxx
+    [_random] => 213568.19450651456
+)
+
+08:01:47 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [item_id] => 1
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 22.52
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => fak3v2cD6gSRaVtw2G5_UAxx
+    [_random] => 834726.5944011012
+)
+
+08:01:49 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb88428f69
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 8
+    [item_id] => 8
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => z1eWGvCJvjWvSeh_nGE-AAxx
+    [_random] => 773161.4209007116
+)
+
+08:01:57 [DEBUG] : 76800
+08:01:57 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfb98919e36
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+08:01:59 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => TTVBxOBn6VbzcSQhPss-jwxx
+    [_random] => 1041111.8980177068
+)
+
+08:01:01 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => p4hvRaV9XYh_93dIEJFDiQxx
+    [_random] => 82356.78068763333
+)
+
+08:01:04 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => XuJDQeL0gZQmjV-rpJAmvwxx
+    [_random] => 244077.25701453796
+)
+
+08:01:05 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => QiHoN905aXe8wDnik-e9jgxx
+    [_random] => 184036.6440678121
+)
+
+08:01:08 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [item_id] => 1
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vbsxC_yzzFZKxCnz5ylMGwxx
+    [_random] => 614151.5358157093
+)
+
+08:01:10 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfb98919e36
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [qty] => 1
+    [price] => 9.51
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => PazqcoRPHGlLDHcujFUdFgxx
+    [_random] => 170770.00475945388
+)
+
+08:01:56 [DEBUG] : 76800
+08:01:53 [DEBUG] : 76800
+08:01:53 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfbd81cbdbf
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+08:01:59 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => yzm_WRreTYXNxqapr0RNUgxx
+    [_random] => 521281.83821902925
+)
+
+08:01:01 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 7I7UjYSEMUG22yeFFX9AXgxx
+    [_random] => 553750.3198387952
+)
+
+08:01:03 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => OeQ0xWcDUCWE09hzOsvMCAxx
+    [_random] => 72443.8972119066
+)
+
+08:01:04 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Z2urEZmYMAPt2_DYKxnsNQxx
+    [_random] => 503182.04180910817
+)
+
+08:01:07 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [item_id] => 1
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 4XIhhNoczbDpFsHOZJjjqgxx
+    [_random] => 1106622.5657639753
+)
+
+08:01:09 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbd81cbdbf
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 1
+    [qty] => 1
+    [price] => 9.51
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 8PX4VKKfZZRT1uieHRDlAAxx
+    [_random] => 1122843.5470887418
+)
+
+08:01:11 [DEBUG] : 76800
+09:01:44 [DEBUG] : 76800
+09:01:44 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfbea401f7a
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+09:01:47 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbea401f7a
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -dM_XW2vYjMkCUkzldTICwxx
+    [_random] => 533250.8402319632
+)
+
+09:01:49 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbea401f7a
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => NXCk6xIuijrGIiKtQdxufQxx
+    [_random] => 817139.9270467048
+)
+
+09:01:50 [DEBUG] : 76800
+10:01:36 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfbea401f7a
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 
+    [item_id] => 2
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [ProcessOrder] => 保存订单
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => mNG2QCerMlrJL2BWzOURfwxx
+    [_random] => 688006.3247233751
+)
+
+10:01:36 [DEBUG] : 76800
+10:01:21 [DEBUG] : 76800
+10:01:21 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfcd51737d5
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+10:01:27 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcd51737d5
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 4PDAigDM6pLgODaLpkuNLQxx
+    [_random] => 1122246.2522294265
+)
+
+10:01:31 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcd51737d5
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => S53Qu3-2fkgQzuQPpRLpcQxx
+    [_random] => 630555.5464630572
+)
+
+10:01:35 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcd51737d5
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ieab2vix69aPwCxz_6QcGQxx
+    [_random] => 529060.6907492353
+)
+
+10:01:38 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcd51737d5
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => q7fTmi2P1KPAA2yL8OWeOgxx
+    [_random] => 1090430.154772273
+)
+
+10:01:42 [DEBUG] : 76800
+10:01:12 [DEBUG] : 76800
+10:01:32 [DEBUG] : 76800
+10:01:32 [DEBUG] : Array
+(
+    [0] => '1000002'
+    [1] => '2'
+    [2] => 1
+    [3] => ''
+    [4] => 'admin'
+    [5] => '2023-01-12'
+    [6] => 1_一级
+    [7] => 45.04
+)
+
+10:01:27 [DEBUG] : 76800
+10:01:12 [DEBUG] : 76800
+10:01:12 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 76800
+    [OrderDate] => 01/12/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63bfcfa044961
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/12/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+10:01:22 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcfa044961
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [item_id] => 4
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => WR3LqG8UTSjgP34PrzlU4wxx
+    [_random] => 983406.8997959683
+)
+
+10:01:25 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcfa044961
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 4
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => lL2L3vhMDwyjyixx2mIz8Qxx
+    [_random] => 871782.9144699055
+)
+
+10:01:28 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcfa044961
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 2
+    [item_id] => 2
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ur5hoUGPy4Lee-RdPqC8xwxx
+    [_random] => 532998.9158692488
+)
+
+10:01:30 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 2
+    [cart_id] => 63bfcfa044961
+    [reference] => 1000002
+    [sales_type] => 1_一级
+    [retreat] => 1
+    [OrderDate] => 01/12/2023
+    [_item_id_edit] => 2
+    [qty] => 1
+    [price] => 8
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => q_FSHcGJkvhcyG_SKBKC7wxx
+    [_random] => 67255.20929142354
+)
+
+10:01:31 [DEBUG] : 76800
+10:01:24 [DEBUG] : 76800
+10:01:55 [DEBUG] : 76800
+10:01:22 [DEBUG] : 76800

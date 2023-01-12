@@ -221,7 +221,7 @@ class references {
 	// Get default reference for new transaction.
 	//
 	function get_next($type, $line=null, $context=null) {
-
+		log_b($type);
     
 		if (isset($line))
 			$refline = $this->reflines->get($line);

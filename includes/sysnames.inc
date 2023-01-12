@@ -17,7 +17,7 @@ See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 global $print_actions,$systypes_array, $bank_account_types, $bank_transfer_types, $payment_person_types, $wo_types_array, $wo_cost_types, $class_types, $quick_actions, $quick_entry_types, $stock_types, $tag_types, $bank_owner;
 
 $systypes_array = array(
-    
+   
 );
 
 $type_shortcuts = array(
@@ -61,3 +61,34 @@ $item_types = array(
 $supported_collations = array(
 	'utf8' => _('Unicode(多语言)')
 );
+
+
+function array_merge_ex($a,$b){
+   $c = array();
+   foreach ($a as $k=>$v) {
+      $c[$k]= $v;
+   }
+
+   foreach ($b as $k=>$v) {
+      $c[$k]= $v;
+   }
+   return $c;
+}
+
+// 增加动态扩展数据
+if (isset($installed_extensions)){ 
+     
+    foreach ($installed_extensions as $rows) {
+       $path = $path_to_root .'/'.$rows['path'];
+       include_once $path.'/includes/sysnames.inc';
+       $systypes_array = array_merge_ex($systypes_array,$array_systypes);
+    
+       $type_shortcuts = array_merge_ex($type_shortcuts,$shortcuts_type);
+       $print_actions = array_merge_ex($print_actions,$actions_print);
+       $item_types = array_merge_ex($print_actions,$types_item);
+
+
+      
+    }
+ 
+ }
