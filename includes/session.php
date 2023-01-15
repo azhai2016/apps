@@ -374,6 +374,18 @@ $_SESSION['SysPrefs'] = new sys_prefs();
 
 $SysPrefs = &$_SESSION['SysPrefs'];
 
+function array_merge_ex($a,$b){
+    $c = array();
+    foreach ($a as $k=>$v) {
+       $c[$k]= $v;
+    }
+ 
+    foreach ($b as $k=>$v) {
+       $c[$k]= $v;
+    }
+    return $c;
+ }
+
 function Log_bug($msg)
 {
     global $SysPrefs;

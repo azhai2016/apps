@@ -28,6 +28,7 @@ $print_actions = array(
 
 );
 
+
 //----------------------------------------------------------------------------------
 //    Quick entry types
 //
@@ -63,18 +64,6 @@ $supported_collations = array(
 );
 
 
-function array_merge_ex($a,$b){
-   $c = array();
-   foreach ($a as $k=>$v) {
-      $c[$k]= $v;
-   }
-
-   foreach ($b as $k=>$v) {
-      $c[$k]= $v;
-   }
-   return $c;
-}
-
 // 增加动态扩展数据
 if (isset($installed_extensions)){ 
      
@@ -86,9 +75,8 @@ if (isset($installed_extensions)){
        $type_shortcuts = array_merge_ex($type_shortcuts,$shortcuts_type);
        $print_actions = array_merge_ex($print_actions,$actions_print);
        $item_types = array_merge_ex($print_actions,$types_item);
-
-
-      
     }
+
+
  
  }
