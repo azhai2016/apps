@@ -66,8 +66,7 @@ function end_page($no_menu=false, $is_index=false, $final_screen=false, $type_no
 	if (!$is_index && function_exists('hyperlink_back'))
 		hyperlink_back(true, $no_menu, $type_no, $trans_no, $final_screen);
 	
-
-	div_end();	// end of _page_body section
+	div_end();	
      
 	include_once($path_to_root.'/includes/page/footer.inc');
 	page_footer($no_menu, $is_index);

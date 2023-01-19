@@ -52,7 +52,7 @@ function simple_page_mode($numeric_id = true) {
 			$Mode = $m; return;
 		}
 	}
-	foreach (array('Edit', 'Delete','Printer') as $m) {
+	foreach (array('Edit', 'Delete','Printer','Import') as $m) {
 		foreach ($_POST as $p => $pvar) {
 			if (strpos($p, $m) === 0) {
 				unset($_POST['_focus']); // focus on first form entry
@@ -152,8 +152,12 @@ function submit($name, $value, $echo=true, $title=false, $atype=false, $icon=fal
 						if ($icon === false) {
 							$icon = ICON_DOC;
 						}
-	
-						break;	
+					break;	
+				case 'import':
+						if ($icon === false) {
+							$icon = ICON_CREDIT;
+						}
+					break;			
 				case 'nonajax':
 				case 'download':
 					$atype = false;
@@ -188,6 +192,12 @@ function submit_center($name, $value, $echo=true, $title=false, $async=false, $i
 
 function submit_center_first($name, $value, $title=false, $async=false, $icon=false) {
 	echo '<center>';
+	submit($name, $value, true, $title, $async, $icon);
+	echo "&nbsp;";
+}
+
+function submit_center_mid($name, $value, $title=false, $async=false, $icon=false) {
+	echo '&nbsp;';
 	submit($name, $value, true, $title, $async, $icon);
 	echo "&nbsp;";
 }
@@ -754,14 +764,17 @@ function password_row($label, $name, $value) {
 
 //-----------------------------------------------------------------------------------
 
-function file_cells($label, $name, $id='') {
+function file_cells($label, $name, $id='',$submit_on_change=false) {
 	if ($id != '')
 		$id = "id='".$id."'";
-	label_cells($label, "<input type='file' name='".$name."' ".$id." >");
+	if ($submit_on_change)	
+	$submit_on_change = "JsHttpRequest.request(\"_{$name}_update\", this.form);";	
+	label_cells($label, "<input type='file' name='".$name."' ".$id." onclick='".$submit_on_change."' >");
 }		
-function file_row($label, $name, $id = '') {
+
+function file_row($label, $name, $id = '',$submit_on_change=false) {
 	echo "<tr><td class='label'>".$label."</td>";
-	file_cells(null, $name, $id);
+	file_cells(null, $name, $id,$submit_on_change);
 	echo "</tr>\n";
 }	
 

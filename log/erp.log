@@ -1,17 +1,17 @@
-01:01:24 [DEBUG] : 76800
-01:01:24 [DEBUG] : Array
+03:01:16 [DEBUG] : 76800
+03:01:16 [DEBUG] : Array
 (
-    [ref] => 1000005
+    [ref] => 1000006
     [trans_type] => 76800
-    [OrderDate] => 01/15/2023
+    [OrderDate] => 01/18/2023
     [trans_no] => 0
     [so_type] => 0
-    [cart_id] => 63c34434355b3
+    [cart_id] => 63c75d000dff6
     [line_items] => Array
         (
         )
 
-    [document_date] => 01/15/2023
+    [document_date] => 01/18/2023
     [due_date] => 
     [sales_type_name] => 
     [sales_type] => 1_一级
@@ -26,312 +26,147 @@
     [_focus] => id
 )
 
-01:01:39 [DEBUG] : Array
+03:01:18 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 
-    [qty] => 1
-    [price] => 8
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => cbMYcHaqdXoi-rDmrpCvpwxx
-    [_random] => 1075799.309065008
+    [Tests] => 
 )
 
-01:01:42 [DEBUG] : Array
+03:01:26 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 
-    [item_id] => 2
-    [qty] => 1
-    [price] => 8
-    [Edit0] => 编辑
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => id
+    [filename] => WechatIMG135.jpeg
+    [continue] => 下一步 &gt;&gt;
+    [Tests] => 
+    [id] => 76800
+    [Page] => 
+    [_focus] => 
     [_modified] => 0
     [_confirmed] => 
-    [_token] => dgK9r0KWPjqWmy1tbakRFwxx
-    [_random] => 1053294.7525534204
+    [_token] => WwfiMEueaFKmesiC33It7Axx
 )
 
-01:01:47 [DEBUG] : Array
+03:01:26 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [qty] => 10
-    [price] => 8.00
-    [UpdateItem] => 更新
-    [item_name] => 小儿感冒退热糖浆（糖浆剂）
-    [LineNo] => 0
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => y_-JhGtAgKqhbX9XrZ20xgxx
-    [_random] => 205888.62357261553
 )
 
-01:01:53 [DEBUG] : Array
+07:01:26 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:11 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:34 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:34 [DEBUG] : �IT设备巡检表.xlsx
+07:01:42 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:42 [DEBUG] : æºæ¿ITè®¾å¤å·¡æ£è¡¨.xlsx
+07:01:42 [DEBUG] : �IT设备巡检表.xlsx
+07:01:28 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:28 [DEBUG] : �IT设备巡检表.xlsx
+07:01:01 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:01 [DEBUG] : 9
+07:01:01 [DEBUG] : �IT设备巡检表.xlsx
+07:01:50 [DEBUG] : 机房IT设备巡检表.xlsx
+07:01:50 [DEBUG] : 14
+07:01:50 [DEBUG] : IT设备巡检表.xlsx
+07:01:53 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 
-    [qty] => 1
-    [price] => 8
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => sWo6d6573FotgN_rDO-CUwxx
-    [_random] => 325116.02833586285
+    [dirname] => .
+    [basename] => 机房IT设备巡检表.xlsx
+    [extension] => xlsx
+    [filename] => 机房IT设备巡检表
 )
 
-01:01:56 [DEBUG] : Array
+07:01:53 [DEBUG] : 14
+07:01:53 [DEBUG] : 巡检表.xlsx
+07:01:14 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 1
-    [item_id] => 1
-    [_item_id_update] =>  
-    [qty] => 1
-    [price] => 8
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => Vo_ES4fYjyP9KQDfEXIumQxx
-    [_random] => 249283.40002040783
+    [dirname] => .
+    [basename] => 机房IT设备巡检表.xlsx
+    [extension] => xlsx
+    [filename] => 机房IT设备巡检表
 )
 
-01:01:57 [DEBUG] : Array
+07:01:14 [DEBUG] : 14
+07:01:14 [DEBUG] : 巡检表.xlsx
+08:01:24 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 1
-    [qty] => 1
-    [price] => 9.51
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => MXPw7t6bEzKvP3n6fXYE5Axx
-    [_random] => 1093349.118237516
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpVmpxkO
+            [error] => 0
+            [size] => 10368
+        )
+
+)
+
+10:01:29 [DEBUG] : Array
+(
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpqIL9tc
+            [error] => 0
+            [size] => 10368
+        )
+
+)
+
+10:01:43 [DEBUG] : Array
+(
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpUVNcD2
+            [error] => 0
+            [size] => 10368
+        )
+
+)
+
+10:01:39 [DEBUG] : Array
+(
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpuoM7aA
+            [error] => 0
+            [size] => 10368
+        )
+
 )
 
 01:01:59 [DEBUG] : Array
 (
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 
-    [item_id] => 2
-    [qty] => 1
-    [price] => 8
-    [Edit1] => 编辑
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => Wy8dtRmWqForG8Xnl3Fdswxx
-    [_random] => 911662.0486353039
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpYdkMC0
+            [error] => 0
+            [size] => 10368
+        )
+
 )
 
-01:01:00 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [qty] => 1
-    [price] => 9.51
-    [UpdateItem] => 更新
-    [item_name] => 排石颗粒（颗粒剂）
-    [LineNo] => 1
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => Tq98lLyYJXXq0cnuRJai6wxx
-    [_random] => 359309.91543137276
-)
-
-01:01:02 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 
-    [qty] => 1
-    [price] => 8
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => qqf8EPLbVuuzOcTQHwW2bwxx
-    [_random] => 929088.8255160234
-)
-
-01:01:06 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 4
-    [item_id] => 4
-    [_item_id_update] =>  
-    [qty] => 1
-    [price] => 8
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => dqgdVh4ACjrmiYNVfVErAgxx
-    [_random] => 437575.7998861204
-)
-
-01:01:07 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 4
-    [qty] => 1
-    [price] => 22.52
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => Jyi8CJmyF8XWrWBhc3HA-Qxx
-    [_random] => 162250.132839627
-)
-
-01:01:10 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 4
-    [item_id] => 4
-    [_item_id_update] =>  
-    [qty] => 1
-    [price] => 8
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => ZkvjT_sfZS0js9WlZSF6bgxx
-    [_random] => 681936.2071525682
-)
-
-01:01:11 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 2
-    [cart_id] => 63c34434355b3
-    [reference] => 1000005
-    [sales_type] => 1_一级
-    [retreat] => 
-    [OrderDate] => 01/15/2023
-    [_item_id_edit] => 4
-    [qty] => 1
-    [price] => 22.52
-    [AddItem] => 添加
-    [item_units] => 盒
-    [Comments] => 
-    [_focus] => _item_id_edit
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => yHZRt5Z0QOCoE60HYkXcQQxx
-    [_random] => 175364.71884869263
-)
-
-01:01:14 [DEBUG] : 76800
-01:01:54 [DEBUG] : 76800
-01:01:54 [DEBUG] : Array
+01:01:53 [DEBUG] : 76800
+01:01:53 [DEBUG] : Array
 (
     [ref] => 1000006
     [trans_type] => 76800
-    [OrderDate] => 01/15/2023
+    [OrderDate] => 01/19/2023
     [trans_no] => 0
     [so_type] => 0
-    [cart_id] => 63c344ca5db3d
+    [cart_id] => 63c890a5659f7
     [line_items] => Array
         (
         )
 
-    [document_date] => 01/15/2023
+    [document_date] => 01/19/2023
     [due_date] => 
     [sales_type_name] => 
     [sales_type] => 1_一级
@@ -346,20 +181,35 @@
     [_focus] => id
 )
 
-01:01:09 [DEBUG] : 76800
+01:01:55 [DEBUG] : Array
+(
+    [Tests] => 
+)
+
 01:01:09 [DEBUG] : Array
 (
+    [Tests] => 
+)
+
+01:01:49 [DEBUG] : Array
+(
+    [Tests] => 
+)
+
+01:01:19 [DEBUG] : 76800
+01:01:19 [DEBUG] : Array
+(
     [ref] => 1000006
     [trans_type] => 76800
-    [OrderDate] => 01/15/2023
+    [OrderDate] => 01/19/2023
     [trans_no] => 0
     [so_type] => 0
-    [cart_id] => 63c344d9687ab
+    [cart_id] => 63c89263a465b
     [line_items] => Array
         (
         )
 
-    [document_date] => 01/15/2023
+    [document_date] => 01/19/2023
     [due_date] => 
     [sales_type_name] => 
     [sales_type] => 1_一级
@@ -374,67 +224,2189 @@
     [_focus] => id
 )
 
-01:01:13 [DEBUG] : Array
+01:01:05 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 9
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
+)
+
+01:01:25 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+07:01:59 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+07:01:31 [DEBUG] : Array
+(
+    [filename] => Array
+        (
+            [name] => 11-09.xlsx
+            [full_path] => 11-09.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpUeAMxI
+            [error] => 0
+            [size] => 10059
+        )
+
+)
+
+07:01:43 [DEBUG] : Array
+(
+    [filename] => Array
+        (
+            [name] => 机房IT设备巡检表.xlsx
+            [full_path] => 机房IT设备巡检表.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpgSbFZ9
+            [error] => 0
+            [size] => 10368
+        )
+
+)
+
+07:01:49 [DEBUG] : 76800
+07:01:49 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c8e44d230ec
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+07:01:56 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+07:01:31 [DEBUG] : 76800
+07:01:31 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c8e5a3b2865
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+07:01:33 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:22 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:41 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:45 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:06 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:32 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:59 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:12 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:19 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:21 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:33 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+07:01:51 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:56 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:10 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:38 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:39 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:22 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:25 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:57 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:59 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:24 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:50 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:52 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:09 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+08:01:11 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='' ORDER BY trans_no
+08:01:17 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+09:01:51 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+09:01:35 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+09:01:37 [DEBUG] : OK
+09:01:13 [DEBUG] : SELECT * FROM &TB_PREF&attachments WHERE type_no='102656' ORDER BY trans_no
+09:01:14 [DEBUG] : OK
+09:01:15 [DEBUG] : OK
+09:01:17 [DEBUG] : OK
+09:01:18 [DEBUG] : OK
+09:01:44 [DEBUG] : OK
+09:01:44 [DEBUG] : 
+09:01:46 [DEBUG] : OK
+09:01:46 [DEBUG] : 
+09:01:29 [DEBUG] : OK
+09:01:29 [DEBUG] : 
+09:01:30 [DEBUG] : OK
+09:01:30 [DEBUG] : 
+09:01:31 [DEBUG] : OK
+09:01:31 [DEBUG] : 
+09:01:54 [DEBUG] : Array
 (
 )
 
-01:01:13 [DEBUG] : select 
-  m.ord_date,m.order_no,i.item_factory,c.name,i.item_units,
-  sales_type,sale_area,m.sale_man,
-  d.qty,
-  d.sale_price,
-  d.qty*d.sale_price as amount,
-  mdt.min_date,
-	mdt.max_date,
-  m.comments,
-  i.item_code,i.item_spec,i.item_name
-  
-  from &TB_PREF&sales_orders_master m 
-  left join &TB_PREF&sales_orders_detail d on m.order_no=d.order_no  
-  left join &TB_PREF&customers c on c.id=m.customer_id 
-  left join &TB_PREF&item_codes i on d.item_code = i.item_code
-  left join &TB_PREF&sales_types t on m.order_type=t.id
-	left  join (select sm.customer_id,sd.item_id,min(sd.ord_date) as min_date,max(sd.ord_date) as max_date from &TB_PREF&sales_orders_master sm 
-  left join &TB_PREF&sales_orders_detail sd on sm.order_no=sd.order_no group by sm.customer_id,sd.item_id) mdt on mdt.customer_id=m.customer_id and mdt.item_id=d.item_id
-  where 1=1  and m.ord_date='2023-01-15'  order by m.ord_date 
-01:01:13 [DEBUG] : Array
+09:01:57 [DEBUG] : OK
+09:01:57 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => PXcypqyLR90gNAuxDIY4Zwxx
+    [_random] => 1136976.8186981683
+)
+
+09:01:57 [DEBUG] : 
+09:01:17 [DEBUG] : Array
 (
 )
 
-01:01:13 [DEBUG] : select 
-  m.ord_date,m.order_no,i.item_factory,c.name,i.item_units,
-  sales_type,sale_area,m.sale_man,
-  d.qty,
-  d.sale_price,
-  d.qty*d.sale_price as amount,
-  mdt.min_date,
-	mdt.max_date,
-  m.comments,
-  i.item_code,i.item_spec,i.item_name
-  
-  from &TB_PREF&sales_orders_master m 
-  left join &TB_PREF&sales_orders_detail d on m.order_no=d.order_no  
-  left join &TB_PREF&customers c on c.id=m.customer_id 
-  left join &TB_PREF&item_codes i on d.item_code = i.item_code
-  left join &TB_PREF&sales_types t on m.order_type=t.id
-	left  join (select sm.customer_id,sd.item_id,min(sd.ord_date) as min_date,max(sd.ord_date) as max_date from &TB_PREF&sales_orders_master sm 
-  left join &TB_PREF&sales_orders_detail sd on sm.order_no=sd.order_no group by sm.customer_id,sd.item_id) mdt on mdt.customer_id=m.customer_id and mdt.item_id=d.item_id
-  where 1=1  and m.ord_date='2023-01-15'  order by m.ord_date 
-09:01:22 [DEBUG] : ../../../modules/bussiness/reporting/redirect.php?
-09:01:04 [DEBUG] : 导出
-09:01:10 [DEBUG] : 导出
+09:01:19 [DEBUG] : OK
+09:01:19 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => P_EmvqJ46w_FGuP4HJIJmwxx
+    [_random] => 973182.7974869764
+)
+
+09:01:19 [DEBUG] : 
+09:01:16 [DEBUG] : Array
+(
+)
+
+09:01:21 [DEBUG] : OK
+09:01:21 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => fabPdIBjkHb8pyTvHqaA1gxx
+    [_random] => 692048.6218433568
+)
+
+09:01:22 [DEBUG] : OK
+09:01:22 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 4dFRse_aHS7V0DlA33dUcwxx
+    [_random] => 438140.17114735604
+)
+
+09:01:25 [DEBUG] : OK
+09:01:25 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => dBcgq5ZN6AU69Lg0guOgKAxx
+    [_random] => 925531.3322822173
+)
+
+09:01:03 [DEBUG] : Array
+(
+)
+
+09:01:05 [DEBUG] : Array
+(
+)
+
+09:01:08 [DEBUG] : Array
+(
+)
+
+09:01:11 [DEBUG] : OK
+09:01:11 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 7GJOeOwLh8tXbtGb6SEWBAxx
+    [_random] => 593623.0735949227
+)
+
+09:01:12 [DEBUG] : OK
+09:01:12 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => NmMN9nVBQ9iKxpyo6RiGXgxx
+    [_random] => 1178999.308569674
+)
+
+09:01:13 [DEBUG] : OK
+09:01:13 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Pma3_NOti0wFzgpQkOkuQAxx
+    [_random] => 549834.637361308
+)
+
+09:01:15 [DEBUG] : OK
+09:01:15 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GDuUPRwHkrZ1Va1xGVW0_Axx
+    [_random] => 512910.533579761
+)
+
+09:01:16 [DEBUG] : OK
+09:01:16 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ZxZBiPsGFHgp33T-BwzyNQxx
+    [_random] => 710689.7298076188
+)
+
+09:01:08 [DEBUG] : Array
+(
+)
+
+09:01:10 [DEBUG] : OK
+09:01:10 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => _YvlnpsJ7OhJNX-Vlst2hAxx
+    [_random] => 74495.62684561269
+)
+
+09:01:11 [DEBUG] : OK
+09:01:11 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 7_gYVxc00WGJoF7vVM5B4gxx
+    [_random] => 402745.09574405843
+)
+
+09:01:13 [DEBUG] : OK
+09:01:13 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => g4P24EM23x6oa4mNzoo-Wgxx
+    [_random] => 1189760.9209818384
+)
+
+09:01:14 [DEBUG] : OK
+09:01:14 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => CvX12Zj4EROoo20nTr4gIwxx
+    [_random] => 783223.4500146912
+)
+
+09:01:37 [DEBUG] : Array
+(
+)
+
+09:01:39 [DEBUG] : OK
+09:01:39 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => syhin39y_XbHcloUK6FxlQxx
+    [_random] => 179895.7544391906
+)
+
+09:01:40 [DEBUG] : OK
+09:01:40 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => dqJANR02QTlAbl19luKdcAxx
+    [_random] => 64873.5544001373
+)
+
+09:01:42 [DEBUG] : OK
+09:01:42 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 8ZyT14elPMYgfnj5HGO08wxx
+    [_random] => 598956.3843928106
+)
+
+09:01:43 [DEBUG] : OK
+09:01:43 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => _vIQOtoblnIQKnrJ506Pgwxx
+    [_random] => 950099.6553580901
+)
+
+09:01:44 [DEBUG] : OK
+09:01:44 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 7Elom6JpUUT22QlIBOJi8Qxx
+    [_random] => 271338.02716898883
+)
+
+09:01:04 [DEBUG] : Array
+(
+)
+
+09:01:06 [DEBUG] : OK
+09:01:06 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 0UQR7eeAwkzbzigibgNmUQxx
+    [_random] => 795557.0527850443
+)
+
+09:01:07 [DEBUG] : OK
+09:01:07 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => g-6LulGQI0PHr-4lxZ3qMAxx
+    [_random] => 890630.9864610195
+)
+
+09:01:08 [DEBUG] : OK
+09:01:08 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => s3dslt3lbqQKrJVjTeeDYwxx
+    [_random] => 937007.1240099631
+)
+
+09:01:10 [DEBUG] : OK
+09:01:10 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 2s2WlACG0HSLLHRjyiSu_gxx
+    [_random] => 1068463.9368851164
+)
+
+09:01:12 [DEBUG] : OK
+09:01:12 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Fb7_TE7MowlreRjCEZ9NdQxx
+    [_random] => 1063591.239956105
+)
+
+09:01:46 [DEBUG] : Array
+(
+)
+
+09:01:49 [DEBUG] : OK
+09:01:49 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GmyRnkaYV-_xuPYnfRHq-Axx
+    [_random] => 262295.7541849024
+)
+
+09:01:51 [DEBUG] : OK
+09:01:51 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => rNyThynD6mhTkuwkZaIyDQxx
+    [_random] => 475022.5913753681
+)
+
+09:01:54 [DEBUG] : OK
+09:01:54 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 2kirN5VRzfQ1JD0xRa0Lvgxx
+    [_random] => 1048663.4206509248
+)
+
+09:01:28 [DEBUG] : Array
+(
+)
+
+09:01:30 [DEBUG] : OK
+09:01:30 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => q4KE81RZu7H9GU4bD0QIFwxx
+    [_random] => 384268.95486132824
+)
+
+09:01:30 [DEBUG] : OOPPP
 09:01:32 [DEBUG] : Array
 (
-    [_random] => 259352.06406196274
-    [REP_ID] => _order
-    [PARAM_0] => 0
-    [PARAM_1] => 0
-    [PARAM_2] => 
-    [PARAM_3] => 
-    [PARAM_4] => 0
-    [PARAM_5] => 1
-    [PARAM_6] => 
-    [PARAM_7] => 0
 )
 
-09:01:23 [DEBUG] : ..
+09:01:34 [DEBUG] : OK
+09:01:34 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => RwevkflvqVFi0l6RxVL1ygxx
+    [_random] => 20447.51650265222
+)
+
+09:01:34 [DEBUG] : OOPPP
+09:01:35 [DEBUG] : OK
+09:01:35 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => kUvoQRo26mamuGLtKjt2XAxx
+    [_random] => 627091.5413663919
+)
+
+09:01:35 [DEBUG] : OOPPP
+09:01:38 [DEBUG] : Array
+(
+)
+
+09:01:40 [DEBUG] : OK
+09:01:40 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => SaCEw3ROd-OLA_IKkWwfmwxx
+    [_random] => 792956.0006729931
+)
+
+09:01:40 [DEBUG] : OOPPP
+09:01:42 [DEBUG] : OK
+09:01:42 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => lBQI7AGqij6cCCOeFafb-wxx
+    [_random] => 453855.39819897834
+)
+
+09:01:42 [DEBUG] : OOPPP
+09:01:04 [DEBUG] : Array
+(
+)
+
+09:01:05 [DEBUG] : OK
+09:01:05 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => tFhf27IeJ34572I9-Ckx6gxx
+    [_random] => 230787.26755705246
+)
+
+09:01:05 [DEBUG] : OOPPP
+09:01:08 [DEBUG] : OK
+09:01:08 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 1XpoZZBG3GzBUp1WpPl-FQxx
+    [_random] => 1216160.31086036
+)
+
+09:01:08 [DEBUG] : OOPPP
+09:01:09 [DEBUG] : OK
+09:01:09 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 4_JvR2m8Iic13SMi_5I9yQxx
+    [_random] => 222792.432077364
+)
+
+09:01:09 [DEBUG] : OOPPP
+09:01:10 [DEBUG] : OK
+09:01:10 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ZUmNsDai8VnxIydpcNz38gxx
+    [_random] => 275024.30136001046
+)
+
+09:01:10 [DEBUG] : OOPPP
+09:01:11 [DEBUG] : OK
+09:01:11 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => _lfmq1qAcrwUUe_FKoSM4Qxx
+    [_random] => 496944.22932536516
+)
+
+09:01:11 [DEBUG] : OOPPP
+09:01:14 [DEBUG] : OK
+09:01:14 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => _4DVJskAVl97AuKsY5vmRQxx
+    [_random] => 937160.8808065106
+)
+
+09:01:14 [DEBUG] : OOPPP
+09:01:14 [DEBUG] : OK
+09:01:14 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => uDkRCNTyBMDtRPgyaam5Kwxx
+    [_random] => 192397.84116071207
+)
+
+09:01:14 [DEBUG] : OOPPP
+09:01:24 [DEBUG] : OK
+09:01:24 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => AprJefoVqR1Nsv39L7pAkwxx
+    [_random] => 272670.8682518993
+)
+
+09:01:24 [DEBUG] : OOPPP
+09:01:25 [DEBUG] : OK
+09:01:25 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vKx7Cs3E5EKQS6oDre1BBgxx
+    [_random] => 1185975.9921502022
+)
+
+09:01:25 [DEBUG] : OOPPP
+09:01:27 [DEBUG] : OK
+09:01:27 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => D8fJ5HoNuYR0kdAkuGHHfAxx
+    [_random] => 21519.878567069485
+)
+
+09:01:27 [DEBUG] : OOPPP
+09:01:21 [DEBUG] : Array
+(
+)
+
+09:01:23 [DEBUG] : OK
+09:01:23 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Q88hUyoav-jsGz6aUhQAwgxx
+    [_random] => 874371.6506883675
+)
+
+09:01:24 [DEBUG] : OK
+09:01:24 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 41WjW6ewCqIY8E3UNF_7Owxx
+    [_random] => 406164.7394981008
+)
+
+09:01:24 [DEBUG] : OK
+09:01:24 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 82jXC8_ymS7gflixsZcZnQxx
+    [_random] => 1119068.0053863311
+)
+
+09:01:25 [DEBUG] : OK
+09:01:25 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => TbtfG0ZoX053h4RhdNmKsgxx
+    [_random] => 1075533.2977139628
+)
+
+09:01:26 [DEBUG] : OK
+09:01:26 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => O7vN2afHWrqdeFdA4N1JfQxx
+    [_random] => 866718.8248845526
+)
+
+09:01:38 [DEBUG] : Array
+(
+)
+
+09:01:39 [DEBUG] : OK
+09:01:39 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vLbAmfcH3PtboatjAo_SjAxx
+    [_random] => 554773.4905763812
+)
+
+09:01:39 [DEBUG] : 1
+09:01:41 [DEBUG] : OK
+09:01:41 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vX9h2BjLuPEracFODfTTswxx
+    [_random] => 971822.1677399358
+)
+
+09:01:41 [DEBUG] : 1
+09:01:09 [DEBUG] : OK
+09:01:09 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => hk7T779kixltNIkGjBcqLgxx
+    [_random] => 80883.10029284086
+)
+
+09:01:09 [DEBUG] : 1
+09:01:34 [DEBUG] : Array
+(
+)
+
+09:01:35 [DEBUG] : OK
+09:01:35 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 27Ya7ogVMC-G409FeAhvpgxx
+    [_random] => 548951.9270132112
+)
+
+09:01:37 [DEBUG] : OK
+09:01:37 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Vuv-X_pXMzu1ItKRtJXfFQxx
+    [_random] => 1190370.9350568692
+)
+
+09:01:38 [DEBUG] : OK
+09:01:38 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => HtKKSYiMMqoc3Zly9pGO8gxx
+    [_random] => 599467.3140559419
+)
+
+09:01:23 [DEBUG] : Array
+(
+)
+
+09:01:24 [DEBUG] : OK
+09:01:24 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => y4KyhhU69rIs8aEc_aSxsQxx
+    [_random] => 1076536.80006599
+)
+
+09:01:25 [DEBUG] : OK
+09:01:25 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => p_QLp4PO6xy1Ib3hKLGs8Axx
+    [_random] => 948155.8164326388
+)
+
+09:01:29 [DEBUG] : Array
+(
+)
+
+09:01:30 [DEBUG] : OK
+09:01:30 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => kvxWtqiuKP9Ljil-ZlEqMQxx
+    [_random] => 597964.9775640152
+)
+
+09:01:34 [DEBUG] : OK
+09:01:34 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => y4GKyPRMp51_uQFqL0L74wxx
+    [_random] => 812120.6894528972
+)
+
+09:01:35 [DEBUG] : OK
+09:01:35 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => M9hEuwXsdvnhoYzfJx1MsAxx
+    [_random] => 772449.7966519813
+)
+
+09:01:36 [DEBUG] : OK
+09:01:36 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => czUiZYGmRvtodYWmmew8HQxx
+    [_random] => 199578.15270016302
+)
+
+09:01:36 [DEBUG] : OK
+09:01:36 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => TZ6-1D3F0t2CvyF4QkGjJgxx
+    [_random] => 675741.9299159084
+)
+
+09:01:37 [DEBUG] : OK
+09:01:37 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ZqBFC5UcXqoHm93E3pJOJwxx
+    [_random] => 1098753.6150775175
+)
+
+09:01:58 [DEBUG] : OK
+09:01:58 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => NRDVKsXTNTgxzrpfeQVvKwxx
+    [_random] => 1003827.5439877616
+)
+
+09:01:59 [DEBUG] : OK
+09:01:59 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Omz2g5jjdTUVyGjkGu7BRAxx
+    [_random] => 952686.5331258178
+)
+
+09:01:00 [DEBUG] : OK
+09:01:00 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -KxhsER1Eq2oylRcwqBPZgxx
+    [_random] => 908240.1474319915
+)
+
+09:01:00 [DEBUG] : OK
+09:01:00 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => HlzxZGGwSmYooQb_Un1wegxx
+    [_random] => 707974.0227955554
+)
+
+09:01:01 [DEBUG] : OK
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 0Q1tKqtO4m2DYhR_SdzAWwxx
+    [_random] => 921122.6745617093
+)
+
+09:01:01 [DEBUG] : OK
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => xZsBdCwUs_o2iYLrYR_7-Qxx
+    [_random] => 1053933.1168564195
+)
+
+09:01:01 [DEBUG] : OK
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => qytAHAm3t9xll72MMc3O1gxx
+    [_random] => 199987.0212868464
+)
+
+09:01:01 [DEBUG] : OK
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => XRVfLsec5LlCp2L7z0Ee-wxx
+    [_random] => 1169913.9633956961
+)
+
+09:01:01 [DEBUG] : OK
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 2d2u7ILRkakXF03WXht0swxx
+    [_random] => 355480.45435569226
+)
+
+09:01:02 [DEBUG] : OK
+09:01:02 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => YtH08DlCnrb_yvMOdXYx8Qxx
+    [_random] => 443963.31294292636
+)
+
+09:01:02 [DEBUG] : OK
+09:01:02 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => NoNTD3GqR0E9wCV7OimQXAxx
+    [_random] => 440830.08372682927
+)
+
+09:01:02 [DEBUG] : OK
+09:01:02 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => t8xYm6newQspclayNhzdHAxx
+    [_random] => 759154.1661480354
+)
+
+09:01:02 [DEBUG] : OK
+09:01:02 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => VVAM-86_CZBDf4iWA2Rk6gxx
+    [_random] => 883786.0393908104
+)
+
+09:01:03 [DEBUG] : OK
+09:01:03 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => QYHXoIeT6rH_1GX0rAmEewxx
+    [_random] => 366979.84902840195
+)
+
+09:01:03 [DEBUG] : OK
+09:01:03 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => L7plz-cvtv43DHDoO5IlIgxx
+    [_random] => 461346.9200285581
+)
+
+09:01:03 [DEBUG] : OK
+09:01:03 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => b234i5dNfLriim4nMdnu5Qxx
+    [_random] => 755789.2225257735
+)
+
+09:01:31 [DEBUG] : Array
+(
+)
+
+09:01:33 [DEBUG] : OK
+09:01:33 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => HvcfXCHNgizO1nT0RIRtngxx
+    [_random] => 642845.7921844908
+)
+
+09:01:34 [DEBUG] : OK
+09:01:34 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => KrminGTtYY9DwfnfFSb74Qxx
+    [_random] => 959555.2392000613
+)
+
+09:01:00 [DEBUG] : Array
+(
+)
+
+09:01:02 [DEBUG] : OK
+09:01:02 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => QON3xBrBJFL1ekp9nJG3ywxx
+    [_random] => 530306.2462002345
+)
+
+09:01:31 [DEBUG] : Array
+(
+)
+
+09:01:33 [DEBUG] : OK
+09:01:33 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => nEM-AKnfaQPCmVIDQB-Mogxx
+    [_random] => 325489.10365539294
+)
+
+09:01:37 [DEBUG] : Array
+(
+    [back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => shCkm8zTiOOeCcK7qGawkAxx
+)
+
+09:01:56 [DEBUG] : Array
+(
+)
+
+09:01:57 [DEBUG] : OK
+09:01:57 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => yLo6csAS3U3YUWhRntKIvAxx
+    [_random] => 1148852.9030000533
+)
+
+09:01:16 [DEBUG] : Array
+(
+)
+
+09:01:25 [DEBUG] : Array
+(
+)
+
+09:01:33 [DEBUG] : Array
+(
+)
+
+09:01:41 [DEBUG] : Array
+(
+)
+
+09:01:07 [DEBUG] : 76800
+09:01:07 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c900f7c46c3
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+09:01:09 [DEBUG] : Array
+(
+)
+
+09:01:04 [DEBUG] : OK
+09:01:04 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => TTRJSrwWqnIvX-e-3Mvmwgxx
+    [_random] => 715741.7590052425
+)
+
+09:01:10 [DEBUG] : Array
+(
+    [back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => YEwXvdILT8FNxiVcMe1fOAxx
+)
+
+09:01:49 [DEBUG] : Array
+(
+)
+
+09:01:52 [DEBUG] : Array
+(
+)
+
+09:01:53 [DEBUG] : OK
+09:01:53 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => KEnG9uisk6KcI_QoWtv83wxx
+    [_random] => 26681.994524659323
+)
+
+09:01:55 [DEBUG] : Array
+(
+    [back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 1
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => SV7vrt_WZC3SbnEAvD0m0Qxx
+)
+
+09:01:46 [DEBUG] : 76800
+09:01:46 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c90196b072f
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+09:01:49 [DEBUG] : Array
+(
+)
+
+09:01:50 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => AB4meQGol_ZRbAiXSKuuJQxx
+    [_random] => 508004.73235812486
+)
+
+09:01:52 [DEBUG] : Array
+(
+    [back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 1
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => H7AqTXysNCKwcS33C6O56gxx
+)
+
+09:01:58 [DEBUG] : Array
+(
+)
+
+09:01:00 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GQlG_PRkQ5kbFTwq_waduwxx
+    [_random] => 1210931.9178146683
+)
+
+09:01:02 [DEBUG] : Array
+(
+    [install_langs] => 继续 &gt;&gt;
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => UONMXlXZFBy2Z94iH3r9oAxx
+)
+
+09:01:51 [DEBUG] : Array
+(
+)
+
+09:01:53 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => i99Mbziu3fbuk0b5tLA0zgxx
+    [_random] => 258381.8518809654
+)
+
+09:01:45 [DEBUG] : Array
+(
+)
+
+09:01:47 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => XB4Jj9jLV30MOLvZASlGQwxx
+    [_random] => 524290.3819681392
+)
+
+09:01:49 [DEBUG] : Array
+(
+    [install_langs] => 继续 &gt;&gt;
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 3THOkl2uywSkwDzlwm-8Iwxx
+)
+
+09:01:18 [DEBUG] : 76800
+09:01:18 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c902a6c3506
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+09:01:20 [DEBUG] : Array
+(
+)
+
+09:01:22 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => aNaDZugmv11MXql-m9Dvkwxx
+    [_random] => 502414.6825046521
+)
+
+09:01:36 [DEBUG] : Array
+(
+)
+
+09:01:37 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => DELpdxj4bCN2afRLhwgZXAxx
+    [_random] => 1228335.2630395093
+)
+
+09:01:43 [DEBUG] : 76800
+09:01:43 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c902bf8c9d2
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+09:01:45 [DEBUG] : Array
+(
+)
+
+09:01:46 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => P8DsStzUfjfvATiWnZvGTgxx
+    [_random] => 1232732.1853774262
+)
+
+09:01:26 [DEBUG] : Array
+(
+)
+
+09:01:27 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => skQDA0HBXgGZLeeuCeFsKAxx
+    [_random] => 201031.95156885902
+)
+
+09:01:59 [DEBUG] : Array
+(
+)
+
+09:01:01 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => MtdTj6OuN3liWg-UEGphygxx
+    [_random] => 442374.6951061549
+)
+
+09:01:03 [DEBUG] : Array
+(
+    [Back] => 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => xzrI2XUIrAaVFvrOwryqcgxx
+    [_random] => 223402.66123282924
+)
+
+09:01:06 [DEBUG] : Array
+(
+)
+
+09:01:32 [DEBUG] : Array
+(
+)
+
+09:01:34 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => mZXy-ZR4PakWIx5blRcghwxx
+    [_random] => 514033.8735564894
+)
+
+09:01:36 [DEBUG] : Array
+(
+    [back] => &lt;&lt; Back
+    [Tests] => 
+    [id] => 102656
+    [Page] => 1
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => EH35EqNOHxJmmOTpjKNTfAxx
+)
+
+10:01:30 [DEBUG] : Array
+(
+)
+
+10:01:34 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => _UJi7ssZYv0HhCpEVYwF9gxx
+    [_random] => 953500.9369732614
+)
+
+10:01:39 [DEBUG] : Array
+(
+    [back] => &lt;&lt; Back
+    [Tests] => 
+    [id] => 102656
+    [Page] => 1
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vtLVXVJKRenTv_HR3OkSzwxx
+)
+
+10:01:38 [DEBUG] : 76800
+10:01:38 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c906f2db301
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+10:01:40 [DEBUG] : Array
+(
+)
+
+10:01:42 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => N9HAXl-_a2UDkQSSTuP39Qxx
+    [_random] => 858656.3600243019
+)
+
+10:01:43 [DEBUG] : Array
+(
+    [Back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => C-cmMxCqgL3EUTg9_BQ4DQxx
+)
+
+10:01:28 [DEBUG] : Array
+(
+)
+
+10:01:30 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => eMUcmqKkYXnUyGRhOfCuZAxx
+    [_random] => 269654.26891069714
+)
+
+10:01:37 [DEBUG] : Array
+(
+    [Back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 0B7YLgn0TI8vAJq5WkVpLgxx
+)
+
+10:01:47 [DEBUG] : Array
+(
+)
+
+10:01:51 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => yEUc2EXQS-BJo9--yKM2xwxx
+    [_random] => 621584.1936572937
+)
+
+10:01:52 [DEBUG] : Array
+(
+    [Back] => &lt;&lt; 返回
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Yl0cwCu_if7qMQ0NgExECQxx
+)
+
+10:01:32 [DEBUG] : Array
+(
+)
+
+10:01:37 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => MZL_eUJsICpBHXKpZDm5zgxx
+    [_random] => 427847.05580720113
+)
+
+10:01:17 [DEBUG] : Array
+(
+    [Next] => 继续 &gt;&gt;
+    [Tests] => 
+    [id] => 102656
+    [Page] => 
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => qCJi52siW4SxsuNpneG4Xwxx
+)
+
+10:01:26 [DEBUG] : Array
+(
+)
+
+10:01:30 [DEBUG] : Array
+(
+    [Continue] => 选择
+    [pager_list] => 1
+    [Tests] => 
+    [id] => 102656
+    [Page] => 2
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => q_BDRyYejF4LkI63NjhhlQxx
+    [_random] => 390823.1552881803
+)
+
+10:01:40 [DEBUG] : 76800
+10:01:40 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/19/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63c908981759c
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/19/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 2
+    [_focus] => id
+)
+
+10:01:53 [DEBUG] : 
+10:01:57 [DEBUG] : 
+10:01:59 [DEBUG] : 
+10:01:00 [DEBUG] : 
+10:01:43 [DEBUG] : 
+10:01:45 [DEBUG] : 
+10:01:46 [DEBUG] : 
+10:01:40 [DEBUG] : Array
+(
+)
+
+10:01:41 [DEBUG] : Array
+(
+    [_random] => 328485.52168111916
+    [_token] => kuwbRanNINSOTqTCo3yl6gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => filterType
+    [description] => 
+    [pager_list] => 1
+    [import5] => 导入
+    [filterType] => 102656
+)
+
+10:01:11 [DEBUG] : 
+10:01:13 [DEBUG] : Import
+10:01:09 [DEBUG] : 77312
+10:01:03 [DEBUG] : 77312
+10:01:13 [DEBUG] : 77312
