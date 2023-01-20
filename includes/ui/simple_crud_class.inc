@@ -25,6 +25,7 @@ class simple_crud {
 			'RESET' => '_cancel',
 			'CLONE' => '_cloning',
 			'CHANGE'=>'_change_formula',
+			'PAGE'=>'_',
 			'SHOW'=>'_show'
 			);
 		$this->views = array(
@@ -37,7 +38,8 @@ class simple_crud {
 			'RESET' => 'list_view',
 			'CLONE' => 'editor_view',
 			'CHANGE'=>'editor_view',
-			'SHOW'=>'show_view'
+			'SHOW'=>'show_view',
+			'PAGE'=>'page_list',
 			);
  
 		$this->tool_buttons['Edit'] = array(_('编辑'), _('Edit document line'), ICON_EDIT, '');
