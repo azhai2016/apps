@@ -75,6 +75,15 @@ function has_attachment($type, $id) {
 	return $myrow === false ? 0 : $myrow['id'];
 }
 
+function get_attachment_type($type) {
+	$sql = "SELECT DISTINCT * FROM ".TB_PREF."attachments WHERE type_no=".db_escape($type);
+	$result = db_query($sql, 'Could not retrieve attachments');
+	$myrow = db_fetch($result);
+
+	return $myrow === false ? 0 : $myrow;
+}
+
+
 function get_sql_for_attached_documents($type, $id_no) {
 	// $_POST['trans_no'] will be used to store the customer_id or supplier_id for them
 	$sql = "SELECT trans_no, description, filename, filesize, filetype, tran_date, id, type_no FROM ".TB_PREF."attachments WHERE type_no=".db_escape($type);
