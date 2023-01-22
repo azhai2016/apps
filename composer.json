@@ -19,6 +19,7 @@
         "php": ">=5.5.0",
         "nikic/fast-route": "^2.0@dev",
         "donatj/simplecalendar": "dev-master",
-        "yurunsoft/chinese-util": "dev-master"
+        "yurunsoft/chinese-util": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.26"
     }
 }
