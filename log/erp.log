@@ -4971,3 +4971,938 @@
 
 )
 
+05:01:16 [DEBUG] : &TB_PREF&item_codes
+05:01:16 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 商品编号
+            [B] => 商品名称
+            [C] => 生产企业
+            [D] => 规格
+            [E] => 单位
+            [F] => 批准文号
+            [G] => 默认单价
+        )
+
+    [2] => Array
+        (
+            [A] => 111
+            [B] => 222
+            [C] => 333
+            [D] => 444
+            [E] => 555
+            [F] => 666
+            [G] => 77
+        )
+
+    [3] => Array
+        (
+            [A] => 1
+            [B] => 2
+            [C] => 3
+            [D] => 4
+            [E] => 5
+            [F] => 6
+            [G] => 7
+        )
+
+)
+
+05:01:32 [DEBUG] : &TB_PREF&customers
+05:01:32 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:02 [DEBUG] : &TB_PREF&customers
+05:01:02 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:58 [DEBUG] : &TB_PREF&customers
+05:01:58 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:00 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:32 [DEBUG] : &TB_PREF&customers
+05:01:32 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:35 [DEBUG] : &TB_PREF&customers
+05:01:35 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:36 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:36 [DEBUG] : 
+05:01:15 [DEBUG] : &TB_PREF&customers
+05:01:15 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:20 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:20 [DEBUG] : 
+05:01:46 [DEBUG] : &TB_PREF&customers
+05:01:46 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 客商编号
+            [B] => 客商名称
+            [C] => 地址
+            [D] => 电话
+            [E] => 电话2
+            [F] => email
+            [G] => 联系方式
+            [H] => 业务员
+        )
+
+    [2] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [3] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:53 [DEBUG] : Array
+(
+    [Continue] => 导入数据 &gt;&gt;
+    [Tests] => 
+    [id] => 14
+    [Page] => 
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => X0OeY8YTp04hKPygfFwMCAxx
+)
+
+05:01:53 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:53 [DEBUG] : 
+05:01:48 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 商品编号
+            [B] => 商品名称
+            [C] => 生产企业
+            [D] => 规格
+            [E] => 单位
+            [F] => 批准文号
+            [G] => 默认单价
+        )
+
+    [2] => Array
+        (
+            [A] => 111
+            [B] => 222
+            [C] => 333
+            [D] => 444
+            [E] => 555
+            [F] => 666
+            [G] => 77
+        )
+
+    [3] => Array
+        (
+            [A] => 1
+            [B] => 2
+            [C] => 3
+            [D] => 4
+            [E] => 5
+            [F] => 6
+            [G] => 7
+        )
+
+)
+
+05:01:50 [DEBUG] : Array
+(
+    [1] => Array
+        (
+            [A] => 商品编号
+            [B] => 商品名称
+            [C] => 生产企业
+            [D] => 规格
+            [E] => 单位
+            [F] => 批准文号
+            [G] => 默认单价
+        )
+
+    [2] => Array
+        (
+            [A] => 111
+            [B] => 222
+            [C] => 333
+            [D] => 444
+            [E] => 555
+            [F] => 666
+            [G] => 77
+        )
+
+    [3] => Array
+        (
+            [A] => 1
+            [B] => 2
+            [C] => 3
+            [D] => 4
+            [E] => 5
+            [F] => 6
+            [G] => 7
+        )
+
+)
+
+05:01:53 [DEBUG] : Array
+(
+    [Continue] => 导入数据 &gt;&gt;
+    [Tests] => 
+    [id] => 14
+    [Page] => 
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => rJvGMoygNMojCTQD8grmFgxx
+)
+
+05:01:53 [DEBUG] : 104192
+05:01:43 [DEBUG] : 104192
+05:01:14 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:14 [DEBUG] : 104192
+05:01:06 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => B
+            [D] => C
+            [E] => d
+            [F] => email
+            [G] => f
+            [H] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => BB
+            [D] => CC
+            [E] => DD
+            [F] => EE
+            [G] => F
+            [H] => G
+        )
+
+)
+
+05:01:06 [DEBUG] : 104192
+05:01:35 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+05:01:35 [DEBUG] : 104192
+05:01:35 [DEBUG] : INSERT INTO &TB_PREF&item_codes 
+    (code,name,area,address,phone,phone2,email,contact,sale_man) values ('1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+05:01:11 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+05:01:11 [DEBUG] : 104192
+05:01:11 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (code,name,area,address,phone,phone2,email,contact,sale_man) values ('1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:50 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:50 [DEBUG] : 104192
+06:01:50 [DEBUG] : 77056
+06:01:50 [DEBUG] : 77056
+06:01:50 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (id,code,name,area,address,phone,phone2,email,contact,sale_man) values ('1000003','1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1000003','1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:44 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:44 [DEBUG] : 104192
+06:01:44 [DEBUG] : SELECT MAX(CAST(SUBSTR(code, 2,LENGTH(code)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `code` REGEXP '^1[0-9]*$'
+06:01:44 [DEBUG] : SELECT MAX(CAST(SUBSTR(code, 2,LENGTH(code)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `code` REGEXP '^1[0-9]*$'
+06:01:44 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (id,code,name,area,address,phone,phone2,email,contact,sale_man) values ('1000003','1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1000003','1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:04 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:04 [DEBUG] : 104192
+06:01:04 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:04 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:04 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (id,code,name,area,address,phone,phone2,email,contact,sale_man) values ('1000001','1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1000001','1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:05 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:05 [DEBUG] : 104192
+06:01:05 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:05 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (id,code,name,area,address,phone,phone2,email,contact,sale_man) values ('1000001','1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1000002','1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:30 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:30 [DEBUG] : 104192
+06:01:30 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:30 [DEBUG] : INSERT INTO &TB_PREF&customers
+    (id,code,name,area,address,phone,phone2,email,contact,sale_man) values ('1000003','1001','A','CCC','B',
+           'C','d','email','f','g'
+            ),('1000004','1002','AA','CCC','BB',
+           'CC','DD','EE','F','G'
+            );
+06:01:16 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:16 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:24 [DEBUG] : Array
+(
+    [0] => Array
+        (
+            [A] => 1001
+            [B] => A
+            [C] => CCC
+            [D] => B
+            [E] => C
+            [F] => d
+            [G] => email
+            [H] => f
+            [I] => g
+        )
+
+    [1] => Array
+        (
+            [A] => 1002
+            [B] => AA
+            [C] => CCC
+            [D] => BB
+            [E] => CC
+            [F] => DD
+            [G] => EE
+            [H] => F
+            [I] => G
+        )
+
+)
+
+06:01:24 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'

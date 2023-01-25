@@ -159,6 +159,7 @@ class references {
 			." FROM `$trans_table` tbl 
 			WHERE `$ref_fld` REGEXP ".db_escape('^'.preg_quote($prefix).'[0-9]*'.preg_quote($postfix).'$'); 
 		}
+		log_b($sql);
 		$result = db_query($sql, 'cannot retrieve last reference');
 		$result = db_fetch_row($result);
        
@@ -221,8 +222,6 @@ class references {
 	// Get default reference for new transaction.
 	//
 	function get_next($type, $line=null, $context=null) {
-		log_b($type);
-    
 		if (isset($line))
 			$refline = $this->reflines->get($line);
 		else {
@@ -230,9 +229,6 @@ class references {
 
 			$refline = db_fetch($refs);
 		}
-
-
-		
 
 		if ($this->_legacy_line($refline)) {
 			return isset($refline['pattern']) ? $refline['pattern'] : null;
