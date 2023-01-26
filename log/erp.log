@@ -5906,3 +5906,1192 @@
 
 06:01:24 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
 			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:14 [DEBUG] : SELECT MAX(CAST(SUBSTR(id, 2,LENGTH(id)-1) AS UNSIGNED)) FROM `&TB_PREF&customers` tbl 
+			WHERE `id` REGEXP '^1[0-9]*$'
+06:01:14 [DEBUG] : 1000003
+06:01:20 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21604b6e6c
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:52 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d217c81f6b6
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:33 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21869cd272
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:13 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21891334a0
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:32 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d218a477a50
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:21 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d218d5b7992
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:25 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d218d96bd43
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:55 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d218d96bd43
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GGwAGkPkavVqql9NRQnenQxx
+    [_random] => 1157411.9797118048
+)
+
+07:01:58 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d218d96bd43
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 856t62vfKz9vdwbcqFcTLwxx
+    [_random] => 807476.6456597424
+)
+
+07:01:00 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d218d96bd43
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => bI-KPK7IeLVALKB-tcanCQxx
+    [_random] => 383789.45967212
+)
+
+07:01:15 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d219bf1ccb4
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:37 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d219d51c84e
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:40 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d219d51c84e
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => ruXiNCsFD1ASICFyOltLXwxx
+    [_random] => 152367.1780526798
+)
+
+07:01:42 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d219d51c84e
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => UmizdHF3pWtaQmrSadZdBQxx
+    [_random] => 985120.3691699336
+)
+
+07:01:44 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d219d51c84e
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => V-yFsay44PTruw-p6N9MqAxx
+    [_random] => 262177.4769631117
+)
+
+07:01:22 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21a7a12219
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:24 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21a7a12219
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 
+    [item_units] => 
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 5CrLCnGFZoTwBYh0XxEqoQxx
+    [_random] => 959812.3869548453
+)
+
+07:01:44 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21acc80b3b
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:47 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -JpHJY-fdSOIDT9DVH6ABAxx
+    [_random] => 366996.7951841686
+)
+
+07:01:49 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => t6ecJLVkn_fzyx58i9IzBgxx
+    [_random] => 128759.61008782756
+)
+
+07:01:51 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => CAqdZnJK83toxsW1L4VvGwxx
+    [_random] => 894357.40031362
+)
+
+07:01:53 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 0IGV0B0KZ_MkIrVPPd5W3Qxx
+    [_random] => 187454.74858248618
+)
+
+07:01:56 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Kdt-Hb-INfgAj-9jVnimkQxx
+    [_random] => 684626.2498600478
+)
+
+07:01:58 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vp1q20MVCV0nDb9tNZw9nAxx
+    [_random] => 473174.2510151865
+)
+
+07:01:20 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => qsnh-d2crQ84RPAc7kn3Egxx
+    [_random] => 961646.6689009094
+)
+
+07:01:26 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => yBC-cJEmRRH7mWYQlfRfOAxx
+    [_random] => 153919.3595864012
+)
+
+07:01:29 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => t9kPmKbdyzQsvGNMdf5BLQxx
+    [_random] => 305761.2154155188
+)
+
+07:01:31 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21acc80b3b
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => IwUnyksNiQdF2SY9ilakTQxx
+    [_random] => 201257.8884992217
+)
+
+07:01:03 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21b5738a03
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:07 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b5738a03
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Um_oaCI77CJTmNcrxrDbEwxx
+    [_random] => 286483.11235657055
+)
+
+07:01:10 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b5738a03
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => vrcUbMJS3056BVYf0B07wwxx
+    [_random] => 456698.8643079911
+)
+
+07:01:54 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21b8a76212
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:58 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b8a76212
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 2FG1ay61Yfe4BIkD_QqwSQxx
+    [_random] => 884509.5544274647
+)
+
+07:01:04 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21b945499d
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:06 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b945499d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => I7wCzUYMxOkmadBIzuobpQxx
+    [_random] => 751029.5516995124
+)
+
+07:01:08 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b945499d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => zc2SdVzzt3znpnUK6ET_bAxx
+    [_random] => 1078202.8984718944
+)
+
+07:01:10 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b945499d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => QSAfUvWJrtLBjUxhNV6SyAxx
+    [_random] => 199834.64738326494
+)
+
+07:01:11 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b945499d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GHv33zVU8i44hHSVY2QS9Axx
+    [_random] => 894729.788346452
+)
+
+07:01:50 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21b945499d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 
+    [item_id] => 
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 7
+    [item_units] => 5
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => yduScW7yNKmYNh3Oqcix-wxx
+    [_random] => 481809.7921740226
+)
+
+07:01:59 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21c43346e7
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:01 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21c43346e7
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 100004
+    [item_id] => 100004
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => bfAzGjfz-rML8ASXAgnJLAxx
+    [_random] => 520047.1645299932
+)
+
+07:01:04 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21c43346e7
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 22.52
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => AkjBT9ur7j4nXEDm_CRwBAxx
+    [_random] => 368031.5064161726
+)
+
+07:01:06 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21c43346e7
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 100005
+    [item_id] => 100005
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => y9wG5pUyqrLs4d7L9FpoyQxx
+    [_random] => 1021247.534066317
+)
+
+07:01:07 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21c43346e7
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 10
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => prl2f1lT2UkEGQZcgG4oRAxx
+    [_random] => 273668.3485970059
+)
+
+07:01:09 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d21c43346e7
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/26/2023
+    [_item_id_edit] => 100007
+    [item_id] => 100007
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 6jY4k4pv8_Kw4szxno7D5Axx
+    [_random] => 1167241.4087955842
+)
+
+07:01:50 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/26/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d21cb28f107
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/26/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+07:01:22 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+07:01:22 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+07:01:22 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+07:01:22 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+

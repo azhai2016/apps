@@ -1080,52 +1080,6 @@ function source_data_target_list_row($label, $name, $selected_id = null)
 	echo "</tr>\n";
 }
 
-function _format_stock_items($row){
-  return $row[2].'_'.$row[3];
-}
-
-function order_items_list($name, $selected_id = null, $all_option = false, $submit_on_change = false, $type = '', $opts = array(), $editkey = false)
-{
-    // all sales codes
-    $sql = "SELECT i.id as item_id,i.item_code, CONCAT(i.item_name,'_',i.item_spec) as descr, i.description, count(*)>1 as kit,
-			 i.inactive, if(count(*)>1, '0','1') as editable,i.item_spec,item_units,def_price,s.description as d
-			FROM " . TB_PREF . "item_codes i, " . TB_PREF . "stock_category s 
-			where i.item_category=s.category_id ";
-			$sql .= " GROUP BY i.item_code";
-
-    return combo_input($name, $selected_id, $sql, 'item_id', 'item_name',
-        array_merge(
-            array(
-                'format' => '_format_stock_items',
-                'spec_option' => $all_option === true ? _('全部商品') : $all_option,
-                'spec_id' => ALL_TEXT,
-                'search_box' => true,
-                'search' => array("item_id", "item_name"),
-                'search_submit' => false,
-                'size' => 10,
-                'select_submit' => $submit_on_change,
-                'category' => 10,
-                'order' => array('item_name', 'item_code'),
-                'editlink' => false,// $editkey ? add_edit_combo('item', $name) : false,
-                'editable' => false,
-                'max' => 255,
-            ), $opts), $type == 'kits' ? $type : "products_list");
-}
-
-function order_items_list_cells($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $editkey = false)
-{
-    if ($editkey) {
-        set_editor('item', $name, $editkey);
-    }
-
-    if ($label != null) {
-        echo "<td>" . $label . "</td>\n";
-    }
-
-    echo order_items_list($name, $selected_id, $all_option, $submit_on_change,
-        'order', array('cells' => true, 'max' => 50), $editkey); // maximum is set to 50 and not default 255.
-
-}
 
 function select_items_cells($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $editkey = false)
 {

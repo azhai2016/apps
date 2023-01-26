@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 	Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -8,62 +9,36 @@
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 	See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
-***********************************************************************/
+ ***********************************************************************/
 // Link to printing single document with bulk report template file.
 // Ex. label_cell(print_document_link($myrow['order_no'], _('Print')), $type);
 // or display_note(print_document_link($order_no, _('Print this order')));
 // You only need full parameter list for invoices/credit notes
 
-function print_document_link($doc_no, $link_text, $type_no, $icon=false, $class='printlink', $id='', $email=0, $extra=0) {
+function print_document_link($doc_no, $link_text, $type_no, $icon = false, $class = 'printlink', $id = '', $email = 0, $extra = 0)
+{
 	global $path_to_root;
 	include_once($path_to_root . '/includes/types.inc');
 	include_once($path_to_root . '/admin/db/designer_db.inc');
 
-	$url = $path_to_root.'/reporting/prn_redirect.php?';
+	$url = $path_to_root . '/reporting/prn_redirect.php?';
 	$def_orientation = (user_def_print_orientation() == 1 ? 1 : 0);
 
 	switch ($type_no) {
-		case ST_ORDER_ID :
+		case ST_ORDER_ID:
 			$rep = 111;
 			$ar = array(
-				'PARAM_0' => $id['from'], 
-				'PARAM_1' => $id['to'], 
-				'PARAM_2' => urlencode($id['pname']), 
-				'PARAM_3' => urlencode($id['cname']), 
+				'PARAM_0' => $id['from'],
+				'PARAM_1' => $id['to'],
+				'PARAM_2' => urlencode($id['pname']),
+				'PARAM_3' => urlencode($id['cname']),
 				'PARAM_4' => urlencode($id['sname']),
-				'PARAM_5' =>1,// $def_orientation);
-				'PARAM_6' =>$id['area_code']);
+				'PARAM_5' => 1, // $def_orientation);
+				'PARAM_6' => $id['area_code']
+			);
 			break;
-		case ST_PLAN_ID:
-				$rep = 211;
-				$ar = array(
-					'PARAM_0' => $id['from'], 
-					'PARAM_1' => $id['to'], 
-					'PARAM_2' => urlencode($id['pname']), 
-					'PARAM_3' => urlencode($id['cname']), 
-					'PARAM_4' => urlencode($id['sname']),
-					'PARAM_5' =>1,// $def_orientation);
-					'PARAM_6' =>$id['area_code']);
-				break;	
-		case SP_WORKORDER:
-			$rep = 'json';
-			$id = get_mod_id(SP_WORKORDER);
-			log_b($id);
-			$id = $id['id'];
-			$ar = array(
-				'PARAM_0' => '', 
-				'PARAM_1' => '', 
-				'PARAM_2' => '', 
-				'PARAM_3' => '', 
-				'PARAM_4' => '',
-				'PARAM_5' =>1,
-				'PARAM_6' => '',
-				'PARAM_7' => '',
-				'PARAM_8' => '',
-				'print_id'=>$id,
-				'doc_no'=>$doc_no
-			);   
-			break;	
+
+
 		default:
 			return null;
 	}
@@ -74,24 +49,25 @@ function print_document_link($doc_no, $link_text, $type_no, $icon=false, $class=
 //
 //	Universal link to any kind of report.
 //
-function print_link($link_text, $rep, $pars = array(), $dir = '', $icon=false, $class='printlink', $id='') {
+function print_link($link_text, $rep, $pars = array(), $dir = '', $icon = false, $class = 'printlink', $id = '')
+{
 	global $path_to_root, $SysPrefs;
 
-	$url = $dir == '' ?  $path_to_root.'/reporting/prn_redirect.php?' : $dir;
+	$url = $dir == '' ?  $path_to_root . '/reporting/prn_redirect.php?' : $dir;
 
 	$id = default_focus($id);
 	$parm = array();
-	foreach($pars as $par => $val) {
+	foreach ($pars as $par => $val) {
 		if ($val != "")
-			$parm[] = "$par=".urlencode($val);
+			$parm[] = "$par=" . urlencode($val);
 	}
-	$parm[] = 'REP_ID='.urlencode($rep);
-	$url .= implode ('&', $parm);
-	
+	$parm[] = 'REP_ID=' . urlencode($rep);
+	$url .= implode('&', $parm);
+
 
 	if ($class != '')
 		$class = $SysPrefs->pdf_debug ? '' : " class='$class'";
-	
+
 	$pars = access_string($link_text);
 
 	if (user_graphic_links() && $icon)
@@ -103,44 +79,44 @@ function print_link($link_text, $rep, $pars = array(), $dir = '', $icon=false, $
 
 
 
-function print_url($doc_no, $link_text, $type_no, $icon=false, $class='printlink', $id='', $email=0, $extra=0){
+function print_url($doc_no, $link_text, $type_no, $icon = false, $class = 'printlink', $id = '', $email = 0, $extra = 0)
+{
 	global $path_to_root;
 	include_once($path_to_root . '/includes/types.inc');
 
-	$url = $path_to_root.'/reporting/prn_redirect.php?';
+	$url = $path_to_root . '/reporting/prn_redirect.php?';
 	$def_orientation = (user_def_print_orientation() == 1 ? 1 : 0);
 
 	switch ($type_no) {
-		case ST_ORDER_ID :
+		case ST_ORDER_ID:
 			$rep = 111;
 			// from, to, currency, email, comments, orientation
 			$ar = array(
-				'PARAM_0' => $doc_no, 
-				'PARAM_1' => $doc_no, 
-				'PARAM_2' => '', 
-				'PARAM_3' => $email, 
+				'PARAM_0' => $doc_no,
+				'PARAM_1' => $doc_no,
+				'PARAM_2' => '',
+				'PARAM_3' => $email,
 				'PARAM_4' => '',
-				'PARAM_5' =>1);// $def_orientation);
-			break;	
-		case ST_PLAN_ID:
-				
+				'PARAM_5' => 1
+			); // $def_orientation);
 			break;
 	}
-	
+
 	return _print_link_url($link_text, $rep, $ar, '', $icon, $class, $id);
 }
 
-function _print_link_url($link_text, $rep, $pars = array(), $dir = '', $icon=false, $class='printlink', $id='') {
+function _print_link_url($link_text, $rep, $pars = array(), $dir = '', $icon = false, $class = 'printlink', $id = '')
+{
 	global $path_to_root, $SysPrefs;
 
-	$url = $dir == '' ?  $path_to_root.'/reporting/prn_redirect.php?' : $dir;
+	$url = $dir == '' ?  $path_to_root . '/reporting/prn_redirect.php?' : $dir;
 
 	$id = default_focus($id);
-	foreach($pars as $par => $val) {
-		$pars[$par] = "$par=".urlencode($val);
+	foreach ($pars as $par => $val) {
+		$pars[$par] = "$par=" . urlencode($val);
 	}
-	$pars[] = 'REP_ID='.urlencode($rep);
-	$url .= implode ('&', $pars);
+	$pars[] = 'REP_ID=' . urlencode($rep);
+	$url .= implode('&', $pars);
 
 	if ($class != '')
 		$class = $SysPrefs->pdf_debug ? '' : " class='$class'";
@@ -149,7 +125,7 @@ function _print_link_url($link_text, $rep, $pars = array(), $dir = '', $icon=fal
 	$pars = access_string($link_text);
 	if (user_graphic_links() && $icon)
 		$pars[0] = set_icon($icon, $pars[0]);
-    
+
 	return "location:'$url'";
 }
 
@@ -174,15 +150,16 @@ An example of usage will be in the reporting/rep110.php file at near the end jus
 	}
 */
 
-function parse_notes_params($str, $sep=" ", $delim="#") {
+function parse_notes_params($str, $sep = " ", $delim = "#")
+{
 	$str_params = explode($sep, $str);
-	$param_array=Array('notes' => '');
-	foreach ($str_params AS $str_param) {
-		$param_set=explode($delim, trim($str_param));
+	$param_array = array('notes' => '');
+	foreach ($str_params as $str_param) {
+		$param_set = explode($delim, trim($str_param));
 		$key = (array_key_exists(0, $param_set) ? trim($param_set[0]) : '');
 		$val = (array_key_exists(1, $param_set) ? trim($param_set[1]) : '');
 		if (strlen($key) > 0 && strlen($val) > 0)
-			$param_array[$key]=$val;
+			$param_array[$key] = $val;
 		else {
 			// stop at first missing parameter set
 			// break;
