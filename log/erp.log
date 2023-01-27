@@ -7095,3 +7095,5548 @@
     [inactive] => 0
 )
 
+01:01:21 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d3213586c5d
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 
+    [_focus] => id
+)
+
+01:01:24 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100004
+    [item_id] => 100004
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => RKpTWOeiie5QIeOWqqZIxgxx
+    [_random] => 208361.83413979324
+)
+
+01:01:27 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 22.52
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => O4AzQQLgA6-LtPV0nNjxGgxx
+    [_random] => 596135.9795731781
+)
+
+01:01:42 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [ProcessOrder] => 保存订单
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => hAMGfMeuFrTddldumdkbGAxx
+    [_random] => 987319.4765339638
+)
+
+01:01:45 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 
+    [_id_update] =>  
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -V0m3HRI9OeuUbEm_d5c0wxx
+    [_random] => 151010.33915180076
+)
+
+01:01:48 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [_id_update] =>  
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => nMTBAbfS3jHJQk2R1XWHDgxx
+    [_random] => 410262.3965643433
+)
+
+01:01:51 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000002
+    [_id_update] =>  
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -iYO5A5c4RMiKTSP8xoEbAxx
+    [_random] => 170632.18702240576
+)
+
+01:01:54 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000002
+    [cart_id] => 63d3213586c5d
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [item_units] => 盒
+    [Comments] => 
+    [ProcessOrder] => 保存订单
+    [_focus] => AddItem
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Xi5z6-AmwyECb2WMoUA20gxx
+    [_random] => 311264.63640147453
+)
+
+01:01:02 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d3219a57228
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:22 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d3229e35941
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:22 [DEBUG] : Cart Object
+(
+    [trans_type] => 77568
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d3229e35941
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+02:01:20 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d323c821dd4
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:22 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d323c821dd4
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 
+    [qty] => 1
+    [price] => 8
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => tKpwpVQGUV0GF0s577RsGAxx
+    [_random] => 301436.29745184456
+)
+
+02:01:26 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d323c821dd4
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100004
+    [item_id] => 100004
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 2JCvu7c6R1eOdYutkrtHEAxx
+    [_random] => 1005357.5488633234
+)
+
+02:01:27 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d323c821dd4
+    [reference] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100004
+    [qty] => 1
+    [price] => 22.52
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => IojLun4tjxQyV2KFMFf7LAxx
+    [_random] => 122654.13163781761
+)
+
+02:01:30 [DEBUG] : 77568
+02:01:48 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d323e45bc8e
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:19 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:19 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d3243f96d4c
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:28 [DEBUG] : Array
+(
+    [ref] => 
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32448c4f97
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:55 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:15 [DEBUG] : Array
+(
+    [76800] => 供货单编号
+    [77312] => 商品编号
+    [77056] => 客户编号
+    [77568] => 客销订单号
+    [77824] => 应收账款编号
+    [78080] => 应付账款编号
+)
+
+02:01:15 [DEBUG] : Array
+(
+    [0] => 76800
+    [trans_type] => 76800
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 8
+    [id] => 8
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:15 [DEBUG] : Array
+(
+    [0] => 77056
+    [trans_type] => 77056
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 7
+    [id] => 7
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:15 [DEBUG] : Array
+(
+    [0] => 77312
+    [trans_type] => 77312
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {00001}
+    [pattern] => {00001}
+    [5] => 6
+    [id] => 6
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:15 [DEBUG] : Array
+(
+    [0] => 77568
+    [trans_type] => 77568
+    [1] => 1
+    [prefix] => 1
+    [2] => 
+    [description] => 
+    [3] => 0
+    [default] => 0
+    [4] => {000001}
+    [pattern] => {000001}
+    [5] => 9
+    [id] => 9
+    [6] => 0
+    [inactive] => 0
+)
+
+02:01:20 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:20 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d325304c536
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:20 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:20 [DEBUG] : Array
+(
+    [ref] => 1000001
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d325306af38
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:24 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d325306af38
+    [reference] => 1000001
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 
+    [qty] => 1
+    [price] => 8
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => PzBj0Wvynwp5aUN4dSNliwxx
+    [_random] => 53952.97480036034
+)
+
+02:01:26 [DEBUG] : 77568
+02:01:16 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:16 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32748b640e
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:18 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:18 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d329de76ae2
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:18 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:18 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d329de92482
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:21 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:21 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d329e1c3285
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:20 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:20 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a1c3bb33
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:24 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:24 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a20d2533
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:46 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:46 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a72b4de6
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:46 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:46 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a72d69fa
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:23 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:23 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a9749614
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:28 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:28 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32a9ce7209
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:43 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+02:01:43 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32c4f73c65
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+02:01:47 [DEBUG] : SELECT MAX(CAST(SUBSTR(purchase_no, 2,LENGTH(purchase_no)-1) AS UNSIGNED)) FROM `&TB_PREF&purchase_orders_master` tbl 
+			WHERE `purchase_no` REGEXP '^1[0-9]*$'
+02:01:47 [DEBUG] : Array
+(
+    [ref] => 1000002
+    [trans_type] => 77568
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d32c533ce11
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+03:01:44 [DEBUG] : SA_BUSSINESS_SALE
+03:01:13 [DEBUG] : Array
+(
+    [NewOrderDo] => SA_BUSSINESS_ORDER_DO
+    [SaleOrderDo] => SA_BUSSINESS_SALE_ORDER_DO
+)
+
+03:01:13 [DEBUG] : SA_BUSSINESS_SALE
+03:01:18 [DEBUG] : Array
+(
+    [NewOrderDo] => SA_BUSSINESS_ORDER_DO
+    [SaleOrderDo] => SA_BUSSINESS_SALE_ORDER_DO
+)
+
+03:01:18 [DEBUG] : SA_BUSSINESS_ORDER_DO
+03:01:12 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+03:01:12 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d33e003d7a4
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+03:01:16 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d33e003d7a4
+    [reference] => 1000006
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 
+    [qty] => 1
+    [price] => 8
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => s4S-hYPcikAyXRlModg1dgxx
+    [_random] => 89095.6977084454
+)
+
+03:01:18 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d33e003d7a4
+    [reference] => 1000006
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 
+    [qty] => 1
+    [price] => 8
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => IjBgq-jn2NnLG11yKORBtQxx
+    [_random] => 1151800.9797967733
+)
+
+03:01:21 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d33e003d7a4
+    [reference] => 1000006
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [item_id] => 100001
+    [_item_id_update] =>  
+    [qty] => 1
+    [price] => 8
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => id
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 3HN-UuNq6pNXT8Akkef5pwxx
+    [_random] => 164639.1835465226
+)
+
+03:01:22 [DEBUG] : Array
+(
+    [_id_edit] => 
+    [id] => 1000001
+    [cart_id] => 63d33e003d7a4
+    [reference] => 1000006
+    [sales_type] => 1_一级
+    [retreat] => 
+    [OrderDate] => 01/27/2023
+    [_item_id_edit] => 100001
+    [qty] => 1
+    [price] => 9.51
+    [AddItem] => 添加
+    [item_units] => 盒
+    [Comments] => 
+    [_focus] => _item_id_edit
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => sgJWNgMZKB9uYWwCEr1XJQxx
+    [_random] => 1202787.7290749853
+)
+
+03:01:24 [DEBUG] : 76800
+07:01:25 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:25 [DEBUG] : 1000006
+07:01:35 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:35 [DEBUG] : 1000006
+07:01:28 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:28 [DEBUG] : 1000006
+07:01:24 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:24 [DEBUG] : 1000006
+07:01:43 [DEBUG] : 76800
+07:01:43 [DEBUG] : 77568
+07:01:43 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:43 [DEBUG] : 1000006
+07:01:43 [DEBUG] : 76800
+07:01:43 [DEBUG] : 77568
+07:01:43 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+)
+
+07:01:43 [DEBUG] : 1000006
+07:01:17 [DEBUG] : 76800
+07:01:17 [DEBUG] : 77568
+07:01:17 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:17 [DEBUG] : 1000006
+07:01:01 [DEBUG] : 76800
+07:01:01 [DEBUG] : 77568
+07:01:01 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:01 [DEBUG] : 1000006
+07:01:34 [DEBUG] : 76800
+07:01:34 [DEBUG] : 77568
+07:01:34 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:34 [DEBUG] : 1000006
+07:01:36 [DEBUG] : 76800
+07:01:36 [DEBUG] : 77568
+07:01:36 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:36 [DEBUG] : 1000006
+07:01:47 [DEBUG] : 76800
+07:01:47 [DEBUG] : 77568
+07:01:47 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:47 [DEBUG] : 1000006
+07:01:48 [DEBUG] : 76800
+07:01:48 [DEBUG] : 77568
+07:01:48 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:48 [DEBUG] : 1000006
+07:01:09 [DEBUG] : 76800
+07:01:09 [DEBUG] : 77568
+07:01:09 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:09 [DEBUG] : 1000006
+07:01:38 [DEBUG] : 76800
+07:01:38 [DEBUG] : 77568
+07:01:38 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+07:01:38 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+07:01:38 [DEBUG] : 1000006
+08:01:26 [DEBUG] : 76800
+08:01:26 [DEBUG] : 77568
+08:01:26 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:26 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:19 [DEBUG] : 76800
+08:01:19 [DEBUG] : 77568
+08:01:19 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:19 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:25 [DEBUG] : 76800
+08:01:25 [DEBUG] : 77568
+08:01:25 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:25 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:51 [DEBUG] : 76800
+08:01:51 [DEBUG] : 77568
+08:01:51 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:51 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:06 [DEBUG] : 76800
+08:01:06 [DEBUG] : 77568
+08:01:06 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:06 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:06 [DEBUG] : SELECT count(*) FROM `&TB_PREF&sales_order_details` WHERE order_no='1000006' AND trans_type='76800'
+08:01:17 [DEBUG] : 76800
+08:01:17 [DEBUG] : 77568
+08:01:17 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:17 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:50 [DEBUG] : 76800
+08:01:50 [DEBUG] : 77568
+08:01:50 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:50 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:00 [DEBUG] : 76800
+08:01:00 [DEBUG] : 77568
+08:01:00 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:00 [DEBUG] : Array
+(
+    [order_no] => 1000006
+    [name] => 3ew3
+    [ord_date] => 2023-01-27
+    [amount] => 25.51
+    [sale_man] => admin
+    [trans_type] => 76800
+)
+
+08:01:00 [DEBUG] : Array
+(
+    [0] => 2
+    [count(*)] => 2
+)
+
+08:01:31 [DEBUG] : 76800
+08:01:31 [DEBUG] : 77568
+08:01:31 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:31 [DEBUG] : no
+08:01:29 [DEBUG] : 76800
+08:01:29 [DEBUG] : 77568
+08:01:29 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:29 [DEBUG] : /modules/bussiness/manage/order.php?trans_no=%d&ModifyOrderId=%d
+08:01:47 [DEBUG] : 76800
+08:01:47 [DEBUG] : 77568
+08:01:47 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:00 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+08:01:04 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+08:01:24 [DEBUG] : 76800
+08:01:24 [DEBUG] : 77568
+08:01:24 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [type] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [type] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [type] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [type] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:56 [DEBUG] : 76800
+08:01:56 [DEBUG] : 77568
+08:01:56 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [name] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [name] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [name] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:59 [DEBUG] : 76800
+08:01:59 [DEBUG] : 77568
+08:01:59 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [订单编号] => Array
+        (
+            [name] => order_no
+            [ord] => 
+        )
+
+    [客商名称] => Array
+        (
+            [name] => name
+            [ord] => 
+        )
+
+    [订单日期] => Array
+        (
+            [name] => ord_date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [name] => amount
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [0] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [1] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:09 [DEBUG] : 76800
+08:01:09 [DEBUG] : 77568
+08:01:09 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => amount
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:18 [DEBUG] : 76800
+08:01:18 [DEBUG] : 77568
+08:01:18 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:17 [DEBUG] : 76800
+08:01:17 [DEBUG] : 77568
+08:01:17 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:36 [DEBUG] : 76800
+08:01:36 [DEBUG] : 77568
+08:01:36 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:53 [DEBUG] : 76800
+08:01:53 [DEBUG] : 77568
+08:01:53 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => order_link
+        )
+
+)
+
+08:01:45 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+08:01:51 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+08:01:01 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+09:01:19 [DEBUG] : 76800
+09:01:19 [DEBUG] : 77568
+09:01:19 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+        )
+
+)
+
+10:01:53 [DEBUG] : 76800
+10:01:53 [DEBUG] : 77568
+10:01:53 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+        )
+
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [fun] => view_link
+    [align] => right
+    [ord] => 
+    [type] => text
+    [head] => ID #
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [type] => text
+    [head] => 订单编号
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [type] => text
+    [head] => 客商名称
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [type] => date
+    [ord] => 
+    [head] => 订单日期
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [type] => float
+    [align] => right
+    [ord] => 
+    [head] => 金额
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [name] => sale_man
+    [align] => center
+    [type] => text
+    [head] => 业务员
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => text
+    [head] => 
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => delete_link
+    [type] => text
+    [head] => 
+)
+
+10:01:01 [DEBUG] : 76800
+10:01:01 [DEBUG] : 77568
+10:01:01 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+        )
+
+)
+
+10:01:37 [DEBUG] : 76800
+10:01:37 [DEBUG] : 77568
+10:01:37 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [style] => width:50px
+        )
+
+)
+
+10:01:12 [DEBUG] : 76800
+10:01:12 [DEBUG] : 77568
+10:01:12 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:30 [DEBUG] : 76800
+10:01:30 [DEBUG] : 77568
+10:01:30 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => small_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:06 [DEBUG] : 76800
+10:01:06 [DEBUG] : 77568
+10:01:06 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => small_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:10 [DEBUG] : 76800
+10:01:10 [DEBUG] : 77568
+10:01:10 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => small_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:13 [DEBUG] : 76800
+10:01:13 [DEBUG] : 77568
+10:01:13 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => small_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:22 [DEBUG] : 76800
+10:01:22 [DEBUG] : 77568
+10:01:22 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => tiny_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => tiny_width
+        )
+
+)
+
+10:01:47 [DEBUG] : 76800
+10:01:47 [DEBUG] : 77568
+10:01:47 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => tiny_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:02 [DEBUG] : 76800
+10:01:02 [DEBUG] : 77568
+10:01:02 [DEBUG] : Array
+(
+    [ID #] => Array
+        (
+            [fun] => view_link
+            [align] => right
+            [ord] => 
+        )
+
+    [0] => 订单编号
+    [1] => 客商名称
+    [订单日期] => Array
+        (
+            [type] => date
+            [ord] => 
+        )
+
+    [金额] => Array
+        (
+            [type] => float
+            [align] => right
+            [ord] => 
+        )
+
+    [业务员] => Array
+        (
+            [name] => sale_man
+            [align] => center
+        )
+
+    [2] => Array
+        (
+            [insert] => 1
+            [fun] => edit_link
+            [align] => center
+            [type] => small_width
+        )
+
+    [3] => Array
+        (
+            [insert] => 1
+            [fun] => delete_link
+            [align] => center
+            [type] => small_width
+        )
+
+)
+
+10:01:12 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+10:01:01 [DEBUG] : 76800
+10:01:01 [DEBUG] : 77568
+10:01:06 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+10:01:49 [DEBUG] : Array
+(
+    [id] => 1000001
+    [_focus] => id
+    [sales_type] => 1_一级
+    [OrderDate] => 01/27/2023
+)
+
+10:01:10 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => Array
+        (
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d399668e687
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 
+    [due_date] => 
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+10:01:10 [DEBUG] : SELECT MAX(CAST(SUBSTR(order_no, 2,LENGTH(order_no)-1) AS UNSIGNED)) FROM `&TB_PREF&sales_orders_master` tbl 
+			WHERE `order_no` REGEXP '^1[0-9]*$'
+10:01:10 [DEBUG] : Array
+(
+    [ref] => 1000007
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => 0
+    [so_type] => 0
+    [cart_id] => 63d399668e687
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 01/27/2023
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:11 [DEBUG] : 76800
+10:01:52 [DEBUG] : 76800
+10:01:49 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39e01734e6
+    [line_items] => Array
+        (
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:03 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39e4b81af5
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:27 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39e63d455a
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:06 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 29
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+10:01:06 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39e8a9da00
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:10 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:10 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:10 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39ecac59e5
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:53 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39f6d5ba4a
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:56 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:56 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:56 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d39f701f533
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:23 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:23 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:23 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a0030cb55
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:29 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:29 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+10:01:29 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000006
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+10:01:29 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a081587fa
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+10:01:55 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000006
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+10:01:55 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a09b9aa4e
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:37 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100002
+    [item_code] => 100002
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [item_spec] => 10ml×10支
+    [item_factory] => 
+    [item_approval_no] => 32
+    [description] => 
+    [item_units] => 
+    [price] => 
+    [quantity] => 8
+    [src_no] => 
+    [src_id] => 
+    [valid] => 1
+    [qty_done] => 
+)
+
+11:01:37 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100001
+    [item_code] => 100001
+    [item_name] => 排石颗粒（颗粒剂）
+    [item_spec] => 20g×10袋×100盒
+    [item_factory] => 
+    [item_approval_no] => 国药准字
+    [description] => 
+    [item_units] => 
+    [price] => 
+    [quantity] => 9.51
+    [src_no] => 
+    [src_id] => 
+    [valid] => 1
+    [qty_done] => 
+)
+
+11:01:37 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000006
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+11:01:37 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a179f2f90
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:17 [DEBUG] : 8
+11:01:17 [DEBUG] : 
+11:01:17 [DEBUG] : 9.51
+11:01:17 [DEBUG] : 
+11:01:17 [DEBUG] : Cart Object
+(
+    [trans_type] => 76800
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type] => 
+    [sales_type_name] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [reference] => 1000006
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [retreat] => 
+)
+
+11:01:17 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a1a1b4e20
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:49 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+    [14] => 100002
+    [15] => 100002
+    [16] => 小儿感冒退热糖浆（糖浆剂）
+    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 10ml×10支
+    [item_spec] => 10ml×10支
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 32
+    [item_approval_no] => 32
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 8
+    [def_price] => 8
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 0.00
+    [labour_cost] => 0.00
+    [27] => 0.00
+    [overhead_cost] => 0.00
+    [28] => 0
+    [inactive] => 0
+)
+
+11:01:49 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+    [14] => 100001
+    [15] => 100001
+    [16] => 排石颗粒（颗粒剂）
+    [item_name] => 排石颗粒（颗粒剂）
+    [17] => 广东沙溪制药有限公司
+    [item_factory] => 广东沙溪制药有限公司
+    [18] => 20g×10袋×100盒
+    [item_spec] => 20g×10袋×100盒
+    [19] => 盒
+    [item_units] => 盒
+    [20] => 国药准字
+    [item_approval_no] => 国药准字
+    [21] => 
+    [description] => 
+    [22] => 1
+    [quantity] => 1
+    [23] => 9.51
+    [def_price] => 9.51
+    [24] => 5
+    [item_category] => 5
+    [25] => 0.00
+    [material_cost] => 0.00
+    [26] => 10.00
+    [labour_cost] => 10.00
+    [27] => 20.00
+    [overhead_cost] => 20.00
+    [28] => 0
+    [inactive] => 0
+)
+
+11:01:49 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a1fd46513
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:52 [DEBUG] : Array
+(
+    [0] => 12
+    [id] => 12
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 1
+    [row_index] => 1
+    [5] => 100002
+    [item_id] => 100002
+    [6] => 100002
+    [item_code] => 100002
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 8
+    [sale_price] => 8
+    [12] => 2
+    [qty] => 2
+    [13] => 0
+    [amount] => 0
+)
+
+11:01:52 [DEBUG] : Array
+(
+    [0] => 13
+    [id] => 13
+    [1] => 1000006
+    [order_no] => 1000006
+    [2] => 76800
+    [trans_type] => 76800
+    [3] => 0
+    [customer_id] => 0
+    [4] => 2
+    [row_index] => 2
+    [5] => 100001
+    [item_id] => 100001
+    [6] => 100001
+    [item_code] => 100001
+    [7] => 
+    [comments] => 
+    [8] => 
+    [sale_man] => 
+    [9] => 2023-01-27
+    [ord_date] => 2023-01-27
+    [10] => 0
+    [order_type] => 0
+    [11] => 9.51
+    [sale_price] => 9.51
+    [12] => 1
+    [qty] => 1
+    [13] => 0
+    [amount] => 0
+)
+
+11:01:52 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a278495e1
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:16 [DEBUG] : qty:8
+11:01:16 [DEBUG] : price:
+11:01:16 [DEBUG] : qty:9.51
+11:01:16 [DEBUG] : price:
+11:01:16 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a308ce6a8
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 8
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 
+                    [quantity] => 9.51
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:23 [DEBUG] : qty:2
+11:01:23 [DEBUG] : price:8
+11:01:23 [DEBUG] : qty:1
+11:01:23 [DEBUG] : price:9.51
+11:01:23 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a34b0dfea
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 8
+                    [quantity] => 2
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 9.51
+                    [quantity] => 1
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+
+11:01:17 [DEBUG] : qty:2
+11:01:17 [DEBUG] : price:8
+11:01:17 [DEBUG] : qty:1
+11:01:17 [DEBUG] : price:9.51
+11:01:17 [DEBUG] : Array
+(
+    [ref] => 1000006
+    [trans_type] => 76800
+    [OrderDate] => 01/27/2023
+    [trans_no] => Array
+        (
+            [1000006] => 0
+        )
+
+    [so_type] => 0
+    [cart_id] => 63d3a3818d60f
+    [line_items] => Array
+        (
+            [0] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100002
+                    [item_code] => 100002
+                    [item_name] => 小儿感冒退热糖浆（糖浆剂）
+                    [item_spec] => 10ml×10支
+                    [item_factory] => 
+                    [item_approval_no] => 32
+                    [description] => 
+                    [item_units] => 
+                    [price] => 8
+                    [quantity] => 2
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+            [1] => line_details Object
+                (
+                    [id] => 
+                    [item_id] => 100001
+                    [item_code] => 100001
+                    [item_name] => 排石颗粒（颗粒剂）
+                    [item_spec] => 20g×10袋×100盒
+                    [item_factory] => 
+                    [item_approval_no] => 国药准字
+                    [description] => 
+                    [item_units] => 
+                    [price] => 9.51
+                    [quantity] => 1
+                    [src_no] => 
+                    [src_id] => 
+                    [valid] => 1
+                    [qty_done] => 
+                )
+
+        )
+
+    [document_date] => 
+    [due_date] => 01/27/2023
+    [sales_type_name] => 
+    [sales_type] => 1_一级
+    [retreat] => 
+    [customer_name] => 
+    [customer_id] => 
+    [order_no] => 
+    [Comments] => 
+    [Location] => 
+    [location_name] => 
+    [id] => 1000001
+    [_focus] => id
+)
+

@@ -311,6 +311,7 @@ class db_pager
                     unset($c['head']);
                     break;
             }
+         
             $this->columns[] = $c;
         }
     }

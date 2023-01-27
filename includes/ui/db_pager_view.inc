@@ -126,10 +126,10 @@ function display_db_pager(&$pager)
 
             switch ($coltype) { // format column
                 case 'tiny_width':
-                    label_cell($cell, "width='30px'");
+                    label_cell($cell, "style='width:30px;text-align:center'");
                     break;
                 case 'small_width':
-                    label_cell($cell, "width='50px'");
+                    label_cell($cell, "style='width:50px;text-align:center'");
                     break;
                 case 'middle_width':
                         label_cell($cell, "width='100px'");
