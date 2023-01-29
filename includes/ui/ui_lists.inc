@@ -835,6 +835,9 @@ function array_selector($name, $selected_id, $items, $options=null) {
 	$found = false;
 	foreach($items as $value=>$descr) {
 		$sel = '';
+        log_b($value);
+		
+		log_b($selected_id);
 		if (in_array((string)$value, $selected_id, true)) {
 			$sel = 'selected';
 			$found = $value;
@@ -1869,35 +1872,6 @@ function area_list_cells($label, $name, $selected_id=null, $all_option=false) {
 function area_list_row($label, $name, $selected_id=null, $all_option=false) {
 	echo "<tr><td class='label'>".$label."</td>";
 	area_list_cells(null, $name, $selected_id, $all_option);
-	echo "</tr>\n";
-}
-
-//------------------------------------------------------------------------------------------------
-function sale_type_list($name, $selected_id=null, $all_option=false) {
-	$sql = "SELECT id,sales_type FROM ".TB_PREF."sales_types";	
-		$result = db_query($sql, 'cannot get all areas');
-		$items = array();
-		while($myrow=db_fetch($result)) {
-			$items[$myrow['id'].'_'.$myrow['sales_type']] = $myrow['sales_type'];
-		}
-
-	if($all_option)
-		$items[' '] = '' ;
-
-	return array_selector($name, $selected_id, $items);
-}
-
-function sale_type_list_cells($label, $name, $selected_id=null, $all_option=false) {
-	if($label != null)
-		echo "<td>".$label."</td>\n";
-	echo "<td>";
-	echo sale_type_list($name, $selected_id, $all_option);
-	echo "</td>\n";
-}
-
-function sale_type_list_row($label, $name, $selected_id=null, $all_option=false) {
-	echo "<tr><td class='label'>".$label."</td>";
-	sale_type_list_cells(null, $name, $selected_id, $all_option);
 	echo "</tr>\n";
 }
 
