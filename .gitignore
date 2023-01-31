@@ -3,3 +3,4 @@
 /vendor/*
 /logs/*
 /modules/
+*.log
