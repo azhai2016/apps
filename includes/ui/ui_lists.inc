@@ -1494,61 +1494,7 @@ function target_type_list_row($label, $name, $selected_id=null) {
 }
 
 
-//----------------------- 客商选择  -----------------------
-function customer_list($name, $selected_id = null, $spec_option = false, $submit_on_change = false, $show_inactive = false, $editkey = false) {
-	$sql = "SELECT id,name FROM  ".TB_PREF."customers ";
 
-    if ($editkey) {
-        set_editor('item', $name, $editkey);
-    } 
-
-    $ret = combo_input($name, $selected_id, $sql, 'id', 'name',
-	array(
-		'format' => '_format_customer_datas',
-		'order' => array('Id'),
-		'search_box' => true,
-		'type' => 1,
-		'size' => 20,
-		'search' => array('id','name'),
-		'spec_option' => $spec_option === true ? _('所有数据') : $spec_option,
-		'spec_id' => ALL_TEXT,
-		'select_submit' => $submit_on_change,
-		'async' => false,
-		'sel_hint' =>('按空格键按名称片段过滤；F2-进入新客商'),
-		'show_inactive' => $show_inactive,
-		'editlink' =>  false,
-	), 'customer_list');
-    return $ret;
-}
-
-function customer_list_cells($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $all = false, $editkey = false, $opts = array()) {
-	$editor_item = 'item';
-
-    if ($label != null) {
-        echo "<td>" . $label . "</td>\n";
-    }
-
-	echo '<td nowrap>';
-    echo customer_list($name, $selected_id, $all_option, $submit_on_change, $all, $editkey);
-	echo "</td>\n";
-}
-
-
-
-
-function customer_list_row($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $show_inactive = false, $editkey = false)
-{
-    echo "<tr><td class='label'>" . $label . "</td><td nowrap>";
-    echo customer_list($name, $selected_id, $all_option, $submit_on_change, $show_inactive, $editkey);
-    echo "</td>\n</tr>\n";
-}
-
-function customer_type_row($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $show_inactive = false, $editkey = false)
-{
-    echo "<tr><td class='label'>" . $label . "</td><td nowrap>";
-    echo customer_list($name, $selected_id, $all_option, $submit_on_change, $show_inactive, $editkey);
-    echo "</td>\n</tr>\n";
-}
 
 /*
 function customer_data($id)

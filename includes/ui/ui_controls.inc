@@ -513,7 +513,7 @@ $search_types = array(
 	'component' => array('/inventory/inquiry/stock_list.php?popup=1&type=component&parent=', '&client_id=', _('Search items')),
 	'customer' => array('/sales/inquiry/customers_list.php?popup=1&client_id=', _('Search customers')),
 //	'products_list' => array('/bussiness/includes/product_list.php?id=', _('选择商品信息')),
-	'customer_list'=>array('/bussiness/includes/customer_list.php?id=',_('查询客户数据')),
+//	'customer_list'=>array('/bussiness/includes/customer_list.php?id=',_('查询客户数据')),
 	'item_list'=>array('/bussiness/includes/item_list.php?id=',_('查询商品信息')),
 	'leads_list'=>array('/customers/includes/leads_list.php?id=',_('查询联系人信息')),
 	'print_data'=>array('/customers/includes/print_data.php?id=',_('查询打印配置信息')),
