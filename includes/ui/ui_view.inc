@@ -585,16 +585,40 @@ function price_in_words($amount, $document=0) {
 
 function get_js_open_window($width, $height) {
 
-	$js =" function openWindow(url, title)\n"
-		. "{\n"
-		. " var left = (screen.width - $width) / 2;\n"
-		. " var top = (screen.height - $height) / 2;\n"
-		. " return window.open(url, title, 'width=$width,height=$height,left='+left+',top='+top+',screenX='+left+',screenY='+top+',status=no,scrollbars=yes');\n"
-		. "}\n\n"
-		. "function deleteConfirm()\n"
-	    . "{\n alert(1);"
-		. " return confirm('是否删除？');\n"
-		. "}\n\n";
+	$js =" 
+	
+	function multipleScreenPopup(url, title, w, h, centered = true, moveRight = 0, moveDown = 0, resizable = \"no\") {
+           var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+           var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+           var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+           var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+           var left = 0;
+           var top = 0;
+           if (centered === true) {
+                left = ((width / 2) - (w / 2)) + dualScreenLeft;
+                top = ((height / 2) - (h / 2)) + dualScreenTop;
+            } else {
+                left = dualScreenLeft + moveRight;
+                top = dualScreenTop + moveDown;
+          }
+
+          var newWindow = window.open(url, title, 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=' + resizable + ', width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+          if (window.focus) {
+              newWindow.focus();
+		  }
+       }
+	
+	function openWindow(url, title) {
+		 var width = ".$width.";
+		 var height =".$height.";
+	     return  multipleScreenPopup(url, title, width, height);
+	}
+
+    function deleteConfirm() {
+	  return confirm('是否删除？');
+	}\n\n";
 				
 	$js .= get_js_lookup_window();
 	return $js;
@@ -638,6 +662,17 @@ function get_js_select_combo_item() {
 	return $js;
 }
 
+function get_blanace_value(){
+	$js = "\n\nfunction get_blanace_value(obj,client_id,col) {
+		    var element = $('.'+client_id);
+			var b = col - $(obj).val();
+			b = b.toFixed(2);
+			element.html(b);
+	      }
+		";
+	return $js;	
+}
+
 function get_js_select_table_item() {
 	
 	$js = "function selectTableItem(obj,doc,client_id,col){
@@ -656,6 +691,7 @@ function get_js_select_table_item() {
 	}";
 	return $js;
 }
+
 /* for space search option */
 function get_js_set_combo_item() {
 	$js = "function setComboItem(doc, client_id, value, text){

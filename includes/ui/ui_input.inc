@@ -16,6 +16,20 @@
 //If var is found returns variable name with prefix stripped,
 //and null or -1 otherwise.
 //
+
+function find_submit_array($prefix, $numeric = true) {
+	$result=[];
+	if (isset($_POST)) {
+		foreach ($_POST as $postkey => $postval) {
+			if (strpos($postkey, $prefix) === 0) {
+				$id = substr($postkey, strlen($prefix));
+				 $result[$id] = $_POST[$prefix.$id];
+			}
+		}
+	}
+	return $result;
+}
+
 function find_submit($prefix, $numeric = true)
 {
 	if (isset($_POST)) {

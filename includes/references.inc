@@ -159,7 +159,7 @@ class references {
 			." FROM `$trans_table` tbl 
 			WHERE `$ref_fld` REGEXP ".db_escape('^'.preg_quote($prefix).'[0-9]*'.preg_quote($postfix).'$'); 
 		}
-		log_b($sql);
+
 		$result = db_query($sql, 'cannot retrieve last reference');
 		$result = db_fetch_row($result);
        

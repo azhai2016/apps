@@ -45,12 +45,9 @@ class fa_reflines extends simple_crud_view {
      
 		if (!$data) return false;  
 
-
-		log_b($systypes_array);
-
 		while ($rec = db_fetch($data)) {
 			alt_table_row_color($k);
-			log_b($rec);
+	
 			label_cell($systypes_array[$rec['trans_type']]);
 			label_cell($rec['prefix']);
 			label_cell($rec['pattern']);

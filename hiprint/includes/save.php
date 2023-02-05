@@ -5,7 +5,6 @@ include_once $path_to_root . '/includes/session.php';
 include_once $path_to_root . '/includes/ui.inc';
 include_once $path_to_root . '/admin/db/designer_db.inc';
 
-// log_b($_POST);
  
 if ($_POST) {
 

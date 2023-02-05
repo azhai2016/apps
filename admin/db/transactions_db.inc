@@ -139,7 +139,7 @@ function get_counterparty_name($trans_type, $trans_no, $full=true) {
 //	Used only for transactions stored in tables without autoincremented key.
 //
 function get_next_trans_no ($trans_type) {
-    log_b($trans_type);
+
 	$st = get_systype_db_info($trans_type);
 
 	if (!($st && $st[0] && $st[3])) {

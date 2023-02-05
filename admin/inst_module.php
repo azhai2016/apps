@@ -51,8 +51,6 @@ function local_extension($id) {
 	if (file_exists($local_config_file)) {
 		$ctrl = get_control_file($local_config_file);
 
-		log_b($ctrl['SubPath']);
-
 		if (key_exists('Name', $ctrl)) $exts[$next_extension_id-1]['name'] = $ctrl['Name'];
 		if (key_exists('Version', $ctrl)) $exts[$next_extension_id-1]['version'] = $ctrl['Version'];
 		if (key_exists('Description', $ctrl)) $exts[$next_extension_id-1]['description'] = $ctrl['Description'];
@@ -241,8 +239,6 @@ if (get_post('Refresh')) {
 
 	if (get_post('extset') == user_company())
 		$installed_extensions = $exts;
-
-	log_b($installed_extensions);	
 	
 	if(!$result) {
 		display_error(_('某些扩展的状态更改失败。'));

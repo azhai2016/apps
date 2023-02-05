@@ -835,9 +835,7 @@ function array_selector($name, $selected_id, $items, $options=null) {
 	$found = false;
 	foreach($items as $value=>$descr) {
 		$sel = '';
-        log_b($value);
-		
-		log_b($selected_id);
+        
 		if (in_array((string)$value, $selected_id, true)) {
 			$sel = 'selected';
 			$found = $value;
