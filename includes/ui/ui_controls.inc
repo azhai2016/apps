@@ -357,6 +357,14 @@ function alt_table_row_color(&$k, $extra_class=null) {
 	echo "<tr class='".implode(' ', $classes)."'>\n";
 }
 
+function table_row_color($row, $extra_class=null) {
+	$classes = $extra_class ? array($extra_class) : array();
+	if ($row)
+	array_push($classes, 'overduebg');
+	echo "<tr class='".implode(' ', $classes)."'>\n";
+}
+
+
 function table_section_title($msg, $colspan=2) {
 	echo "<tr><td colspan=".$colspan." class='tableheader'>".$msg."</td></tr>\n";
 }
