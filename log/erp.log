@@ -4955,3 +4955,150 @@
 
 10:02:52 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=7.000000  
         where item_id=100008 and order_no='1000006' and trans_type='76800'
+00:02:04 [DEBUG] : 2
+00:02:04 [DEBUG] : 2
+01:02:51 [DEBUG] : 销售日期
+06:02:40 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET paymented=16.000000 WHERE order_no='1000006' and trans_type='76800'
+06:02:40 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100007
+    [item_code] => 100007
+    [item_name] => 金菊五花茶
+    [item_spec] => 10g*15袋
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 9.5
+    [paymented] => 9.00
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 103
+    [valid] => 1
+    [qty_done] => 
+)
+
+06:02:40 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=9.000000  
+        where item_id=100007 and order_no='1000006' and trans_type='76800'
+06:02:40 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100008
+    [item_code] => 100008
+    [item_name] => 槐角丸
+    [item_spec] => 60g
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 7
+    [paymented] => 7.00
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 104
+    [valid] => 1
+    [qty_done] => 
+)
+
+06:02:40 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=7.000000  
+        where item_id=100008 and order_no='1000006' and trans_type='76800'
+06:02:49 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET paymented=16.500000 WHERE order_no='1000006' and trans_type='76800'
+06:02:49 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100007
+    [item_code] => 100007
+    [item_name] => 金菊五花茶
+    [item_spec] => 10g*15袋
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 9.5
+    [paymented] => 9.50
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 103
+    [valid] => 1
+    [qty_done] => 
+)
+
+06:02:49 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=9.500000  
+        where item_id=100007 and order_no='1000006' and trans_type='76800'
+06:02:49 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100008
+    [item_code] => 100008
+    [item_name] => 槐角丸
+    [item_spec] => 60g
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 7
+    [paymented] => 7.00
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 104
+    [valid] => 1
+    [qty_done] => 
+)
+
+06:02:49 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=7.000000  
+        where item_id=100008 and order_no='1000006' and trans_type='76800'
+08:02:21 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET paymented=16.500000 WHERE order_no='1000006' and trans_type='76800'
+08:02:21 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100007
+    [item_code] => 100007
+    [item_name] => 金菊五花茶
+    [item_spec] => 10g*15袋
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 9.5
+    [paymented] => 9.50
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 103
+    [valid] => 1
+    [qty_done] => 
+)
+
+08:02:21 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=9.500000  
+        where item_id=100007 and order_no='1000006' and trans_type='76800'
+08:02:21 [DEBUG] : line_details Object
+(
+    [id] => 
+    [item_id] => 100008
+    [item_code] => 100008
+    [item_name] => 槐角丸
+    [item_spec] => 60g
+    [item_factory] => 广东沙溪制药有限公司
+    [item_approval_no] => 1
+    [description] => 
+    [item_units] => 盒
+    [price] => 7
+    [paymented] => 7.00
+    [quantity] => 1
+    [src_no] => 
+    [src_id] => 104
+    [valid] => 1
+    [qty_done] => 
+)
+
+08:02:21 [DEBUG] : UPDATE &TB_PREF&sales_orders_detail SET paymented=7.000000  
+        where item_id=100008 and order_no='1000006' and trans_type='76800'
+09:02:31 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET receivable_status=1 WHERE order_no='1000006' and trans_type='76800'
+09:02:21 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET receivable_status=1 WHERE order_no='1000006' and trans_type='76800'
+09:02:31 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
+         SET receivable_status=1 WHERE order_no='1000007' and trans_type='76800'
