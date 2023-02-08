@@ -136,7 +136,6 @@
 			this.getWeek = getWeek;
 			function getWeek(year, month, day) {
 
-				day++;
 				var date = new Date(year,month-1,day);
 				var D = date.getDay();
 				if(D == 0) D = 7;
@@ -153,7 +152,7 @@
 					if (month < 10) {month = '0' + month;}
 					if (day < 10) {day = '0' + day;}
 
-					var dateString = month+'/'+day+'/'+year;
+					var dateString = year+'-'+month+'-'+day;
 
 					dateField.value = dateString;
 					setFocus(dateField.name);
@@ -200,7 +199,7 @@
 			}
 			function calendarDrawTable() {
 				var dayOfMonth = 1;
-				var wstart = 0;
+				var wstart = 1;
 				var wno = '&nbsp;周&nbsp;';
 				var validDay = 0;
 				var startDayOfWeek = getDayOfWeek(currentYear, currentMonth, dayOfMonth);
@@ -277,11 +276,11 @@
 				if(dateField) {
 					try {
 						var dateString = new String(dateField.value);
-						var dateParts = dateString.split('/');
+						var dateParts = dateString.split('-');
 
-						selectedMonth = parseInt(dateParts[0],10);
-						selectedDay = parseInt(dateParts[1],10);
-						selectedYear = parseInt(dateParts[2],10);
+						selectedYear = parseInt(dateParts[0],10);
+						selectedMonth = parseInt(dateParts[1],10);
+						selectedDay = parseInt(dateParts[2],10);
 
 					}
 					catch(e) {}

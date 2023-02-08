@@ -5102,3 +5102,6 @@
          SET receivable_status=1 WHERE order_no='1000006' and trans_type='76800'
 09:02:31 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
          SET receivable_status=1 WHERE order_no='1000007' and trans_type='76800'
+00:02:42 [DEBUG] : 1
+00:02:57 [DEBUG] : 1
+00:02:59 [DEBUG] : 1
