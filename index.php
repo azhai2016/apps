@@ -36,12 +36,11 @@ $route_list = array(
 
 add_access_extensions();
 
-
 if (isset($installed_extensions)){
     
     foreach ($installed_extensions as $rows) {
           if ($rows['active']==1) {   
-            if (is_array($rows['SubPath'])) {
+            if (isset($rows['SubPath']) && is_array($rows['SubPath'])) {
               foreach ($rows['SubPath'] as $paths) {
                 $route_list[]=array('GET','/'.$paths,$paths);
               }  

@@ -31,6 +31,7 @@ simple_page_mode(true);
 function local_extension($id) {
 	global $next_extension_id, $Ajax, $path_to_root;
 
+
 	$exts = get_company_extensions();
 	
 	$exts[$next_extension_id++] = array(
@@ -47,7 +48,7 @@ function local_extension($id) {
 	$local_module_path = $path_to_root.'/modules/'.clean_file_name($id);
 	$local_config_file = $local_module_path.'/_init/config';
 	$local_hook_file = $local_module_path.'/hooks.php';
-
+  
 	if (file_exists($local_config_file)) {
 		$ctrl = get_control_file($local_config_file);
 
@@ -55,12 +56,17 @@ function local_extension($id) {
 		if (key_exists('Version', $ctrl)) $exts[$next_extension_id-1]['version'] = $ctrl['Version'];
 		if (key_exists('Description', $ctrl)) $exts[$next_extension_id-1]['description'] = $ctrl['Description'];
 		if (key_exists('SubPath', $ctrl)) $exts[$next_extension_id-1]['SubPath'] = explode(',',$ctrl['SubPath']);
-	
+     
+
 	}
+
 	if (file_exists($local_hook_file))
 		include_once($local_hook_file);
 
+
+
 	$hooks_class = 'hooks_'.$id;
+
 	if (class_exists($hooks_class, false)) {
 		$hooks = new $hooks_class;
 		$hooks->install_extension(false);
@@ -119,6 +125,8 @@ function display_extensions($mods) {
 	table_header($th);
 
 	$k = 0;
+
+	log_b($mods);
 
 	foreach($mods as $pkg_name => $ext) {
 		$available = @$ext['available'];

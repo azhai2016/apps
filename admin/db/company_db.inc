@@ -63,10 +63,11 @@ function get_company_extensions($id = -1) {
 	global $path_to_root;
 
 	$file = $path_to_root.($id == -1 ? '' : '/company/'.(int)$id).'/installed_extensions.php';
+
 	$installed_extensions = array();
 	if (is_file($file))
 		include($file);
-	
+
 	return $installed_extensions;
 }
 

@@ -1,93 +1,730 @@
-00:02:21 [DEBUG] : UPDATE &TB_PREF&sales_orders_master 
-         SET paymented=16.500000 WHERE order_no='1000006' and trans_type='76800'
-00:02:21 [DEBUG] : line_details Object
+09:02:52 [DEBUG] : Array
 (
-    [id] => 
-    [item_id] => 100007
-    [item_code] => 100007
-    [item_name] => 金菊五花茶
-    [item_spec] => 10g*15袋
-    [item_factory] => 广东沙溪制药有限公司
-    [item_approval_no] => 1
-    [description] => 
-    [item_units] => 盒
-    [price] => 9.5
-    [paymented] => 9.50
-    [quantity] => 1
-    [src_no] => 
-    [src_id] => 103
-    [valid] => 1
-    [qty_done] => 
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => rebate_purchase
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => rebate_sales
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+        )
+
 )
 
-00:02:21 [DEBUG] : line_details Object
+09:02:46 [DEBUG] : Array
 (
-    [id] => 
-    [item_id] => 100008
-    [item_code] => 100008
-    [item_name] => 槐角丸
-    [item_spec] => 60g
-    [item_factory] => 广东沙溪制药有限公司
-    [item_approval_no] => 1
-    [description] => 
-    [item_units] => 盒
-    [price] => 7
-    [paymented] => 7.00
-    [quantity] => 1
-    [src_no] => 
-    [src_id] => 104
-    [valid] => 1
-    [qty_done] => 
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => rebate_purchase
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => rebate_sales
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+        )
+
 )
 
-00:02:54 [DEBUG] : 
-00:02:12 [DEBUG] : 
-01:02:03 [DEBUG] : 
-01:02:03 [DEBUG] : 
-01:02:20 [DEBUG] : 0
-01:02:20 [DEBUG] : 0
-01:02:36 [DEBUG] : 0
-01:02:36 [DEBUG] : 0
-01:02:39 [DEBUG] : 0
-01:02:39 [DEBUG] : 0
-01:02:52 [DEBUG] : 0
-01:02:52 [DEBUG] : 0
-01:02:08 [DEBUG] : 0
-01:02:08 [DEBUG] : 0
-01:02:52 [DEBUG] : 
-01:02:52 [DEBUG] : Array
+09:02:18 [DEBUG] : Array
 (
-    [0] => 商品编号
-    [1] => 商品名称
-    [2] => 单位
-    [3] => 数量
-    [4] => 单价
-    [5] => 金额
-    [6] => 
-    [7] => 
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => rebate_purchase
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => rebate_sales
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+        )
+
 )
 
-01:02:12 [DEBUG] : Array
+09:02:28 [DEBUG] : Array
 (
-    [0] => 商品编号
-    [1] => 商品名称
-    [2] => 单位
-    [3] => 数量
-    [4] => 单价
-    [5] => 金额
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => rebate_sales
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+        )
+
 )
 
-01:02:53 [DEBUG] : -1
-01:02:12 [DEBUG] : 
-01:02:29 [DEBUG] : 
-01:02:36 [DEBUG] : 
-01:02:39 [DEBUG] : 
-01:02:45 [DEBUG] : 
-01:02:09 [DEBUG] : 
-01:02:18 [DEBUG] : 
-01:02:18 [DEBUG] : 
-03:02:37 [DEBUG] : 
-03:02:39 [DEBUG] : 1
-03:02:42 [DEBUG] : 1
-03:02:45 [DEBUG] : 
-03:02:48 [DEBUG] : 1
+09:02:03 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => rebate_sales
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+        )
+
+)
+
+09:02:09 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+            [local_id] => 3
+        )
+
+)
+
+09:02:27 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => baseinfo
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+            [local_id] => 3
+        )
+
+)
+
+09:02:30 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
+            [local_id] => 4
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+            [local_id] => 3
+        )
+
+)
+
+09:02:55 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
+            [local_id] => 4
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+            [local_id] => 3
+        )
+
+)
+
+09:02:19 [DEBUG] : Array
+(
+    [baseinfo] => Array
+        (
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
+            [local_id] => 4
+        )
+
+    [bussiness] => Array
+        (
+            [package] => bussiness
+            [name] => bussiness
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/bussiness
+            [active] => 
+            [description] => -- 业务管理模块医药行业 --
+        )
+
+    [manufacturing] => Array
+        (
+            [package] => manufacturing
+            [name] => manufacturing
+            [version] => 
+            [available] => 
+            [type] => extension
+            [path] => modules/manufacturing
+            [active] => 
+            [description] => -- 生产制造管理模块 --
+        )
+
+    [rebate_purchase] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
+
+            [local_id] => 2
+        )
+
+    [rebate_sales] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+            [local_id] => 3
+        )
+
+)
+
