@@ -200,7 +200,7 @@ start_table(TABLESTYLE, "width='40%'");
 
 $k = $j = 0; //row colour counter
 $ext = $sec = $m = -1;
-
+log_b($security_areas);
 foreach (sort_areas($security_areas) as $area => $parms) {
     // system setup areas are accessable only for site admins i.e.
     // admins of first registered company
