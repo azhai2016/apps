@@ -63,11 +63,11 @@ function handle_submit(&$selected_id)
 
    
     if ($selected_id) {
-        mssql_transaction();   
+        begin_transaction();   
         //更新数据、
 
         update_formula_data($selected_id,$_POST['FormulaId'],$_POST['FormulaName'],$_POST['SourceId'],$_POST['FormulaType'],$_POST['FormulaStatus'],$_POST['FormulaContent'],$_POST['Description'], $isActive); 
-        mssql_commit();
+        _commit();
 
         unset($_SESSION[$key]);
 
@@ -77,7 +77,7 @@ function handle_submit(&$selected_id)
 
     } else { //it is a new data
 
-        mssql_transaction();
+        commit_transaction();
  
        // 写入数据
         $formulaId= $Refs->get_next(ST_FORMULA_ID,1);

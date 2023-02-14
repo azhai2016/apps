@@ -46,9 +46,10 @@ function display_db_pager(&$pager)
 
     div_start("_{$pager->name}_span");
     $headers = array();
+
     foreach ($pager->columns as $num_col => $col) {
         // record status control column is displayed only when control checkbox is on
-
+        log_b($col);    
         if (isset($col['head']) && ($col['type'] != 'inactive' || get_post('show_inactive'))) {
             if (!isset($col['ord'])) {
                 $headers[] = $col['head'];
@@ -58,7 +59,7 @@ function display_db_pager(&$pager)
             }
         }
         else
-        if ($col['insert']==1) {
+        if (isset($col['insert']) && $col['insert']==1) {
             $headers[]= '';  
         }
 

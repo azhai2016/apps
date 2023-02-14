@@ -70,12 +70,12 @@ function handle_submit(&$selected_id)
     $isCalculation = empty(get_post('isCalculation'))?0:1;
 
     if ($selected_id) {
-        mssql_transaction();   
+        begin_transaction();   
         //更新数据、
         
         update_source_data($selected_id,$_POST['SourceId'],$_POST['SourceName'],$_POST['SourceTableName'],$_POST['SourceTableMasterKey'],
         $isActive,$isJudge,$isCalculation,$_POST['sqlScript']); 
-        mssql_commit();
+        commit_transaction();
 
         $Ajax->activate('_page_body'); // in case of status change
 
@@ -83,14 +83,14 @@ function handle_submit(&$selected_id)
 
     } else { //it is a new data
 
-        mssql_transaction();
+        begin_transaction();
   
        // 写入数据
         $sourceId= $Refs->get_next(ST_SOURCE_ID,1);
         add_source_data($sourceId,$_POST['SourceName'],$_POST['SourceTableName'],$_POST['SourceTableMasterKey'],
         $isActive,$isJudge,$isCalculation,$_POST['sqlScript']); 
 
-        mssql_commit();
+        commit_transaction();
 
         display_notification(_('新源数据信息已添加'));
 
