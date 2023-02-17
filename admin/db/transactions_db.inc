@@ -165,18 +165,16 @@ function get_next_trans_no ($trans_type) {
 
 function get_systype_db_info($type) {
 	global $path_to_root,$installed_extensions;
-    
-	switch ($type) {
-
-	}
 
 	if (isset($installed_extensions)){ 
 		foreach ($installed_extensions as $rows) {
 			$path = $path_to_root .'/'.$rows['path'];
-		   include_once $path.'/includes/systype_db.inc';
-	       return ex_get_systype_db_info($type);
+		    include_once $path.'/includes/systype_db.inc';
+			$func = 'ex_get_systype_db_info_'.$rows['package'];
+		    $rs = call_user_func($func,$type);	
+			if (!$rs) continue;
+			return $rs;
 		}
 	}
-
 	display_db_error("invalid type ($type) sent to get_systype_db_info", '', true);
 }

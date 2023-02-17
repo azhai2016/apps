@@ -1582,7 +1582,6 @@ function area_list_row($label, $name, $selected_id=null, $all_option=false) {
 	echo "</tr>\n";
 }
 
-
 //------------------------------------------------------------------------------------------------
 
 function languages_list($name, $selected_id=null, $all_option=false) {

@@ -138,6 +138,10 @@ class references {
 		$postfix = $match[3];
 
 		$db_info = get_systype_db_info($type);
+
+				log_b('<<<<<<');
+
+		log_b($db_info);
 	
 		$trans_table = $db_info[0];
 		$type_fld = $db_info[1];
@@ -222,6 +226,7 @@ class references {
 	// Get default reference for new transaction.
 	//
 	function get_next($type, $line=null, $context=null) {
+         
 		if (isset($line))
 			$refline = $this->reflines->get($line);
 		else {

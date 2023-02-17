@@ -1,2941 +1,990 @@
-09:02:51 [DEBUG] : Array
+00:02:07 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
-        (
-            [0] => 257
-            [1] => 安装组件
-        )
-
-    [SA_CREATELANGUAGE] => Array
-        (
-            [0] => 258
-            [1] => 安装语言
-        )
-
-    [SA_CREATEMODULES] => Array
-        (
-            [0] => 259
-            [1] => 安装更新
-        )
-
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
-
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
-        )
-
+    [name] => id
+    [type] => small_width
+    [head] => #
 )
 
+00:02:07 [DEBUG] : Array
+(
+    [name] => code
+    [type] => text
+    [head] => 客户编号
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => name
+    [type] => text
+    [head] => 客户名称
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => address
+    [type] => text
+    [head] => 地址
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => phone
+    [type] => 
+    [head] => 联系电话
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => contact
+    [type] => text
+    [head] => 联系人
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => sale_man
+    [type] => text
+    [head] => 业务员
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => sale_area
+    [type] => text
+    [head] => 销售区域
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => area
+    [type] => text
+    [head] => 省份/片区
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => skip
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => id
+    [type] => small_width
+    [head] => #
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => code
+    [type] => text
+    [head] => 客户编号
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => name
+    [type] => text
+    [head] => 客户名称
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => address
+    [type] => text
+    [head] => 地址
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => phone
+    [type] => 
+    [head] => 联系电话
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => contact
+    [type] => text
+    [head] => 联系人
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => sale_man
+    [type] => text
+    [head] => 业务员
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => sale_area
+    [type] => text
+    [head] => 销售区域
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [name] => area
+    [type] => text
+    [head] => 省份/片区
+)
+
+00:02:07 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => skip
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => id
+    [type] => small_width
+    [head] => #
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => code
+    [type] => text
+    [head] => 客户编号
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => name
+    [type] => text
+    [head] => 客户名称
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => address
+    [type] => text
+    [head] => 地址
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => phone
+    [type] => 
+    [head] => 联系电话
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => contact
+    [type] => text
+    [head] => 联系人
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => sale_man
+    [type] => text
+    [head] => 业务员
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => sale_area
+    [type] => text
+    [head] => 销售区域
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [name] => area
+    [type] => text
+    [head] => 省份/片区
+)
+
+00:02:55 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => skip
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => id
+    [type] => small_width
+    [head] => #
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => code
+    [type] => text
+    [head] => 客户编号
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => name
+    [type] => text
+    [head] => 客户名称
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => address
+    [type] => text
+    [head] => 地址
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => phone
+    [type] => 
+    [head] => 联系电话
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => contact
+    [type] => text
+    [head] => 联系人
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => sale_man
+    [type] => text
+    [head] => 业务员
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => sale_area
+    [type] => text
+    [head] => 销售区域
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [name] => area
+    [type] => text
+    [head] => 省份/片区
+)
+
+00:02:12 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => skip
+)
+
+00:02:16 [DEBUG] : Array
+(
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => id
+    [type] => small_width
+    [head] => #
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => code
+    [type] => text
+    [head] => 客户编号
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => name
+    [type] => text
+    [head] => 客户名称
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => address
+    [type] => text
+    [head] => 地址
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => phone
+    [type] => 
+    [head] => 联系电话
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => contact
+    [type] => text
+    [head] => 联系人
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => sale_man
+    [type] => text
+    [head] => 业务员
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => sale_area
+    [type] => text
+    [head] => 销售区域
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [name] => area
+    [type] => text
+    [head] => 省份/片区
+)
+
+00:02:53 [DEBUG] : Array
+(
+    [insert] => 1
+    [fun] => edit_link
+    [type] => skip
+)
+
+00:02:56 [DEBUG] : Array
+(
+)
+
+00:02:48 [DEBUG] : Array
+(
+)
+
+09:02:40 [DEBUG] : cus_id -> 
+09:02:20 [DEBUG] : cus_id -> 
+09:02:50 [DEBUG] : cus_id -> 
+09:02:37 [DEBUG] : cus_id -> 
+09:02:37 [DEBUG] : Array
+(
+    [code] => 1212
+    [name] => 212
+    [address] => 21
+    [phone] => 21
+    [contact] => 323
+    [sale_man] => 23
+    [sale_area] => 1_全流域
+    [area] => 121
+    [sale_area_code] => 
+    [email] => 3232
+    [phone2] => 21
+    [description] => 32
+    [sales_type] => 1_一级
+    [type] => 1
+)
+
+09:02:34 [DEBUG] : 
+09:02:34 [DEBUG] : cus_id -> 
+09:02:34 [DEBUG] : Array
+(
+    [code] => 3323
+    [name] => 43
+    [address] => 344
+    [phone] => 343
+    [contact] => 434
+    [sale_man] => 4343
+    [sale_area] => 1_全流域
+    [area] => 43
+    [sale_area_code] => 
+    [email] => 4343
+    [phone2] => 4343
+    [description] => 434
+    [sales_type] => 1_一级
+    [type] => 0
+)
+
+09:02:54 [DEBUG] : 
+09:02:54 [DEBUG] : cus_id -> 
 09:02:54 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
-        (
-            [0] => 257
-            [1] => 安装组件
-        )
+    [code] => 3232
+    [name] => 3232
+    [address] => 32
+    [phone] => 32
+    [contact] => 323
+    [sale_man] => 32
+    [sale_area] => 1_全流域
+    [area] => 32
+    [sale_area_code] => 
+    [email] => 3232
+    [phone2] => 3232
+    [description] => 3232
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_CREATELANGUAGE] => Array
-        (
-            [0] => 258
-            [1] => 安装语言
-        )
+09:02:32 [DEBUG] : 
+09:02:32 [DEBUG] : cus_id -> 
+09:02:32 [DEBUG] : Array
+(
+    [code] => 232
+    [name] => 32
+    [address] => 32
+    [phone] => 3232
+    [contact] => 5454
+    [sale_man] => 4343
+    [sale_area] => 1_全流域
+    [area] => 32
+    [sale_area_code] => 
+    [email] => 3232
+    [phone2] => 3232
+    [description] => 32324
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_CREATEMODULES] => Array
-        (
-            [0] => 259
-            [1] => 安装更新
-        )
+09:02:22 [DEBUG] : 
+09:02:22 [DEBUG] : cus_id -> 
+09:02:22 [DEBUG] : Array
+(
+    [code] => 22332
+    [name] => 21212
+    [address] => 21
+    [phone] => 2121
+    [contact] => 3232
+    [sale_man] => 32
+    [sale_area] => 1_全流域
+    [area] => 1221
+    [sale_area_code] => 
+    [email] => 2121
+    [phone2] => 21
+    [description] => 3232
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
+09:02:56 [DEBUG] : 
+09:02:56 [DEBUG] : cus_id -> 
+09:02:56 [DEBUG] : Array
+(
+    [code] => 23232
+    [name] => 3232
+    [address] => 32
+    [phone] => 32
+    [contact] => 32
+    [sale_man] => 3232
+    [sale_area] => 1_全流域
+    [area] => 32
+    [sale_area_code] => 
+    [email] => 323
+    [phone2] => 32
+    [description] => 3232
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
+09:02:27 [DEBUG] : 
+09:02:27 [DEBUG] : cus_id -> 
+09:02:27 [DEBUG] : Array
+(
+    [code] => 43443
+    [name] => 4343
+    [address] => 4343
+    [phone] => 43
+    [contact] => 4343
+    [sale_man] => 434
+    [sale_area] => 1_全流域
+    [area] => 43
+    [sale_area_code] => 
+    [email] => 4343
+    [phone2] => 43
+    [description] => 434
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
+09:02:41 [DEBUG] : 
+09:02:41 [DEBUG] : cus_id -> 
+09:02:41 [DEBUG] : Array
+(
+    [code] => 3223
+    [name] => 32
+    [address] => 323
+    [phone] => 232
+    [contact] => 323
+    [sale_man] => 2
+    [sale_area] => 1_全流域
+    [area] => 32
+    [sale_area_code] => 
+    [email] => 3232
+    [phone2] => 3232
+    [description] => 323
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
+09:02:20 [DEBUG] : 
+09:02:20 [DEBUG] : cus_id -> 
+09:02:20 [DEBUG] : Array
+(
+    [code] => 2121
+    [name] => 21
+    [address] => 212
+    [phone] => 1
+    [contact] => 2121
+    [sale_man] => 21
+    [sale_area] => 1_全流域
+    [area] => 21
+    [sale_area_code] => 
+    [email] => 2121
+    [phone2] => 21
+    [description] => 2121
+    [sales_type] => 1_一级
+    [type] => 0
+)
 
-    [SA_PRINTERS] => Array
+09:02:32 [DEBUG] : references Object
+(
+    [reflines] => reflines_db Object
         (
-            [0] => 516
-            [1] => 打印机设置
-        )
+            [key] => id
+            [fields] => Array
+                (
+                    [0] => trans_type
+                    [1] => prefix
+                    [2] => description
+                    [3] => default
+                    [4] => pattern
+                    [5] => id
+                    [6] => inactive
+                )
 
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
+            [name] => reflines
+            [checks] => Array
+                (
+                    [0] => Array
+                        (
+                            [fld] => prefix
+                            [type] => _check_prefix
+                            [msg] => This prefix conflicts with another one already defined. Prefix have to be unambigous.
+                            [opts] => Array
+                                (
+                                )
 
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
+                            [mode] => ui
+                        )
 
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
+                    [1] => Array
+                        (
+                            [fld] => prefix
+                            [type] => _check_template
+                            [msg] => Invalid template format.
+                            [opts] => Array
+                                (
+                                )
 
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
+                            [mode] => ui
+                        )
 
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
+                    [2] => Array
+                        (
+                            [fld] => trans_type
+                            [type] => required
+                            [msg] => Transaction type cannot be empty.
+                            [opts] => Array
+                                (
+                                )
 
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
+                            [mode] => ui
+                        )
 
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
+                    [3] => Array
+                        (
+                            [fld] => pattern
+                            [type] => required
+                            [msg] => Next reference cannot be empty.
+                            [opts] => Array
+                                (
+                                )
 
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
+                            [mode] => ui
+                        )
 
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
+                )
 
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
+            [selected_id] => 
+            [data] => 
+            [errors] => Array
+                (
+                )
 
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
+            [debug] => Array
+                (
+                )
 
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
-
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
+            [subset] => 
         )
 
 )
 
-09:02:57 [DEBUG] : Array
+09:02:31 [DEBUG] : 5376
+10:02:17 [DEBUG] : OK
+10:02:42 [DEBUG] : 5376
+10:02:20 [DEBUG] : 5376
+10:02:20 [DEBUG] : mysqli_result Object
 (
-    [SA_CREATECOMPANY] => Array
+    [current_field] => 0
+    [field_count] => 7
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
+)
+
+10:02:19 [DEBUG] : 5376
+10:02:19 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 7
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
+)
+
+10:02:31 [DEBUG] : 5376
+10:02:31 [DEBUG] : 
+10:02:02 [DEBUG] : 5376
+10:02:02 [DEBUG] : 
+10:02:10 [DEBUG] : 5376
+10:02:10 [DEBUG] : 
+10:02:33 [DEBUG] : 5376
+10:02:33 [DEBUG] : 
+10:02:33 [DEBUG] : 
+10:02:40 [DEBUG] : 5376
+10:02:40 [DEBUG] : 5376
+10:02:40 [DEBUG] : 
+10:02:42 [DEBUG] : 5376
+10:02:42 [DEBUG] : 
+10:02:42 [DEBUG] : 
+10:02:01 [DEBUG] : 5376
+10:02:01 [DEBUG] : 
+10:02:01 [DEBUG] : 
+10:02:12 [DEBUG] : 5376
+10:02:12 [DEBUG] : 
+10:02:12 [DEBUG] : 
+10:02:16 [DEBUG] : 5376
+10:02:16 [DEBUG] : 
+10:02:52 [DEBUG] : 5376
+10:02:52 [DEBUG] : 
+10:02:18 [DEBUG] : <<<<<<<<
+10:02:18 [DEBUG] : ../../../modules/rebate_sales
+10:02:18 [DEBUG] : >>>>>>>>
+10:02:18 [DEBUG] : 
+11:02:32 [DEBUG] : <<<<<<<<
+11:02:32 [DEBUG] : ../../../modules/rebate_sales
+11:02:32 [DEBUG] : >>>>>>>>
+11:02:32 [DEBUG] : 
+11:02:24 [DEBUG] : ../../../modules/rebate_sales
+11:02:24 [DEBUG] : 
+11:02:36 [DEBUG] : ../../../modules/rebate_sales
+11:02:36 [DEBUG] : 
+11:02:03 [DEBUG] : ../../../modules/rebate_sales
+11:02:03 [DEBUG] : <<<<<<
+11:02:03 [DEBUG] : 
+11:02:30 [DEBUG] : Array
+(
+    [3] => Array
         (
-            [0] => 257
-            [1] => 安装组件
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
         )
 
-    [SA_CREATELANGUAGE] => Array
+    [4] => Array
         (
-            [0] => 258
-            [1] => 安装语言
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 1
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
         )
 
-    [SA_CREATEMODULES] => Array
+    [7] => Array
         (
-            [0] => 259
-            [1] => 安装更新
-        )
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
 
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
-
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
         )
 
 )
 
-09:02:13 [DEBUG] : Array
+11:02:30 [DEBUG] : ../../../modules/rebate_sales
+11:02:30 [DEBUG] : <<<<<<
+11:02:30 [DEBUG] : 
+12:02:54 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
+    [3] => Array
         (
-            [0] => 257
-            [1] => 安装组件
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
         )
 
-    [SA_CREATELANGUAGE] => Array
+    [4] => Array
         (
-            [0] => 258
-            [1] => 安装语言
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 1
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
         )
 
-    [SA_CREATEMODULES] => Array
+    [7] => Array
         (
-            [0] => 259
-            [1] => 安装更新
-        )
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
 
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
-
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
         )
 
 )
 
-02:02:28 [DEBUG] : Array
+12:02:54 [DEBUG] : ../../../modules/rebate_sales
+12:02:54 [DEBUG] : ../../../modules/baseinfo
+12:02:11 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
-        (
-            [0] => 257
-            [1] => 安装组件
-        )
-
-    [SA_CREATELANGUAGE] => Array
-        (
-            [0] => 258
-            [1] => 安装语言
-        )
-
-    [SA_CREATEMODULES] => Array
-        (
-            [0] => 259
-            [1] => 安装更新
-        )
-
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
+    [3] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+        )
+
+    [4] => Array
+        (
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 1
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
+        )
+
+    [7] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
 
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
-        )
-
-    [SA_SOURCEDATA] => Array
-        (
-            [0] => 484472
-            [1] => 源数据配置
-        )
-
-    [SA_FORMULA] => Array
-        (
-            [0] => 484473
-            [1] => 计算配置
         )
 
 )
 
-02:02:30 [DEBUG] : Array
+12:02:11 [DEBUG] : ../../../modules/rebate_sales
+12:02:11 [DEBUG] : ../../../modules/baseinfo
+12:02:14 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
-        (
-            [0] => 257
-            [1] => 安装组件
-        )
-
-    [SA_CREATELANGUAGE] => Array
-        (
-            [0] => 258
-            [1] => 安装语言
-        )
-
-    [SA_CREATEMODULES] => Array
-        (
-            [0] => 259
-            [1] => 安装更新
-        )
-
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
+    [3] => Array
+        (
+            [package] => rebate_sales
+            [name] => 销售返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_sales
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统_销售返利   --
+            [SubPath] => Array
+                (
+                    [0] => rebate_sales
+                )
+
+        )
+
+    [4] => Array
+        (
+            [package] => baseinfo
+            [name] => 基本信息扩展
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/baseinfo
+            [active] => 1
+            [description] => -- 医药行业基础信息扩展 --
+            [SubPath] => Array
+                (
+                    [0] => baseinfo
+                )
+
+        )
+
+    [7] => Array
+        (
+            [package] => rebate_purchase
+            [name] => 采购返利
+            [version] => 0.1.1
+            [available] => 
+            [type] => extension
+            [path] => modules/rebate_purchase
+            [active] => 1
+            [description] => -- 医药流通企业_返利折让系统 --
+            [SubPath] => Array
+                (
+                    [0] => rebate_purchase
+                )
 
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
-        )
-
-    [SA_SOURCEDATA] => Array
-        (
-            [0] => 484472
-            [1] => 源数据配置
-        )
-
-    [SA_FORMULA] => Array
-        (
-            [0] => 484473
-            [1] => 计算配置
         )
 
 )
 
-02:02:36 [DEBUG] : Array
+12:02:54 [DEBUG] : ex_get_systype_db_info_rebate_sales
+12:02:25 [DEBUG] : 5376
+12:02:50 [DEBUG] : 5376
+12:02:14 [DEBUG] : 
+12:02:14 [DEBUG] : Array
 (
-    [SA_CREATECOMPANY] => Array
-        (
-            [0] => 257
-            [1] => 安装组件
-        )
-
-    [SA_CREATELANGUAGE] => Array
-        (
-            [0] => 258
-            [1] => 安装语言
-        )
-
-    [SA_CREATEMODULES] => Array
-        (
-            [0] => 259
-            [1] => 安装更新
-        )
-
-    [SA_SOFTWAREUPGRADE] => Array
-        (
-            [0] => 260
-            [1] => 系统升级
-        )
-
-    [SA_SETUPCOMPANY] => Array
-        (
-            [0] => 513
-            [1] => 项目设置
-        )
-
-    [SA_SECROLES] => Array
-        (
-            [0] => 514
-            [1] => 角色权限
-        )
-
-    [SA_USERS] => Array
-        (
-            [0] => 515
-            [1] => 用户设置
-        )
-
-    [SA_PRINTERS] => Array
-        (
-            [0] => 516
-            [1] => 打印机设置
-        )
-
-    [SA_PRINTPROFILE] => Array
-        (
-            [0] => 517
-            [1] => 打印属性
-        )
-
-    [SA_FORMSETUP] => Array
-        (
-            [0] => 518
-            [1] => 序号设置
-        )
-
-    [SA_BACKUP] => Array
-        (
-            [0] => 769
-            [1] => 备份/还原
-        )
-
-    [SA_SETUPDISPLAY] => Array
-        (
-            [0] => 770
-            [1] => 显示属性
-        )
-
-    [SA_CHGPASSWD] => Array
-        (
-            [0] => 771
-            [1] => 更换密码
-        )
-
-    [SA_DESIGNER] => Array
-        (
-            [0] => 772
-            [1] => 报表设计器
-        )
-
-    [SA_ATTACHDOCUMENT] => Array
-        (
-            [0] => 773
-            [1] => 附件管理
-        )
-
-    [SA_PRINT_DESIGNER] => Array
-        (
-            [0] => 775
-            [1] => 报表设置
-        )
-
-    [SA_SALE_PAYABLE] => Array
-        (
-            [0] => 222308
-            [1] => 应付返利生成
-        )
-
-    [SA_SALE_PAYABLE_EXAMINE] => Array
-        (
-            [0] => 222309
-            [1] => 应付返利审核
-        )
-
-    [SA_SALE_PAYABLE_ADJUSTMENT] => Array
-        (
-            [0] => 222310
-            [1] => 应付返利调整
-        )
-
-    [SA_SALE_PAYABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 222311
-            [1] => 应付返利调整审核
-        )
-
-    [SA_SALE_PAYABLE_FIND] => Array
-        (
-            [0] => 222312
-            [1] => 应付返利查询
-        )
-
-    [SA_SALE_PAYABLE_FIND_DETAIL] => Array
-        (
-            [0] => 222313
-            [1] => 应付返利明细查询
-        )
-
-    [SA_SALE_PAYMENT] => Array
-        (
-            [0] => 222314
-            [1] => 实付返利录入
-        )
-
-    [SA_SALE_PAYMENT_EXAMINE] => Array
-        (
-            [0] => 222315
-            [1] => 实付返利审核
-        )
-
-    [SA_SALE_PAYMENT_ADJUSTMENT] => Array
-        (
-            [0] => 222316
-            [1] => 实付返利调整
-        )
-
-    [SA_SALE_PAYMENT_ADJ_EXAMINE] => Array
-        (
-            [0] => 222317
-            [1] => 实付返利调整审核
-        )
-
-    [SA_SALE_PAYMENT_FIND] => Array
-        (
-            [0] => 222318
-            [1] => 实付返利查询
-        )
-
-    [SA_SALE_PAYMENT_FIND_DETAIL] => Array
-        (
-            [0] => 222319
-            [1] => 实付返利明细查询
-        )
-
-    [SA_SALE_RULE] => Array
-        (
-            [0] => 222320
-            [1] => 规则录入
-        )
-
-    [SA_SALE_RULE_EXAMINE] => Array
-        (
-            [0] => 222321
-            [1] => 规则审核
-        )
-
-    [SA_SALE_RULE_MAINTAIN] => Array
-        (
-            [0] => 222322
-            [1] => 规则维护
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 222323
-            [1] => 补充规则录入
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 222324
-            [1] => 补充规则审核
-        )
-
-    [SA_SALE_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 222325
-            [1] => 补充规则维护
-        )
-
-    [SA_SALE_RULE_FIND] => Array
-        (
-            [0] => 222326
-            [1] => 规则查询
-        )
-
-    [SA_SALE_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 222327
-            [1] => 规则明细查询
-        )
-
-    [SA_BASEINFO_CUSTOMER] => Array
-        (
-            [0] => 287844
-            [1] => 客户信息
-        )
-
-    [SA_BASEINFO_AREA] => Array
-        (
-            [0] => 287845
-            [1] => 销售区域
-        )
-
-    [SA_BASEINFO_LEVEL] => Array
-        (
-            [0] => 287846
-            [1] => 销售级别
-        )
-
-    [SA_BASEINFO_LOGISTICS] => Array
-        (
-            [0] => 287847
-            [1] => 物流公司
-        )
-
-    [SA_BASEINFO_PRODUCT] => Array
-        (
-            [0] => 287848
-            [1] => 商品信息
-        )
-
-    [SA_ITEM_CATEGORIES] => Array
-        (
-            [0] => 287849
-            [1] => 商品分类
-        )
-
-    [SA_ITEM_LOCATION] => Array
-        (
-            [0] => 287850
-            [1] => 仓库货位
-        )
-
-    [SA_ITEM_UNITS] => Array
-        (
-            [0] => 287851
-            [1] => 包装单位
-        )
-
-    [SA_PUR_RECEIVABLE] => Array
-        (
-            [0] => 484452
-            [1] => 应收返利生成
-        )
-
-    [SA_PUR_RECEIVABLE_EXAMINE] => Array
-        (
-            [0] => 484453
-            [1] => 应收返利审核
-        )
-
-    [SA_PUR_RECEIVABLE_ADJUSTMENT] => Array
-        (
-            [0] => 484454
-            [1] => 应收返利调整
-        )
-
-    [SA_PUR_RECEIVABLE_ADJ_EXAMINE] => Array
-        (
-            [0] => 484455
-            [1] => 应收返利调整审核
-        )
-
-    [SA_PUR_RECEIVABLE_FIND] => Array
-        (
-            [0] => 484456
-            [1] => 应收返利查询
-        )
-
-    [SA_PUR_RECEIVABLE_FIND_DETAIL] => Array
-        (
-            [0] => 484457
-            [1] => 应收返利明细查询
-        )
-
-    [SA_PUR_RECEIPTS] => Array
-        (
-            [0] => 484458
-            [1] => 实收返利录入
-        )
-
-    [SA_PUR_RECEIPTS_EXAMINE] => Array
-        (
-            [0] => 484459
-            [1] => 实收返利审核
-        )
-
-    [SA_PUR_RECEIPTS_ADJUSTMENT] => Array
-        (
-            [0] => 484460
-            [1] => 实收返利调整
-        )
-
-    [SA_PUR_RECEIPTS_ADJ_EXAMINE] => Array
-        (
-            [0] => 484461
-            [1] => 实收返利调整审核
-        )
-
-    [SA_PUR_RECEIPTS_FIND] => Array
-        (
-            [0] => 484462
-            [1] => 实收返利查询
-        )
-
-    [SA_PUR_RECEIPTS_FIND_DETAIL] => Array
-        (
-            [0] => 484463
-            [1] => 实收返利明细查询
-        )
-
-    [SA_PUR_RULE] => Array
-        (
-            [0] => 484464
-            [1] => 规则录入
-        )
-
-    [SA_PUR_RULE_EXAMINE] => Array
-        (
-            [0] => 484465
-            [1] => 规则审核
-        )
-
-    [SA_PUR_RULE_MAINTAIN] => Array
-        (
-            [0] => 484466
-            [1] => 规则维护
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT] => Array
-        (
-            [0] => 484467
-            [1] => 补充规则录入
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_EXAMINE] => Array
-        (
-            [0] => 484468
-            [1] => 补充规则审核
-        )
-
-    [SA_PUR_RULE_ADJUSTMENT_MAINTAIN] => Array
-        (
-            [0] => 484469
-            [1] => 补充规则维护
-        )
-
-    [SA_PUR_RULE_FIND] => Array
-        (
-            [0] => 484470
-            [1] => 规则查询
-        )
-
-    [SA_PUR_RULE_FIND_DETAIL] => Array
-        (
-            [0] => 484471
-            [1] => 规则明细查询
-        )
-
-    [SA_SOURCEDATA] => Array
-        (
-            [0] => 484472
-            [1] => 源数据配置
-        )
-
-    [SA_FORMULA] => Array
-        (
-            [0] => 484473
-            [1] => 计算配置
-        )
-
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:14 [DEBUG] : 
+12:02:04 [DEBUG] : Array
 (
-    [name] => id
-    [ord] => id
-    [type] => small_width
-    [head] => ID
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:28 [DEBUG] : Array
 (
-    [name] => Name
-    [type] => text
-    [head] => 协议名称
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:28 [DEBUG] : <<<<<<
+12:02:28 [DEBUG] : Array
 (
-    [name] => beginat
-    [type] => time
-    [head] => 开始日期
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:39 [DEBUG] : <<<<<<
+12:02:39 [DEBUG] : Array
 (
-    [name] => endat
-    [type] => time
-    [head] => 结束日期
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:09 [DEBUG] : <<<<<<
+12:02:09 [DEBUG] : Array
 (
-    [name] => operator
-    [type] => small_width
-    [head] => 采购员
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 
-01:02:09 [DEBUG] : Array
+12:02:18 [DEBUG] : <<<<<<
+12:02:18 [DEBUG] : Array
 (
-    [name] => status
-    [type] => text
-    [head] => 说明
-)
-
-01:02:09 [DEBUG] : Array
-(
-    [name] => Description
-    [type] => text
-    [head] => 备注
-)
-
-01:02:09 [DEBUG] : Array
-(
-    [insert] => 1
-    [fun] => edit_link
-    [type] => text
-    [head] => 
-)
-
-01:02:09 [DEBUG] : Array
-(
-    [type] => skip
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => id
-    [ord] => id
-    [type] => small_width
-    [head] => ID
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => Name
-    [type] => text
-    [head] => 协议名称
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => beginat
-    [type] => time
-    [head] => 开始日期
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => endat
-    [type] => time
-    [head] => 结束日期
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => operator
-    [type] => small_width
-    [head] => 采购员
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => status
-    [type] => text
-    [head] => 说明
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [name] => Description
-    [type] => text
-    [head] => 备注
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [insert] => 1
-    [fun] => edit_link
-    [type] => text
-    [head] => 
-)
-
-01:02:29 [DEBUG] : Array
-(
-    [type] => skip
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => id
-    [ord] => id
-    [type] => small_width
-    [head] => ID
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => Name
-    [type] => text
-    [head] => 协议名称
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => beginat
-    [type] => time
-    [head] => 开始日期
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => endat
-    [type] => time
-    [head] => 结束日期
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => operator
-    [type] => small_width
-    [head] => 采购员
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => status
-    [type] => text
-    [head] => 说明
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [name] => Description
-    [type] => text
-    [head] => 备注
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [insert] => 1
-    [fun] => edit_link
-    [type] => text
-    [head] => 
-)
-
-01:02:45 [DEBUG] : Array
-(
-    [type] => skip
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
 )
 

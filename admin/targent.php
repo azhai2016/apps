@@ -61,7 +61,7 @@ if ($Mode=='ADD_ITEM' || $Mode=='UPDATE_ITEM') {
 	}
 }
 
-$data =  mssql_db_query('select getdate()',0);
+$data =  db_query('select getdate()',0);
 
 
 //---------------------------------------------------------------------------------- 

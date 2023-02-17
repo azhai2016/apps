@@ -45,7 +45,7 @@ table_header($th);
 $k = 0;
 $result = get_formula_data(get_post('findname'));
 
-while ($myrow = mssqldb_fetch_assoc($result)) {
+while ($myrow = db_fetch_assoc($result)) {
 
 	alt_table_row_color($k);
 

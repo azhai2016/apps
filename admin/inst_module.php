@@ -125,9 +125,6 @@ function display_extensions($mods) {
 	table_header($th);
 
 	$k = 0;
-
-	log_b($mods);
-
 	foreach($mods as $pkg_name => $ext) {
 		$available = @$ext['available'];
 		$installed = isset($ext['version']) ? $ext['version'] : '';

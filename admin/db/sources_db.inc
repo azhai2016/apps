@@ -2,8 +2,8 @@
 
 
 function check_mssql_empty_result($sql) {
-	$result = mssql_db_query($sql, 'could not do check empty query');		
-	$myrow = mssqldb_fetch_row($result);
+	$result = db_query($sql, 'could not do check empty query');		
+	$myrow = db_fetch_row($result);
 
 	return $myrow[0] > 0;
 }
@@ -15,26 +15,26 @@ function db_has_sources(){
 
 function get_source_id_data($id) {
 
-	$sql = "select * from sourceData where id =".$id;
+	$sql = "select * from ".TB_PREF."sourceData where id =".$id;
 
-	$result = mssql_db_query($sql, 'could not do check empty query');		
+	$result = db_query($sql, 'could not do check empty query');		
 
-	$myrow = mssqldb_fetch_assoc($result);
+	$myrow = db_fetch_assoc($result);
 
 	return $myrow;
 }
 
 function delete_source_data($SourceId){
   	
-  $sql = sprintf("select id from sourceData where SourceId='%s'",$SourceId);
-  $rows = mssqldb_fetch_row(mssql_db_query($sql,0,''));
+  $sql = sprintf("select id from ".TB_PREF."sourceData where SourceId='%s'",$SourceId);
+  $rows = db_fetch_row(db_query($sql,0,''));
   $id= $rows[0];
 
   $sql = sprintf("delete from sourceData where id=%d",$id);
-  $result = mssql_db_query($sql,1,'');
+  $result = db_query($sql,1,'');
   
   $sql = sprintf("delete from targetData where sourceid=%d",$id);
-  $result = mssql_db_query($sql,1,'');
+  $result = db_query($sql,1,'');
   
   return $result;
 }
@@ -48,7 +48,7 @@ function add_source_data($SourceId,$SourceName,$SourceTableName,$SourceTableMast
 	$SourceId,$SourceName,$SourceTableName,$SourceTableMasterKey,
 	$isActive,$isJudge,$isCalculation,$sqlScript);
 	
-	$result = mssql_db_query($sql,1,'could not do check empty query');	
+	$result = db_query($sql,1,'could not do check empty query');	
 
 	db_query("update ".TB_PREF."refs set reference='".$SourceId."' where type=".ST_SOURCE_ID);
 
@@ -62,7 +62,7 @@ function update_source_data($id,$SourceId,$SourceName,$SourceTableName,$SourceTa
 	isActive=%d,isJudge=%d,isCalculation=%d,sqlScript='%s' where id=%d",
 	$SourceId,$SourceName,$SourceTableName,$SourceTableMasterKey,
 	$isActive,$isJudge,$isCalculation,$sqlScript,$id);
-	$result = mssql_db_query($sql,1,'could not do check empty query');	
+	$result = db_query($sql,1,'could not do check empty query');	
     return $result;
 }
 

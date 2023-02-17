@@ -11,14 +11,16 @@ class sourceTargets extends simple_crud {
 	var $entity;
 	var $sub_class;
 	var $class;
+	var $is_active = false;
 	
-	function __construct($name, $id, $class, $subclass=null) {
+	function __construct($name, $id, $class, $subclass=null,$isActive=false) {
 		$fields = array('targetId','targetName','targetType','targetDataType', 'sqlScript', 'tablename','defaultValue');
 
 		parent::__construct($name, $fields);
 		$this->class = $class;
 		$this->subclass = $subclass;
 		$this->entity = $id;
+		$this->is_active = $isActive == 1;
 	}
 
 	function list_view() {
@@ -32,7 +34,7 @@ class sourceTargets extends simple_crud {
 		table_header($th);
 		$k = 0; 
 
-		$last = $myrow = mssqldb_fetch_assoc($sourceTargets);
+		$last = $myrow = db_fetch_assoc($sourceTargets);
 
 		while ($last) {
 					
@@ -58,7 +60,7 @@ class sourceTargets extends simple_crud {
 
 			if ($myrow) {
 				$targetId[] = $myrow['targetId'];
-				$myrow = mssqldb_fetch_assoc($sourceTargets);
+				$myrow = db_fetch_assoc($sourceTargets);
 			}
 		}
 

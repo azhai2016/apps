@@ -33,7 +33,7 @@ class Formulas extends simple_crud {
 		table_header($th);
 		$k = 0; 
 
-		$last = $myrow = mssqldb_fetch_assoc($factors);
+		$last = $myrow = db_fetch_assoc($factors);
 
 		while ($last) {
 					
@@ -55,7 +55,7 @@ class Formulas extends simple_crud {
 
 			if ($myrow) {
 				$factorId[] = $myrow['factorId'];
-				$myrow = mssqldb_fetch_assoc($factors);
+				$myrow = db_fetch_assoc($factors);
 			}
 		}
 
