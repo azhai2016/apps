@@ -676,6 +676,14 @@ function text_row_ex($label, $name, $size, $max = null, $title = null, $value = 
 	echo "</tr>\n";
 }
 
+function text_row_date_ex($label, $name, $size, $max = null, $title = null, $value = null, $params = null, $post_label = null)
+{
+	echo "<tr><td class='label'>" . $label . "</td>";
+	text_cells(null, $name, $value, $size, $max, $title, $params, $post_label);
+    date_row_ex(null,$name.'_limit');	
+	echo "</tr>\n";
+}
+
 function genter_list_row($label, $selected_id, $name, $array = null)
 {
 	echo "<tr><td class='label'>性别:</td><td>";
@@ -834,6 +842,24 @@ function date_row($label, $name, $title = null, $check = null, $inc_days = 0, $i
 	);
 	echo "</tr>\n";
 }
+
+function date_row_ex($label, $name, $title = null, $check = null, $inc_days = 0, $inc_months = 0, $inc_years = 0, $params = null, $submit_on_change = false)
+{
+	date_cells(
+		null,
+		$name,
+		$title,
+		$check,
+		$inc_days,
+		$inc_months,
+		$inc_years,
+		$params,
+		$submit_on_change
+	);
+}
+
+
+
 
 function datetime_row($label, $name, $title = null, $check = null, $inc_days = 0, $inc_months = 0, $inc_years = 0, $params = null, $submit_on_change = false)
 {

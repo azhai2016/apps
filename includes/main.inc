@@ -41,9 +41,14 @@ function page($title, $no_menu=false, $is_index=false, $onload='', $js='', $scri
 
 	$hide_menu = $no_menu;
 
+    include_once($path_to_root.'/includes/access_levels.inc');
+	
+	add_access_extensions();
+
 	include_once($path_to_root.'/includes/page/header.inc');
 
 	page_header($title, $no_menu, $is_index, $onload, $js, $css);
+
 	check_page_security($page_security);
 	// error_box();
 	if($script_only) {
