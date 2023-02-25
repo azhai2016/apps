@@ -854,7 +854,8 @@ function date_row_ex($label, $name, $title = null, $check = null, $inc_days = 0,
 		$inc_months,
 		$inc_years,
 		$params,
-		$submit_on_change
+		$submit_on_change,
+
 	);
 }
 
