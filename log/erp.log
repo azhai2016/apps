@@ -1,334 +1,643 @@
-03:02:15 [DEBUG] : <<<<<<
-03:02:15 [DEBUG] : Array
+00:02:53 [DEBUG] : <<<<<<
+00:02:53 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:04 [DEBUG] : <<<<<<
-03:02:04 [DEBUG] : Array
+00:02:17 [DEBUG] : <<<<<<
+00:02:17 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:11 [DEBUG] : <<<<<<
-03:02:11 [DEBUG] : Array
+00:02:16 [DEBUG] : <<<<<<
+00:02:16 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:22 [DEBUG] : <<<<<<
-03:02:22 [DEBUG] : Array
+00:02:23 [DEBUG] : <<<<<<
+00:02:23 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:29 [DEBUG] : <<<<<<
-03:02:29 [DEBUG] : Array
+00:02:39 [DEBUG] : <<<<<<
+00:02:39 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:33 [DEBUG] : <<<<<<
-03:02:33 [DEBUG] : Array
+00:02:29 [DEBUG] : <<<<<<
+00:02:29 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:40 [DEBUG] : <<<<<<
-03:02:40 [DEBUG] : Array
+00:02:59 [INFO] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => 1221
+    [loc_code] => 1221
+    [1] => 2121
+    [location_name] => 2121
+    [2] => 21
+    [delivery_address] => 21
+    [3] => 21
+    [phone] => 21
+    [4] => 21
+    [phone2] => 21
+    [5] => 21
+    [fax] => 21
+    [6] => 21
+    [email] => 21
+    [7] => 21
+    [contact] => 21
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+00:02:05 [INFO] : Array
+(
+    [0] => 1221
+    [loc_code] => 1221
+    [1] => 2121
+    [location_name] => 2121
+    [2] => 21
+    [delivery_address] => 21
+    [3] => 21
+    [phone] => 21
+    [4] => 21
+    [phone2] => 21
+    [5] => 21
+    [fax] => 21
+    [6] => 21
+    [email] => 21
+    [7] => 21
+    [contact] => 21
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+00:02:26 [DEBUG] : <<<<<<
+00:02:26 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:43 [DEBUG] : <<<<<<
-03:02:43 [DEBUG] : Array
+00:02:52 [DEBUG] : <<<<<<
+00:02:52 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:04 [DEBUG] : <<<<<<
-03:02:04 [DEBUG] : Array
+00:02:21 [DEBUG] : <<<<<<
+00:02:21 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:18 [DEBUG] : <<<<<<
-03:02:18 [DEBUG] : Array
+00:02:13 [DEBUG] : <<<<<<
+00:02:13 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:22 [DEBUG] : 2023-02-03
-03:02:22 [DEBUG] : 2023-02-02 00:00:00
-03:02:22 [DEBUG] : 2023-02-03 00:00:00
-03:02:22 [DEBUG] : 2023-02-04 00:00:00
-03:02:02 [DEBUG] : <<<<<<
-03:02:02 [DEBUG] : Array
+01:02:28 [DEBUG] : <<<<<<
+01:02:28 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:06 [DEBUG] : 3322023-02-07
-03:02:06 [DEBUG] : 3322023-02-02 00:00:00
-03:02:06 [DEBUG] : 3322023-02-03 00:00:00
-03:02:06 [DEBUG] : 3322023-02-04 00:00:00
-03:02:54 [DEBUG] : [397]<<<<<<
-03:02:54 [DEBUG] : [397]Array
-03:02:00 [DEBUG] : [397]3322023-02-17
-03:02:00 [DEBUG] : [397]3322023-02-02 00:00:00
-03:02:00 [DEBUG] : [397]3322023-02-03 00:00:00
-03:02:00 [DEBUG] : [397]3322023-02-04 00:00:00
-03:02:44 [DEBUG] : [log_b-397]<<<<<<
-03:02:44 [DEBUG] : [log_b-397]Array
-03:02:48 [DEBUG] : [log_b-397]3322023-02-01
-03:02:48 [DEBUG] : [log_b-397]3322023-02-02 00:00:00
-03:02:48 [DEBUG] : [log_b-397]3322023-02-03 00:00:00
-03:02:48 [DEBUG] : [log_b-397]3322023-02-04 00:00:00
-03:02:18 [DEBUG] : <<<<<<
-03:02:18 [DEBUG] : Array
+01:02:08 [DEBUG] : <<<<<<
+01:02:08 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:23 [DEBUG] : [332] 2023-02-01 00:00:00
-03:02:23 [DEBUG] : [332] 2023-02-08
-03:02:23 [DEBUG] : [332] 2023-02-03 00:00:00
-03:02:23 [DEBUG] : [332] 2023-02-04 00:00:00
-03:02:22 [DEBUG] : <<<<<<
-03:02:22 [DEBUG] : Array
+01:02:26 [DEBUG] : <<<<<<
+01:02:26 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-03:02:51 [DEBUG] : <<<<<<
-03:02:51 [DEBUG] : Array
+01:02:44 [DEBUG] : <<<<<<
+01:02:44 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:39 [DEBUG] : <<<<<<
-04:02:39 [DEBUG] : Array
+01:02:03 [DEBUG] : <<<<<<
+01:02:03 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:54 [DEBUG] : <<<<<<
-04:02:54 [DEBUG] : Array
+01:02:41 [DEBUG] : <<<<<<
+01:02:41 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:23 [DEBUG] : <<<<<<
-04:02:23 [DEBUG] : Array
+01:02:20 [DEBUG] : <<<<<<
+01:02:20 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:46 [DEBUG] : <<<<<<
-04:02:46 [DEBUG] : Array
+01:02:13 [DEBUG] : <<<<<<
+01:02:13 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:18 [DEBUG] : <<<<<<
-04:02:18 [DEBUG] : Array
+01:02:13 [DEBUG] : <<<<<<
+01:02:13 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:50 [DEBUG] : <<<<<<
-04:02:50 [DEBUG] : Array
+01:02:09 [DEBUG] : <<<<<<
+01:02:09 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:56 [DEBUG] : <<<<<<
-04:02:56 [DEBUG] : Array
+01:02:40 [DEBUG] : <<<<<<
+01:02:40 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:04 [DEBUG] : <<<<<<
-04:02:04 [DEBUG] : Array
+01:02:52 [DEBUG] : <<<<<<
+01:02:52 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:15 [DEBUG] : <<<<<<
-04:02:15 [DEBUG] : Array
+01:02:07 [DEBUG] : <<<<<<
+01:02:07 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:57 [DEBUG] : <<<<<<
-04:02:57 [DEBUG] : Array
+01:02:44 [DEBUG] : <<<<<<
+01:02:44 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:29 [DEBUG] : <<<<<<
-04:02:29 [DEBUG] : Array
+01:02:52 [DEBUG] : <<<<<<
+01:02:52 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-04:02:48 [DEBUG] : <<<<<<
-04:02:48 [DEBUG] : Array
+01:02:04 [DEBUG] : <<<<<<
+01:02:04 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-08:02:41 [DEBUG] : <<<<<<
-08:02:41 [DEBUG] : Array
+01:02:24 [DEBUG] : <<<<<<
+01:02:24 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-08:02:10 [DEBUG] : <<<<<<
-08:02:10 [DEBUG] : Array
+01:02:45 [DEBUG] : <<<<<<
+01:02:45 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-08:02:17 [DEBUG] : <<<<<<
-08:02:17 [DEBUG] : Array
+01:02:36 [DEBUG] : <<<<<<
+01:02:36 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-08:02:22 [DEBUG] : <<<<<<
-08:02:22 [DEBUG] : Array
+06:02:13 [DEBUG] : <<<<<<
+06:02:13 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
 )
 
-08:02:26 [DEBUG] : <<<<<<
-08:02:26 [DEBUG] : Array
+06:02:48 [DEBUG] : <<<<<<
+06:02:48 [DEBUG] : Array
 (
-    [0] => &TB_PREF&customers
+    [0] => &TB_PREF&item_codes
     [1] => 
     [2] => 
-    [3] => id
+    [3] => item_id
     [4] => 
+)
+
+06:02:55 [DEBUG] : <<<<<<
+06:02:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:44 [DEBUG] : <<<<<<
+06:02:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:18 [DEBUG] : <<<<<<
+06:02:18 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:09 [DEBUG] : <<<<<<
+06:02:09 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:31 [DEBUG] : <<<<<<
+06:02:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:52 [DEBUG] : <<<<<<
+06:02:52 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:52 [DEBUG] : qty_limit
+06:02:25 [DEBUG] : <<<<<<
+06:02:25 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:25 [DEBUG] : Array
+(
+    [0] => 最低限量
+    [1] => 最高限量
+)
+
+06:02:42 [DEBUG] : <<<<<<
+06:02:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:42 [DEBUG] : Array
+(
+    [0] => 最低限量
+    [1] => 最高限量
+)
+
+06:02:16 [DEBUG] : <<<<<<
+06:02:16 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:16 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:26 [DEBUG] : <<<<<<
+06:02:26 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:26 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:33 [DEBUG] : <<<<<<
+06:02:33 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:33 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:39 [DEBUG] : <<<<<<
+06:02:39 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:39 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:47 [DEBUG] : <<<<<<
+06:02:47 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:47 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:55 [DEBUG] : <<<<<<
+06:02:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:55 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:01 [DEBUG] : <<<<<<
+06:02:01 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:01 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+06:02:07 [DEBUG] : <<<<<<
+06:02:07 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+06:02:07 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+08:02:07 [DEBUG] : <<<<<<
+08:02:07 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+08:02:07 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+08:02:27 [DEBUG] : <<<<<<
+08:02:27 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+08:02:27 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+08:02:32 [DEBUG] : <<<<<<
+08:02:32 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+08:02:32 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
+)
+
+08:02:38 [DEBUG] : <<<<<<
+08:02:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+08:02:38 [DEBUG] : Array
+(
+    [min_qty] => 最低限量
+    [max_qty] => 最高限量
 )
 
