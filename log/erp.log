@@ -1,5 +1,1239 @@
-00:02:53 [DEBUG] : <<<<<<
-00:02:53 [DEBUG] : Array
+01:03:47 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:49 [DEBUG] : <<<<<<
+01:03:49 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:49 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:52 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:57 [DEBUG] : <<<<<<
+01:03:57 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:57 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:28 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:30 [DEBUG] : <<<<<<
+01:03:30 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:30 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:07 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:13 [DEBUG] : <<<<<<
+01:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:13 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:14 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:16 [DEBUG] : <<<<<<
+01:03:16 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:16 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:41 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:42 [DEBUG] : <<<<<<
+01:03:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:42 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:10 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:12 [DEBUG] : <<<<<<
+01:03:12 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:12 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:56 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:58 [DEBUG] : <<<<<<
+01:03:58 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:58 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:15 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+01:03:17 [DEBUG] : <<<<<<
+01:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:17 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:53 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:56 [DEBUG] : <<<<<<
+06:03:56 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:56 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:20 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:22 [DEBUG] : <<<<<<
+06:03:22 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:22 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:23 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:25 [DEBUG] : <<<<<<
+06:03:25 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:25 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:01 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:03 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:05 [DEBUG] : <<<<<<
+06:03:05 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:05 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:55 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:57 [DEBUG] : <<<<<<
+06:03:57 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:57 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:46 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:48 [DEBUG] : <<<<<<
+06:03:48 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:48 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:23 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:25 [DEBUG] : <<<<<<
+06:03:25 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:25 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:13 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:18 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:40 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:49 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:58 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:01 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:06 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:51 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:53 [DEBUG] : <<<<<<
+06:03:53 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:53 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:01 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:03 [DEBUG] : <<<<<<
+06:03:03 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:03 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:48 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:51 [DEBUG] : <<<<<<
+06:03:51 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:51 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:05 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:07 [DEBUG] : <<<<<<
+06:03:07 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:07 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:27 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:29 [DEBUG] : <<<<<<
+06:03:29 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:29 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:11 [DEBUG] : <<<<<<
+06:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:44 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:46 [DEBUG] : <<<<<<
+06:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:46 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:19 [DEBUG] : <<<<<<
+06:03:19 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:36 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:37 [DEBUG] : <<<<<<
+06:03:37 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:37 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:11 [DEBUG] : <<<<<<
+06:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:11 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:52 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:55 [DEBUG] : <<<<<<
+06:03:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:55 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:03 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:27 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:29 [DEBUG] : <<<<<<
+06:03:29 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:29 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:36 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:40 [DEBUG] : <<<<<<
+06:03:40 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:40 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:04 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:07 [DEBUG] : <<<<<<
+06:03:07 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:07 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:22 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:18 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:20 [DEBUG] : <<<<<<
+06:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:20 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:21 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:24 [DEBUG] : <<<<<<
+06:03:24 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:24 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:36 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:38 [DEBUG] : <<<<<<
+06:03:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:38 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:43 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:31 [DEBUG] : <<<<<<
+06:03:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:31 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:38 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:40 [DEBUG] : <<<<<<
+06:03:40 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:40 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:42 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:15 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:17 [DEBUG] : <<<<<<
+06:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:17 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:52 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:54 [DEBUG] : <<<<<<
+06:03:54 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:54 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:57 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:59 [DEBUG] : <<<<<<
+06:03:59 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:59 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:07 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:10 [DEBUG] : <<<<<<
+06:03:10 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:10 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:47 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => 
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+06:03:47 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:49 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => 
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+06:03:49 [DEBUG] : <<<<<<
+06:03:49 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:49 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:34 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+06:03:34 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+06:03:36 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+06:03:36 [DEBUG] : <<<<<<
+06:03:36 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+06:03:36 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+07:03:49 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+07:03:52 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+07:03:52 [DEBUG] : <<<<<<
+07:03:52 [DEBUG] : Array
 (
     [0] => &TB_PREF&item_codes
     [1] => 
@@ -8,465 +1242,306 @@
     [4] => 
 )
 
-00:02:17 [DEBUG] : <<<<<<
-00:02:17 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:16 [DEBUG] : <<<<<<
-00:02:16 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:23 [DEBUG] : <<<<<<
-00:02:23 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:39 [DEBUG] : <<<<<<
-00:02:39 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:29 [DEBUG] : <<<<<<
-00:02:29 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:59 [INFO] : Array
-(
-    [0] => 1221
-    [loc_code] => 1221
-    [1] => 2121
-    [location_name] => 2121
-    [2] => 21
-    [delivery_address] => 21
-    [3] => 21
-    [phone] => 21
-    [4] => 21
-    [phone2] => 21
-    [5] => 21
-    [fax] => 21
-    [6] => 21
-    [email] => 21
-    [7] => 21
-    [contact] => 21
-    [8] => 0
-    [fixed_asset] => 0
-    [9] => 0
-    [inactive] => 0
-)
-
-00:02:05 [INFO] : Array
-(
-    [0] => 1221
-    [loc_code] => 1221
-    [1] => 2121
-    [location_name] => 2121
-    [2] => 21
-    [delivery_address] => 21
-    [3] => 21
-    [phone] => 21
-    [4] => 21
-    [phone2] => 21
-    [5] => 21
-    [fax] => 21
-    [6] => 21
-    [email] => 21
-    [7] => 21
-    [contact] => 21
-    [8] => 0
-    [fixed_asset] => 0
-    [9] => 0
-    [inactive] => 0
-)
-
-00:02:26 [DEBUG] : <<<<<<
-00:02:26 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:52 [DEBUG] : <<<<<<
-00:02:52 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:21 [DEBUG] : <<<<<<
-00:02:21 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-00:02:13 [DEBUG] : <<<<<<
-00:02:13 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:28 [DEBUG] : <<<<<<
-01:02:28 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:08 [DEBUG] : <<<<<<
-01:02:08 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:26 [DEBUG] : <<<<<<
-01:02:26 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:44 [DEBUG] : <<<<<<
-01:02:44 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:03 [DEBUG] : <<<<<<
-01:02:03 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:41 [DEBUG] : <<<<<<
-01:02:41 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:20 [DEBUG] : <<<<<<
-01:02:20 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:13 [DEBUG] : <<<<<<
-01:02:13 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:13 [DEBUG] : <<<<<<
-01:02:13 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:09 [DEBUG] : <<<<<<
-01:02:09 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:40 [DEBUG] : <<<<<<
-01:02:40 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:52 [DEBUG] : <<<<<<
-01:02:52 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:07 [DEBUG] : <<<<<<
-01:02:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:44 [DEBUG] : <<<<<<
-01:02:44 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:52 [DEBUG] : <<<<<<
-01:02:52 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:04 [DEBUG] : <<<<<<
-01:02:04 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:24 [DEBUG] : <<<<<<
-01:02:24 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:45 [DEBUG] : <<<<<<
-01:02:45 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-01:02:36 [DEBUG] : <<<<<<
-01:02:36 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:13 [DEBUG] : <<<<<<
-06:02:13 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:48 [DEBUG] : <<<<<<
-06:02:48 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:55 [DEBUG] : <<<<<<
-06:02:55 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:44 [DEBUG] : <<<<<<
-06:02:44 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:18 [DEBUG] : <<<<<<
-06:02:18 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:09 [DEBUG] : <<<<<<
-06:02:09 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:31 [DEBUG] : <<<<<<
-06:02:31 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:52 [DEBUG] : <<<<<<
-06:02:52 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:52 [DEBUG] : qty_limit
-06:02:25 [DEBUG] : <<<<<<
-06:02:25 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:25 [DEBUG] : Array
-(
-    [0] => 最低限量
-    [1] => 最高限量
-)
-
-06:02:42 [DEBUG] : <<<<<<
-06:02:42 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:42 [DEBUG] : Array
-(
-    [0] => 最低限量
-    [1] => 最高限量
-)
-
-06:02:16 [DEBUG] : <<<<<<
-06:02:16 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:16 [DEBUG] : Array
+07:03:52 [DEBUG] : Array
 (
     [min_qty] => 最低限量
     [max_qty] => 最高限量
 )
 
-06:02:26 [DEBUG] : <<<<<<
-06:02:26 [DEBUG] : Array
+09:03:25 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+09:03:25 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+09:03:26 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+09:03:26 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+09:03:28 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+09:03:28 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+09:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+09:03:29 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+09:03:30 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+09:03:30 [DEBUG] : <<<<<<
+09:03:30 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+09:03:30 [DEBUG] : Array
+(
+    [CS] => 销售客户
+    [SP] => 供货商
+    [OT] => 其它
+)
+
+10:03:43 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+10:03:45 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+10:03:45 [DEBUG] : <<<<<<
+10:03:45 [DEBUG] : Array
 (
     [0] => &TB_PREF&item_codes
     [1] => 
@@ -475,14 +1550,60 @@
     [4] => 
 )
 
-06:02:26 [DEBUG] : Array
+11:03:30 [DEBUG] : Array
 (
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
 )
 
-06:02:33 [DEBUG] : <<<<<<
-06:02:33 [DEBUG] : Array
+11:03:36 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+11:03:36 [DEBUG] : <<<<<<
+11:03:36 [DEBUG] : Array
 (
     [0] => &TB_PREF&item_codes
     [1] => 
@@ -491,14 +1612,34 @@
     [4] => 
 )
 
-06:02:33 [DEBUG] : Array
+11:03:39 [DEBUG] : Array
 (
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
 )
 
-06:02:39 [DEBUG] : <<<<<<
-06:02:39 [DEBUG] : Array
+11:03:39 [DEBUG] : <<<<<<
+11:03:39 [DEBUG] : Array
 (
     [0] => &TB_PREF&item_codes
     [1] => 
@@ -507,14 +1648,60 @@
     [4] => 
 )
 
-06:02:39 [DEBUG] : Array
+11:03:36 [DEBUG] : Array
 (
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
 )
 
-06:02:47 [DEBUG] : <<<<<<
-06:02:47 [DEBUG] : Array
+11:03:38 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+11:03:38 [DEBUG] : <<<<<<
+11:03:38 [DEBUG] : Array
 (
     [0] => &TB_PREF&item_codes
     [1] => 
@@ -523,121 +1710,91 @@
     [4] => 
 )
 
-06:02:47 [DEBUG] : Array
+11:03:00 [DEBUG] : Array
 (
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
 )
 
-06:02:55 [DEBUG] : <<<<<<
-06:02:55 [DEBUG] : Array
+11:03:06 [DEBUG] : Array
 (
-    [0] => &TB_PREF&item_codes
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+11:03:06 [DEBUG] : <<<<<<
+11:03:06 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
     [1] => 
     [2] => 
-    [3] => item_id
+    [3] => id
     [4] => 
-)
-
-06:02:55 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-06:02:01 [DEBUG] : <<<<<<
-06:02:01 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:01 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-06:02:07 [DEBUG] : <<<<<<
-06:02:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-06:02:07 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-08:02:07 [DEBUG] : <<<<<<
-08:02:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-08:02:07 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-08:02:27 [DEBUG] : <<<<<<
-08:02:27 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-08:02:27 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-08:02:32 [DEBUG] : <<<<<<
-08:02:32 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-08:02:32 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
-)
-
-08:02:38 [DEBUG] : <<<<<<
-08:02:38 [DEBUG] : Array
-(
-    [0] => &TB_PREF&item_codes
-    [1] => 
-    [2] => 
-    [3] => item_id
-    [4] => 
-)
-
-08:02:38 [DEBUG] : Array
-(
-    [min_qty] => 最低限量
-    [max_qty] => 最高限量
 )
 

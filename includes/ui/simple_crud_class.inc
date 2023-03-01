@@ -270,6 +270,7 @@ class simple_crud {
 	}
 	
 	function set_posts() {
+		log_b($this->fields);
 		foreach($this->fields as $name => $fmt) {
 
 			if (is_int($name)) {
@@ -278,7 +279,7 @@ class simple_crud {
 			}
 			$post = isset($fmt['post']) ? $fmt['post'] : $name;
 			$fld = isset($fmt['fld']) ? $fmt['fld'] : $name;
-
+             
 			$value = $this->selected_id == $this->_none ? (isset($fmt['dflt']) ? $fmt['dflt'] : null) : (is_array($this->data) ? $this->data[$fld]: $this->data->$fld);
 
 			$_POST[$post] = $this->_format_output($value, isset($fmt['fmt']) ? $fmt['fmt'] : null);
