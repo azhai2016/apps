@@ -257,6 +257,7 @@ class simple_crud {
 		  
 		}
 		echo "</center>";
+		br(1);
 	}
 
 	//===========================================================================
@@ -270,7 +271,7 @@ class simple_crud {
 	}
 	
 	function set_posts() {
-		log_b($this->fields);
+	
 		foreach($this->fields as $name => $fmt) {
 
 			if (is_int($name)) {
@@ -331,7 +332,9 @@ class simple_crud {
 		$this->_bottom_controls();
 		// this is needed only when we use temporary crud object together with ajax screen updates
 		hidden($this->name.'Mode'.'['.$this->selected_id.']', $this->Mode);
+		
 		div_end();
+		
 	}
 	
 	//===========================================================================

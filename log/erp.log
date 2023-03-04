@@ -1798,3 +1798,6352 @@
     [4] => 
 )
 
+00:03:21 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:21 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:23 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:23 [DEBUG] : <<<<<<
+00:03:23 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:18 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:18 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:20 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:20 [DEBUG] : <<<<<<
+00:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:00 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:06 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:06 [DEBUG] : <<<<<<
+00:03:06 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:15 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:18 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:18 [DEBUG] : <<<<<<
+00:03:18 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:57 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:00 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:00 [DEBUG] : <<<<<<
+00:03:00 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:18 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:22 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:22 [DEBUG] : <<<<<<
+00:03:22 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:22 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:25 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:25 [DEBUG] : <<<<<<
+00:03:25 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:32 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:32 [DEBUG] : <<<<<<
+00:03:32 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:22 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:22 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:24 [DEBUG] : Array
+(
+    [0] => item_id
+    [1] => item_code
+    [2] => item_name
+    [3] => item_factory
+    [4] => item_spec
+    [5] => item_units
+    [6] => item_approval_no
+    [7] => def_price
+    [8] => item_category
+    [9] => description
+    [10] => inactive
+    [11] => tax_type_id
+    [12] => pack
+    [13] => mid_pack
+    [14] => barcode
+    [15] => qty_limit
+    [16] => min_qty
+    [17] => max_qty
+    [18] => is_buy_limit
+    [19] => is_sale_limit
+    [20] => inactive
+    [21] => product_name
+)
+
+00:03:24 [DEBUG] : <<<<<<
+00:03:24 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+00:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:31 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:31 [DEBUG] : <<<<<<
+00:03:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:34 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:34 [DEBUG] : <<<<<<
+00:03:34 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:00 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:02 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:02 [DEBUG] : <<<<<<
+00:03:02 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:37 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:39 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:39 [DEBUG] : <<<<<<
+00:03:39 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:41 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:41 [DEBUG] : <<<<<<
+00:03:41 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:42 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:42 [DEBUG] : <<<<<<
+00:03:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:43 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:43 [DEBUG] : <<<<<<
+00:03:43 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:44 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:44 [DEBUG] : <<<<<<
+00:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:45 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:45 [DEBUG] : <<<<<<
+00:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:46 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:46 [DEBUG] : <<<<<<
+00:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+00:03:47 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+00:03:47 [DEBUG] : <<<<<<
+00:03:47 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:26 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:28 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:28 [DEBUG] : <<<<<<
+01:03:28 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:31 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:31 [DEBUG] : <<<<<<
+01:03:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:32 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:32 [DEBUG] : <<<<<<
+01:03:32 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:32 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:32 [DEBUG] : <<<<<<
+01:03:32 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:33 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:33 [DEBUG] : <<<<<<
+01:03:33 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:38 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:38 [DEBUG] : <<<<<<
+01:03:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:39 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:39 [DEBUG] : <<<<<<
+01:03:39 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:40 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:40 [DEBUG] : <<<<<<
+01:03:40 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:44 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:44 [DEBUG] : <<<<<<
+01:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:47 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:47 [DEBUG] : <<<<<<
+01:03:47 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:54 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:54 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:02 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:02 [DEBUG] : <<<<<<
+01:03:02 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:44 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:44 [DEBUG] : <<<<<<
+01:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:45 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : <<<<<<
+01:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:47 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:47 [DEBUG] : <<<<<<
+01:03:47 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:48 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:48 [DEBUG] : <<<<<<
+01:03:48 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:42 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : <<<<<<
+01:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:46 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:46 [DEBUG] : <<<<<<
+01:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:17 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:17 [DEBUG] : <<<<<<
+01:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:31 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:03 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:03 [DEBUG] : <<<<<<
+01:03:03 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:05 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:05 [DEBUG] : <<<<<<
+01:03:05 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:11 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:11 [DEBUG] : <<<<<<
+01:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:11 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:11 [DEBUG] : <<<<<<
+01:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:13 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:13 [DEBUG] : <<<<<<
+01:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:35 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:36 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:38 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:38 [DEBUG] : <<<<<<
+01:03:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:40 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:40 [DEBUG] : <<<<<<
+01:03:40 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:44 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:44 [DEBUG] : <<<<<<
+01:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:45 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : <<<<<<
+01:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:46 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:46 [DEBUG] : <<<<<<
+01:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:11 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:13 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:13 [DEBUG] : <<<<<<
+01:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:39 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:41 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:41 [DEBUG] : <<<<<<
+01:03:41 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:20 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:22 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:22 [DEBUG] : <<<<<<
+01:03:22 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:36 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:38 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:38 [DEBUG] : <<<<<<
+01:03:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:15 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:17 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:17 [DEBUG] : <<<<<<
+01:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:19 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:19 [DEBUG] : <<<<<<
+01:03:19 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:20 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:20 [DEBUG] : <<<<<<
+01:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:21 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:21 [DEBUG] : <<<<<<
+01:03:21 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:22 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:22 [DEBUG] : <<<<<<
+01:03:22 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:15 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:17 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:17 [DEBUG] : <<<<<<
+01:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:19 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:19 [DEBUG] : <<<<<<
+01:03:19 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:24 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:24 [DEBUG] : <<<<<<
+01:03:24 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:25 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:25 [DEBUG] : <<<<<<
+01:03:25 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:26 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:26 [DEBUG] : <<<<<<
+01:03:26 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:37 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:39 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:39 [DEBUG] : <<<<<<
+01:03:39 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:42 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:42 [DEBUG] : <<<<<<
+01:03:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:46 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:46 [DEBUG] : <<<<<<
+01:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:49 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:49 [DEBUG] : <<<<<<
+01:03:49 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:51 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:51 [DEBUG] : <<<<<<
+01:03:51 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:52 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:52 [DEBUG] : <<<<<<
+01:03:52 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:53 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:53 [DEBUG] : <<<<<<
+01:03:53 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:20 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:21 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:21 [DEBUG] : <<<<<<
+01:03:21 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:24 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:24 [DEBUG] : <<<<<<
+01:03:24 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:30 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:30 [DEBUG] : <<<<<<
+01:03:30 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:31 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:31 [DEBUG] : <<<<<<
+01:03:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:33 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:33 [DEBUG] : <<<<<<
+01:03:33 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:35 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:35 [DEBUG] : <<<<<<
+01:03:35 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:37 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:37 [DEBUG] : <<<<<<
+01:03:37 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:25 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:27 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:27 [DEBUG] : <<<<<<
+01:03:27 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:29 [DEBUG] : <<<<<<
+01:03:29 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:30 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:30 [DEBUG] : <<<<<<
+01:03:30 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:33 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:33 [DEBUG] : <<<<<<
+01:03:33 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:52 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:54 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:54 [DEBUG] : <<<<<<
+01:03:54 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:57 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:57 [DEBUG] : <<<<<<
+01:03:57 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:33 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:36 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:36 [DEBUG] : <<<<<<
+01:03:36 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:12 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:13 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:13 [DEBUG] : <<<<<<
+01:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:18 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:18 [DEBUG] : <<<<<<
+01:03:18 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:18 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:18 [DEBUG] : <<<<<<
+01:03:18 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:20 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:20 [DEBUG] : <<<<<<
+01:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:43 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:45 [DEBUG] : <<<<<<
+01:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:56 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:58 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:58 [DEBUG] : <<<<<<
+01:03:58 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:53 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:55 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:55 [DEBUG] : <<<<<<
+01:03:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:21 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:23 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:23 [DEBUG] : <<<<<<
+01:03:23 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:58 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:01 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:01 [DEBUG] : <<<<<<
+01:03:01 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:27 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:29 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:29 [DEBUG] : <<<<<<
+01:03:29 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:41 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:43 [DEBUG] : Array
+(
+    [0] => code
+    [1] => name
+    [2] => address
+    [3] => phone
+    [4] => contact
+    [5] => sale_man
+    [6] => sale_area
+    [7] => area
+    [8] => sale_area_code
+    [9] => email
+    [10] => phone2
+    [11] => description
+    [12] => sales_type
+    [13] => type
+    [14] => credit_code_limit
+    [15] => product_name
+    [16] => credit_code
+    [17] => licence1
+    [18] => licence2
+    [19] => licence3
+    [20] => licence1_limit
+    [21] => licence2_limit
+    [22] => licence3_limit
+    [23] => is_buy_limit
+    [24] => is_sale_limit
+    [25] => reg_capital
+    [26] => lawyer
+    [27] => charge
+    [28] => quality_charge
+    [29] => tax_no
+    [30] => bank_name
+    [31] => invoice_title
+    [32] => invoice_address
+    [33] => bank_no
+    [34] => print_link
+)
+
+01:03:43 [DEBUG] : <<<<<<
+01:03:43 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:13 [DEBUG] : <<<<<<
+01:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:41 [DEBUG] : <<<<<<
+01:03:41 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:52 [DEBUG] : <<<<<<
+01:03:52 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:53 [DEBUG] : <<<<<<
+01:03:53 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:55 [DEBUG] : <<<<<<
+01:03:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:56 [DEBUG] : <<<<<<
+01:03:56 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:57 [DEBUG] : <<<<<<
+01:03:57 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:58 [DEBUG] : <<<<<<
+01:03:58 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:04 [DEBUG] : <<<<<<
+01:03:04 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:48 [DEBUG] : <<<<<<
+01:03:48 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:50 [DEBUG] : <<<<<<
+01:03:50 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:56 [DEBUG] : <<<<<<
+01:03:56 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:04 [DEBUG] : <<<<<<
+01:03:04 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:16 [DEBUG] : <<<<<<
+01:03:16 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+01:03:27 [DEBUG] : <<<<<<
+01:03:27 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:43 [DEBUG] : <<<<<<
+02:03:43 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:14 [DEBUG] : <<<<<<
+02:03:14 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:20 [DEBUG] : <<<<<<
+02:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:40 [DEBUG] : <<<<<<
+02:03:40 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:42 [DEBUG] : <<<<<<
+02:03:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:00 [DEBUG] : <<<<<<
+02:03:00 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:02 [DEBUG] : <<<<<<
+02:03:02 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:11 [DEBUG] : <<<<<<
+02:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:13 [DEBUG] : <<<<<<
+02:03:13 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:10 [DEBUG] : <<<<<<
+02:03:10 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:11 [DEBUG] : <<<<<<
+02:03:11 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:48 [DEBUG] : <<<<<<
+02:03:48 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:51 [DEBUG] : <<<<<<
+02:03:51 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:23 [DEBUG] : <<<<<<
+02:03:23 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:24 [DEBUG] : <<<<<<
+02:03:24 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
