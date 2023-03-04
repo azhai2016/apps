@@ -13,9 +13,16 @@ class simple_crud {
 	var $options;
 	var $dec;
 	var $change_formula;
+	var $opt=array(
+		'delete'=>true,
+		'clone'=>false,
+		'update' => true,
+		'insert' => true
+	);
 	
-	function __construct($name, $fields = null) {
+	function __construct($name, $fields = null,$opt=null) {
 		$this->name = $name;
+		$this->opt = $opt?$opt:$this->opt;
 		$this->pre_handlers = array(
 			'Edit' => '_edit',
 			'Delete' => '_delete',
@@ -210,6 +217,7 @@ class simple_crud {
 	
 	// Generate form controls
 	function _bottom_controls() {
+
 		$clone = $this->selected_id != $this->_none;
 
 		$title=false;
@@ -247,10 +255,13 @@ class simple_crud {
 			 
 			 	   submit("{$base}UPDATE[{$this->selected_id}]", _('更新数据'), true, _('提交更新'), $async);
 				   echo '<span style="padding:0 10px;"></span>';
+				if ($this->opt['delete']) {   
 			  	   submit("{$base}Delete[{$this->selected_id}]", _('删除'), true, _('提交删除'),$async,ICON_DELETE);
 				   echo '<span style="padding:0 10px;"></span>';
-				//if ($clone) 
-				//	submit("{$base}CLONE[{$this->selected_id}]", _('复制'), true, _('复制当前数据'), $async);
+				}
+				if ($this->opt['clone']) {
+					submit("{$base}CLONE[{$this->selected_id}]", _('复制'), true, _('复制当前数据'), $async);
+				}
 			}
 		   }
 			submit("{$base}RESET", _("取消"), true, _('取消'), $cancel);

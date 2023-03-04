@@ -292,7 +292,7 @@ class simple_crud_view extends user_view {
 
 		$this->data_set = $data_set;
 		$this->fields = $data_set->fields;
-//		$this->_prev_status();
+		$this->_prev_status();
 	}
 
 	function _add_action($name, $handler, $but_value=null, $but_title=false, $but_icon=false, $aspect='', $view=null) {
