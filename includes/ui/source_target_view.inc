@@ -11,7 +11,6 @@ class sourceTargets extends simple_crud {
 	var $entity;
 	var $sub_class;
 	var $class;
-	var $is_active = false;
 	
 	function __construct($name, $id, $class, $subclass=null,$isActive=false) {
 		$fields = array('targetId','targetName','targetType','targetDataType', 'sqlScript', 'tablename','defaultValue');
@@ -20,7 +19,7 @@ class sourceTargets extends simple_crud {
 		$this->class = $class;
 		$this->subclass = $subclass;
 		$this->entity = $id;
-		$this->is_active = $isActive == 1;
+		$this->is_active = $isActive;
 	}
 
 	function list_view() {

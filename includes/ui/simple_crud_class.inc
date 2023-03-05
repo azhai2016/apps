@@ -13,6 +13,7 @@ class simple_crud {
 	var $options;
 	var $dec;
 	var $change_formula;
+	var $is_active;
 	var $opt=array(
 		'delete'=>true,
 		'clone'=>false,

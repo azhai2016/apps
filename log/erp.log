@@ -13282,3 +13282,363 @@
     [inactive] => 0
 )
 
+02:03:21 [DEBUG] : <<<<<<
+02:03:21 [DEBUG] : Array
+(
+    [0] => &TB_PREF&item_codes
+    [1] => 
+    [2] => 
+    [3] => item_id
+    [4] => 
+)
+
+02:03:39 [DEBUG] : <<<<<<
+02:03:39 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:41 [DEBUG] : <<<<<<
+02:03:41 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:41 [DEBUG] : <<<<<<
+02:03:41 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:42 [DEBUG] : <<<<<<
+02:03:42 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:43 [DEBUG] : <<<<<<
+02:03:43 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:43 [DEBUG] : <<<<<<
+02:03:43 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:44 [DEBUG] : <<<<<<
+02:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:45 [DEBUG] : <<<<<<
+02:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:45 [DEBUG] : <<<<<<
+02:03:45 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:46 [DEBUG] : <<<<<<
+02:03:46 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+02:03:32 [INFO] : Array
+(
+    [0] => 1221
+    [loc_code] => 1221
+    [1] => 2121
+    [location_name] => 2121
+    [2] => 21
+    [delivery_address] => 21
+    [3] => 21
+    [phone] => 21
+    [4] => 21
+    [phone2] => 21
+    [5] => 21
+    [fax] => 21
+    [6] => 21
+    [email] => 21
+    [7] => 21
+    [contact] => 21
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+02:03:33 [INFO] : Array
+(
+    [0] => 1221
+    [loc_code] => 1221
+    [1] => 2121
+    [location_name] => 2121
+    [2] => 21
+    [delivery_address] => 21
+    [3] => 21
+    [phone] => 21
+    [4] => 21
+    [phone2] => 21
+    [5] => 21
+    [fax] => 21
+    [6] => 21
+    [email] => 21
+    [7] => 21
+    [contact] => 21
+    [8] => 0
+    [fixed_asset] => 0
+    [9] => 0
+    [inactive] => 0
+)
+
+04:03:20 [DEBUG] : 
+04:03:54 [DEBUG] : 
+04:03:24 [DEBUG] : 
+04:03:53 [DEBUG] : 
+04:03:44 [DEBUG] : <<<<<<
+04:03:44 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+04:03:44 [DEBUG] : 1000001
+07:03:55 [DEBUG] : <<<<<<
+07:03:55 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+07:03:55 [DEBUG] : 1000001
+07:03:00 [DEBUG] : <<<<<<
+07:03:00 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+07:03:00 [DEBUG] : 1000001
+07:03:32 [DEBUG] : <<<<<<
+07:03:32 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+07:03:32 [DEBUG] : 1000001
+07:03:38 [DEBUG] : <<<<<<
+07:03:38 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+07:03:38 [DEBUG] : 1000002
+07:03:51 [DEBUG] : <<<<<<
+07:03:51 [DEBUG] : Array
+(
+    [0] => &TB_PREF&targetData
+    [1] => 
+    [2] => 
+    [3] => targetId
+    [4] => 
+)
+
+07:03:51 [DEBUG] : 1000003
+07:03:17 [DEBUG] : select * from &TB_PREF&FactorData where formulaId =1
+07:03:13 [DEBUG] : Array
+(
+    [factorId] => 
+    [factorName] => 3232
+    [factorType] => 
+    [factorValue] => 
+    [factorStatus] => 323
+    [formulaId] => 1
+    [isActive] => 1
+)
+
+08:03:14 [DEBUG] : <<<<<<
+08:03:14 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:16 [DEBUG] : <<<<<<
+08:03:16 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:16 [DEBUG] : <<<<<<
+08:03:16 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:17 [DEBUG] : <<<<<<
+08:03:17 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:18 [DEBUG] : <<<<<<
+08:03:18 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:20 [DEBUG] : <<<<<<
+08:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:20 [DEBUG] : <<<<<<
+08:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:20 [DEBUG] : <<<<<<
+08:03:20 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:21 [DEBUG] : <<<<<<
+08:03:21 [DEBUG] : Array
+(
+    [0] => &TB_PREF&customers
+    [1] => 
+    [2] => 
+    [3] => id
+    [4] => 
+)
+
+08:03:31 [DEBUG] : <<<<<<
+08:03:31 [DEBUG] : Array
+(
+    [0] => &TB_PREF&FormulaData
+    [1] => 
+    [2] => 
+    [3] => FormulaId
+    [4] => 
+)
+
+08:03:00 [DEBUG] : <<<<<<
+08:03:00 [DEBUG] : Array
+(
+    [0] => &TB_PREF&FormulaData
+    [1] => 
+    [2] => 
+    [3] => FormulaId
+    [4] => 
+)
+
+08:03:01 [DEBUG] : <<<<<<
+08:03:01 [DEBUG] : Array
+(
+    [0] => &TB_PREF&FactorData
+    [1] => 
+    [2] => 
+    [3] => factorId
+    [4] => 
+)
+

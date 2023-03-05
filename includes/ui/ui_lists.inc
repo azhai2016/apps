@@ -1223,54 +1223,6 @@ function select_data_list_row2($label,$name,$tbname,$fields,$morelink,$selected_
 
 
 
-
-
-
-
-//---------------------------------------------
-
-function formula_data_list($name, $selected_id = null, $spec_option = false, $submit_on_change = false, $show_inactive = false, $editkey = false)
-{
-    $sql = "select Id,FormulaId,FormulaName,FormulaType from FormulaData";
-
-    if ($editkey) {
-        set_editor('formula_all_data', $name, $editkey);
-    } 
-
-    $ret = combo_mssql_input($name, $selected_id, $sql, 'Id', 'FormulsName',
-	array(
-		'format' => '_format_source_datas',
-		'order' => array('FormulaId'),
-		'search_box' => true,
-		'type' => 1,
-		'size' => 20,
-		'search' => array(''),
-		'spec_option' => $spec_option === true ? _('所有源数据') : $spec_option,
-		'spec_id' => ALL_TEXT,
-		'select_submit' => $submit_on_change,
-		'async' => false,
-		'sel_hint' =>('按空格键按名称片段过滤；F2-进入新客商'),
-		'show_inactive' => $show_inactive,
-		'editlink' => $editkey ? add_edit_combo('Id', $name) : false,
-	), 'formula_all_data');
-    return $ret;
-}
-
-
-function formula_data_list_cells($label, $name, $selected_id = null, $all_option = false, $submit_on_change = false, $all = false, $editkey = false, $opts = array())
-{
-
-    $editor_item = 'item';
-
-    if ($label != null) {
-        echo "<td>" . $label . "</td>\n";
-    }
-
-	echo '<td nowrap>';
-    echo formula_data_list($name, $selected_id, $all_option, $submit_on_change, $all, $editkey);
-	echo "</td>\n";
-}
-
 //------------------------------------------------------------------------------------
 
 function _format_template_items($row) {
@@ -1320,32 +1272,6 @@ function workorders_list_cells($label, $name, $selected_id=null) {
 function workorders_list_row($label, $name, $selected_id=null) {
 	echo "<tr><td class='label'>".$label."</td>";
 	workorders_list_cells(null, $name, $selected_id);
-	echo "</tr>\n";
-}
-
-//------------------------------------------------------------------------------------
-function _format_target_datas($rows){
-	return $rows[0];
-}
-
-function target_type_list($name, $selected_id=null) {
-	$sql = "SELECT value,id FROM Settings where flag=".ST_TARGETTYPE;
-	return combo_mssql_input($name, $selected_id, $sql, 'id', 'value', array(
-		'format' => '_format_target_datas',
-	));
-}
-
-function target_type_list_cells($label, $name, $selected_id=null) {
-	if ($label != null)
-		echo "<td>".$label."</td>\n";
-	echo "<td>";
-	echo target_type_list($name, $selected_id);
-	echo "</td>\n";
-}
-
-function target_type_list_row($label, $name, $selected_id=null) {
-	echo "<tr><td class='label'>".$label."</td>";
-	target_type_list_cells(null, $name, $selected_id);
 	echo "</tr>\n";
 }
 
