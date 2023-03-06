@@ -136,7 +136,7 @@ function table_section($number=1, $width=false,$class=null) {
 		$width = ($width ? "width='$width'" : '');
 		echo "</td><td style='border-left:1px solid #cccccc;' $width>\n"; // outer table
 	}
-	echo "<table id=".$class." class='tablestyle_inner ".$class."'>\n";
+	echo "<table id=".$class." class='tablestyle_inner ".$class."' style=\"width:100%\">\n";
 }	
 
 function end_outer_table($breaks=0, $close_table=true) {

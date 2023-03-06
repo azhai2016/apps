@@ -1165,62 +1165,6 @@ function stock_units_list_row($label, $name, $value = null, $enabled = true)
 //---------------------------------------------
 
 
-function select_data_list($name,$tbname,$fields,$morelink,$selected_id = null,$flag=0)
-{
-	  $_field_str = $fields;
-	  $fields = explode(',',$fields);
-	  $sql = "select top 10 $_field_str from $tbname"; 
-      
-  	  return combo_mssql_input($name, $selected_id, $sql, $fields[0], $fields[1], array(
-        'format' => '_format_select_datas',
-		'custom_row_value'=>1,
-		'type' => 1,
-		'size' => 20,
-		'search' => array(''),
-		'search_box' => true,
-		'spec_id' => ALL_TEXT,
-
-		'multi'=>false,
-		'select_submit' => true,
-	  
-	  ),$morelink);
-	
-}
-
-function select_data_list_cells($label, $name,$tbname,$fields,$morelink,$selected_id = null,$tgname=null,$id=null,$flag=0)
-{
-    if ($label != null) {
-        echo "<td>" . $label . "</td>\n";
-    }
-
-    echo "<td>";
-    echo select_data_list($name,$tbname,$fields,$morelink,$selected_id);
-	
-	echo '<input type="hidden" name="'.$name.'_tgname" value="'.$tgname.'" />';
-	echo '<input type="hidden" name="tbname[]" value="'.$name.'" />';
-	echo '<input type="hidden" name="'.$name.'_conditions_id" value="'.$id.'" />';
-	echo '<span style="padding-left:10px;">'.button($name.'_btn', $tbname, '选择', ICON_ANGLE_DOUBLE_RIGHT, '').'</span>';
-
-	//echo '<span style="padding-left:10px;">'.submit($name.'_btn','添加',$selected_id,"", '选择', true,false).'</span>';
-	echo "</td>\n";
-	
-}
-
-function select_data_list_row($label,$name,$tbname,$fields,$morelink,$selected_id = null,$tgname=null,$id=null,$flag=0)
-{
-    echo "<tr><td class='label' >" . $label . "</td>";
-    select_data_list_cells(null,$name,$tbname,$fields,$morelink,$selected_id,$tgname,$id,$flag);
-	echo "</tr>\n";
-}
-
-
-function select_data_list_row2($label,$name,$tbname,$fields,$morelink,$selected_id = null,$tgname=null,$id=null,$flag=0)
-{
-    echo "<tr><td class='label' >" . $label . "</td>";
-    echo "<td>".select_data_list($name,$tbname,$fields,$morelink,$selected_id)."</td>";
-	echo "</tr>\n";
-}
-
 
 
 //------------------------------------------------------------------------------------
