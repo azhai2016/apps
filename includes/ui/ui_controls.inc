@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 	Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -8,7 +9,7 @@
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 	See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
-***********************************************************************/
+ ***********************************************************************/
 /*
 	Retrieve value of POST variable(s).
 	For $name passed as array $dflt is not used, 
@@ -16,6 +17,8 @@
 	If some field have user formatted numeric value, pass float default value to
 	convert automatically to POSIX.
 */
+
+/*
 function get_post($name, $dflt='') {
 	if (is_array($name)) {
 		$ret = array();
@@ -27,21 +30,42 @@ function get_post($name, $dflt='') {
 		return $ret;
 	}
 	else
-		return is_float($dflt) ? input_num($name, $dflt) : ((!isset($_POST[$name]) /*|| $_POST[$name] === ''*/) ? $dflt : $_POST[$name]);
+		return is_float($dflt) ? input_num($name, $dflt) : ((!isset($_POST[$name]) /*|| $_POST[$name] === ''*//*) ? $dflt : $_POST[$name]);
+}  */
+
+
+function get_post($name, $default = '')
+{
+	if (is_array($name)) {
+		$result = array();
+		foreach ($name as $key => $value) {
+			$result[$key] = get_post($key, $value);
+		}
+		return $result;
+	}
+	if (isset($_POST[$name])) {
+		$value = $_POST[$name];
+		if (is_numeric($value)) {
+			return input_num($name, $value);
+		}
+		return $value;
+	}
+	return $default ?? '';
 }
 
 //---------------------------------------------------------------------------------
 
 $form_nested = -1;
 
-function start_form($multi=false, $action='', $name='',$onsubmit='',$id='') {
+function start_form($multi = false, $action = '', $name = '', $onsubmit = '', $id = '')
+{
 	global $form_nested;
 
 	if (++$form_nested)
 		return;
 
 	if ($name != '')
-		$name = "name='".$name."'";
+		$name = "name='" . $name . "'";
 	if ($action == '')
 		$action = $_SERVER['PHP_SELF'];
 
@@ -52,7 +76,8 @@ function start_form($multi=false, $action='', $name='',$onsubmit='',$id='') {
 }
 
 // Flush hidden fields buffer.
-function output_hidden() {
+function output_hidden()
+{
 	global $hidden_fields;
 
 	if (is_array($hidden_fields))
@@ -62,7 +87,8 @@ function output_hidden() {
 
 //---------------------------------------------------------------------------------
 
-function end_form($breaks=0) {
+function end_form($breaks = 0)
+{
 	global $Ajax, $form_nested, $hidden_fields;
 
 	if ($form_nested-- > 0) return;
@@ -81,16 +107,18 @@ function end_form($breaks=0) {
 	$Ajax->activate('_confirmed');
 }
 
-function check_csrf_token() {
+function check_csrf_token()
+{
 	if ($_SESSION['csrf_token'] != @$_POST['_token']) {
 		display_error(_('Request from outside of this page is forbidden.'));
-		error_log(_('CSRF attack detected from: ').@$_SERVER['HTTP_HOST'].' ('.@$_SERVER['HTTP_REFERER'].')');
+		error_log(_('CSRF attack detected from: ') . @$_SERVER['HTTP_HOST'] . ' (' . @$_SERVER['HTTP_REFERER'] . ')');
 		return false;
 	}
 	return true;
 }
 
-function start_table($class=false, $extra='', $padding='2', $spacing='0') {
+function start_table($class = false, $extra = '', $padding = '2', $spacing = '0')
+{
 	echo "<center><table";
 	if ($class == TABLESTYLE_NOBORDER)
 		echo " class='tablestyle_noborder'";
@@ -99,18 +127,20 @@ function start_table($class=false, $extra='', $padding='2', $spacing='0') {
 	elseif ($class == TABLESTYLE)
 		echo " class='tablestyle'";
 	if ($extra != '')
-		echo ' '.$extra;
-	echo " cellpadding='".$padding."' cellspacing='".$spacing."'>\n";
+		echo ' ' . $extra;
+	echo " cellpadding='" . $padding . "' cellspacing='" . $spacing . "'>\n";
 }
 
-function end_table($breaks=0) {
+function end_table($breaks = 0)
+{
 	echo "</table></center>\n";
 	output_hidden();
 	if ($breaks)
 		br($breaks);
 }
 
-function start_outer_table($class=false, $extra='', $padding='2', $spacing='0', $br=false) {
+function start_outer_table($class = false, $extra = '', $padding = '2', $spacing = '0', $br = false)
+{
 	if ($br)
 		br();
 	$classes = " class='table_section";
@@ -122,24 +152,26 @@ function start_outer_table($class=false, $extra='', $padding='2', $spacing='0', 
 		$classes .= ' tablestyle';
 	$classes .= "'";
 
-	echo '<center><table'.$classes;
+	echo '<center><table' . $classes;
 	if ($extra != '')
-		echo ' '.$extra;
-	echo " cellpadding='".$padding."' cellspacing='".$spacing."'>\n";
+		echo ' ' . $extra;
+	echo " cellpadding='" . $padding . "' cellspacing='" . $spacing . "'>\n";
 	echo "<tr valign=top><td>\n"; // outer table
 }
 
-function table_section($number=1, $width=false,$class=null) {
+function table_section($number = 1, $width = false, $class = null)
+{
 	if ($number > 1) {
 		echo "</table>\n";
 		output_hidden();
 		$width = ($width ? "width='$width'" : '');
 		echo "</td><td style='border-left:1px solid #cccccc;' $width>\n"; // outer table
 	}
-	echo "<table id=".$class." class='tablestyle_inner ".$class."' style=\"width:100%\">\n";
-}	
+	echo "<table id=" . $class . " class='tablestyle_inner " . $class . "' style=\"width:100%\">\n";
+}
 
-function end_outer_table($breaks=0, $close_table=true) {
+function end_outer_table($breaks = 0, $close_table = true)
+{
 	if ($close_table) {
 		echo "</table>\n";
 		output_hidden();
@@ -149,43 +181,48 @@ function end_outer_table($breaks=0, $close_table=true) {
 }
 
 //  outer table spacer
-function vertical_space($params='') {
-	echo "</td></tr><tr><td valign=center ".$params.">";
+function vertical_space($params = '')
+{
+	echo "</td></tr><tr><td valign=center " . $params . ">";
 }
 
-function meta_forward($forward_to, $params='', $timeout=0, $return=false) {
+function meta_forward($forward_to, $params = '', $timeout = 0, $return = false)
+{
 	global $Ajax;
-	echo "<meta http-equiv='Refresh' content='".$timeout."; url=$forward_to?$params'>\n";
+	echo "<meta http-equiv='Refresh' content='" . $timeout . "; url=$forward_to?$params'>\n";
 	echo "<center><br>" . _('You should automatically be forwarded.');
-	echo " " . _('If this does not happen').' '."<a href='".$forward_to.'?'.$params."'>"._('click here')."</a> "._('to continue').".<br><br></center>\n";
+	echo " " . _('If this does not happen') . ' ' . "<a href='" . $forward_to . '?' . $params . "'>" . _('click here') . "</a> " . _('to continue') . ".<br><br></center>\n";
 	if ($params != '')
-		$params = '?'.$params;
-	$Ajax->redirect($forward_to.$params);
+		$params = '?' . $params;
+	$Ajax->redirect($forward_to . $params);
 	if (!$return)
 		exit;
 }
 
 
-function model_start($title){
+function model_start($title)
+{
 	div_start('model');
-	   echo '<div class="model-header">
-	            <h3>'.$title.'</h3>
+	echo '<div class="model-header">
+	            <h3>' . $title . '</h3>
 	            <span class="close">×</span> 
           </div>
 	      <div class="model-body">';
-   
 }
 
-function model_footer_begin(){
+function model_footer_begin()
+{
 	echo '</div>
     <div class="model-footer">';
 }
 
-function model_footer_end(){
+function model_footer_end()
+{
 	echo '</div>';
 }
 
-function model_end(){
+function model_end()
+{
 	echo '<div class="mask"></div>';
 	div_end();
 }
@@ -196,41 +233,43 @@ function model_end(){
 // (for use in wiki help system), otherwise result is array of label 
 // with underlined hotkey letter and access property string.
 //
-function access_string($label, $clean=false) {
+function access_string($label, $clean = false)
+{
 	$access = '';
 	$slices = array();
 
 	if (preg_match('/(.*)&([a-zA-Z0-9])(.*)/', $label, $slices)) {
-		$label = $clean ? $slices[1].$slices[2].$slices[3] : $slices[1].'<u>'.$slices[2].'</u>'.$slices[3];
-		$access = " accesskey='".strtoupper($slices[2])."'";
+		$label = $clean ? $slices[1] . $slices[2] . $slices[3] : $slices[1] . '<u>' . $slices[2] . '</u>' . $slices[3];
+		$access = " accesskey='" . strtoupper($slices[2]) . "'";
 	}
-	
-	$label = str_replace( '&&', '&', $label);
+
+	$label = str_replace('&&', '&', $label);
 
 	return $clean ? $label : array($label, $access);
 }
 
-function hyperlink_back($center=true, $no_menu=true, $type_no=0, $trans_no=0, $final=false) {
+function hyperlink_back($center = true, $no_menu = true, $type_no = 0, $trans_no = 0, $final = false)
+{
 	global $path_to_root;
-	
+
 
 	if ($center)
 		echo "<center>";
-	$id = 0;	
+	$id = 0;
 	if ($no_menu && $trans_no != 0) {
-		include_once($path_to_root.'/admin/db/attachments_db.inc');
+		include_once($path_to_root . '/admin/db/attachments_db.inc');
 		$id = has_attachment($type_no, $trans_no);
 		$attach = get_attachment_string($type_no, $trans_no);
 		echo $attach;
 	}
-	$width = $id != 0 ? '30%' : '20%';	
-	start_table(false, "width='".$width."'");
+	$width = $id != 0 ? '30%' : '20%';
+	start_table(false, "width='" . $width . "'");
 	start_row();
 
 	if ($no_menu)
-		echo "<td align=center><a href='javascript:window.print();'>"._('打印')."</a></td>\n";
-	
-	echo "<td align=center><a href='javascript:goBack(".($final ? '-2' : '').");'>".($no_menu ? _('关闭') : _('返回'))."</a></td>\n";
+		echo "<td align=center><a href='javascript:window.print();'>" . _('打印') . "</a></td>\n";
+
+	echo "<td align=center><a href='javascript:goBack(" . ($final ? '-2' : '') . ");'>" . ($no_menu ? _('关闭') : _('返回')) . "</a></td>\n";
 	end_row();
 	end_table();
 	if ($center)
@@ -239,7 +278,8 @@ function hyperlink_back($center=true, $no_menu=true, $type_no=0, $trans_no=0, $f
 	echo '<br>';
 }
 
-function hyperlink_no_params($target, $label, $center=true) {
+function hyperlink_no_params($target, $label, $center = true)
+{
 	$id = default_focus();
 	$pars = access_string($label);
 	if ($target == '')
@@ -251,62 +291,68 @@ function hyperlink_no_params($target, $label, $center=true) {
 		echo "</center>";
 }
 
-function hyperlink_no_params_td($target, $label) {
+function hyperlink_no_params_td($target, $label)
+{
 	echo '<td>';
 	hyperlink_no_params($target, $label);
 	echo "</td>\n";
 }
 
-function viewer_link($label, $url='', $class='', $id='', $icon=null) {
+function viewer_link($label, $url = '', $class = '', $id = '', $icon = null)
+{
 	global $path_to_root;
-	
+
 	if ($class != '')
-		$class = " class='".$class."'";
+		$class = " class='" . $class . "'";
 
 	if ($id != '')
-		$class = " id='".$id."'";
+		$class = " id='" . $id . "'";
 
 	if ($url != '') {
 		$pars = access_string($label);
 		if (user_graphic_links() && $icon)
 			$pars[0] = set_icon($icon, $pars[0]);
 		$preview_str = "<a target='_blank' $class $id href='$path_to_root/$url' onclick=\"javascript:openWindow(this.href,this.target); return false;\"$pars[1]>$pars[0]</a>";
-	}
-	else
+	} else
 		$preview_str = $label;
 	return $preview_str;
 }
 
-function menu_link($url, $label, $id=null) {
+function menu_link($url, $label, $id = null)
+{
 	global $path_to_root;
 
 	$id = default_focus($id);
 	$pars = access_string($label);
 
 	if ($url[0] != '/')
-		$url = '/'.$url;
-	$url = $path_to_root.$url;
+		$url = '/' . $url;
+	$url = $path_to_root . $url;
 
 	return "<a href='$url' class='menu_option' id='$id' $pars[1]>$pars[0]</a>";
 }
 
-function submenu_option($title, $url, $id=null) {
-	display_note( menu_link($url, $title, $id), 0, 1);
+function submenu_option($title, $url, $id = null)
+{
+	display_note(menu_link($url, $title, $id), 0, 1);
 }
 
-function submenu_view($title, $type, $number, $id=null) {
+function submenu_view($title, $type, $number, $id = null)
+{
 	display_note(get_trans_view_str($type, $number, $title, false, 'viewlink', $id), 0, 1);
 }
 
-function submenu_print($title, $type, $number, $id=null, $email=0, $extra=0) {
+function submenu_print($title, $type, $number, $id = null, $email = 0, $extra = 0)
+{
 	display_note(print_document_link($number, $title, $type, false, 'printlink', $id, $email, $extra), 0, 1);
 }
 
 //-----------------------------------------------------------------------------------
 
-function hyperlink_params($target, $label, $params, $center=true) {
+function hyperlink_params($target, $label, $params, $center = true)
+{
 	$id = default_focus();
-	
+
 	$pars = access_string($label);
 	if ($target == '')
 		$target = $_SERVER['PHP_SELF'];
@@ -317,7 +363,8 @@ function hyperlink_params($target, $label, $params, $center=true) {
 		echo "</center>";
 }
 
-function hyperlink_params_td($target, $label, $params) {
+function hyperlink_params_td($target, $label, $params)
+{
 	echo "<td>";
 	hyperlink_params($target, $label, $params, false);
 	echo "</td>\n";
@@ -325,7 +372,8 @@ function hyperlink_params_td($target, $label, $params) {
 
 //-----------------------------------------------------------------------------------
 
-function hyperlink_params_separate($target, $label, $params, $center=false) {
+function hyperlink_params_separate($target, $label, $params, $center = false)
+{
 	$id = default_focus();
 
 	$pars = access_string($label);
@@ -336,7 +384,8 @@ function hyperlink_params_separate($target, $label, $params, $center=false) {
 		echo "</center>";
 }
 
-function hyperlink_params_separate_td($target, $label, $params) {
+function hyperlink_params_separate_td($target, $label, $params)
+{
 	echo "<td>";
 	hyperlink_params_separate($target, $label, $params);
 	echo "</td>\n";
@@ -344,32 +393,35 @@ function hyperlink_params_separate_td($target, $label, $params) {
 
 //--------------------------------------------------------------------------------------------------
 
-function alt_table_row_color(&$k, $extra_class=null) {
+function alt_table_row_color(&$k, $extra_class = null)
+{
 	$classes = $extra_class ? array($extra_class) : array();
 	if ($k == 1) {
 		array_push($classes, 'oddrow');
 		$k = 0;
-	}
-	else {
+	} else {
 		array_push($classes, 'evenrow');
 		$k++;
 	}
-	echo "<tr class='".implode(' ', $classes)."'>\n";
+	echo "<tr class='" . implode(' ', $classes) . "'>\n";
 }
 
-function table_row_color($row, $extra_class=null) {
+function table_row_color($row, $extra_class = null)
+{
 	$classes = $extra_class ? array($extra_class) : array();
 	if ($row)
-	array_push($classes, 'overduebg');
-	echo "<tr class='".implode(' ', $classes)."'>\n";
+		array_push($classes, 'overduebg');
+	echo "<tr class='" . implode(' ', $classes) . "'>\n";
 }
 
 
-function table_section_title($msg, $colspan=2) {
-	echo "<tr><td colspan=".$colspan." class='tableheader'>".$msg."</td></tr>\n";
+function table_section_title($msg, $colspan = 2)
+{
+	echo "<tr><td colspan=" . $colspan . " class='tableheader'>" . $msg . "</td></tr>\n";
 }
 
-function table_header($labels, $params='') {
+function table_header($labels, $params = '')
+{
 	start_row();
 	foreach ($labels as $label)
 		labelheader_cell($label, $params);
@@ -378,41 +430,44 @@ function table_header($labels, $params='') {
 
 //-----------------------------------------------------------------------------------
 
-function start_row($param='') {
+function start_row($param = '')
+{
 	if ($param != '')
-		echo "<tr ".$param.">\n";
+		echo "<tr " . $param . ">\n";
 	else
 		echo "<tr>\n";
 }
 
-function end_row() {
+function end_row()
+{
 	echo "</tr>\n";
 }
 
-function br($num=1) {
+function br($num = 1)
+{
 	for ($i = 0; $i < $num; $i++)
 		echo "<br>";
 }
 
 $ajax_divs = array();
 
-function div_start($id='', $trigger=null, $non_ajax=false) {
+function div_start($id = '', $trigger = null, $non_ajax = false)
+{
 	global $ajax_divs;
 
 	if ($non_ajax) { // div for non-ajax elements
-		
+
 		array_push($ajax_divs, array($id, null));
-		echo "<div style='display:none' class='js_only' ".($id !='' ? "id='$id'" : '').">";
-	
-	}
-	else { // ajax ready div
-		array_push($ajax_divs, array($id, $trigger===null ? $id : $trigger));
-		echo "<div ". ($id !='' ? "id='$id'" : '').">";
+		echo "<div style='display:none' class='js_only' " . ($id != '' ? "id='$id'" : '') . ">";
+	} else { // ajax ready div
+		array_push($ajax_divs, array($id, $trigger === null ? $id : $trigger));
+		echo "<div " . ($id != '' ? "id='$id'" : '') . ">";
 		ob_start();
 	}
 }
 
-function div_end() {
+function div_end()
+{
 	global $ajax_divs, $Ajax;
 
 	output_hidden();
@@ -432,17 +487,18 @@ function div_end() {
 //		sel (hidden) name: _{$name}_sel
 // $tabs - array of tabs; string: tab title or array(tab_title, enabled_status)
 
-function tabbed_content_start($name, $tabs, $dft='') {
+function tabbed_content_start($name, $tabs, $dft = '')
+{
 	global $Ajax;
 
-	$selname = '_'.$name.'_sel';
-	$div = '_'.$name.'_div';
+	$selname = '_' . $name . '_sel';
+	$div = '_' . $name . '_div';
 
-	$sel = find_submit($name.'_', false);
-	if($sel==null)
+	$sel = find_submit($name . '_', false);
+	if ($sel == null)
 		$sel = get_post($selname, (string)($dft === '' ? key($tabs) : $dft));
 
-	if ($sel!==@$_POST[$selname])
+	if ($sel !== @$_POST[$selname])
 		$Ajax->activate($name);
 
 	$_POST[$selname] = $sel;
@@ -450,15 +506,15 @@ function tabbed_content_start($name, $tabs, $dft='') {
 	div_start($name);
 	$str = "<ul class='ajaxtabs' rel='$div'>\n";
 
-	foreach($tabs as $tab_no => $tab) {
+	foreach ($tabs as $tab_no => $tab) {
 		$acc = access_string(is_array($tab) ? $tab[0] : $tab);
 		$disabled = (is_array($tab) && !$tab[1])  ? 'disabled ' : '';
-		$str .= ( "<li>"
-			."<button type='submit' name='{$name}_".$tab_no
-			."' class='".((string)$tab_no===$sel ? 'current':'ajaxbutton')."' $acc[1] $disabled>"
-			."<span>$acc[0]</span>"
-			."</button>\n"
-			."</li>\n" );
+		$str .= ("<li>"
+			. "<button type='submit' name='{$name}_" . $tab_no
+			. "' class='" . ((string)$tab_no === $sel ? 'current' : 'ajaxbutton') . "' $acc[1] $disabled>"
+			. "<span>$acc[0]</span>"
+			. "</button>\n"
+			. "</li>\n");
 	}
 
 	$str .= "</ul>\n";
@@ -468,13 +524,15 @@ function tabbed_content_start($name, $tabs, $dft='') {
 	echo $str;
 }
 
-function tabbed_content_end() {
+function tabbed_content_end()
+{
 	output_hidden();
 	echo "</div>"; // content box (don't change to div_end() unless div_start() is used above)
 	div_end(); // tabs widget
 }
 
-function tab_changed($name) {
+function tab_changed($name)
+{
 	$to = find_submit("{$name}_", false);
 	if (!$to)
 		return null;
@@ -483,19 +541,22 @@ function tab_changed($name) {
 }
 
 // Check whether tab has been just switched on
-function tab_opened($name, $tab) {
-	return (get_post('_'.$name.'_sel') != $tab) && (find_submit($name.'_', false) == $tab);
+function tab_opened($name, $tab)
+{
+	return (get_post('_' . $name . '_sel') != $tab) && (find_submit($name . '_', false) == $tab);
 }
 
 // Check whether tab has been just switched off
-function tab_closed($name, $tab) {
-	return (get_post('_'.$name.'_sel') == $tab) && (find_submit($name.'_', false) != $tab);
+function tab_closed($name, $tab)
+{
+	return (get_post('_' . $name . '_sel') == $tab) && (find_submit($name . '_', false) != $tab);
 }
 
 // Check whether tab is visible on current page
-function tab_visible($name, $tab) {
-	$new = find_submit($name.'_', false);
-	return (get_post('_'.$name.'_sel') == $tab && !$new) || $new==$tab;
+function tab_visible($name, $tab)
+{
+	$new = find_submit($name . '_', false);
+	return (get_post('_' . $name . '_sel') == $tab && !$new) || $new == $tab;
 }
 
 /* Table editor interfaces. Key is editor type
@@ -504,29 +565,39 @@ function tab_visible($name, $tab) {
 	2 => context help
 */
 $popup_editors = array(
-	'customer' => array('/sales/manage/customers.php?debtor_no=', 
-		113,	_('Customers'), 900, 550),
-	'branch' => array('/sales/manage/customer_branches.php?SelectedBranch=', 
-		114, _('Branches'), 900, 650),
-	'supplier' => array('/purchasing/manage/suppliers.php?supplier_id=', 
-		113, _('Suppliers'), 1150, 550),
-	'item' => array('/inventory/manage/items.php?stock_id=', 
-		115, _('Items'), 1000, 500),
-	'fa_item' => array('/inventory/manage/items.php?FixedAsset=1&stock_id=', 
-		115, _('Items'), 1000, 500)
+	'customer' => array(
+		'/sales/manage/customers.php?debtor_no=',
+		113,	_('Customers'), 900, 550
+	),
+	'branch' => array(
+		'/sales/manage/customer_branches.php?SelectedBranch=',
+		114, _('Branches'), 900, 650
+	),
+	'supplier' => array(
+		'/purchasing/manage/suppliers.php?supplier_id=',
+		113, _('Suppliers'), 1150, 550
+	),
+	'item' => array(
+		'/inventory/manage/items.php?stock_id=',
+		115, _('Items'), 1000, 500
+	),
+	'fa_item' => array(
+		'/inventory/manage/items.php?FixedAsset=1&stock_id=',
+		115, _('Items'), 1000, 500
+	)
 );
 
 
 $search_types = array(
 	'component' => array('/inventory/inquiry/stock_list.php?popup=1&type=component&parent=', '&client_id=', _('Search items')),
 	'customer' => array('/sales/inquiry/customers_list.php?popup=1&client_id=', _('Search customers')),
-//	'products_list' => array('/bussiness/includes/product_list.php?id=', _('选择商品信息')),
-//	'customer_list'=>array('/bussiness/includes/customer_list.php?id=',_('查询客户数据')),
-	'item_list'=>array('/bussiness/includes/item_list.php?id=',_('查询商品信息')),
-	'leads_list'=>array('/customers/includes/leads_list.php?id=',_('查询联系人信息')),
-	'print_data'=>array('/customers/includes/print_data.php?id=',_('查询打印配置信息')),
-	'find_pur_more' => array('/apps/purchase/includes/find_more.php?client_id=',_('采购规则查询'))
-	
+	//	'products_list' => array('/bussiness/includes/product_list.php?id=', _('选择商品信息')),
+	//	'customer_list'=>array('/bussiness/includes/customer_list.php?id=',_('查询客户数据')),
+	'item_list' => array('/bussiness/includes/item_list.php?id=', _('查询商品信息')),
+	'leads_list' => array('/customers/includes/leads_list.php?id=', _('查询联系人信息')),
+	'print_data' => array('/customers/includes/print_data.php?id=', _('查询打印配置信息')),
+	'find_pur_more' => array('/apps/purchase/includes/find_more.php?client_id=', _('采购规则查询'))
+
 );
 
 $print_types = array(
@@ -539,14 +610,15 @@ $print_types = array(
 	$caller - optional function key code (available values F1-F12: 112-123,
 		true: default)
 */
-function set_editor($type, $input, $caller=true) {
+function set_editor($type, $input, $caller = true)
+{
 	global $path_to_root, $Editors, $popup_editors, $Pagehelp;
-    
+
 	$key = $caller === true ? $popup_editors[$type][1] : $caller;
 
-	$Editors[$key] = array( $path_to_root.$popup_editors[$type][0], $input, $popup_editors[$type][3], $popup_editors[$type][4]);
+	$Editors[$key] = array($path_to_root . $popup_editors[$type][0], $input, $popup_editors[$type][3], $popup_editors[$type][4]);
 
-	$help = 'F'.($key - 111).' - ';
+	$help = 'F' . ($key - 111) . ' - ';
 	$help .= $popup_editors[$type][2];
 	$Pagehelp[] = $help;
 }
@@ -559,38 +631,40 @@ function set_editor($type, $input, $caller=true) {
 	$ctx - optional. name of SESSION context object or array of names of POST 
 		variables saved on call
 */
-function context_call($call, $ctx='') {
+function context_call($call, $ctx = '')
+{
 	if (is_array($ctx)) {
-		foreach($ctx as $postname) {
+		foreach ($ctx as $postname) {
 			$context[$postname] = get_post($postname);
 		}
-	}
-	else 
+	} else
 		$context = isset($_SESSION[$ctx]) ? $_SESSION[$ctx] : null;
 
-	array_unshift($_SESSION['Context'], array('name' => $ctx, 
+	array_unshift($_SESSION['Context'], array(
+		'name' => $ctx,
 		'ctx' => $context,
 		'caller' => $_SERVER['PHP_SELF'],
-		'ret' => array()));
+		'ret' => array()
+	));
 	meta_forward($call);
 }
 /*
 	Restores context after external page call and
 	returns array of data passed by external page.
 */
-function context_restore() {
-	if ( count($_SESSION['Context'])) {
+function context_restore()
+{
+	if (count($_SESSION['Context'])) {
 		if ($_SERVER['PHP_SELF'] == $_SESSION['Context'][0]['caller']) {
 			$ctx = array_shift($_SESSION['Context']);
 			if ($ctx) {
 				if (is_array($ctx['ctx'])) {
-					foreach($ctx['ctx'] as $name => $val) {
+					foreach ($ctx['ctx'] as $name => $val) {
 						$_POST[$name] = $val;
 					}
-				}
-				else
-					if ($ctx['name']!='')
-						$_SESSION[$ctx['name']] = $ctx['ctx'];
+				} else
+					if ($ctx['name'] != '')
+					$_SESSION[$ctx['name']] = $ctx['ctx'];
 				return $ctx['ret'];
 			}
 		}
@@ -601,17 +675,19 @@ function context_restore() {
 /*
 	Return to caller page if the page was called from external context.
 */
-function context_return($ret) {
-	if ( count($_SESSION['Context'])) {
+function context_return($ret)
+{
+	if (count($_SESSION['Context'])) {
 		$ctx = &$_SESSION['Context'][0];
 		$ctx['ret'] = $ret;
-		meta_forward( $ctx['caller'] );
+		meta_forward($ctx['caller']);
 	}
 }
 /*
 	Clearing context stack after page cancel.
 */
-function context_reset() {
+function context_reset()
+{
 	$_SESSION['Context'] = array();
 }
 /*
@@ -624,24 +700,36 @@ if (!isset($_SESSION['Context'])) {
 	Redirector for selector F4 calls.
 	$sel_editors is array of selname=>editor_page
 */
-function editor_redirect($sel_editors, $save_fun='') {
-	foreach ($sel_editors as $selname=>$editor)
-		if (isset($_POST['_'.$selname.'_editor'])) {
+function editor_redirect($sel_editors, $save_fun = '')
+{
+	foreach ($sel_editors as $selname => $editor)
+		if (isset($_POST['_' . $selname . '_editor'])) {
 			if (function_exists($save_fun))
 				$save_fun();
-			unset($_POST['_'.$selname.'_editor']);
+			unset($_POST['_' . $selname . '_editor']);
 			context_call($editor, array_keys($_POST));
 		}
+}
+
+
+function find_post($name, $default = null)
+{
+	if (isset($_POST[$name])) {
+		return $_POST[$name];
+	} else {
+		return $default;
+	}
 }
 /*
 	Return procedure for selector F4 calls
 */
-function editor_return($vars, $restore_fun='') {
+function editor_return($vars, $restore_fun = '')
+{
 	if (function_exists($restore_fun))
 		$restore_fun();
 
 	if ($ret = context_restore()) {
-		foreach ($vars as $postname=>$retname)
+		foreach ($vars as $postname => $retname)
 			if (isset($ret[$retname])) {
 				$_POST[$postname] = $ret[$retname];
 				set_focus($postname);
@@ -649,53 +737,54 @@ function editor_return($vars, $restore_fun='') {
 	}
 }
 
-function confirm_dialog($submit, $msg) {
+function confirm_dialog($submit, $msg)
+{
 	if (find_post($submit)) {
 		display_warning($msg);
 		br();
 		submit_center_first('DialogConfirm', _('Proceed'), '', true);
 		submit_center_last('DialogCancel', _('Cancel'), '', 'cancel');
 		return 0;
-	}
-	else
+	} else
 		return get_post('DialogConfirm', 0);
 }
 /*
 	Confirm dialog to be used optionally in final form checking routine.
 	Displays warning conditionally unless it was displayed
 */
-function display_confirmation($msg) {
+function display_confirmation($msg)
+{
 	global $Ajax;
 
 	if (!get_post('_confirmed')) {
 		$_POST['_confirmed'] = 1;
 		display_warning($msg);
 		return false;
-	}
-	else
+	} else
 		return true;
 }
 /*
 	Block menu/shortcut links during transaction procesing.
 */
-function page_processing($msg=false) {
+function page_processing($msg = false)
+{
 	global $Ajax;
 
 	if ($msg === true)
 		$msg = _("输入的数据尚未保存。\是否要放弃更改？");
 
-	$js = "_validate._processing=" . (
-		$msg ? '\''.strtr($msg, array("\n"=>'\\n')) . '\';' : 'null;');
+	$js = "_validate._processing=" . ($msg ? '\'' . strtr($msg, array("\n" => '\\n')) . '\';' : 'null;');
 	if (in_ajax())
 		$Ajax->addScript(true, $js);
 	else
 		add_js_source($js);
 }
 
-function page_modified($status=true) {
+function page_modified($status = true)
+{
 	global $Ajax;
 
-	$js = "_validate._modified=".($status ? 1 : 0).';';
+	$js = "_validate._modified=" . ($status ? 1 : 0) . ';';
 	if (in_ajax())
 		$Ajax->addScript(true, $js);
 	else
