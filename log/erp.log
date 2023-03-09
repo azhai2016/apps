@@ -1,4126 +1,1085 @@
-03:03:30 [DEBUG] : >>>>
-03:03:30 [DEBUG] : mysqli_result Object
+08:03:01 [DEBUG] : Array
 (
-    [current_field] => 0
-    [field_count] => 2
-    [lengths] => 
-    [num_rows] => 0
-    [type] => 0
-)
-
-03:03:32 [DEBUG] : >>>>
-03:03:32 [DEBUG] : mysqli_result Object
-(
-    [current_field] => 0
-    [field_count] => 2
-    [lengths] => 
-    [num_rows] => 3
-    [type] => 0
-)
-
-03:03:47 [DEBUG] : >>>>
-03:03:47 [DEBUG] : 
-03:03:49 [DEBUG] : >>>>
-03:03:49 [DEBUG] : 
-03:03:52 [DEBUG] : >>>>
-03:03:52 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:55 [DEBUG] : >>>>
-03:03:55 [DEBUG] : Array
-(
-    [0] => 1000007
-    [TargetId] => 1000007
-    [1] => rere
-    [TargetName] => rere
-)
-
-03:03:00 [DEBUG] : >>>>
-03:03:00 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:03 [DEBUG] : >>>>
-03:03:03 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:05 [DEBUG] : >>>>
-03:03:05 [DEBUG] : Array
-(
-    [0] => 1000007
-    [TargetId] => 1000007
-    [1] => rere
-    [TargetName] => rere
-)
-
-03:03:22 [DEBUG] : >>>>
-03:03:22 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:24 [DEBUG] : >>>>
-03:03:24 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:26 [DEBUG] : >>>>
-03:03:26 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-03:03:28 [DEBUG] : >>>>
-03:03:28 [DEBUG] : Array
-(
-    [0] => 1000005
-    [TargetId] => 1000005
-    [1] => 212121
-    [TargetName] => 212121
-)
-
-03:03:30 [DEBUG] : >>>>
-03:03:30 [DEBUG] : Array
-(
-    [0] => 1000007
-    [TargetId] => 1000007
-    [1] => rere
-    [TargetName] => rere
-)
-
-03:03:35 [DEBUG] : 
-03:03:37 [DEBUG] : 
-03:03:48 [DEBUG] : [1000001]*[1000002]
-03:03:54 [DEBUG] : 
-03:03:56 [DEBUG] : [1000001]*[1000002]
-03:03:13 [DEBUG] : 
-03:03:16 [DEBUG] : Array
-(
-    [0] => 1000004
-    [TargetId] => 1000004
-    [1] => 222
-    [TargetName] => 222
-)
-
-04:03:15 [DEBUG] : Array
-(
-)
-
-04:03:17 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-04:03:46 [DEBUG] : Array
-(
-)
-
-04:03:48 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:52 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:04 [DEBUG] : Array
-(
-)
-
-06:03:40 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:53 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:16 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:22 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:24 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:30 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:32 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:34 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:36 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:38 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:40 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:22 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:25 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:26 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:29 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:31 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:56 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-06:03:00 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:06 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:12 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:14 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:26 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:37 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:42 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:52 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:54 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:57 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-06:03:59 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:34 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:36 [DEBUG] : Array
-(
-    [_random] => 761740.0047808677
-    [_token] => bvrAQIPofx_7OIBnX8L-Ugxx
+    [_random] => 1041207.1445432242
+    [_token] => EBEiWehgRRNiXbcOWX1Aegxx
     [_confirmed] => 
     [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaId] => 1000002
-    [FormulaStatus] => 
-)
-
-06:03:36 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:38 [DEBUG] : Array
-(
-    [_random] => 929038.1173756113
-    [_token] => P2diGzbTdKgvhUjdCCXTAwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000001
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:38 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:13 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:13 [DEBUG] : 
-06:03:15 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:15 [DEBUG] : 
-06:03:17 [DEBUG] : Array
-(
-    [_random] => 170684.77654693052
-    [_token] => SyHm5_Z1iHWcZh04zoZi2gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaId] => 1000002
-    [FormulaStatus] => 
-)
-
-06:03:17 [DEBUG] : 1
-06:03:17 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:19 [DEBUG] : Array
-(
-    [_random] => 185950.10798134704
-    [_token] => Ui6pL8LtZl6bha7V_qRkFgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000001
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:19 [DEBUG] : 2
-06:03:19 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:22 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:22 [DEBUG] : 
-06:03:24 [DEBUG] : Array
-(
-    [_random] => 1072004.3281420637
-    [_token] => d7MisEzOvvPjfmT8XZnDcQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaId] => 1000002
-    [FormulaStatus] => 
-)
-
-06:03:24 [DEBUG] : 1
-06:03:24 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:26 [DEBUG] : Array
-(
-    [_random] => 426983.50355796865
-    [_token] => uAwS3lqget5vIDOUwmaVjgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000001
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:26 [DEBUG] : 2
-06:03:26 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:41 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:41 [DEBUG] : 
-06:03:41 [DEBUG] : SELECT TargetId,TargetName FROM &TB_PREF&targetData where SourceId=''
-06:03:42 [DEBUG] : Array
-(
-    [_random] => 58920.07926967371
-    [_token] => W9vc4aBrh3Ii8RjU7DO8CQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaId] => 1000003
-    [FormulaStatus] => 
-)
-
-06:03:42 [DEBUG] : 2
-06:03:42 [DEBUG] : SELECT TargetId,TargetName FROM &TB_PREF&targetData where SourceId='2'
-06:03:42 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:54 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:54 [DEBUG] : 
-06:03:54 [DEBUG] : SELECT TargetId,TargetName FROM &TB_PREF&targetData where SourceId=
-06:03:06 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:06 [DEBUG] : 
-06:03:06 [DEBUG] : SELECT TargetId,TargetName FROM &TB_PREF&targetData where SourceId=
-06:03:50 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:50 [DEBUG] : 
-06:03:53 [DEBUG] : Array
-(
-    [_random] => 163991.86588375608
-    [_token] => TwyFQ_AEclXSBp2Q783i-wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaId] => 1000002
-    [FormulaStatus] => 
-)
-
-06:03:53 [DEBUG] : 1
-06:03:53 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:55 [DEBUG] : Array
-(
-    [_random] => 1137725.6822556653
-    [_token] => 3WQCcfiAFQQ0BnQA81H-igxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000001
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:55 [DEBUG] : 2
-06:03:55 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:04 [DEBUG] : Array
-(
-    [_random] => 601598.7366967868
-    [_token] => DesYMTXiVmBs3s-6isERKwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [_SourceId_update] =>  
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:04 [DEBUG] : 2
-06:03:04 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:06 [DEBUG] : Array
-(
-    [_random] => 345997.01245339314
-    [_token] => vcAPh11M5UFL2dWyUu7XnQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [_SourceId_update] =>  
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:06 [DEBUG] : 2
-06:03:06 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:08 [DEBUG] : Array
-(
-    [_random] => 257101.16645889566
-    [_token] => rZEmDEixAjLq3jLBnenMfgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 6
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:08 [DEBUG] : 2
-06:03:08 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:10 [DEBUG] : Array
-(
-    [_random] => 29049.81183567799
-    [_token] => b_YqCdx2YOGLGid_jqFZLgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:10 [DEBUG] : 1
-06:03:10 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:15 [DEBUG] : Array
-(
-    [_random] => 509708.70820707467
-    [_token] => 6-GUBP-Sr1Ext9QiviHY5gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000001
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:15 [DEBUG] : 2
-06:03:15 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:03 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-06:03:03 [DEBUG] : 
-06:03:06 [DEBUG] : Array
-(
-    [_random] => 445071.3778166066
-    [_token] => YOyW1Qup8fGrnWL4O4G8fgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 32
-)
-
-06:03:06 [DEBUG] : 3
-06:03:08 [DEBUG] : Array
-(
-    [_random] => 731747.7911157939
-    [_token] => GGBmcAXBcayh7LjMuYBdYAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:08 [DEBUG] : 1
-06:03:08 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:09 [DEBUG] : Array
-(
-    [_random] => 921158.1249676198
-    [_token] => MRS6iWB6CE9jYGfjAAKNagxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:09 [DEBUG] : 2
-06:03:09 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:11 [DEBUG] : Array
-(
-    [_random] => 794149.590309558
-    [_token] => nvPa46xukpJCiMouoN13qQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 6
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:11 [DEBUG] : 2
-06:03:11 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:16 [DEBUG] : Array
-(
-    [_random] => 206436.1096251861
-    [_token] => aKxz0YfYZEkJ76sbYKb81Qxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 1000003
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 32
-)
-
-06:03:16 [DEBUG] : 3
-06:03:18 [DEBUG] : Array
-(
-    [_random] => 12486.119599492806
-    [_token] => u_T1RUVoZqj3rUasDbdZwQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:18 [DEBUG] : 1
-06:03:18 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:20 [DEBUG] : Array
-(
-    [_random] => 473861.79367172887
-    [_token] => 0UGSw_miKr6AGyVLLlQDUgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:20 [DEBUG] : 2
-06:03:20 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:32 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 3
-    [_tabs_sel] => source
-    [_SourceId_edit] => 
-    [SourceId] => 2
-    [FormulaName] => 323232
-    [FormulaType] => 采购计算
-    [isActive] => 1
-    [FormulaId] => 1000003
-    [TargetId] => 1000003
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [Description] => 
-    [submit] => 更新源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => mU4zfiOg7Bv4mn9NBPHEPQxx
-    [FormulaStatus] => 
-)
-
-06:03:32 [DEBUG] : 2
-06:03:32 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:35 [DEBUG] : Array
-(
-    [_random] => 97148.32306147946
-    [_token] => jbuTez8DPPf6G8XF5bRL4wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000003
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:35 [DEBUG] : 1
-06:03:35 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-06:03:37 [DEBUG] : Array
-(
-    [_random] => 1181877.9769731963
-    [_token] => tyNtQFnJODxc4sPbOY_MYgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:37 [DEBUG] : 2
-06:03:37 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:39 [DEBUG] : Array
-(
-    [_random] => 777979.2251467705
-    [_token] => 5Xl9GomyPCfu0EufRvg-eAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]+([1000001]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 6
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:39 [DEBUG] : 2
-06:03:39 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:50 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 6
-    [_tabs_sel] => source
-    [_SourceId_edit] => 
-    [SourceId] => 2
-    [FormulaName] => 3243434
-    [FormulaType] => 采购计算
-    [isActive] => 1
-    [FormulaId] => 1000004
-    [TargetId] => 1000003
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [Description] => 
-    [submit] => 更新源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => 0UoOu-XKbtWwtZnSUju2AAxx
-    [FormulaStatus] => 
-)
-
-06:03:50 [DEBUG] : 2
-06:03:50 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-06:03:53 [DEBUG] : Array
-(
-    [_random] => 491892.9822728726
-    [_token] => VybYHZxTT1EPb2bm_Yfh5gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000009]+([1000009]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000005
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 44343
-    [SourceId] => 4
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 7
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-06:03:53 [DEBUG] : 4
-06:03:53 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-07:03:08 [DEBUG] : Array
-(
-    [_random] => 995574.8919624544
-    [_token] => kb2j4vY24MGJTI2SSUx-DQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 1000005
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 32
-)
-
-07:03:08 [DEBUG] : 3
-07:03:10 [DEBUG] : Array
-(
-    [_random] => 759616.2054042661
-    [_token] => qfi-iasFtT9xUJFqjjJW8wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-07:03:10 [DEBUG] : 1
-07:03:10 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-07:03:12 [DEBUG] : Array
-(
-    [_random] => 1114036.6630569003
-    [_token] => RBcGr5zLIvlWJfKLFPooSAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-07:03:12 [DEBUG] : 2
-07:03:12 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-07:03:06 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-07:03:06 [DEBUG] : 
-07:03:09 [DEBUG] : Array
-(
-    [_random] => 147643.04956639817
-    [_token] => azt59iKYI_BA77CgDbKfrgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 32
-)
-
-07:03:09 [DEBUG] : 3
-07:03:11 [DEBUG] : Array
-(
-    [_random] => 944264.6796198231
-    [_token] => c6BJrclvKsZ2sXAoEgO3vAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-07:03:11 [DEBUG] : 1
-07:03:11 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-07:03:08 [DEBUG] : Array
-(
-    [_random] => 960900.5357796646
-    [_token] => FZkq1pw7UoaeKv4o0WYXaQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-07:03:08 [DEBUG] : 2
-07:03:08 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-07:03:12 [DEBUG] : <<<<<<
-07:03:12 [DEBUG] : Array
-(
-    [0] => &TB_PREF&FactorData
-    [1] => 
-    [2] => 
-    [3] => factorId
-    [4] => 
-)
-
-07:03:17 [DEBUG] : <<<<<<
-07:03:17 [DEBUG] : Array
-(
-    [0] => &TB_PREF&FactorData
-    [1] => 
-    [2] => 
-    [3] => factorId
-    [4] => 
-)
-
-07:03:22 [DEBUG] : Array
-(
-    [_random] => 875349.4005105736
-    [_token] => 2GcsWKb91BZlQ-N6yPITwgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
+    [CHANGEMode] => Array
         (
             [0] => 
         )
 
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 3
+    [CHANGENEW] => 添加
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
     [_id_edit] => 
-    [FormulaId] => 1000003
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [FormulaType] => 采购计算
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 
+    [content] => 
+    [sourceId] => 
+    [formulaId] => 
+    [condition] => 
+    [primise] => 
+    [status] => 
+    [ruleId] => 
+    [_focus] => content
+    [CHANGE] => 
 )
 
-07:03:22 [DEBUG] : 2
-07:03:22 [DEBUG] : Array
+08:03:05 [DEBUG] : Array
 (
-    [1000003] => 2232
-)
-
-07:03:28 [DEBUG] : Array
-(
-    [_random] => 1140090.8732591195
-    [_token] => VT-I_qIIKoiocneJUioe3Axx
+    [_random] => 1130771.15063432
+    [_token] => wOsL_Y5iJGgAv5wCOg_OZgxx
     [_confirmed] => 
     [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
+    [_focus] => content
+    [CHANGEMode] => Array
         (
-            [0] => 
+            [0] => NEW
         )
 
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 3
+    [Description] => 
+    [_CHANGE_update] =>  
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
     [_id_edit] => 
-    [FormulaId] => 1000003
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [FormulaType] => 采购计算
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 
 )
 
-07:03:28 [DEBUG] : 2
-07:03:28 [DEBUG] : Array
+08:03:05 [DEBUG] : Array
 (
-    [1000003] => 2232
-)
-
-07:03:39 [DEBUG] : Array
-(
-    [_random] => 542802.0113106463
-    [_token] => UoaBsHl6HhDghcon6X1UHwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
-        (
-            [0] => 
-        )
-
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 3
-    [_id_edit] => 
-    [FormulaId] => 1000003
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [FormulaType] => 采购计算
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 
-)
-
-07:03:39 [DEBUG] : 2
-07:03:39 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-07:03:43 [DEBUG] : Array
-(
-    [_random] => 1056968.9044053108
-    [_token] => K1WibTPjfWAVIUvKZAg89wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000003
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
     [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
 )
 
-07:03:43 [DEBUG] : 1
-07:03:43 [DEBUG] : Array
+08:03:09 [DEBUG] : Array
 (
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
+    [_random] => 1116951.8703182943
+    [_token] => E8SvwfWo0tD7v96cTHw2Wwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:09 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:11 [DEBUG] : Array
+(
+    [_random] => 922438.2470611633
+    [_token] => rhD989SD2n546k3vLwddoAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_btn] => item_codes
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:11 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
 )
 
 08:03:12 [DEBUG] : Array
 (
-    [_random] => 1083206.9903266365
-    [_token] => 5Q3ARdVvifkvUSsyjtvLyQxx
+    [_random] => 604417.9719284953
+    [_token] => Mv6iIHj3zrlVOUjWfrzD9Qxx
     [_confirmed] => 
     [_modified] => 0
-    [_focus] => id
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
     [Description] => 
-    [FormulaContent] => [1000009]+([1000009]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000005
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 44343
-    [SourceId] => 4
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 7
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
     [_id_edit] => 
-    [FormulaStatus] => 
 )
 
-08:03:12 [DEBUG] : 4
 08:03:12 [DEBUG] : Array
 (
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [_random] => 260179.06111306656
+    [_token] => wyS1zL87ZdsY6js7WYPSaAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:14 [DEBUG] : Array
+(
+    [_random] => 485332.5146315246
+    [_token] => iRDvldhuly-G6P0Q1IsYVgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:14 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:33 [DEBUG] : Array
+(
+    [_random] => 383314.321903239
+    [_token] => udGFhweF867Pzp-Q54Fd9gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:33 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:34 [DEBUG] : Array
+(
+    [_random] => 317584.54093133163
+    [_token] => bsCBzOPG5qcIre1PMyE6jAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:34 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:35 [DEBUG] : Array
+(
+    [_random] => 1151157.4667587874
+    [_token] => tM3kC6xPEorRjEfNiku6UQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:35 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:36 [DEBUG] : Array
+(
+    [_random] => 1203241.4632529798
+    [_token] => hQTQ7Cb-Gr3xqS59-hpj8gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:36 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:41 [DEBUG] : Array
+(
+    [_random] => 846860.4581923619
+    [_token] => vLy2p9Vw1x72cp1O35E4Ngxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:41 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:43 [DEBUG] : Array
+(
+    [_random] => 878282.4730124559
+    [_token] => 5xL7Hv5D611-Kfi43_dcggxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100002
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:43 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:03 [DEBUG] : Array
+(
+    [_random] => 840068.8322576913
+    [_token] => zvdjkHr85bMrqnwwLLRvGgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [_item_codes_update] =>  
+    [item_codes] => 100004
+    [_item_codes_edit] => 
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:03 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:05 [DEBUG] : Array
+(
+    [_random] => 307926.05707323435
+    [_token] => 7ihSpQ1-iofm3gJny12QYwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_btn] => item_codes
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100004
+    [_item_codes_edit] => 
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:05 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:07 [DEBUG] : Array
+(
+    [_random] => 29486.339591123364
+    [_token] => SBDu1G_eTWMDJ5RN_X1e2gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [_item_codes_update] =>  
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:07 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:08 [DEBUG] : Array
+(
+    [_random] => 203942.4504140603
+    [_token] => dRRx7VYFQGCPfGKFEDgD-gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_btn] => item_codes
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:08 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:12 [DEBUG] : Array
+(
+    [_random] => 244800.66413902488
+    [_token] => 3LIgzyweinc_PE-K-a7ZYQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:12 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [_random] => 949164.6958601056
+    [_token] => VxT1S94thc2xqu1G1_8RVAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [_random] => 783246.5589131971
+    [_token] => Km-KvNqjhTm9YrnYHYor3Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:13 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
+)
+
+08:03:15 [DEBUG] : Array
+(
+    [_random] => 338285.6015315956
+    [_token] => y9-Y6_B2k2r2uO7H0UEGUgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
+    [Description] => 
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
+    [id] => 6
+    [_id_edit] => 
+)
+
+08:03:15 [DEBUG] : Array
+(
+    [Id] => 9
+    [FormulaId] => 1000007
+    [FormulaName] => 采购商品销售单品返利
+    [SourceId] => 1
+    [FormulaType] => 采购计算
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
+    [Description] => 
+    [IsActive] => 1
 )
 
 08:03:16 [DEBUG] : Array
 (
-    [_random] => 774697.3387661377
-    [_token] => a9x7VdIU0lTw0MBXq68Bngxx
+    [_random] => 759240.2995067458
+    [_token] => _NHfKOUKfgiAVlaHR6Hi_wxx
     [_confirmed] => 
     [_modified] => 0
-    [_focus] => id
+    [_focus] => content
+    [CHANGEMode] => Array
+        (
+            [0] => CHANGE
+        )
+
+    [formula_1000007] => 
+    [item_codes_conditions_id] => 1000002
+    [item_codes_tgname] => 供货商名称
+    [item_codes] => 100005
+    [_item_codes_edit] => 
+    [users_btn] => users
+    [users_conditions_id] => 1000012
+    [tbname] => Array
+        (
+            [0] => users
+        )
+
+    [users_tgname] => 单价
+    [users] => 1
+    [_users_edit] => 
     [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000005
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
+    [CHANGE] => 9
+    [_CHANGE_edit] => 
+    [content] => 2121
+    [_tabs_sel] => target
+    [select_client_id] => 
+    [select_text] => 
     [id] => 6
     [_id_edit] => 
-    [FormulaStatus] => 
 )
 
-08:03:16 [DEBUG] : 2
 08:03:16 [DEBUG] : Array
 (
-    [1000003] => 2232
-)
-
-08:03:18 [DEBUG] : Array
-(
-    [_random] => 602544.0870055334
-    [_token] => yjMVD9zvk97wD_az4J1eSwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-08:03:18 [DEBUG] : 2
-08:03:18 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-08:03:20 [DEBUG] : Array
-(
-    [_random] => 1120483.6838646862
-    [_token] => NO7bv_6mED1pXVfSvT1Drgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000003
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-08:03:20 [DEBUG] : 1
-08:03:20 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-08:03:22 [DEBUG] : Array
-(
-    [_random] => 691523.1244231422
-    [_token] => TC_cu4Pex6WzlCfL4tVvhQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 1000004
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 32
-)
-
-08:03:22 [DEBUG] : 3
-08:03:25 [DEBUG] : Array
-(
-    [_random] => 636656.3645423396
-    [_token] => 2VwNpHcwVBDDK8AOWn-90wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 1000007
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [_SourceId_update] =>  
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 32
-)
-
-08:03:25 [DEBUG] : 3
-08:03:28 [DEBUG] : Array
-(
-    [_random] => 1064833.9767569653
-    [_token] => lcytVH91AFIIkEa2slFD5Axx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => 
-    [TargetId] => 1000007
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [_SourceId_update] =>  
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 32
-)
-
-08:03:28 [DEBUG] : 3
-08:03:07 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 1
-    [_tabs_sel] => source
-    [_SourceId_edit] => 
-    [SourceId] => 3
-    [FormulaName] => 12121
-    [FormulaType] => 采购计算
-    [isActive] => 1
-    [FormulaId] => 1000001
-    [TargetId] => 1000007
-    [FormulaContent] => [1000007]*1.20
-    [Description] => 32
-    [submit] => 更新源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => fBAdaiG4xzqATp-4jRglywxx
-    [FormulaStatus] => 
-)
-
-08:03:07 [DEBUG] : 3
-08:03:07 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-08:03:10 [DEBUG] : Array
-(
-    [_random] => 1069556.4072067605
-    [_token] => NDwvCyZrVg5bYHn9zgZVugxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-08:03:10 [DEBUG] : 1
-08:03:10 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-08:03:12 [DEBUG] : Array
-(
-    [_random] => 145722.18819411952
-    [_token] => x97ctLV90pcFF04_gq72tAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 1000004
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-08:03:12 [DEBUG] : 3
-08:03:12 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-08:03:39 [DEBUG] : Array
-(
-    [0] => rerere
-)
-
-08:03:39 [DEBUG] : select rerere from &TB_PREF&re
-08:03:44 [DEBUG] : Array
-(
-    [0] => 232
-)
-
-08:03:44 [DEBUG] : select 232 from &TB_PREF&323
-08:03:46 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-08:03:46 [DEBUG] : select user_id,real_name from &TB_PREF&users
-08:03:46 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-08:03:46 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-08:03:46 [DEBUG] : Array
-(
-    [0] => 212
-)
-
-08:03:46 [DEBUG] : select 212 from &TB_PREF&21
-08:03:49 [DEBUG] : Array
-(
-    [0] => 212
-)
-
-08:03:49 [DEBUG] : select 212 from &TB_PREF&21
-09:03:21 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-09:03:21 [DEBUG] : 
-09:03:21 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-09:03:21 [DEBUG] : 
-09:03:24 [DEBUG] : Array
-(
-    [_random] => 714225.3871578652
-    [_token] => 6RVK8ChMVXhKUkSQjIb0tAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-09:03:24 [DEBUG] : 3
-09:03:24 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-09:03:26 [DEBUG] : Array
-(
-    [_random] => 1173188.046433855
-    [_token] => Lx5D1wxCzYhLNRuwSjAjVQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-09:03:26 [DEBUG] : 1
-09:03:26 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-09:03:27 [DEBUG] : Array
-(
-    [_random] => 169110.61650797506
-    [_token] => boGcb_BprFL_l7woKEskRgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-09:03:27 [DEBUG] : 2
-09:03:27 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-09:03:30 [DEBUG] : Array
-(
-    [_random] => 115590.52723450682
-    [_token] => q2DAqHkumgylR6oyERb6CAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
-        (
-            [0] => 
-        )
-
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 3
-    [_id_edit] => 
-    [FormulaId] => 1000003
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [FormulaType] => 采购计算
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 
-)
-
-09:03:30 [DEBUG] : 2
-09:03:30 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-09:03:33 [DEBUG] : <<<<<<
-09:03:33 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:33 [DEBUG] : <<<<<<
-09:03:33 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:36 [DEBUG] : <<<<<<
-09:03:36 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:38 [DEBUG] : <<<<<<
-09:03:38 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:40 [DEBUG] : <<<<<<
-09:03:40 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:42 [DEBUG] : <<<<<<
-09:03:42 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:45 [DEBUG] : <<<<<<
-09:03:45 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:56 [DEBUG] : <<<<<<
-09:03:56 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:07 [DEBUG] : <<<<<<
-09:03:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:11 [DEBUG] : <<<<<<
-09:03:11 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:14 [DEBUG] : <<<<<<
-09:03:14 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:47 [DEBUG] : <<<<<<
-09:03:47 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:51 [DEBUG] : <<<<<<
-09:03:51 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:54 [DEBUG] : <<<<<<
-09:03:54 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-09:03:59 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-09:03:59 [DEBUG] : 
-09:03:59 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-09:03:59 [DEBUG] : 
-10:03:02 [DEBUG] : Array
-(
-    [_random] => 961620.2604304733
-    [_token] => quqhio__1aDcswrQH38jSwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:02 [DEBUG] : 3
-10:03:02 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:47 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 1
-    [_tabs_sel] => source
-    [_SourceId_edit] => 
-    [SourceId] => 3
-    [FormulaName] => 12121
-    [FormulaType] => 销售计算
-    [isActive] => 1
-    [FormulaId] => 1000001
-    [TargetId] => 1000007
-    [FormulaContent] => [1000007]*1.20
-    [Description] => 32
-    [submit] => 更新源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => G4sOFXLhoyyjoBayTFdv6gxx
-    [FormulaStatus] => 
-)
-
-10:03:47 [DEBUG] : 3
-10:03:47 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:51 [DEBUG] : Array
-(
-    [_random] => 1193433.1956395227
-    [_token] => Tqu_MLZVVyewdJcmxlBPWgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:51 [DEBUG] : 1
-10:03:51 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-10:03:53 [DEBUG] : Array
-(
-    [_random] => 833741.6003966508
-    [_token] => TIAwwD290hYU1oallFAnkwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 6
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:53 [DEBUG] : 2
-10:03:53 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-10:03:56 [DEBUG] : Array
-(
-    [_random] => 1012387.0172260698
-    [_token] => KCTANUwRWtJCuVpRTydrPgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000009]+([1000009]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000005
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 44343
-    [SourceId] => 4
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 7
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:56 [DEBUG] : 4
-10:03:56 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-10:03:58 [DEBUG] : Array
-(
-    [_random] => 287955.5140257606
-    [_token] => dPqOTmdTtaVHCOC1KlrPLAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000009]+([1000009]*0.01)
-    [TargetId] => 1000005
-    [FormulaId] => 1000005
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 44343
-    [_SourceId_update] =>  
-    [SourceId] => 4
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 7
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:58 [DEBUG] : 4
-10:03:58 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-10:03:45 [DEBUG] : Array
-(
-    [_random] => 531711.9866881205
-    [_token] => UWxDz27dF0pqfa4joJEOAwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 1000005
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:45 [DEBUG] : 3
-10:03:45 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:49 [DEBUG] : Array
-(
-    [_random] => 282606.91036082816
-    [_token] => -xVUiErEzgtsYbRZVAjD1Axx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:49 [DEBUG] : 1
-10:03:49 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-10:03:54 [DEBUG] : Array
-(
-    [0] => rerere
-)
-
-10:03:54 [DEBUG] : select rerere from &TB_PREF&re
-10:03:57 [DEBUG] : Array
-(
-    [0] => 232
-)
-
-10:03:57 [DEBUG] : select 232 from &TB_PREF&323
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:04 [DEBUG] : <<<<<<
-10:03:04 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:31 [DEBUG] : <<<<<<
-10:03:31 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:37 [DEBUG] : <<<<<<
-10:03:37 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:37 [DEBUG] : <<<<<<
-10:03:37 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:39 [DEBUG] : <<<<<<
-10:03:39 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:54 [DEBUG] : Array
-(
-    [0] => rerere
-)
-
-10:03:54 [DEBUG] : select rerere from &TB_PREF&re
-10:03:58 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:58 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:58 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:58 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:58 [DEBUG] : Array
-(
-    [0] => 212
-)
-
-10:03:58 [DEBUG] : select 212 from &TB_PREF&21
-10:03:00 [DEBUG] : Array
-(
-    [0] => 232
-)
-
-10:03:00 [DEBUG] : select 232 from &TB_PREF&323
-10:03:02 [DEBUG] : Array
-(
-    [0] => 232
-)
-
-10:03:02 [DEBUG] : select 232 from &TB_PREF&323
-10:03:04 [DEBUG] : Array
-(
-    [0] => 212
-)
-
-10:03:04 [DEBUG] : select 212 from &TB_PREF&21
-10:03:10 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:10 [DEBUG] : 
-10:03:13 [DEBUG] : Array
-(
-    [_random] => 741659.1751269675
-    [_token] => HO2IpppepwEDzKofHD2l3Axx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:13 [DEBUG] : 3
-10:03:13 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:19 [DEBUG] : Array
-(
-    [_random] => 902672.7900445566
-    [_token] => Y6f2YX7jgQxFEiTwam435gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:19 [DEBUG] : 1
-10:03:19 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-10:03:22 [DEBUG] : Array
-(
-    [_random] => 315605.3623611756
-    [_token] => gD326IasO7Vvuh4LGnhKqgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000004
-    [FormulaId] => 1000003
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 323232
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 3
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:22 [DEBUG] : 2
-10:03:22 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-10:03:25 [DEBUG] : Array
-(
-    [_random] => 89014.61869196688
-    [_token] => BcHwuvJTkuNqUCqiGuDFEAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000003]+([1000003]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 3243434
-    [SourceId] => 2
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 6
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:25 [DEBUG] : 2
-10:03:25 [DEBUG] : Array
-(
-    [1000003] => 2232
-)
-
-10:03:29 [DEBUG] : Array
-(
-    [_random] => 732303.9579560166
-    [_token] => XXouk2MN120JCRTRJSh4rAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000009]+([1000009]*0.01)
-    [TargetId] => 1000003
-    [FormulaId] => 1000005
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 44343
-    [SourceId] => 4
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 7
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:29 [DEBUG] : 4
-10:03:29 [DEBUG] : Array
-(
-    [1000005] => 212121
-    [1000008] => 34344
-    [1000009] => 32323445
-    [1000010] => 3443443
-)
-
-10:03:34 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:34 [DEBUG] : 
-10:03:34 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:34 [DEBUG] : 
-10:03:37 [DEBUG] : Array
-(
-    [_random] => 422076.1414006371
-    [_token] => F6rQUZBOK0iOsd0uKbM8wAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:37 [DEBUG] : 3
-10:03:37 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:46 [DEBUG] : Array
-(
-    [_random] => 904096.6544904234
-    [_token] => 7nNMgFkXqiPvUjnpsphcmQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
-        (
-            [0] => 
-        )
-
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [FormulaType] => 销售计算
-    [FormulaContent] => [1000007]*1.20
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 32
-)
-
-10:03:46 [DEBUG] : 3
-10:03:46 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:48 [DEBUG] : Array
-(
-    [_random] => 103201.29402471834
-    [_token] => _gyIgpqbPk9OFZm28Giyigxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => [1000001]*[1000002]
-    [TargetId] => 1000007
-    [FormulaId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 2122121
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 2
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:48 [DEBUG] : 1
-10:03:48 [DEBUG] : Array
-(
-    [1000001] => 434343
-    [1000002] => 45454
-    [1000004] => 222
-)
-
-10:03:56 [DEBUG] : <<<<<<
-10:03:56 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:56 [DEBUG] : <<<<<<
-10:03:56 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:58 [DEBUG] : <<<<<<
-10:03:58 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:03 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:03 [DEBUG] : 
-10:03:03 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:03 [DEBUG] : 
-10:03:19 [DEBUG] : <<<<<<
-10:03:19 [DEBUG] : Array
-(
-    [0] => &TB_PREF&FormulaData
-    [1] => 
-    [2] => 
-    [3] => FormulaId
-    [4] => 
-)
-
-10:03:19 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 
-    [_SourceId_edit] => 
-    [SourceId] => 1
-    [submit] => 保存源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => DRDSLivRlzLD06X0Unb_awxx
-    [_tabs_sel] => source
-)
-
-10:03:19 [DEBUG] : 1
-10:03:21 [DEBUG] : Array
-(
-    [_random] => 267401.844334681
-    [_token] => Qsgo8cwwhDKDDbertmTaMAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 1000004
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:21 [DEBUG] : 3
-10:03:21 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:25 [DEBUG] : Array
-(
-    [_random] => 1020465.3301737545
-    [_token] => 0M_PIX2YZjhmW87vTOKOnQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 1000007
-    [FormulaId] => 1000006
-    [isActive] => 0
-    [FormulaType] => 采购计算
-    [FormulaName] => 32233
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 8
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:25 [DEBUG] : 1
-10:03:34 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:34 [DEBUG] : 
-10:03:36 [DEBUG] : Array
-(
-    [_random] => 1191876.8918927703
-    [_token] => TPvGHC_fC5HhUNND0m0-pgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:36 [DEBUG] : 3
-10:03:36 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:39 [DEBUG] : Array
-(
-    [_random] => 368466.6005402331
-    [_token] => Sv2FVL8ydUmIpFYzyzqb3gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 1000007
-    [FormulaId] => 1000006
-    [isActive] => 0
-    [FormulaType] => 采购计算
-    [FormulaName] => 32233
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 8
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:39 [DEBUG] : 1
-10:03:43 [DEBUG] : Array
-(
-    [_random] => 467463.76037646015
-    [_token] => GAPN6sCHiBbqqLjY2HTYHQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 1000004
-    [FormulaId] => 1000006
-    [isActive] => 0
-    [FormulaType] => 采购计算
-    [FormulaName] => 32233
-    [_SourceId_update] =>  
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 8
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:43 [DEBUG] : 1
-10:03:44 [DEBUG] : Array
-(
-    [_random] => 284013.7263329941
-    [_token] => JVXfv0eM5Um2QOk_G4i3Ngxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 1000004
-    [FormulaId] => 1000006
-    [isActive] => 0
-    [FormulaType] => 采购计算
-    [FormulaName] => 32233
-    [_SourceId_update] =>  
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [id] => 8
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:44 [DEBUG] : 1
-10:03:47 [DEBUG] : Array
-(
-    [_random] => 321104.47489774565
-    [_token] => QF-g1dRwoeaXcn4FO8mfNAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 1000004
-    [FormulaId] => 1000001
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaStatus] => 
-)
-
-10:03:47 [DEBUG] : 3
-10:03:47 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:49 [DEBUG] : Array
-(
-    [_random] => 596608.2777567524
-    [_token] => 1byoaV3z2xuv3qcx8EKWawxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [TargetId] => 1000007
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_id_update] =>  
-    [id] => 
-    [_id_edit] => 
-    [_tabs_sel] => source
-)
-
-10:03:49 [DEBUG] : 3
-10:03:56 [DEBUG] : Array
-(
-    [_random] => 215534.1058552072
-    [_token] => giNpnLwosEDIionvfDQNmQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 32
-    [FormulaContent] => [1000007]*1.20
-    [TargetId] => 1000007
-    [isActive] => 1
-    [FormulaType] => 销售计算
-    [FormulaName] => 12121
-    [SourceId] => 3
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 1
-    [_id_edit] => 
-    [FormulaId] => 1000001
-    [FormulaStatus] => 
-)
-
-10:03:56 [DEBUG] : 3
-10:03:56 [DEBUG] : Array
-(
-    [1000006] => rerer
-    [1000007] => rere
-)
-
-10:03:58 [DEBUG] : <<<<<<
-10:03:58 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:59 [DEBUG] : <<<<<<
-10:03:59 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:58 [DEBUG] : <<<<<<
-10:03:58 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:07 [DEBUG] : <<<<<<
-10:03:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:27 [DEBUG] : <<<<<<
-10:03:27 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:31 [DEBUG] : <<<<<<
-10:03:31 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:31 [DEBUG] : 1000011
-10:03:01 [DEBUG] : <<<<<<
-10:03:01 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:01 [DEBUG] : 1000011
-10:03:18 [DEBUG] : <<<<<<
-10:03:18 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:18 [DEBUG] : 1000011
-10:03:39 [DEBUG] : <<<<<<
-10:03:39 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:39 [DEBUG] : 1000011
-10:03:19 [DEBUG] : <<<<<<
-10:03:19 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:22 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:22 [DEBUG] : 
-10:03:22 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:22 [DEBUG] : 
-10:03:07 [DEBUG] : <<<<<<
-10:03:07 [DEBUG] : Array
-(
-    [0] => &TB_PREF&FormulaData
-    [1] => 
-    [2] => 
-    [3] => FormulaId
-    [4] => 
-)
-
-10:03:07 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 
-    [_SourceId_edit] => 
-    [SourceId] => 1
-    [submit] => 保存源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => dXRfzeIbH2-C5IjUjRq7FAxx
-    [_tabs_sel] => source
-)
-
-10:03:07 [DEBUG] : 1
-10:03:43 [DEBUG] : Array
-(
-    [_random] => 420831.54856168054
-    [_token] => XKiea_zJHHoHDVOxObuHmQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 1000002
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:43 [DEBUG] : 1
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:05 [DEBUG] : <<<<<<
-10:03:05 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:08 [DEBUG] : <<<<<<
-10:03:08 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:08 [DEBUG] : 1000011
-10:03:36 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:36 [DEBUG] : 
-10:03:36 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:36 [DEBUG] : 
-10:03:40 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:40 [DEBUG] : 
-10:03:40 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:40 [DEBUG] : 
-10:03:42 [DEBUG] : <<<<<<
-10:03:42 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:42 [DEBUG] : <<<<<<
-10:03:42 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:45 [DEBUG] : <<<<<<
-10:03:45 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:51 [DEBUG] : <<<<<<
-10:03:51 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:51 [DEBUG] : 1000012
-10:03:09 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:09 [DEBUG] : 
-10:03:09 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:09 [DEBUG] : 
-10:03:12 [DEBUG] : Array
-(
-    [_random] => 862924.9335025755
-    [_token] => mgQP-ATfZIaTttWFpjuitAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => 
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:12 [DEBUG] : 1
-10:03:41 [DEBUG] : Array
-(
-    [_id_edit] => 
-    [id] => 9
-    [_tabs_sel] => source
-    [_SourceId_edit] => 
-    [SourceId] => 1
-    [FormulaName] => 采购商品销售单品返利
-    [FormulaType] => 采购计算
-    [isActive] => 1
-    [FormulaId] => 1000007
-    [TargetId] => 1000012
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [Description] => 
-    [submit] => 更新源数据
-    [_focus] => id
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => x7kURNjOol02FFAKMU6jkwxx
-    [FormulaStatus] => 
-)
-
-10:03:41 [DEBUG] : 1
-10:03:41 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:04 [DEBUG] : Array
-(
-    [_random] => 391362.30881288706
-    [_token] => H_Nn3Ol-5JJj4QbyZuxhWQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
-        (
-            [0] => 
-        )
-
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 9
-    [_id_edit] => 
+    [Id] => 9
     [FormulaId] => 1000007
     [FormulaName] => 采购商品销售单品返利
     [SourceId] => 1
     [FormulaType] => 采购计算
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [FormulaStatus] => 
-    [isActive] => 1
+    [FormulaStatus] => (数量*单价)*[返利]
+    [FormulaContent] => ([1000011]*[1000012])*[返利]
     [Description] => 
+    [IsActive] => 1
 )
 
-10:03:04 [DEBUG] : 1
-10:03:04 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:18 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:18 [DEBUG] : 
-10:03:19 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:19 [DEBUG] : 
-10:03:23 [DEBUG] : Array
-(
-    [_random] => 642930.7321296718
-    [_token] => b1iiZJ_HHdqFWrorz8cg_gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:23 [DEBUG] : 1
-10:03:23 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:31 [DEBUG] : <<<<<<
-10:03:31 [DEBUG] : Array
-(
-    [0] => &TB_PREF&PurchaseRules
-    [1] => 
-    [2] => 
-    [3] => RuleId
-    [4] => 
-)
-
-10:03:47 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:47 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:47 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:47 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:47 [DEBUG] : Array
-(
-    [0] => create_at
-)
-
-10:03:47 [DEBUG] : select create_at from &TB_PREF&stock_in
-10:03:55 [DEBUG] : <<<<<<
-10:03:55 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:55 [DEBUG] : <<<<<<
-10:03:55 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:58 [DEBUG] : <<<<<<
-10:03:58 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:01 [DEBUG] : <<<<<<
-10:03:01 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:08 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:08 [DEBUG] : 
-10:03:08 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:08 [DEBUG] : 
-10:03:11 [DEBUG] : Array
-(
-    [_random] => 510005.32310629974
-    [_token] => ivdB2Yh9EZTo4u5PKb4DvAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:11 [DEBUG] : 1
-10:03:11 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:15 [DEBUG] : Array
-(
-    [_random] => 14437.589778934493
-    [_token] => TI-xuVsC3t05ATGzgx3gIgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [formula_dataMode] => Array
-        (
-            [0] => 
-        )
-
-    [_tabs_sel] => source
-    [tabs_source] => 
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [FormulaStatus] => 
-    [isActive] => 1
-    [Description] => 
-)
-
-10:03:15 [DEBUG] : 1
-10:03:15 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:25 [DEBUG] : <<<<<<
-10:03:25 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:25 [DEBUG] : <<<<<<
-10:03:25 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:27 [DEBUG] : <<<<<<
-10:03:27 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:31 [DEBUG] : <<<<<<
-10:03:31 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:31 [DEBUG] : 1000013
-10:03:44 [DEBUG] : <<<<<<
-10:03:44 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:44 [DEBUG] : 1000013
-10:03:51 [DEBUG] : <<<<<<
-10:03:51 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:51 [DEBUG] : 1000013
-10:03:04 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:04 [DEBUG] : 
-10:03:04 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:04 [DEBUG] : 
-10:03:07 [DEBUG] : Array
-(
-    [_random] => 3150.718173133974
-    [_token] => wxePI-n8lfzrPBoOjH1N5Axx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:07 [DEBUG] : 1
-10:03:07 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:28 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:28 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:28 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:28 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:28 [DEBUG] : Array
-(
-    [0] => create_at
-)
-
-10:03:28 [DEBUG] : select create_at from &TB_PREF&users
-10:03:38 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:38 [DEBUG] : 
-10:03:38 [DEBUG] : Array
-(
-    [id] => 
-    [_focus] => id
-    [_tabs_sel] => source
-)
-
-10:03:38 [DEBUG] : 
-10:03:42 [DEBUG] : Array
-(
-    [_random] => 1154014.2158812382
-    [_token] => BsI-AgX8Yo0bt714XsHIPAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => id
-    [Description] => 
-    [FormulaContent] => ([1000011]*[1000012])*1.02
-    [TargetId] => 
-    [isActive] => 1
-    [FormulaType] => 采购计算
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [_SourceId_edit] => 
-    [_tabs_sel] => source
-    [_id_update] =>  
-    [id] => 9
-    [_id_edit] => 
-    [FormulaId] => 1000007
-    [FormulaStatus] => 
-)
-
-10:03:42 [DEBUG] : 1
-10:03:42 [DEBUG] : Array
-(
-    [1000001] => 商品编号
-    [1000002] => 供货商名称
-    [1000004] => 采购日期
-    [1000011] => 数量
-    [1000012] => 单价
-)
-
-10:03:46 [DEBUG] : <<<<<<
-10:03:46 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:46 [DEBUG] : <<<<<<
-10:03:46 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:49 [DEBUG] : <<<<<<
-10:03:49 [DEBUG] : Array
-(
-    [0] => &TB_PREF&sourceData
-    [1] => 
-    [2] => 
-    [3] => SourceId
-    [4] => 
-)
-
-10:03:56 [DEBUG] : <<<<<<
-10:03:56 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:56 [DEBUG] : 1000013
-10:03:02 [DEBUG] : <<<<<<
-10:03:02 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:02 [DEBUG] : 1000013
-10:03:10 [DEBUG] : <<<<<<
-10:03:10 [DEBUG] : Array
-(
-    [0] => &TB_PREF&targetData
-    [1] => 
-    [2] => 
-    [3] => targetId
-    [4] => 
-)
-
-10:03:10 [DEBUG] : 1000013
-10:03:43 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:43 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:43 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:43 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:43 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:43 [DEBUG] : select id from &TB_PREF&users
-10:03:43 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:43 [DEBUG] : select id
- from &TB_PREF&users
-10:03:43 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:43 [DEBUG] : select id from &TB_PREF&users
-10:03:18 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:18 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:18 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:18 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:18 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:18 [DEBUG] : select id from &TB_PREF&users
-10:03:18 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:18 [DEBUG] : select id
- from &TB_PREF&users
-10:03:18 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:18 [DEBUG] : select id from &TB_PREF&users
-10:03:21 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:21 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:21 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:21 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:21 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:21 [DEBUG] : select id from &TB_PREF&users
-10:03:21 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:21 [DEBUG] : select id
- from &TB_PREF&users
-10:03:21 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:21 [DEBUG] : select id from &TB_PREF&users
-10:03:24 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:24 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:24 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:24 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:24 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:24 [DEBUG] : select id from &TB_PREF&users
-10:03:24 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:24 [DEBUG] : select id
- from &TB_PREF&users
-10:03:24 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:24 [DEBUG] : select id from &TB_PREF&users
-10:03:31 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:31 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:31 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:31 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:31 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:31 [DEBUG] : select id from &TB_PREF&users
-10:03:31 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:31 [DEBUG] : select id
- from &TB_PREF&users
-10:03:31 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:31 [DEBUG] : select id from &TB_PREF&users
-10:03:33 [DEBUG] : Array
-(
-    [0] => user_id
-    [1] => real_name
-)
-
-10:03:33 [DEBUG] : select user_id,real_name from &TB_PREF&users
-10:03:33 [DEBUG] : Array
-(
-    [0] => item_id
-    [1] => item_name
-)
-
-10:03:33 [DEBUG] : select item_id,item_name from &TB_PREF&item_codes
-10:03:33 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:33 [DEBUG] : select id from &TB_PREF&users
-10:03:33 [DEBUG] : Array
-(
-    [0] => id
-
-)
-
-10:03:33 [DEBUG] : select id
- from &TB_PREF&users
-10:03:33 [DEBUG] : Array
-(
-    [0] => id
-)
-
-10:03:33 [DEBUG] : select id from &TB_PREF&users

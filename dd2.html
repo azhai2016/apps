@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #countdownTime {
+            width: 60px;
+            position: absolute;
+            top: 50px;
+            left: 32px;
+            transform: translate(50%, 50%);
+            font-size: 28px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 1px 1px 5px #000;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="countdownCanvas" width="200" height="200"></canvas>
+    <div id="countdownTime" style="color: #ffffff; text-align: center; font-size: 30px;"></div>
+    <script>
+        var canvas = document.getElementById("countdownCanvas");
+        var context = canvas.getContext("2d");
+        var countdown = 3600; // 设定倒计时时间（秒）
+        var radius = canvas.width / 3;
+        var centerX = canvas.width / 2;
+        var centerY = canvas.height / 2;
+        var progress = 0;
+
+        function draw() {
+            context.clearRect(0, 0, canvas.width, canvas.height); // 清空画布
+
+            // 绘制倒计时文本
+            context.font = "90px Arial";
+            context.fillStyle = "#ffffff";
+            context.textAlign = "center";
+
+            var hours = Math.floor(countdown / 3600);
+            var minutes = Math.floor((countdown % 3600) / 60);
+            var seconds = countdown % 60;
+            // 绘制进度条
+            context.beginPath();
+
+            context.arc(centerX, centerY, radius, -0.5 * Math.PI, -0.5 * Math.PI + 2 * Math.PI * progress, true); // 修改这里
+
+            context.strokeStyle = "#cbb95d";
+            context.lineWidth = 10;
+            context.stroke();
+
+            // 更新倒计时时间
+            countdown--;
+            if (countdown < 0) {
+                countdown = 0;
+            }
+
+            // 计算进度条进度
+            progress = 1 - (countdown / 3600);
+
+            // 更新倒计时文本
+            //displayTime = formatTime(countdown);
+
+            var timer = (hours < 10 ? "0" : "") + hours + ':' + (minutes < 10 ? "0" : "") + minutes;
+            var timerElem = document.getElementById("countdownTime");
+            if (timerElem.innerHTML !== timer) {
+                timerElem.innerHTML = timer;
+            }
+
+            if (countdown <= 0) {
+                localStorage.removeItem('countDownDate1');
+                timerElem.innerHTML = "结束";
+            } else {
+                requestAnimationFrame(draw);
+            }
+            //document.getElementById("countdownTime").innerHTML = displayTime;
+
+            // 在下一个帧上重新绘制
+            // requestAnimationFrame(draw);
+        }
+
+
+        draw(); // 开始倒计时
+    </script>
+</body>
+
+</html>

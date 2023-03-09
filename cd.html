@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Countdown</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #timer {
+            width: 80px;
+            position: absolute;
+            top: 30px;
+            left: 72px;
+            transform: translate(50%, 50%);
+            font-size: 30px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 1px 1px 5px #000;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="timer"></div>
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height / 2;
+        var centerX = canvas.width / 2;
+        var centerY = canvas.height / 2;
+        radius *= 0.90;
+
+        localStorage.clear();
+
+        var countDownDate = Date.now() + 1000 * 60;// localStorage.getItem('countDownDate_tomoto');
+        if (!countDownDate) {
+            countDownDate = Date.now() + 1000 * 60;
+            localStorage.setItem('countDownDate_tomoto', countDownDate);
+        }
+
+        var endTime = new Date(Number(countDownDate));
+
+        function draw() {
+            //ctx.clearRect(0, 0, canvas.width, canvas.height);
+            var now = Date.now();
+            var distance = countDownDate - now;
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var progress = 1 - (now - new Date(now).setMinutes(0, 0, 0, 0)) / (endTime - new Date(now).setMinutes(0, 0, 0, 0));
+            var endAngle = 1.5 * Math.PI + progress * 2 * Math.PI;
+            ctx.strokeStyle = '#cbb95d';
+            ctx.lineWidth = 10;
+
+            ctx.clearRect(-radius, -radius, 2 * radius, 2 * radius);
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 1.5 * Math.PI, endAngle);
+            ctx.stroke();
+            // Update timer
+            var timer = (minutes < 10 ? "0" : "") + minutes + ':' + (seconds < 10 ? "0" : "") + seconds;
+            var timerElem = document.getElementById("timer");
+            if (timerElem.innerHTML !== timer) {
+                timerElem.innerHTML = timer;
+            }
+
+            if (distance < 0) {
+                localStorage.removeItem('countDownDate_tomoto');
+                timerElem.innerHTML = "结 束";
+            } else {
+                requestAnimationFrame(draw);
+            }
+        }
+
+        draw();
+    </script>
+</body>
+
+</html>
