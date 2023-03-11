@@ -2,98 +2,204 @@
 <html>
 
 <head>
-    <title>Countdown Timer</title>
+    <title>倒计时显示条</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-color: transparent;
+            background-color: #ccc;
         }
 
-        canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
+        #countdown {
+            display: block;
+            margin: 0 auto;
 
-        #countdownTime {
-            width: 60px;
-            position: absolute;
-            top: 50px;
-            left: 32px;
-            transform: translate(50%, 50%);
-            font-size: 28px;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: 1px 1px 5px #000;
+
         }
     </style>
 </head>
 
 <body>
-    <canvas id="countdownCanvas" width="200" height="200"></canvas>
-    <div id="countdownTime" style="color: #ffffff; text-align: center; font-size: 30px;"></div>
+    <canvas id="countdown" width="200" height="200"></canvas>
     <script>
-        var canvas = document.getElementById("countdownCanvas");
+        var canvas = document.getElementById("countdown");
         var context = canvas.getContext("2d");
-        var countdown = 3600; // 设定倒计时时间（秒）
-        var radius = canvas.width / 3;
-        var centerX = canvas.width / 2;
-        var centerY = canvas.height / 2;
-        var progress = 0;
+        var lineWidth = 20;
+        var pomodoroTime = 25 * 60; // 默认番茄钟时间为25分钟
+        var longBreakTime = 15 * 60; // 默认长休息时间为15分钟
+        var shortBreakTime = 5 * 60; // 默认短休息时间为5分钟
+        var currentTimer = null; // 当前计时器
+        var currentMode = "pomodoro"; // 当前工作模式
+        var timerId = null; // setInterval的返回值
+        var currentCycle = 0; // 当前番茄钟周期
+        var cycles = [pomodoroTime, shortBreakTime, pomodoroTime, shortBreakTime, pomodoroTime,
+            shortBreakTime, pomodoroTime, longBreakTime]; // 番茄钟周期数组
+        var localStorageKey = "pomodoro-cycle"; // localStorage的键名
 
-        function draw() {
-            context.clearRect(0, 0, canvas.width, canvas.height); // 清空画布
+        var bgColor = 'rgba(255, 255, 255, 0.5)';
+        var fgColor = '#cbb95d';
 
-            // 绘制倒计时文本
-            context.font = "90px Arial";
-            context.fillStyle = "#ffffff";
-            context.textAlign = "center";
+        //localStorage.removeItem(localStorageKey);
 
-            var hours = Math.floor(countdown / 3600);
-            var minutes = Math.floor((countdown % 3600) / 60);
-            var seconds = countdown % 60;
-            // 绘制进度条
-            context.beginPath();
+        // 从localStorage获取番茄钟周期数组
+        if (localStorage.getItem(localStorageKey)) {
+            cycles = JSON.parse(localStorage.getItem(localStorageKey));
+        }
 
-            context.arc(centerX, centerY, radius, -0.5 * Math.PI, -0.5 * Math.PI + 2 * Math.PI * progress, true); // 修改这里
-
-            context.strokeStyle = "#cbb95d";
-            context.lineWidth = 10;
-            context.stroke();
-
-            // 更新倒计时时间
-            countdown--;
-            if (countdown < 0) {
-                countdown = 0;
+        // 从localStorage获取上一次结束时间，如果存在，则计算出距离现在的时间，并从对应时间点开始计时
+        var lastEndTime = localStorage.getItem("pomodoro-endtime");
+        if (lastEndTime) {
+            var now = new Date().getTime();
+            var timeLeft = lastEndTime - now;
+            if (timeLeft > 0) {
+                var cycleTime = cycles[currentCycle % cycles.length];
+                var timePassed = cycleTime - timeLeft / 1000;
+                startCountdown(cycleTime - timePassed, currentCycle);
             }
-
-            // 计算进度条进度
-            progress = 1 - (countdown / 3600);
-
-            // 更新倒计时文本
-            //displayTime = formatTime(countdown);
-
-            var timer = (hours < 10 ? "0" : "") + hours + ':' + (minutes < 10 ? "0" : "") + minutes;
-            var timerElem = document.getElementById("countdownTime");
-            if (timerElem.innerHTML !== timer) {
-                timerElem.innerHTML = timer;
-            }
-
-            if (countdown <= 0) {
-                localStorage.removeItem('countDownDate1');
-                timerElem.innerHTML = "结束";
-            } else {
-                requestAnimationFrame(draw);
-            }
-            //document.getElementById("countdownTime").innerHTML = displayTime;
-
-            // 在下一个帧上重新绘制
-            // requestAnimationFrame(draw);
         }
 
 
-        draw(); // 开始倒计时
+        // 开始计时
+        function startCountdown(duration, cycle) {
+            currentCycle = cycle;
+            currentTimer = duration;
+
+            timerId = setInterval(function () {
+                currentTimer--;
+                var minutes = Math.floor(currentTimer / 60);
+                var seconds = currentTimer % 60;
+                if (currentTimer <= 0) {
+                    clearInterval(timerId);
+                    currentMode = getNextMode(currentMode);
+                    console.log(currentMode);
+                    if (currentMode == "pomodoro") {
+                        currentCycle++;
+                        saveCycle();
+                    }
+                    // if (confirm("Do you want to start the next cycle?")) {
+                    startCountdown(cycles[currentCycle % cycles.length], currentCycle);
+                    // }
+                } else {
+                    drawCountdown(context, canvas.width / 2, canvas.height / 2, minutes, seconds, currentMode);
+                }
+            }, 1000);
+        }
+
+        // 保存番茄钟周期数组到localStorage
+        function saveCycle() {
+            localStorage.setItem(localStorageKey, JSON.stringify(cycles));
+        }
+
+        // 获取下一个工作模式
+        function getNextMode(mode) {
+            if (mode == "pomodoro") {
+                return "break";
+            } else {
+                return "pomodoro";
+            }
+        }
+
+
+        /*
+        function drawCountdown(context, x, y, days, hours, minutes, seconds) {
+            var radius = Math.min(x, y) * 0.9;
+            var lineWidth = radius * 0.2;
+            var fontSize = radius * 0.15;
+            var arcSize = 2 * Math.PI / 60;
+            context.clearRect(0, 0, x * 2, y * 2);
+            context.lineWidth = lineWidth;
+            context.font = fontSize + "px Arial";
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.strokeStyle = "#ccc";
+            context.beginPath();
+            context.arc(x, y, radius, 0, 2 * Math.PI);
+            context.stroke();
+            context.fillStyle = "#000";
+            //context.fillText(days + "d", x, y - fontSize * 2);
+            //context.fillText(hours + "h", x, y - fontSize);
+            context.fillText(minutes + ':' + seconds, x, y);
+            // context.fillText(seconds + "s", x, y + fontSize);
+            context.strokeStyle = "#e6cb1d";
+            context.beginPath();
+            context.arc(x, y, radius, -Math.PI / 2, -Math.PI / 2 + days * 2 * Math.PI / 365);
+            context.stroke();
+            context.beginPath();
+            context.arc(x, y, radius - lineWidth, -Math.PI / 2, -Math.PI / 2 + hours * 2 * Math.PI / 24);
+            context.stroke();
+            context.beginPath();
+            context.arc(x, y, radius - lineWidth * 2, -Math.PI / 2, -Math.PI / 2 + minutes * 2 * Math.PI / 60);
+            context.stroke();
+            context.beginPath();
+            context.arc(x, y, radius - lineWidth * 3, -Math.PI / 2, -Math.PI / 2 + seconds * arcSize);
+            context.stroke();
+        }
+
+        */
+
+        function drawCountdown(context, x, y, minutes, seconds, mode) {
+            // 清空画布
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            context.beginPath();
+            context.arc(x, y, 80, 0, 2 * Math.PI, false);
+            context.lineWidth = lineWidth;
+            context.strokeStyle = bgColor;
+            context.globalAlpha = 0.3;
+            context.stroke();
+
+            // 画进度圆
+            // var endAngle = 1 - (1 - currentTimer / (cycles[currentCycle % cycles.length])) * 2 * Math.PI;
+
+            var startAngle = 1.5 * Math.PI;
+            var endAngle = (currentTimer / (cycles[currentCycle % cycles.length])) * 2 * Math.PI - Math.PI / 2;
+
+            context.beginPath();
+            context.lineWidth = lineWidth;  // 设置环的宽度
+            context.globalAlpha = 0.5;
+            context.strokeStyle = mode == "pomodoro" ? fgColor : "#5cd65c";  // 根据模式设置颜色
+            context.arc(x, y, 80, startAngle, endAngle, false);
+            context.stroke();
+
+
+            //画倒计时文本
+            context.font = "48px Arial";
+            context.fillStyle = "#fff";
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.globalAlpha = 0.6;
+
+            var displayMinutes = ("0" + minutes).slice(-2);
+            var displaySeconds = ("0" + seconds).slice(-2);
+            context.fillText(displayMinutes + ":" + displaySeconds, x, y);
+
+            // 画模式文本
+            context.font = "18px Arial";
+            context.fillStyle = "#fff";
+            context.textAlign = "center";
+            context.lineWidth = 10;
+            context.textBaseline = "middle";
+            context.globalAlpha = 0.4;
+            if (mode == "pomodoro") {
+                context.fillText("工作模式", x, y + 30);
+            } else {
+                context.fillText("休息模式", x, y + 30);
+            }
+        }
+
+        // 保存当前计时器结束时间到localStorage
+        function saveEndTime() {
+            var endTime = new Date().getTime() + currentTimer * 1000;
+            localStorage.setItem("pomodoro-endtime", endTime);
+        }
+
+
+        //if (timerId) {
+        //    return;
+        // }
+        startCountdown(cycles[0], 0);
+
+
     </script>
 </body>
 

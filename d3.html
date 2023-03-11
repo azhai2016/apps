@@ -201,7 +201,7 @@
                     localStorage.removeItem('countDownDate');
                 }
                 else {
-                    resetcountDown(60 * 5)
+                    resetcountDown(60 * 5);
                 }
             }
             // 否则继续绘制倒计时进度条和更新倒计时文本
@@ -231,7 +231,8 @@
             jumpTo.innerHTML = time_format;
             document.getElementById('time-top').textContent = "休息一下";
             if (--secs > 0) {
-                drawCircle(canvas.width, canvas.height, radius, 'red', seconds_remaining, 1);
+                let p = seconds_remaining;
+                drawCircle(canvas.width, canvas.height, radius, 'red', p, 1);
                 setTimeout("resetcountDown(" + secs + ")", 1000);
 
             }

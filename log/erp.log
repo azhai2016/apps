@@ -1,1085 +1,223 @@
-08:03:01 [DEBUG] : Array
+08:03:25 [DEBUG] : {"sourceid":6,"formulaid":"9","content":"\u9500\u552e\u8fd4\u5229","Description":"","ruleid":"6","conditions":[{"id":"","value":"918528.6630083711"},{"id":"","value":"24xR6qSMb12m_qv9e4tXXwxx"},{"id":"","value":""},{"id":"","value":"0"},{"id":"","value":["CHANGE"]},{"id":"","value":"\u65b0\u589e"},{"id":"ditions","value":{"\u4f9b\u8d27\u5546\u540d\u79f0_1":"1000004_1","\u5546\u54c1\u540d\u79f0_0":"1000002_100002"}},{"id":"00007","value":""},{"id":"1000013","value":"33"},{"id":"1000012","value":"22"},{"id":"1000011","value":"11"},{"id":"conditions_id","value":"1000004"},{"id":"tgname","value":"\u4f9b\u8d27\u5546\u540d\u79f0"},{"id":"","value":"1"},{"id":"_edit","value":""},{"id":"_conditions_id","value":"1000002"},{"id":"","value":["customers"]},{"id":"_tgname","value":"\u5546\u54c1\u540d\u79f0"},{"id":"","value":"100002"},{"id":"s_edit","value":""},{"id":"n","value":""},{"id":"","value":"9"},{"id":"it","value":""},{"id":"","value":"\u9500\u552e\u8fd4\u5229"},{"id":"","value":"target"},{"id":"ent_id","value":""},{"id":"t","value":""},{"id":"","value":"6"},{"id":"","value":""},{"id":"1000004","value":"1"},{"id":"1000002","value":"100002"}],"primises":[{"id":"1000007","value":""}]}
+08:03:25 [DEBUG] : Array
 (
-    [_random] => 1041207.1445432242
-    [_token] => EBEiWehgRRNiXbcOWX1Aegxx
-    [_confirmed] => 
-    [_modified] => 0
-    [CHANGEMode] => Array
+    [sourceid] => 6
+    [formulaid] => 9
+    [content] => 销售返利
+    [Description] => 
+    [ruleid] => 6
+    [conditions] => Array
         (
-            [0] => 
+            [0] => Array
+                (
+                    [id] => 
+                    [value] => 918528.6630083711
+                )
+
+            [1] => Array
+                (
+                    [id] => 
+                    [value] => 24xR6qSMb12m_qv9e4tXXwxx
+                )
+
+            [2] => Array
+                (
+                    [id] => 
+                    [value] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 
+                    [value] => 0
+                )
+
+            [4] => Array
+                (
+                    [id] => 
+                    [value] => Array
+                        (
+                            [0] => CHANGE
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 
+                    [value] => 新增
+                )
+
+            [6] => Array
+                (
+                    [id] => ditions
+                    [value] => Array
+                        (
+                            [供货商名称_1] => 1000004_1
+                            [商品名称_0] => 1000002_100002
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 00007
+                    [value] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 1000013
+                    [value] => 33
+                )
+
+            [9] => Array
+                (
+                    [id] => 1000012
+                    [value] => 22
+                )
+
+            [10] => Array
+                (
+                    [id] => 1000011
+                    [value] => 11
+                )
+
+            [11] => Array
+                (
+                    [id] => conditions_id
+                    [value] => 1000004
+                )
+
+            [12] => Array
+                (
+                    [id] => tgname
+                    [value] => 供货商名称
+                )
+
+            [13] => Array
+                (
+                    [id] => 
+                    [value] => 1
+                )
+
+            [14] => Array
+                (
+                    [id] => _edit
+                    [value] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => _conditions_id
+                    [value] => 1000002
+                )
+
+            [16] => Array
+                (
+                    [id] => 
+                    [value] => Array
+                        (
+                            [0] => customers
+                        )
+
+                )
+
+            [17] => Array
+                (
+                    [id] => _tgname
+                    [value] => 商品名称
+                )
+
+            [18] => Array
+                (
+                    [id] => 
+                    [value] => 100002
+                )
+
+            [19] => Array
+                (
+                    [id] => s_edit
+                    [value] => 
+                )
+
+            [20] => Array
+                (
+                    [id] => n
+                    [value] => 
+                )
+
+            [21] => Array
+                (
+                    [id] => 
+                    [value] => 9
+                )
+
+            [22] => Array
+                (
+                    [id] => it
+                    [value] => 
+                )
+
+            [23] => Array
+                (
+                    [id] => 
+                    [value] => 销售返利
+                )
+
+            [24] => Array
+                (
+                    [id] => 
+                    [value] => target
+                )
+
+            [25] => Array
+                (
+                    [id] => ent_id
+                    [value] => 
+                )
+
+            [26] => Array
+                (
+                    [id] => t
+                    [value] => 
+                )
+
+            [27] => Array
+                (
+                    [id] => 
+                    [value] => 6
+                )
+
+            [28] => Array
+                (
+                    [id] => 
+                    [value] => 
+                )
+
+            [29] => Array
+                (
+                    [id] => 1000004
+                    [value] => 1
+                )
+
+            [30] => Array
+                (
+                    [id] => 1000002
+                    [value] => 100002
+                )
+
         )
 
-    [CHANGENEW] => 添加
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-    [content] => 
-    [sourceId] => 
-    [formulaId] => 
-    [condition] => 
-    [primise] => 
-    [status] => 
-    [ruleId] => 
-    [_focus] => content
-    [CHANGE] => 
-)
-
-08:03:05 [DEBUG] : Array
-(
-    [_random] => 1130771.15063432
-    [_token] => wOsL_Y5iJGgAv5wCOg_OZgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
+    [primises] => Array
         (
-            [0] => NEW
+            [0] => Array
+                (
+                    [id] => 1000007
+                    [value] => 
+                )
+
         )
 
-    [Description] => 
-    [_CHANGE_update] =>  
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:05 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:09 [DEBUG] : Array
-(
-    [_random] => 1116951.8703182943
-    [_token] => E8SvwfWo0tD7v96cTHw2Wwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:09 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:11 [DEBUG] : Array
-(
-    [_random] => 922438.2470611633
-    [_token] => rhD989SD2n546k3vLwddoAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_btn] => item_codes
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:11 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:12 [DEBUG] : Array
-(
-    [_random] => 604417.9719284953
-    [_token] => Mv6iIHj3zrlVOUjWfrzD9Qxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:12 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [_random] => 260179.06111306656
-    [_token] => wyS1zL87ZdsY6js7WYPSaAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:14 [DEBUG] : Array
-(
-    [_random] => 485332.5146315246
-    [_token] => iRDvldhuly-G6P0Q1IsYVgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:14 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:33 [DEBUG] : Array
-(
-    [_random] => 383314.321903239
-    [_token] => udGFhweF867Pzp-Q54Fd9gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:33 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:34 [DEBUG] : Array
-(
-    [_random] => 317584.54093133163
-    [_token] => bsCBzOPG5qcIre1PMyE6jAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:34 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:35 [DEBUG] : Array
-(
-    [_random] => 1151157.4667587874
-    [_token] => tM3kC6xPEorRjEfNiku6UQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:35 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:36 [DEBUG] : Array
-(
-    [_random] => 1203241.4632529798
-    [_token] => hQTQ7Cb-Gr3xqS59-hpj8gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:36 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:41 [DEBUG] : Array
-(
-    [_random] => 846860.4581923619
-    [_token] => vLy2p9Vw1x72cp1O35E4Ngxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:41 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:43 [DEBUG] : Array
-(
-    [_random] => 878282.4730124559
-    [_token] => 5xL7Hv5D611-Kfi43_dcggxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100002
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:43 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:03 [DEBUG] : Array
-(
-    [_random] => 840068.8322576913
-    [_token] => zvdjkHr85bMrqnwwLLRvGgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [_item_codes_update] =>  
-    [item_codes] => 100004
-    [_item_codes_edit] => 
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:03 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:05 [DEBUG] : Array
-(
-    [_random] => 307926.05707323435
-    [_token] => 7ihSpQ1-iofm3gJny12QYwxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_btn] => item_codes
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100004
-    [_item_codes_edit] => 
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:05 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:07 [DEBUG] : Array
-(
-    [_random] => 29486.339591123364
-    [_token] => SBDu1G_eTWMDJ5RN_X1e2gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [_item_codes_update] =>  
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:07 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:08 [DEBUG] : Array
-(
-    [_random] => 203942.4504140603
-    [_token] => dRRx7VYFQGCPfGKFEDgD-gxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_btn] => item_codes
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:08 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:12 [DEBUG] : Array
-(
-    [_random] => 244800.66413902488
-    [_token] => 3LIgzyweinc_PE-K-a7ZYQxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:12 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [_random] => 949164.6958601056
-    [_token] => VxT1S94thc2xqu1G1_8RVAxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [_random] => 783246.5589131971
-    [_token] => Km-KvNqjhTm9YrnYHYor3Axx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:13 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:15 [DEBUG] : Array
-(
-    [_random] => 338285.6015315956
-    [_token] => y9-Y6_B2k2r2uO7H0UEGUgxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:15 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
-)
-
-08:03:16 [DEBUG] : Array
-(
-    [_random] => 759240.2995067458
-    [_token] => _NHfKOUKfgiAVlaHR6Hi_wxx
-    [_confirmed] => 
-    [_modified] => 0
-    [_focus] => content
-    [CHANGEMode] => Array
-        (
-            [0] => CHANGE
-        )
-
-    [formula_1000007] => 
-    [item_codes_conditions_id] => 1000002
-    [item_codes_tgname] => 供货商名称
-    [item_codes] => 100005
-    [_item_codes_edit] => 
-    [users_btn] => users
-    [users_conditions_id] => 1000012
-    [tbname] => Array
-        (
-            [0] => users
-        )
-
-    [users_tgname] => 单价
-    [users] => 1
-    [_users_edit] => 
-    [Description] => 
-    [CHANGE] => 9
-    [_CHANGE_edit] => 
-    [content] => 2121
-    [_tabs_sel] => target
-    [select_client_id] => 
-    [select_text] => 
-    [id] => 6
-    [_id_edit] => 
-)
-
-08:03:16 [DEBUG] : Array
-(
-    [Id] => 9
-    [FormulaId] => 1000007
-    [FormulaName] => 采购商品销售单品返利
-    [SourceId] => 1
-    [FormulaType] => 采购计算
-    [FormulaStatus] => (数量*单价)*[返利]
-    [FormulaContent] => ([1000011]*[1000012])*[返利]
-    [Description] => 
-    [IsActive] => 1
 )
 

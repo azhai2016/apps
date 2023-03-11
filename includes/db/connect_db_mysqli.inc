@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -19,7 +20,7 @@ function set_global_connection($company = -1)
     global $db, $path_to_root, $db_connections, $SysPrefs;
 
 
-   // include_once 'connect_db_mssql.inc';
+    // include_once 'connect_db_mssql.inc';
     include $path_to_root . '/config_db.php';
 
 
@@ -29,16 +30,21 @@ function set_global_connection($company = -1)
 
 
     //set_mssql_connection($company);
-    
+
     cancel_transaction(); // cancel all aborted transactions (if any)
 
 
     $_SESSION['wa_current_user']->cur_con = $company;
 
     $connection = $db_connections[$company];
-    
-    $db = mysqli_connect($connection['host'], $connection['dbuser'], $connection['dbpassword'], '',
-        !empty($connection['port']) ? $connection['port'] : 3306); // default port in mysql is 3306
+
+    $db = mysqli_connect(
+        $connection['host'],
+        $connection['dbuser'],
+        $connection['dbpassword'],
+        '',
+        !empty($connection['port']) ? $connection['port'] : 3306
+    ); // default port in mysql is 3306
 
     mysqli_select_db($db, $connection['dbname']);
     ///// From mysqli release 5.6.6 the sql_mode is no longer empty as it was prior to
@@ -61,9 +67,9 @@ function db_query($sql, $err_msg = null)
     // set current db prefix
     $comp = isset($_SESSION['wa_current_user']->cur_con) ? $_SESSION['wa_current_user']->cur_con : 0;
     $cur_prefix = isset($db_connections[$comp]['tbpref']) ? $db_connections[$comp]['tbpref'] : '';
-  
+
     $sql = str_replace(TB_PREF, $cur_prefix, $sql);
-  
+
     if ($SysPrefs->show_sql) {
         $Ajax->activate('footer_debug');
         $sql_queries .= "<pre>$sql</pre>\n<hr>";
@@ -74,21 +80,20 @@ function db_query($sql, $err_msg = null)
     $retry = MAX_DEADLOCK_RETRY;
     do {
         $result = mysqli_query($db, $sql);
-    
+
         if (mysqli_errno($db) == 1213) { // deadlock detected
             sleep(1);
             $retry--;
         } else {
             $retry = 0;
         }
-
     } while ($retry);
 
 
     db_profile($sql);
 
     if ($SysPrefs->sql_trail) {
-      
+
         $db_last_inserted_id = mysqli_insert_id($db); // preserve in case trail insert is done
         if ($SysPrefs->select_trail || (strstr($sql, 'SELECT') === false)) {
             mysqli_query($db, "INSERT INTO " . $cur_prefix . "sql_trail
@@ -100,9 +105,9 @@ function db_query($sql, $err_msg = null)
 
     if ($err_msg != null || $SysPrefs->go_debug) {
         $exit = $err_msg != null;
-        if (function_exists('xdebug_call_file')) {
-            $err_msg = '<br>At file ' . xdebug_call_file() . ':' . xdebug_call_line() . ':<br>' . $err_msg;
-        }
+        //if (function_exists('xdebug_call_file')) {
+        //   $err_msg = '<br>At file ' . xdebug_call_file() . ':' . xdebug_call_line() . ':<br>' . $err_msg;
+        // }
 
         check_db_error($err_msg, $sql, $exit);
     }
@@ -137,7 +142,6 @@ function db_free_result($result)
     if ($result) {
         mysqli_free_result($result);
     }
-
 }
 
 function db_num_rows($result)
@@ -203,10 +207,10 @@ function db_num_affected_rows()
 
 function db_fetch_field($result)
 {
-    $field_count=mysqli_num_fields($result);
-    $field_info=[];
-    for($i=0;$i<$field_count;++$i) {
-        $field_info[] = mysqli_fetch_field_direct($result,$i);
+    $field_count = mysqli_num_fields($result);
+    $field_info = [];
+    for ($i = 0; $i < $field_count; ++$i) {
+        $field_info[] = mysqli_fetch_field_direct($result, $i);
     }
     return $field_info;
 }
@@ -231,8 +235,13 @@ function db_create_db($connection)
 {
     global $db;
 
-    $db = mysqli_connect($connection['host'], $connection['dbuser'], $connection['dbpassword'], '',
-        !empty($connection['port']) ? $connection['port'] : 3306); // default port in mysql is 3306
+    $db = mysqli_connect(
+        $connection['host'],
+        $connection['dbuser'],
+        $connection['dbpassword'],
+        '',
+        !empty($connection['port']) ? $connection['port'] : 3306
+    ); // default port in mysql is 3306
 
     if (!mysqli_select_db($db, $connection['dbname'])) {
         $sql = "CREATE DATABASE IF NOT EXISTS `" . $connection["dbname"] . "`" . " DEFAULT COLLATE '" . get_mysql_collation($connection["collation"]) . "'";
@@ -240,12 +249,10 @@ function db_create_db($connection)
         if (!mysqli_query($db, $sql) || !mysqli_select_db($db, $connection['dbname'])) {
             return 0;
         }
-
     } else {
         if (!db_set_collation($db, $connection['collation'])) {
             return 0;
         }
-
     }
 
     return $db;
@@ -270,7 +277,6 @@ function db_drop_db($connection)
             if (strpos($table['Name'], $connection["tbpref"]) === 0) {
                 db_query("DROP TABLE `" . $table['Name'] . "`");
             }
-
         }
         //deleting the tables, how??
         return true;
@@ -316,7 +322,6 @@ function db_set_encoding($ui_encoding = null)
     if ($mysql_enc = get_mysql_encoding_name($ui_encoding)) {
         mysqli_set_charset($db, $mysql_enc);
     }
-
 }
 
 function db_get_charset($db)
