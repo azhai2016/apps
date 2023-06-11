@@ -1,6 +1,7 @@
 <?php
 
-class mssql_crud {
+class mssql_crud
+{
 	var $name;
 	var $Mode;
 	var $selected_id;
@@ -12,8 +13,9 @@ class mssql_crud {
 	var $tool_buttons;
 	var $options;
 	var $dec;
-	
-	function __construct($name, $fields = null) {
+
+	function __construct($name, $fields = null)
+	{
 		$this->name = $name;
 		$this->pre_handlers = array(
 			'Edit' => '_edit',
@@ -23,7 +25,7 @@ class mssql_crud {
 			'UPDATE' => '_update',
 			'RESET' => '_cancel',
 			'CLONE' => '_cloning'
-			);
+		);
 		$this->views = array(
 			'' => 'list_view',			// default view
 			'Edit' => 'editor_view',
@@ -33,7 +35,7 @@ class mssql_crud {
 			'UPDATE' => 'editor_view',
 			'RESET' => 'list_view',
 			'CLONE' => 'editor_view'
-			);
+		);
 		$this->tool_buttons['Edit'] = array(_('Edit'), _('Edit document line'), ICON_EDIT, '');
 		$this->tool_buttons['Delete'] = array(_('Delete'), _('Remove line from document'), ICON_DELETE, '');
 		$this->tool_buttons['UPDATE'] = array(_('Update'), _('Confirm changes'), ICON_UPDATE, '');
@@ -42,10 +44,11 @@ class mssql_crud {
 		$this->fields = $fields;
 		$this->selected_id = $this->_none;
 	}
-	
+
 	//	Input/output formatters - convert values between php/user domains.
-	function _format_input($value, $fmt) {
-		switch($fmt) {
+	function _format_input($value, $fmt)
+	{
+		switch ($fmt) {
 			case 'stock':
 				$this->dec = get_qty_dec($value);
 				return $value;
@@ -54,16 +57,17 @@ class mssql_crud {
 			case 'number':
 				return user_numeric($value);
 			case 'percent':
-				return user_numeric($value)/100;
+				return user_numeric($value) / 100;
 			case 'text':
 			case 'date':
 			default:
 				return $value;
 		}
 	}
-	
-	function _format_output($value, $fmt) {
-		switch($fmt) {
+
+	function _format_output($value, $fmt)
+	{
+		switch ($fmt) {
 			case 'price':
 				return price_format($value);
 			case 'qty':
@@ -71,7 +75,7 @@ class mssql_crud {
 			case 'number':
 				return number_format2($value);
 			case 'percent':
-				return percent_format($value*100);
+				return percent_format($value * 100);
 			case 'stock':
 				$this->dec = get_qty_dec($value); // retrieve dec for use in later qty fields
 			case 'text':
@@ -81,41 +85,44 @@ class mssql_crud {
 		}
 	}
 
-	function _check_mode() {
+	function _check_mode()
+	{
 		global $Ajax;
 
 		// list controls lookup
 		foreach (array_keys($this->pre_handlers) as $m) {
-			if (isset($_POST[$this->name.$m])) {
+			if (isset($_POST[$this->name . $m])) {
 				unset($_POST['_focus']); // focus on first form entry
-				$Ajax->activate($this->name.'_div');
-				$val = is_array($_POST[$this->name.$m]) ? key($_POST[$this->name.$m]) : null;
-				$this->selected_id = $val!==null ? @quoted_printable_decode($val) : $this->_none;
+				$Ajax->activate($this->name . '_div');
+				$val = is_array($_POST[$this->name . $m]) ? key($_POST[$this->name . $m]) : null;
+				$this->selected_id = $val !== null ? @quoted_printable_decode($val) : $this->_none;
 				return $m;
 			}
 		}
-		$mod = get_post($this->name.'Mode', '');
+		$mod = get_post($this->name . 'Mode', '');
 		if ($mod) {
 			$val = @key($mod);
-			$this->selected_id = $val!==null ? @quoted_printable_decode($val) : $this->_none;
+			$this->selected_id = $val !== null ? @quoted_printable_decode($val) : $this->_none;
 			return $mod[$val];
 		}
 		return '';
 	}
 
 	//	Set record for edition
-	function _edit($mode) {
+	function _edit($mode)
+	{
 		if ($this->Mode != $mode) {
 			if ($this->selected_id != $this->_none)
 				$this->data = $this->db_read();
-			
+
 			$this->set_posts($this->data);
 		}
 		$this->Mode = $mode;
 	}
-	
+
 	//	Update record after edition
-	function _update($mode) {
+	function _update($mode)
+	{
 		$this->get_posts();
 		if ($this->update_check()) {
 			if ($this->db_update()) {
@@ -126,9 +133,10 @@ class mssql_crud {
 		}
 		$this->Mode = $mode;
 	}
-	
+
 	//	Add new record
-	function _add($mode) {
+	function _add($mode)
+	{
 		$this->get_posts();
 		if ($this->insert_check()) {
 			$this->db_insert();
@@ -137,43 +145,46 @@ class mssql_crud {
 		}
 		$this->Mode = $mode;
 	}
-	
+
 	//	Delete selected  record
-	function _delete() {
+	function _delete()
+	{
 		if ($this->delete_check())
 			$this->db_delete();
 		$this->_cancel();
 	}
-	
+
 	//	Return to listing view
-	function _cancel() {
+	function _cancel()
+	{
 		$this->selected_id = $this->_none;
 		$this->db_cancel();
 		$this->Mode = '';
 	}
-	
+
 	// Clone record for new edition
-	function _cloning() {
+	function _cloning()
+	{
 		$this->Mode = '';
 		$this->_edit('Edit');
 		$this->selected_id = $this->_none;
 	}
-	
+
 	// Generate form controls
-	function _bottom_controls() {
+	function _bottom_controls()
+	{
 		$clone = $this->selected_id != $this->_none;
 
-		$title=false;
-		$async='both';
-		$base=$this->name;
+		$title = false;
+		$async = 'both';
+		$base = $this->name;
 
 		$cancel = $async;
 
 		if ($async === 'both') {
 			$async = 'default';
 			$cancel = 'cancel';
-		}
-		elseif ($async === 'default')
+		} elseif ($async === 'default')
 			$cancel = true;
 		elseif ($async === 'cancel')
 			$async = true;
@@ -182,11 +193,11 @@ class mssql_crud {
 		if ($this->Mode == '' || $this->Mode == 'RESET')
 			submit("{$base}NEW", _('Add new'), true, $title, $async);
 		else {
-			if ($this->Mode == 'NEW' || $this->selected_id==$this->_none)
+			if ($this->Mode == 'NEW' || $this->selected_id == $this->_none)
 				submit("{$base}ADD", _('Add'), true, $title, $async);
 			else {
 				submit("{$base}UPDATE[{$this->selected_id}]", _('Update'), true, _('Submit changes'), $async);
-				if ($clone) 
+				if ($clone)
 					submit("{$base}CLONE[{$this->selected_id}]", _('Clone'), true, _('Edit new record with current data'), $async);
 			}
 			submit("{$base}RESET", _("Cancel"), true, _('Cancel edition'), $cancel);
@@ -197,14 +208,15 @@ class mssql_crud {
 	//===========================================================================
 	// Public functions
 	//
-	
-	function tool_button($name, $selected_id=null, $params='') {
+
+	function tool_button($name, $selected_id = null, $params = '')
+	{
 		$b = $this->tool_buttons[$name];
 
-		return "<td align='center' $params>".button( "{$this->name}$name".($selected_id === null || $selected_id === $this->_none ? '' : "[$selected_id]"), $b[0], $b[1], $b[2], $b[3])."</td>";
+		return "<td align='center' $params>" . button("{$this->name}$name" . ($selected_id === null || $selected_id === $this->_none ? '' : "[$selected_id]"), $b[0], $b[1], $b[2], $b[3]) . "</td>";
 	}
-	
-	function set_posts() {
+
+	/*function set_posts() {
 		foreach($this->fields as $name => $fmt) {
 			if (is_int($name)) {
 				$name = $fmt;
@@ -217,10 +229,29 @@ class mssql_crud {
 
 			$_POST[$post] = $this->_format_output($value, isset($fmt['fmt']) ? $fmt['fmt'] : null);
 		}
+	}  */
+
+	/**
+	 * Set post fields for the selected item.
+	 */
+	function set_posts()
+	{
+		foreach ($this->fields as $name => $fmt) {
+			$name = $name ?? [];
+			$fmt = $fmt ?? [];
+
+			$post = $fmt['post'] ?? $name;
+			$fld = $fmt['fld'] ?? $name;
+
+			$value = $this->_none === $this->selected_id ? ($fmt['dflt'] ?? null) : ($this->data[$fld] ?? null);
+
+			$_POST[$post] = $this->_format_output($value, $fmt['fmt'] ?? null);
+		}
 	}
-	
+
 	//	Get editor POST variables. 
-	function get_posts() {
+	function get_posts()
+	{
 		foreach ($this->fields as $name => $fmt) {
 			if (is_int($name)) {
 				$name = $fmt;
@@ -238,12 +269,13 @@ class mssql_crud {
 	}
 
 	//	Main function - display current CRUD editor content
-	function show() {
-		if (!isset($_POST[$this->name.'Mode']))
+	function show()
+	{
+		if (!isset($_POST[$this->name . 'Mode']))
 			$this->set_posts();
 
 		$Mode = $this->_check_mode(true);
-		div_start($this->name.'_div');
+		div_start($this->name . '_div');
 
 		if (array_key_exists($Mode, $this->pre_handlers)) {
 			$fun = $this->pre_handlers[$Mode];
@@ -257,60 +289,70 @@ class mssql_crud {
 
 		$this->_bottom_controls();
 		// this is needed only when we use temporary crud object together with ajax screen updates
-		hidden($this->name.'Mode'.'['.$this->selected_id.']', $this->Mode);
+		hidden($this->name . 'Mode' . '[' . $this->selected_id . ']', $this->Mode);
 		div_end();
 	}
-	
+
 	//===========================================================================
 	//	Database functions placeholders
-	
+
 	//	Read record from db for edition
-	function db_read() {
-		display_notification(__FUNCTION__.' is not defined...');
+	function db_read()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 		return array();
 	}
-	
+
 	//	Update record in db after edition
-	function db_update() {
+	function db_update()
+	{
 		$this->db_insert();
 	}
-	
+
 	//	Delete record
-	function db_delete() {
-		display_notification(__FUNCTION__.' is not defined...');
+	function db_delete()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 	}
-	
+
 	//	Insert record
-	function db_insert() {
-		display_notification(__FUNCTION__.' is not defined...');
+	function db_insert()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 	}
-	
+
 	//	Cancel edition
 	//	Optional things like focus set.
-	function db_cancel() {
+	function db_cancel()
+	{
 	}
 
 
-	function delete_check() {
-		display_notification(__FUNCTION__.' is not defined...');
-		return true; 
-	}
-
-	function insert_check() {
+	function delete_check()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 		return true;
 	}
 
-	function update_check() {
-		return $this->insert_check(); 
+	function insert_check()
+	{
+		return true;
+	}
+
+	function update_check()
+	{
+		return $this->insert_check();
 	}
 
 	//	Show database content in pager/table
-	function list_view() {
-		display_notification(__FUNCTION__.' is not defined...');
+	function list_view()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 	}
 
 	//	Show record editor screen content
-	function editor_view() {
-		display_notification(__FUNCTION__.' is not defined...');
+	function editor_view()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
 	}
 }

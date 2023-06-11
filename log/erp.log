@@ -1,223 +1,249 @@
-08:03:25 [DEBUG] : {"sourceid":6,"formulaid":"9","content":"\u9500\u552e\u8fd4\u5229","Description":"","ruleid":"6","conditions":[{"id":"","value":"918528.6630083711"},{"id":"","value":"24xR6qSMb12m_qv9e4tXXwxx"},{"id":"","value":""},{"id":"","value":"0"},{"id":"","value":["CHANGE"]},{"id":"","value":"\u65b0\u589e"},{"id":"ditions","value":{"\u4f9b\u8d27\u5546\u540d\u79f0_1":"1000004_1","\u5546\u54c1\u540d\u79f0_0":"1000002_100002"}},{"id":"00007","value":""},{"id":"1000013","value":"33"},{"id":"1000012","value":"22"},{"id":"1000011","value":"11"},{"id":"conditions_id","value":"1000004"},{"id":"tgname","value":"\u4f9b\u8d27\u5546\u540d\u79f0"},{"id":"","value":"1"},{"id":"_edit","value":""},{"id":"_conditions_id","value":"1000002"},{"id":"","value":["customers"]},{"id":"_tgname","value":"\u5546\u54c1\u540d\u79f0"},{"id":"","value":"100002"},{"id":"s_edit","value":""},{"id":"n","value":""},{"id":"","value":"9"},{"id":"it","value":""},{"id":"","value":"\u9500\u552e\u8fd4\u5229"},{"id":"","value":"target"},{"id":"ent_id","value":""},{"id":"t","value":""},{"id":"","value":"6"},{"id":"","value":""},{"id":"1000004","value":"1"},{"id":"1000002","value":"100002"}],"primises":[{"id":"1000007","value":""}]}
-08:03:25 [DEBUG] : Array
+09:05:14 [DEBUG] : 1
+09:05:51 [DEBUG] : INSERT INTO  `&TB_PREF&users` (user_id,password,real_name) values (
+        '1212',
+        'e10adc3949ba59abbe56e057f20f883e',
+        '2121'
+    )
+09:05:51 [DEBUG] : INSERT INTO  `&TB_PREF&plan_suppliers` (
+        `company_id`,`userid`,`name`,`address`,`contact_name`,`contact_phone`
+    ) values (
+        '1212',
+        '4',
+        '2121',
+        '212',
+        '',
+        '3232'
+    ) 
+09:05:55 [DEBUG] : INSERT INTO  `&TB_PREF&users` (user_id,password,real_name) values (
+        '12121',
+        'e10adc3949ba59abbe56e057f20f883e',
+        '212323'
+    )
+09:05:55 [DEBUG] : INSERT INTO  `&TB_PREF&plan_suppliers` (
+        `company_id`,`user_id`,`name`,`address`,`contact_person`,`contact_phone`
+    ) values (
+        '12121',
+        '5',
+        '212323',
+        '3232',
+        '4343',
+        '54545'
+    ) 
+09:05:46 [DEBUG] : INSERT INTO  `&TB_PREF&users` (user_id,password,real_name) values (
+        '12121',
+        'e10adc3949ba59abbe56e057f20f883e',
+        '3232'
+    )
+09:05:46 [DEBUG] : INSERT INTO  `&TB_PREF&plan_suppliers` (
+        `company_id`,`user_id`,`name`,`address`,`contact_person`,`contact_phone`
+    ) values (
+        '12121',
+        '6',
+        '3232',
+        '4343',
+        '5454',
+        '656544'
+    ) 
+10:05:02 [DEBUG] : INSERT INTO  `&TB_PREF&users` (user_id,password,real_name) values (
+        '2121',
+        'e10adc3949ba59abbe56e057f20f883e',
+        '32343'
+    )
+10:05:02 [DEBUG] : INSERT INTO  `&TB_PREF&plan_suppliers` (
+        `company_id`,`user_id`,`name`,`address`,`contact_person`,`contact_phone`
+    ) values (
+        '2121',
+        '7',
+        '32343',
+        '4554',
+        '5454',
+        '66566'
+    ) 
+01:05:53 [DEBUG] : DELETE FROM &TB_PREF&users WHERE id=''
+01:05:45 [DEBUG] : DELETE FROM &TB_PREF&users WHERE id=''
+01:05:35 [DEBUG] : 19
+01:05:52 [DEBUG] : 19
+01:05:01 [DEBUG] : 19
+01:05:01 [DEBUG] : 20
+01:05:10 [DEBUG] : 19
+01:05:10 [DEBUG] : 20
+01:05:10 [DEBUG] : 21
+01:05:33 [DEBUG] : 19
+01:05:33 [DEBUG] : 20
+01:05:33 [DEBUG] : 21
+01:05:35 [DEBUG] : 19
+01:05:35 [DEBUG] : 20
+01:05:35 [DEBUG] : 21
+01:05:40 [DEBUG] : DELETE FROM &TB_PREF&users WHERE id=''
+01:05:40 [DEBUG] : 19
+01:05:40 [DEBUG] : 21
+01:05:36 [DEBUG] : id:19
+01:05:36 [DEBUG] : id:21
+02:05:44 [DEBUG] : Array
 (
-    [sourceid] => 6
-    [formulaid] => 9
-    [content] => 销售返利
-    [Description] => 
-    [ruleid] => 6
-    [conditions] => Array
+    [Delete7] => 删除
+    [pager_list] => 1
+    [company_id] => 
+    [name] => 
+    [address] => 
+    [contact_person] => 
+    [contact_phone] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => KFUw3Oed7M-__9seY_gIYgxx
+)
+
+02:05:44 [DEBUG] : DELETE FROM &TB_PREF&users WHERE id=''
+02:05:54 [DEBUG] : DELETE &TB_PREF&users,&TB_PREF&plan_suppliers
+    FROM &TB_PREF&plan_suppliers left join
+    &TB_PREF&users on &TB_PREF&plan_suppliers.user_id=&TB_PREF&users.id
+     WHERE &TB_PREF&plan_suppliers.id='5'
+02:05:39 [DEBUG] : DELETE &TB_PREF&users,&TB_PREF&plan_suppliers
+    FROM &TB_PREF&plan_suppliers left join
+    &TB_PREF&users on &TB_PREF&plan_suppliers.user_id=&TB_PREF&users.id
+     WHERE &TB_PREF&plan_suppliers.id='9'
+02:05:39 [DEBUG] : DELETE &TB_PREF&users,&TB_PREF&plan_suppliers
+    FROM &TB_PREF&plan_suppliers left join
+    &TB_PREF&users on &TB_PREF&plan_suppliers.user_id=&TB_PREF&users.id
+     WHERE &TB_PREF&plan_suppliers.id='10'
+02:05:31 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+02:05:03 [DEBUG] : Array
+(
+    [0] => 12
+)
+
+09:05:30 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:45 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:38 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:38 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:32 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:32 [DEBUG] : ../../../company/0/attachments/yOvUFx4XLOFcqA4WTxoh7wxx.xlsx
+09:05:39 [DEBUG] : ../../../company/0/attachments/bURLW7KFJ6APOIpROm2PpQxx.xlsx
+09:05:59 [DEBUG] : 
+09:05:37 [DEBUG] : 
+09:05:45 [DEBUG] : 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+09:05:09 [DEBUG] : Array
+(
+    [attachment] => Array
         (
-            [0] => Array
-                (
-                    [id] => 
-                    [value] => 918528.6630083711
-                )
-
-            [1] => Array
-                (
-                    [id] => 
-                    [value] => 24xR6qSMb12m_qv9e4tXXwxx
-                )
-
-            [2] => Array
-                (
-                    [id] => 
-                    [value] => 
-                )
-
-            [3] => Array
-                (
-                    [id] => 
-                    [value] => 0
-                )
-
-            [4] => Array
-                (
-                    [id] => 
-                    [value] => Array
-                        (
-                            [0] => CHANGE
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [id] => 
-                    [value] => 新增
-                )
-
-            [6] => Array
-                (
-                    [id] => ditions
-                    [value] => Array
-                        (
-                            [供货商名称_1] => 1000004_1
-                            [商品名称_0] => 1000002_100002
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [id] => 00007
-                    [value] => 
-                )
-
-            [8] => Array
-                (
-                    [id] => 1000013
-                    [value] => 33
-                )
-
-            [9] => Array
-                (
-                    [id] => 1000012
-                    [value] => 22
-                )
-
-            [10] => Array
-                (
-                    [id] => 1000011
-                    [value] => 11
-                )
-
-            [11] => Array
-                (
-                    [id] => conditions_id
-                    [value] => 1000004
-                )
-
-            [12] => Array
-                (
-                    [id] => tgname
-                    [value] => 供货商名称
-                )
-
-            [13] => Array
-                (
-                    [id] => 
-                    [value] => 1
-                )
-
-            [14] => Array
-                (
-                    [id] => _edit
-                    [value] => 
-                )
-
-            [15] => Array
-                (
-                    [id] => _conditions_id
-                    [value] => 1000002
-                )
-
-            [16] => Array
-                (
-                    [id] => 
-                    [value] => Array
-                        (
-                            [0] => customers
-                        )
-
-                )
-
-            [17] => Array
-                (
-                    [id] => _tgname
-                    [value] => 商品名称
-                )
-
-            [18] => Array
-                (
-                    [id] => 
-                    [value] => 100002
-                )
-
-            [19] => Array
-                (
-                    [id] => s_edit
-                    [value] => 
-                )
-
-            [20] => Array
-                (
-                    [id] => n
-                    [value] => 
-                )
-
-            [21] => Array
-                (
-                    [id] => 
-                    [value] => 9
-                )
-
-            [22] => Array
-                (
-                    [id] => it
-                    [value] => 
-                )
-
-            [23] => Array
-                (
-                    [id] => 
-                    [value] => 销售返利
-                )
-
-            [24] => Array
-                (
-                    [id] => 
-                    [value] => target
-                )
-
-            [25] => Array
-                (
-                    [id] => ent_id
-                    [value] => 
-                )
-
-            [26] => Array
-                (
-                    [id] => t
-                    [value] => 
-                )
-
-            [27] => Array
-                (
-                    [id] => 
-                    [value] => 6
-                )
-
-            [28] => Array
-                (
-                    [id] => 
-                    [value] => 
-                )
-
-            [29] => Array
-                (
-                    [id] => 1000004
-                    [value] => 1
-                )
-
-            [30] => Array
-                (
-                    [id] => 1000002
-                    [value] => 100002
-                )
-
-        )
-
-    [primises] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 1000007
-                    [value] => 
-                )
-
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpYVnAzp
+            [error] => 0
+            [size] => 42869
         )
 
 )
 
+09:05:05 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpb56GJe
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:52 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/php4tBAjq
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:52 [DEBUG] : 
+09:05:18 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpsJKPOb
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:18 [DEBUG] : 
+09:05:15 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpig3CMO
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:15 [DEBUG] : 
+09:05:06 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+09:05:15 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpnOcCDd
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:44 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [full_path] => 副本恩华5月诺华流向（DDI）05.11-16.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpU60Nvx
+            [error] => 0
+            [size] => 42869
+        )
+
+)
+
+09:05:44 [DEBUG] : ../../../company/0/attachments
+09:05:44 [DEBUG] : ../../../company/0/attachments/QdCnQp67PO2wCII5JskDSQxx

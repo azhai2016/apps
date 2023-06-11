@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -101,7 +102,6 @@ if ($Mode == 'ADD_ITEM' || $Mode == 'UPDATE_ITEM') {
         } else {
             display_error(_('选择附件文件.'));
         }
-
     } elseif (strlen($filename) > 60) {
         display_error(_('文件名长度大于60个字符'));
     } else {
@@ -132,7 +132,6 @@ if ($Mode == 'ADD_ITEM' || $Mode == 'UPDATE_ITEM') {
             if ($filename && file_exists($dir . '/' . $unique_name)) {
                 unlink($dir . '/' . $unique_name);
             }
-
         } else {
             $unique_name = random_id();
         }
@@ -221,7 +220,7 @@ function delete_link($row)
 function display_rows($type, $trans_no)
 {
 
-    $sql = get_sql_for_attached_documents($type, $type == ST_SUPPLIER || $type == ST_CUSTOMER ? $trans_no : 0);
+    $sql = ''; //get_sql_for_attached_documents($type, $type == ST_SUPPLIER || $type == ST_CUSTOMER ? $trans_no : 0);
 
     $cols = array(
         _('#') => array('fun' => 'trans_view', 'ord' => ''),
@@ -236,9 +235,9 @@ function display_rows($type, $trans_no)
         array('insert' => true, 'fun' => 'delete_link', 'align' => 'center'),
     );
 
-    if ($type == ST_SUPPLIER || $type == ST_CUSTOMER) {
-        $cols[_('#')] = 'skip';
-    }
+    // if ($type == ST_SUPPLIER || $type == ST_CUSTOMER) {
+    //     $cols[_('#')] = 'skip';
+    //}
 
     $table = &new_db_pager('trans_tbl', $sql, $cols);
 
@@ -272,9 +271,9 @@ if ($selected_id != -1) {
         $_POST['description'] = $row['description'];
         hidden('trans_no', $row['trans_no']);
         hidden('unique_name', $row['unique_name']);
-        if ($type != ST_SUPPLIER && $type != ST_CUSTOMER) {
-            label_row(_('Transaction #'), $row['trans_no']);
-        }
+        // if ($type != ST_SUPPLIER && $type != ST_CUSTOMER) {
+        //    label_row(_('Transaction #'), $row['trans_no']);
+        // }
 
     }
     hidden('selected_id', $selected_id);

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>体育比分</title>
+    <style>
+        .scoreboard {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 32px;
+            text-align: center;
+            padding-top: 10px;
+            animation: fade-in 0.5s forwards, fade-out 5s forwards 0.5s;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .team {
+            display: inline-block;
+            vertical-align: middle;
+            width: 45%;
+        }
+
+        .team-name {
+            font-size: 24px;
+        }
+
+        .team-score {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            100% {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        @keyframes fade-out {
+            0% {
+                opacity: 1;
+            }
+
+            90% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scoreboard">
+        <div class="team team-a">
+            <div class="team-name">主队</div>
+            <div class="team-score">1</div>
+        </div>
+        <div class="team team-b">
+            <div class="team-name">客队</div>
+            <div class="team-score">0</div>
+        </div>
+    </div>
+
+    <script>
+        // 模拟比分更新
+        setTimeout(function () {
+            updateScore(2, 0);
+        }, 2000);
+
+        setTimeout(function () {
+            updateScore(2, 1);
+        }, 4000);
+
+        setTimeout(function () {
+            updateScore(2, 2);
+        }, 6000);
+
+        setTimeout(function () {
+            updateScore(2, 3);
+        }, 8000);
+
+        function updateScore(scoreA, scoreB) {
+            // 更新比分
+            var teamAScore = document.querySelector('.team-a .team-score');
+            var teamBScore = document.querySelector('.team-b .team-score');
+            teamAScore.textContent = scoreA;
+            teamBScore.textContent = scoreB;
+
+            // 显示比分提示
+            var scoreboard = document.querySelector('.scoreboard');
+            scoreboard.style.opacity = 1;
+            scoreboard.style.visibility = 'visible';
+
+            // 隐藏比分提示
+            setTimeout(function () {
+                scoreboard.style.opacity = 0;
+                scoreboard.style.visibility = 'hidden';
+            }, 5000);
+        }
+    </script>
+</body>
+
+</html>

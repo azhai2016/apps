@@ -48,4 +48,19 @@ $installed_extensions = array (
       0 => 'rebate_purchase',
     ),
   ),
+  11 => 
+  array (
+    'package' => 'qms',
+    'name' => '采购商品报价系统',
+    'version' => '0.1.1',
+    'available' => '',
+    'type' => 'extension',
+    'path' => 'modules/qms',
+    'active' => 1,
+    'description' => '-- 采购商品报价系统  --',
+    'SubPath' => 
+    array (
+      0 => 'qms',
+    ),
+  ),
 );

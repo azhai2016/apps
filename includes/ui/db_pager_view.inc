@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) CbSMS.
 Released under the terms of the GNU General Public License, GPL,
@@ -49,7 +50,7 @@ function display_db_pager(&$pager)
 
     foreach ($pager->columns as $num_col => $col) {
         // record status control column is displayed only when control checkbox is on
-   
+
         if (isset($col['head']) && ($col['type'] != 'inactive' || get_post('show_inactive'))) {
             if (!isset($col['ord'])) {
                 $headers[] = $col['head'];
@@ -57,12 +58,10 @@ function display_db_pager(&$pager)
                 $icon = (($col['ord'] == 'desc') ? 'sort_desc.gif' : ($col['ord'] == 'asc' ? 'sort_asc.gif' : 'sort_none.gif'));
                 $headers[] = navi_button($pager->name . '_sort_' . $num_col, $col['head'], true, $icon);
             }
+        } else
+        if (isset($col['insert']) && $col['insert'] == 1) {
+            $headers[] = '';
         }
-        else
-        if (isset($col['insert']) && $col['insert']==1) {
-            $headers[]= '';  
-        }
-
     }
     // show a table of records returned by the sql
     start_table(TABLESTYLE, "width='$pager->width'");
@@ -100,7 +99,6 @@ function display_db_pager(&$pager)
             if ($marker['func'] && $marker['func']($row)) {
                 $row_class = $marker['class'];
             }
-
         }
         if ($row_class) {
             start_row("class='" . $row_class . "'");
@@ -111,7 +109,7 @@ function display_db_pager(&$pager)
         foreach ($pager->columns as $k => $col) {
             $coltype = $col['type'];
             $cell = isset($col['name']) ? $row[$col['name']] : '';
- 
+
 
             if (isset($col['fun'])) { // use data input function if defined
                 $fun = $col['fun'];
@@ -122,7 +120,6 @@ function display_db_pager(&$pager)
                 } else {
                     $cell = '';
                 }
-                
             }
 
             switch ($coltype) { // format column
@@ -133,19 +130,19 @@ function display_db_pager(&$pager)
                     label_cell($cell, "style='width:50px;text-align:center'");
                     break;
                 case 'middle_width':
-                        label_cell($cell, "width='100px'");
-                        break;    
+                    label_cell($cell, "width='100px'");
+                    break;
                 case 'small_center_width':
-                        label_cell($cell, "align='center' nowrap width='50px'");
-                        break;    
+                    label_cell($cell, "align='center' nowrap width='50px'");
+                    break;
                 case 'large_width':
-                     label_cell($cell, "width='200px'");
-                        break;
+                    label_cell($cell, "width='200px'");
+                    break;
                 case 'time':
                     label_cell($cell, "width='80px'");
                     break;
                 case 'date':
-                    label_cell(substr(sql2date($cell),0,10), "align='center' nowrap");
+                    label_cell(substr(sql2date($cell), 0, 10), "align='center' width='80px' nowrap");
                     break;
                 case 'dstamp': // time stamp displayed as date
                     label_cell(sql2date(substr($cell, 0, 10)), "align='center' style='width:120px;' nowrap");
@@ -173,11 +170,11 @@ function display_db_pager(&$pager)
                         $pager->inactive_control_cell($row);
                     }
                     break;
-        
-                case 'select': 
-                     $col_value = isset($col['col_value']) ? $col['col_value'] : '-1';
-                     $client_id = isset($_GET['client_id'])?$_GET['client_id']:get_post('client_id');
-                     ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectTableItem(this,window.opener.document, "'.$client_id.'",'.$col_value.')');
+
+                case 'select':
+                    $col_value = isset($col['col_value']) ? $col['col_value'] : '-1';
+                    $client_id = isset($_GET['client_id']) ? $_GET['client_id'] : get_post('client_id');
+                    ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectTableItem(this,window.opener.document, "' . $client_id . '",' . $col_value . ')');
                     break;
                 default:
                     (isset($col['align'])) ? label_cell($cell, "align='" . $col['align'] . "'") : label_cell($cell);
@@ -245,7 +242,6 @@ function display_db_pager(&$pager)
         if (isset($marker['txt'])) {
             display_note($marker['txt'], 0, 0, "class='" . $marker['txt_class'] . "'");
         }
-
     }
     br();
     div_end();
