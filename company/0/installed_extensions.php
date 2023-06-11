@@ -11,7 +11,7 @@ $installed_extensions = array (
     'available' => '',
     'type' => 'extension',
     'path' => 'modules/rebate_sales',
-    'active' => 1,
+    'active' => 0,
     'description' => '-- 医药流通企业_返利折让系统_销售返利   --',
     'SubPath' => 
     array (
@@ -26,7 +26,7 @@ $installed_extensions = array (
     'available' => '',
     'type' => 'extension',
     'path' => 'modules/baseinfo',
-    'active' => 1,
+    'active' => 0,
     'description' => '-- 医药行业基础信息扩展 --',
     'SubPath' => 
     array (
@@ -41,7 +41,7 @@ $installed_extensions = array (
     'available' => '',
     'type' => 'extension',
     'path' => 'modules/rebate_purchase',
-    'active' => 1,
+    'active' => 0,
     'description' => '-- 医药流通企业_返利折让系统 --',
     'SubPath' => 
     array (

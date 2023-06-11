@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -55,14 +56,14 @@ $log_path = $path_to_root . '/log/erp.log';
 $log_level = 'debug';
 
 // Main Title
-$app_title = 'FBERP';
+$app_title = 'FB-SAAS';
 
 // Build for development purposes
 $build_version = date('d.m.Y', filemtime($path_to_root . '/CHANGELOG.txt'));
 
 // Powered by
-$power_by = 'FBERP';
-$power_url = 'http://fourborther.com';
+$power_by = '相帮软件';
+$power_url = 'http://fourborther.cn';
 
 /* No check on edit conflicts. Maybe needed to be set to 1 in certains Windows Servers */
 $no_check_edit_conflicts = 0;

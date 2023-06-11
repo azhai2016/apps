@@ -17,13 +17,14 @@
 //and null or -1 otherwise.
 //
 
-function find_submit_array($prefix, $numeric = true) {
-	$result=[];
+function find_submit_array($prefix, $numeric = true)
+{
+	$result = [];
 	if (isset($_POST)) {
 		foreach ($_POST as $postkey => $postval) {
 			if (strpos($postkey, $prefix) === 0) {
 				$id = substr($postkey, strlen($prefix));
-				 $result[$id] = $_POST[$prefix.$id];
+				$result[$id] = $_POST[$prefix . $id];
 			}
 		}
 	}
@@ -239,7 +240,7 @@ function submit_center_last($name, $value, $title = false, $async = false, $icon
 	'upgrade' - use Ctrl-Enter with progress ajax indicator and Escape hotkeys. Nonajax request for OK option is performed.
 	'cancel' - apply to 'RESET' button
 */
-function submit_add_or_update($add = true, $title = false, $async = false, $clone = false)
+function submit_add_or_update($add = true, $title = false, $async = false, $clone = false, $label = null)
 {
 	$cancel = $async;
 
@@ -254,20 +255,21 @@ function submit_add_or_update($add = true, $title = false, $async = false, $clon
 	elseif ($async === 'cancel')
 		$async = true;
 
-	if ($add)
-		submit('ADD_ITEM', _('新增'), true, $title, $async);
-	else {
-		submit('UPDATE_ITEM', _('更新'), true, _('提交更新'), $async);
+	if ($add) {
+		if (!$label)
+			submit('ADD_ITEM', _('新增'), true, $title, $async);
+	} else {
+		submit('UPDATE_ITEM', $label ? $label : _('更新'), true, $title, $async);
 		if ($clone)
 			submit('CLONE', _('复制'), true, _('Edit new record with current data'), $async);
 		submit('RESET', _('取消'), true, _('取消更新'), $cancel);
 	}
 }
 
-function submit_add_or_update_center($add = true, $title = false, $async = false, $clone = false)
+function submit_add_or_update_center($add = true, $title = false, $async = false, $clone = false, $label = '')
 {
 	echo '<center>';
-	submit_add_or_update($add, $title, $async, $clone);
+	submit_add_or_update($add, $title, $async, $clone, $label);
 	echo '</center>';
 }
 
@@ -680,7 +682,7 @@ function text_row_date_ex($label, $name, $size, $max = null, $title = null, $val
 {
 	echo "<tr><td class='label'>" . $label . "</td>";
 	text_cells(null, $name, $value, $size, $max, $title, $params, $post_label);
-    date_row_ex(null,$name.'_limit');	
+	date_row_ex(null, $name . '_limit');
 	echo "</tr>\n";
 }
 
@@ -752,8 +754,13 @@ function date_cells($label, $name, $title = null, $check = null, $inc_days = 0, 
 {
 	global $path_to_root, $Ajax;
 
-	$hours = array('00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23');
-	$minutes = array('00', '10', '15', '20', '25', '30', '35', '40', '45');
+	$hours = array_map(function ($n) {
+		return str_pad($n, 2, '0', STR_PAD_LEFT);
+	}, range(0, 23));
+	$minutes = array_map(function ($n) {
+		return str_pad($n, 2, '0', STR_PAD_LEFT);
+	}, range(0, 59));
+
 
 	if (!isset($_POST[$name]) || $_POST[$name] == '') {
 		if ($inc_years == 1001)
@@ -825,6 +832,41 @@ function date_cells($label, $name, $title = null, $check = null, $inc_days = 0, 
 	echo "</div></td>\n";
 	$Ajax->addUpdate($name, $name, $_POST[$name]);
 }
+
+function time_picker($name, $value = null)
+{
+	$hours = range(0, 23);
+	$minutes = range(0, 59);
+
+	// 如果有传入初始值，则分解为小时和分钟
+	if ($value) {
+		list($hour, $minute) = explode(':', $value);
+	} else {
+		// 如果没有传入初始值，则默认为当前时间
+		$hour = date('H');
+		$minute = date('i');
+	}
+
+	// 构造 HTML 表单元素
+	$html = '<select name="' . $name . '_hour">';
+	foreach ($hours as $h) {
+		$h = str_pad($h, 2, '0', STR_PAD_LEFT);
+		$selected = ($h == $hour) ? 'selected' : '';
+		$html .= '<option value="' . $h . '" ' . $selected . '>' . $h . '</option>';
+	}
+	$html .= '</select> : ';
+
+	$html .= '<select name="' . $name . '_minute">';
+	foreach ($minutes as $m) {
+		$m = str_pad($m, 2, '0', STR_PAD_LEFT);
+		$selected = ($m == $minute) ? 'selected' : '';
+		$html .= '<option value="' . $m . '" ' . $selected . '>' . $m . '</option>';
+	}
+	$html .= '</select>';
+
+	return $html;
+}
+
 
 function date_row($label, $name, $title = null, $check = null, $inc_days = 0, $inc_months = 0, $inc_years = 0, $params = null, $submit_on_change = false)
 {

@@ -28,7 +28,6 @@ function set_global_connection($company = -1)
         $company = user_company();
     }
 
-
     //set_mssql_connection($company);
 
     cancel_transaction(); // cancel all aborted transactions (if any)
@@ -60,6 +59,115 @@ function set_global_connection($company = -1)
 
 //DB wrapper functions to change only once for whole application
 
+function db_get_product($sql, $err_msg = null)
+{
+
+    global $db, $SysPrefs, $sql_queries, $Ajax, $db_connections, $db_last_inserted_id;
+
+    $comp = isset($_SESSION['wa_current_user']->cur_con) ? $_SESSION['wa_current_user']->cur_con : 0;
+    $cur_prefix = isset($db_connections[$comp]['tbpref']) ? $db_connections[$comp]['tbpref'] : '';
+    $sql = str_replace(TB_PREF, $cur_prefix, $sql);
+    log_b($sql);
+
+    $stmt = mysqli_prepare($db, $sql);
+    $result = mysqli_stmt_execute($stmt);
+    mysqli_stmt_free_result($stmt);
+    mysqli_next_result($db);
+
+    $result = mysqli_query($db, 'SELECT @sql_text as sql_text,@fieldcontents as field_content');
+    $row = mysqli_fetch_assoc($result);
+    $out_param = $row['sql_text'];
+    $field_count = $row['field_content'];
+    mysqli_free_result($result);
+    mysqli_stmt_close($stmt);
+    return array($out_param, $field_count);
+}
+
+function db_stmt_query($sql, $err_msg = null, $prefix = '')
+{
+    global $db, $SysPrefs, $sql_queries, $Ajax, $db_connections, $db_last_inserted_id;
+
+    $comp = isset($_SESSION['wa_current_user']->cur_con) ? $_SESSION['wa_current_user']->cur_con : 0;
+
+    $cur_prefix = isset($db_connections[$comp]['tbpref']) ? $db_connections[$comp]['tbpref'] : '';
+
+
+    $sql = str_replace(TB_PREF, $cur_prefix, $sql);
+
+    // 预处理语句
+    $stmt = mysqli_prepare($db, $sql);
+    if (!$stmt) {
+        check_db_error($err_msg, $sql, true);
+        return false;
+    }
+
+    // 绑定参数，如果有
+    $params = func_get_args();
+    if (count($params) > 3) {
+        $types = str_repeat('s', count($params) - 3);
+        mysqli_stmt_bind_param($stmt, $types, ...array_slice($params, 3));
+    }
+
+    // 执行查询
+    $retry = MAX_DEADLOCK_RETRY;
+    do {
+        $result = mysqli_stmt_execute($stmt);
+        if (mysqli_errno($db) == 1213) { // deadlock detected
+            sleep(1);
+            $retry--;
+        } else {
+            $retry = 0;
+        }
+    } while ($retry);
+
+
+    // 获取结果集
+    $rows = array();
+    $metadata = mysqli_stmt_result_metadata($stmt);
+
+    if ($metadata) {
+        $fields = mysqli_fetch_fields($metadata);
+
+        $row = array();
+        foreach ($fields as $field) {
+            $row[$field->name] = null;
+            $fields_arr[] = &$row[$field->name];
+        }
+
+        mysqli_free_result($metadata);
+        $stmt->store_result();
+        while ($stmt->fetch()) {
+            $rows[] = $row;
+            $row = array();
+            foreach ($fields as $field) {
+                $row[$field->name] = null;
+            }
+        }
+    }
+
+    // 释放资源
+    mysqli_stmt_close($stmt);
+
+    // 记录 SQL 执行轨迹
+    if ($SysPrefs->sql_trail) {
+        $db_last_inserted_id = mysqli_insert_id($db);
+        if ($SysPrefs->select_trail || (strpos($sql, 'SELECT') === false)) {
+            mysqli_query($db, "INSERT INTO " . $cur_prefix . "sql_trail
+				(`sql`, `result`, `msg`)
+				VALUES(" . db_escape($sql) . "," . ($result ? 1 : 0) . ",
+				" . db_escape($err_msg) . ")");
+        }
+    }
+
+    // 检查错误
+    if ($err_msg !== null || $SysPrefs->go_debug) {
+        $exit = $err_msg != null;
+        check_db_error($err_msg, $sql, $exit);
+    }
+
+    return $rows;
+}
+
 function db_query($sql, $err_msg = null)
 {
     global $db, $SysPrefs, $sql_queries, $Ajax, $db_connections, $db_last_inserted_id;
@@ -79,6 +187,7 @@ function db_query($sql, $err_msg = null)
 
     $retry = MAX_DEADLOCK_RETRY;
     do {
+
         $result = mysqli_query($db, $sql);
 
         if (mysqli_errno($db) == 1213) { // deadlock detected
@@ -140,6 +249,7 @@ function db_seek(&$result, $record)
 function db_free_result($result)
 {
     if ($result) {
+
         mysqli_free_result($result);
     }
 }

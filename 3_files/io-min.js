@@ -1,1 +1,0 @@
-define("io",["util","io-extra","io-form"],function(i){var r,e=i("util"),t=i("io-extra"),o=i("io-form");return r=function(i){var r=e,a=t,n=o;return r.mix(a,{serialize:n.serialize,getFormData:n.getFormData}),i=a}()});

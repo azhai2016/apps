@@ -27,17 +27,14 @@ class SessionManager
         if ($this->validateSession()) {
 
             if (!$this->preventHijacking()) {
-      
+
                 $_SESSION = array();
                 $_SESSION['IPaddress'] = $_SERVER['REMOTE_ADDR'];
                 $_SESSION['userAgent'] = @$_SERVER['HTTP_USER_AGENT'];
                 $this->regenerateSession();
-
-         
             } elseif (rand(1, 100) <= 5) {
                 $this->regenerateSession();
             }
-
         } else {
             $_SESSION = array();
             session_destroy();
@@ -64,26 +61,26 @@ class SessionManager
 
     public function regenerateSession()
     {
-   
+
         if (isset($_SESSION['OBSOLETE']) && ($_SESSION['OBSOLETE'] == true)) {
             return;
         }
 
-       
+
         $_SESSION['OBSOLETE'] = true;
         $_SESSION['EXPIRES'] = time() + 30;
 
 
         session_regenerate_id();
-   
+
         $newSession = session_id();
         session_write_close();
-     
+
 
         session_id($newSession);
         session_start();
 
-  
+
         unset($_SESSION['OBSOLETE']);
         unset($_SESSION['EXPIRES']);
     }
@@ -99,7 +96,6 @@ class SessionManager
         }
 
         return true;
-
     }
 }
 
@@ -187,7 +183,6 @@ function cache_invalidate($filename)
     if (function_exists('opcache_invalidate')) {
         opcache_invalidate($filename);
     }
-
 }
 
 
@@ -263,7 +258,6 @@ function check_page_security($page_security)
         end_page();
         exit;
     }
-
 }
 
 
@@ -295,7 +289,6 @@ function strip_quotes($data)
         } else {
             return stripslashes($data);
         }
-
     }
     return $data;
 }
@@ -314,9 +307,8 @@ function html_cleanup(&$parms)
         } else {
             $parms[$name] = html_specials_encode($value);
         }
-
     }
-    reset($parms); 
+    reset($parms);
 }
 
 function login_timeout()
@@ -362,10 +354,9 @@ foreach ($installed_extensions as $ext) {
     if (file_exists($path_to_root . '/' . $ext['path'] . '/hooks.php')) {
         include_once $path_to_root . '/' . $ext['path'] . '/hooks.php';
     }
-
 }
 
-ini_set('session.gc_maxlifetime', 36000); 
+ini_set('session.gc_maxlifetime', 36000);
 
 $Session_manager = new SessionManager();
 $Session_manager->sessionStart('Notrinos' . md5(dirname(__FILE__)), 0, '/', null, SECURE_ONLY);
@@ -374,17 +365,18 @@ $_SESSION['SysPrefs'] = new sys_prefs();
 
 $SysPrefs = &$_SESSION['SysPrefs'];
 
-function array_merge_ex($a,$b){
+function array_merge_ex($a, $b)
+{
     $c = array();
-    foreach ($a as $k=>$v) {
-       $c[$k]= $v;
+    foreach ($a as $k => $v) {
+        $c[$k] = $v;
     }
- 
-    foreach ($b as $k=>$v) {
-       $c[$k]= $v;
+
+    foreach ($b as $k => $v) {
+        $c[$k] = $v;
     }
     return $c;
- }
+}
 
 function Log_bug($msg)
 {
@@ -508,8 +500,10 @@ if (!defined('FA_LOGOUT_PHP_FILE')) {
                     }
                 }
                 $_succeed = isset($db_connections[$_POST['company_login_name']]) &&
-                $_SESSION['wa_current_user']->reset_password($_POST['company_login_name'],
-                    $_POST['email_entry_field']);
+                    $_SESSION['wa_current_user']->reset_password(
+                        $_POST['company_login_name'],
+                        $_POST['email_entry_field']
+                    );
                 if ($_succeed) {
                     password_reset_success();
                 }
@@ -542,14 +536,13 @@ if (!defined('FA_LOGOUT_PHP_FILE')) {
 
             $_SESSION['wa_current_user']->ui_mode = $_POST['ui_mode'];
             if (!$succeed) {
-       
+
                 if (isset($_SESSION['timeout'])) {
                     include $path_to_root . '/access/login.php';
                     exit;
                 } else {
                     login_fail();
                 }
-
             } elseif (isset($_SESSION['timeout']) && !$_SESSION['timeout']['post']) {
 
                 header('HTTP/1.1 307 Temporary Redirect');

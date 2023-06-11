@@ -298,6 +298,26 @@ function hyperlink_no_params_td($target, $label)
 	echo "</td>\n";
 }
 
+
+
+function ui_download_link($label, $url = '', $class = '', $id = '', $icon = null)
+{
+	if ($class != '')
+		$class = " class='" . $class . "'";
+
+	if ($id != '')
+		$class = " id='" . $id . "'";
+
+	if ($url != '') {
+		$pars = set_icon(ICON_DOWN);
+		$label = !empty($label) ? $label : '';
+		$preview_str = "<a  $class $id href='$url'>$pars$label</a>";
+	} else
+		$preview_str = $label;
+	return $preview_str;
+}
+
+
 function viewer_link($label, $url = '', $class = '', $id = '', $icon = null)
 {
 	global $path_to_root;

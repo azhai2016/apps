@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 	Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -8,7 +9,7 @@
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 	See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
-***********************************************************************/
+ ***********************************************************************/
 
 include_once($path_to_root . '/includes/types.inc');
 
@@ -17,7 +18,8 @@ include_once($path_to_root . '/includes/types.inc');
 	Checks whether any of input function parameters has changed or page is called with GET method (first page display).
 	$name - context
 */
-function check_ui_refresh($name=null) {
+function check_ui_refresh($name = null)
+{
 	$bt = debug_backtrace();
 	if (!$name)
 		$name = $bt[1]['function'];
@@ -31,7 +33,8 @@ function check_ui_refresh($name=null) {
 // When there is no exrate for today, 
 // gets it form ECB and stores in local database.
 //
-function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit=false) {
+function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit = false)
+{
 	global $Ajax, $SysPrefs;
 
 	$readonly = false;
@@ -58,8 +61,8 @@ function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit
 			if (!$rate) {	// retry from remote service
 				$row = get_currency($currency);
 
-				if ($row['auto_update']) {// autoupdate means use remote service & store exrate on first transaction.
-				
+				if ($row['auto_update']) { // autoupdate means use remote service & store exrate on first transaction.
+
 					$rate = retrieve_exrate($currency, $date_);
 					if (!$rate)
 						display_warning(sprintf(_('Cannot retrieve exchange rate for currency %s. Please adjust approximate rate if needed.'), $currency));
@@ -73,7 +76,7 @@ function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit
 			}
 			if (!$rate)	// get and edit latest available
 				$rate = get_exchange_rate_from_home_currency($currency, $date_);
-			
+
 			if ($from_currency != $comp_currency)
 				$rate = 1 / ($rate / get_exchange_rate_from_home_currency($to_currency, $date_));
 			$Ajax->activate('_ex_rate_span');
@@ -86,7 +89,7 @@ function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit
 		else
 			$ctrl = "<span id=\"_ex_rate\">$rate</span>";
 
-		label_row(_("Exchange Rate:"), $span = "<span style='vertical-align:top;' id='_ex_rate_span'>$ctrl $from_currency = 1 $to_currency</span>" );
+		label_row(_("Exchange Rate:"), $span = "<span style='vertical-align:top;' id='_ex_rate_span'>$ctrl $from_currency = 1 $to_currency</span>");
 
 		$Ajax->addUpdate('_ex_rate_span', '_ex_rate_span', $span);
 	}
@@ -94,17 +97,18 @@ function exchange_rate_display($from_currency, $to_currency, $date_, $force_edit
 
 //--------------------------------------------------------------------------------------
 
-function is_voided_display($type, $id, $label) {
+function is_voided_display($type, $id, $label)
+{
 	$void_entry = get_voided_entry($type, $id);
 
 	if ($void_entry == null)
 		return false;
 
 	start_table(TABLESTYLE, "width='50%'");
-	echo '<tr><td align=center><font color=red>'.$label.'</font><br>';
-	echo "<font color=red>"._("Date Voided:")." ".sql2date($void_entry["date_"]).'</font><br>';
+	echo '<tr><td align=center><font color=red>' . $label . '</font><br>';
+	echo "<font color=red>" . _("Date Voided:") . " " . sql2date($void_entry["date_"]) . '</font><br>';
 	if (strlen($void_entry['memo_']) > 0)
-		echo '<center><font color=red>'._('Memo:').' '.$void_entry['memo_'].'</font></center><br>';
+		echo '<center><font color=red>' . _('Memo:') . ' ' . $void_entry['memo_'] . '</font></center><br>';
 	echo '</td></tr>';
 	end_table(1);
 
@@ -113,7 +117,8 @@ function is_voided_display($type, $id, $label) {
 
 //--------------------------------------------------------------------------------------
 
-function comments_display_row($type, $id) {
+function comments_display_row($type, $id)
+{
 	$comments = get_comments($type, $id);
 	if ($comments and db_num_rows($comments)) {
 		echo '<tr><td colspan=15>';
@@ -126,31 +131,34 @@ function comments_display_row($type, $id) {
 
 //--------------------------------------------------------------------------------------
 
-function get_comments_string($type, $type_no) {
+function get_comments_string($type, $type_no)
+{
 	$str_return = '';
 	$result = get_comments($type, $type_no);
 	while ($comment = db_fetch($result)) {
 		if (strlen($str_return))
-			$str_return = $str_return." \n";
-		$str_return = $str_return.$comment['memo_'];
+			$str_return = $str_return . " \n";
+		$str_return = $str_return . $comment['memo_'];
 	}
 	return $str_return;
 }
 
 //--------------------------------------------------------------------------------------
 
-function view_stock_status($stock_id, $description=null, $echo=true) {
+function view_stock_status($stock_id, $description = null, $echo = true)
+{
 	global $path_to_root;
 	if ($description)
-		$preview_str = "<a target='_blank' href='$path_to_root/inventory/inquiry/stock_status.php?stock_id=$stock_id&popup=1' onclick=\"javascript:openWindow(this.href,this.target); return false;\" >".(user_show_codes() ? $stock_id.' - ' : '').$description."</a>";
+		$preview_str = "<a target='_blank' href='$path_to_root/inventory/inquiry/stock_status.php?stock_id=$stock_id&popup=1' onclick=\"javascript:openWindow(this.href,this.target); return false;\" >" . (user_show_codes() ? $stock_id . ' - ' : '') . $description . "</a>";
 	else
 		$preview_str = "<a target='_blank' href='$path_to_root/inventory/inquiry/stock_status.php?stock_id=$stock_id&popup=1' onclick=\"javascript:openWindow(this.href,this.target); return false;\" >$stock_id</a>";
-	if($echo)
+	if ($echo)
 		echo $preview_str;
 	return $preview_str;
 }
 
-function view_stock_status_cell($stock_id, $description=null) {
+function view_stock_status_cell($stock_id, $description = null)
+{
 	echo '<td>';
 	view_stock_status($stock_id, $description);
 	echo '</td>';
@@ -158,13 +166,13 @@ function view_stock_status_cell($stock_id, $description=null) {
 
 //--------------------------------------------------------------------------------------
 
-function display_debit_or_credit_cells($value, $bold=false) {
+function display_debit_or_credit_cells($value, $bold = false)
+{
 	$value = round2($value, user_price_dec());
 	if ($value >= 0) {
 		amount_cell($value, $bold);
 		label_cell('');
-	}
-	elseif ($value < 0) {
+	} elseif ($value < 0) {
 		label_cell('');
 		amount_cell(abs($value), $bold);
 	}
@@ -172,7 +180,8 @@ function display_debit_or_credit_cells($value, $bold=false) {
 
 //--------------------------------------------------------------------------------------
 
-function display_customer_trans_tax_details($tax_items, $columns) {
+function display_customer_trans_tax_details($tax_items, $columns)
+{
 	global $SysPrefs;
 
 	$first = true;
@@ -180,75 +189,81 @@ function display_customer_trans_tax_details($tax_items, $columns) {
 		if (!$tax_item['amount'])
 			continue;
 
-		$tax = number_format2($tax_item['amount'],user_price_dec());
+		$tax = number_format2($tax_item['amount'], user_price_dec());
 		if ($SysPrefs->suppress_tax_rates() == 1)
 			$tax_type_name = $tax_item['tax_type_name'];
 		else
-			$tax_type_name = $tax_item['tax_type_name'].' ('.$tax_item['rate'].'%) ';
+			$tax_type_name = $tax_item['tax_type_name'] . ' (' . $tax_item['rate'] . '%) ';
 		if ($tax_item['included_in_price']) {
 			if ($SysPrefs->alternative_tax_include_on_docs() == 1) {
 				if ($first)
-					label_row(_('Total Tax Excluded'), number_format2($tax_item['net_amount'], user_price_dec()), 'colspan='.$columns.' align=right', 'align=right');
-				label_row($tax_type_name, $tax, 'colspan='.$columns.' align=right', 'align=right');
+					label_row(_('Total Tax Excluded'), number_format2($tax_item['net_amount'], user_price_dec()), 'colspan=' . $columns . ' align=right', 'align=right');
+				label_row($tax_type_name, $tax, 'colspan=' . $columns . ' align=right', 'align=right');
 				$first = false;
-			}
-			else
-				label_row(_('Included').' '.$tax_type_name.': '.$tax, '', 'colspan='.$columns.' align=right', 'align=right');
-		}			
-		else
-			label_row($tax_type_name, $tax, 'colspan='.$columns.' align=right', 'align=right');
+			} else
+				label_row(_('Included') . ' ' . $tax_type_name . ': ' . $tax, '', 'colspan=' . $columns . ' align=right', 'align=right');
+		} else
+			label_row($tax_type_name, $tax, 'colspan=' . $columns . ' align=right', 'align=right');
 	}
 }
 
 //--------------------------------------------------------------------------------------
 
-function display_supp_trans_tax_details($tax_items, $columns) {
+function display_supp_trans_tax_details($tax_items, $columns)
+{
 	while ($tax_item = db_fetch($tax_items)) {
 		if (!$tax_item['amount'])
 			continue;
 
-		$tax = number_format2(abs($tax_item['amount']),user_price_dec());
+		$tax = number_format2(abs($tax_item['amount']), user_price_dec());
 		if ($tax_item['included_in_price'])
-			label_row(_('Included').' '.$tax_item['tax_type_name'].' ('.$tax_item['rate'].'%) '. ': '.$tax, '', 'colspan='.$columns.' align=right', 'align=right');
+			label_row(_('Included') . ' ' . $tax_item['tax_type_name'] . ' (' . $tax_item['rate'] . '%) ' . ': ' . $tax, '', 'colspan=' . $columns . ' align=right', 'align=right');
 		else
-			label_row($tax_item['tax_type_name'].' ('.$tax_item['rate'] . '%)', $tax, 'colspan='.$columns.' align=right', 'align=right');
+			label_row($tax_item['tax_type_name'] . ' (' . $tax_item['rate'] . '%)', $tax, 'colspan=' . $columns . ' align=right', 'align=right');
 	}
 }
 
 //--------------------------------------------------------------------------------------
 
-function display_edit_tax_items($taxes, $columns, $tax_included, $rightspan=0, $editable=false) {
+function display_edit_tax_items($taxes, $columns, $tax_included, $rightspan = 0, $editable = false)
+{
 	$total = 0;
 
 	foreach ($taxes as $taxitem) {
 		$amount = isset($taxitem['Override']) ? $taxitem['Override'] : $taxitem['Value'];
 		if ($taxitem['Value'] != 0) {
 			if ($editable) {
-				if (!isset($_POST['mantax['.$taxitem['tax_type_id'].']']))
-					$_POST['mantax['.$taxitem['tax_type_id'].']'] = price_format($amount);
+				if (!isset($_POST['mantax[' . $taxitem['tax_type_id'] . ']']))
+					$_POST['mantax[' . $taxitem['tax_type_id'] . ']'] = price_format($amount);
 				start_row();
 				if ($tax_included) {
-					$colspan = $columns-1;
-					label_cell(_('Included') . ' ' . $taxitem['tax_type_name'].':',
-						"colspan={$colspan} align='right'");
-					amount_cells(null, 'mantax['.$taxitem['tax_type_id'].']',
-						null, 'colspan='.$columns.' align=right', '<td></td>', user_price_dec());
-				}
-				else {
-					label_cell($taxitem['tax_type_name'], 'colspan='.$columns." align='right'");
-					amount_cells(null, 'mantax['.$taxitem['tax_type_id'].']', null, 'colspan='.$columns.' align=right', null, user_price_dec());
+					$colspan = $columns - 1;
+					label_cell(
+						_('Included') . ' ' . $taxitem['tax_type_name'] . ':',
+						"colspan={$colspan} align='right'"
+					);
+					amount_cells(
+						null,
+						'mantax[' . $taxitem['tax_type_id'] . ']',
+						null,
+						'colspan=' . $columns . ' align=right',
+						'<td></td>',
+						user_price_dec()
+					);
+				} else {
+					label_cell($taxitem['tax_type_name'], 'colspan=' . $columns . " align='right'");
+					amount_cells(null, 'mantax[' . $taxitem['tax_type_id'] . ']', null, 'colspan=' . $columns . ' align=right', null, user_price_dec());
 					$total +=  round2($amount, user_price_dec());
 				}
 				if ($rightspan)
-					label_cell('', "colspan ='".$rightspan."'");
+					label_cell('', "colspan ='" . $rightspan . "'");
 				end_row();
-			}
-			else {
-				$value = number_format2($taxitem['Value'],user_price_dec());
+			} else {
+				$value = number_format2($taxitem['Value'], user_price_dec());
 				if ($tax_included)
-					label_row(_('Included').' '.$taxitem['tax_type_name'].' '.$value , '', 'colspan='.$columns.' align=right', 'align=right', $rightspan);
+					label_row(_('Included') . ' ' . $taxitem['tax_type_name'] . ' ' . $value, '', 'colspan=' . $columns . ' align=right', 'align=right', $rightspan);
 				else {
-					label_row($taxitem['tax_type_name'], $value, 'colspan='.$columns.' align=right', 'align=right', $rightspan);
+					label_row($taxitem['tax_type_name'], $value, 'colspan=' . $columns . ' align=right', 'align=right', $rightspan);
 					$total +=  round2($taxitem['Value'], user_price_dec());
 				}
 			}
@@ -259,7 +274,8 @@ function display_edit_tax_items($taxes, $columns, $tax_included, $rightspan=0, $
 
 //--------------------------------------------------------------------------------------
 
-function display_footer_exit($space=2) {
+function display_footer_exit($space = 2)
+{
 	if ($space)
 		br($space);
 	end_page(false, false, true);
@@ -268,7 +284,8 @@ function display_footer_exit($space=2) {
 
 //--------------------------------------------------------------------------------------
 
-function display_allocations($alloc_result, $total, $title, $show_summary=true) {
+function display_allocations($alloc_result, $total, $title, $show_summary = true)
+{
 	global $systypes_array;
 
 	if (!$alloc_result || db_num_rows($alloc_result) == 0)
@@ -278,7 +295,7 @@ function display_allocations($alloc_result, $total, $title, $show_summary=true) 
 
 	start_table(TABLESTYLE, "width='80%'");
 
-	$th = array( _('Type'), _('Number'), _('Date'), _('Total Amount'), _('Left to Allocate'), _('This Allocation'));
+	$th = array(_('Type'), _('Number'), _('Date'), _('Total Amount'), _('Left to Allocate'), _('This Allocation'));
 	table_header($th);
 	$k = $total_allocated = 0;
 
@@ -286,7 +303,7 @@ function display_allocations($alloc_result, $total, $title, $show_summary=true) 
 		alt_table_row_color($k);
 
 		label_cell($systypes_array[$alloc_row['type']]);
-		label_cell(get_trans_view_str($alloc_row['type'],$alloc_row['trans_no']));
+		label_cell(get_trans_view_str($alloc_row['type'], $alloc_row['trans_no']));
 		label_cell(sql2date($alloc_row['tran_date']));
 		$alloc_row['Total'] = round2($alloc_row['Total'], user_price_dec());
 		$alloc_row['amt'] = round2($alloc_row['amt'], user_price_dec());
@@ -315,13 +332,14 @@ function display_allocations($alloc_result, $total, $title, $show_summary=true) 
 
 //--------------------------------------------------------------------------------------
 
-function display_allocations_from($person_type, $person_id, $type, $type_no, $total) {
+function display_allocations_from($person_type, $person_id, $type, $type_no, $total)
+{
 	switch ($person_type) {
-		case PT_CUSTOMER :
+		case PT_CUSTOMER:
 			$alloc_result = get_allocatable_to_cust_transactions($person_id, $type_no, $type);
 			display_allocations($alloc_result, $total, _('Allocations'));
 			return;
-		case PT_SUPPLIER :
+		case PT_SUPPLIER:
 			$alloc_result = get_allocatable_to_supp_transactions($person_id, $type_no, $type);
 			display_allocations($alloc_result, $total, _('Allocations'));
 			return;
@@ -330,13 +348,14 @@ function display_allocations_from($person_type, $person_id, $type, $type_no, $to
 
 //--------------------------------------------------------------------------------------
 
-function display_allocations_to($person_type, $person_id, $type, $type_no, $total) {
+function display_allocations_to($person_type, $person_id, $type, $type_no, $total)
+{
 	switch ($person_type) {
-		case PT_CUSTOMER :
+		case PT_CUSTOMER:
 			$alloc_result = get_allocatable_from_cust_transactions($person_id, $type_no, $type);
 			display_allocations($alloc_result, $total, $type == ST_SALESORDER ? _('Pre-Payments') : _('Payments'), false);
 			return;
-		case PT_SUPPLIER :
+		case PT_SUPPLIER:
 			$alloc_result = get_allocatable_from_supp_transactions($person_id, $type_no, $type);
 			display_allocations($alloc_result, $total, $type == ST_PURCHORDER ? _('Pre-Payments') : _('Payments'), false);
 			return;
@@ -348,14 +367,14 @@ function display_allocations_to($person_type, $person_id, $type, $type_no, $tota
 //	Expands selected quick entry $id into GL posings and adds to cart.
 //		returns calculated amount posted to bank GL account.
 //
-function display_quick_entries(&$cart, $id, $base, $type, $descr='') {
+function display_quick_entries(&$cart, $id, $base, $type, $descr = '')
+{
 	$bank_amount = 0;
 
 	if (!isset($id) || $id == null || $id == '') {
-		display_error( _('No Quick Entries are defined.'));
+		display_error(_('No Quick Entries are defined.'));
 		set_focus('totamount');
-	}
-	else {
+	} else {
 		if ($type == QE_DEPOSIT)
 			$base = -$base;
 		if ($type != QE_SUPPINV && $type != QE_JOURNAL)	// only one quick entry on journal/bank transaction
@@ -365,17 +384,16 @@ function display_quick_entries(&$cart, $id, $base, $type, $descr='') {
 		$qe_lines = quickentry_calculate($base, $id, @$cart->tax_group_id, $cart->tran_date);
 
 		if ($qe_lines === 0) {
-			display_error( _('No Quick Entry lines are defined.'));
+			display_error(_('No Quick Entry lines are defined.'));
 			set_focus('totamount');
 			return 0;
-		}
-		elseif ($qe_lines === -1) {
+		} elseif ($qe_lines === -1) {
 			display_error(_('Cannot post to GL account used by more than one tax type.'));
 			return 0;
 		}
-		foreach($qe_lines as $qe_line) {
+		foreach ($qe_lines as $qe_line) {
 			if ($descr != '')
-				$qe_line['descr'] .= ': '.$descr;
+				$qe_line['descr'] .= ': ' . $descr;
 			if ($type != QE_SUPPINV)
 				$cart->add_gl_item($qe_line['code'], $qe_line['dim1'], $qe_line['dim2'], $qe_line['amount'], $qe_line['descr']);
 			else {
@@ -389,13 +407,14 @@ function display_quick_entries(&$cart, $id, $base, $type, $descr='') {
 
 //--------------------------------------------------------------------------------------
 
-function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
+function quickentry_calculate($base, $id, $taxgroup = null, $date = null)
+{
 	$gl_entries = array();
 	$qe = get_quick_entry($id);
 	$type = $qe['type'];
 	$total = $base;
 	// quick entry made on account balance is special case.
-	if ($qe['bal_type'] == 1) {// if this is quick entry based on balance - calculate it
+	if ($qe['bal_type'] == 1) { // if this is quick entry based on balance - calculate it
 		// Note, that this is ugly hack overriding standard field usage 
 		// just to make the feature available between major FA releases!
 		$gl_code = $qe['base_desc'];
@@ -413,7 +432,6 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 				$begin = begin_fiscalyear(); // from fiscalyear begin
 		}
 		$base = get_gl_trans_from_to($begin, $date, $gl_code);
-
 	}
 
 	$result = get_quick_entry_lines($id);
@@ -429,13 +447,13 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 			case 't': // post taxes calculated on base amount
 			case 't+': // ditto & increase base amount
 			case 't-': // ditto & reduce base amount
-				if (substr($row['action'], 0, 1) != 'T') 
+				if (substr($row['action'], 0, 1) != 'T')
 					$totrate += get_tax_type_rate($row['dest_id']);
 		}
 	}
 	$first = true;
 	$taxbase = 0;
-	foreach($qe_lines as $qe_line) {
+	foreach ($qe_lines as $qe_line) {
 		$gl_code = $qe_line['dest_id'];
 		switch (strtolower($qe_line['action'])) {
 			case '=': // post current base amount to GL account
@@ -445,10 +463,12 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 				$part = $qe_line['amount'];
 				break;
 			case 'a+': // post amount to GL account and increase base
-				$part = $qe_line['amount']; $base += $part;
+				$part = $qe_line['amount'];
+				$base += $part;
 				break;
 			case 'a-': // post amount to GL account and reduce base
-				$part = $qe_line['amount']; $base -= $part;
+				$part = $qe_line['amount'];
+				$base -= $part;
 				break;
 			case '%':	// store acc*amount% to GL account
 				$part = round2($base * $qe_line['amount'] / 100, user_price_dec());
@@ -465,14 +485,14 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 			case 't+': // ditto & increase base amount
 			case 't-': // ditto & reduce base amount
 				if ($first) {
-					$taxbase = $base/($totrate+100);
+					$taxbase = $base / ($totrate + 100);
 					$first = false;
 				}
 
-				if (substr($qe_line['action'],0,1) != 'T') 
+				if (substr($qe_line['action'], 0, 1) != 'T')
 					$part = $taxbase;
 				else
-					$part = $base/100;
+					$part = $base / 100;
 
 				$item_tax = get_tax_type($qe_line['dest_id']);
 				//if ($type == QE_SUPPINV && substr($qe_line['action'],0,1) != 'T')
@@ -497,11 +517,11 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 					$base -= $tax;
 		}
 		$gl_entries[] = array(
-			'code' => $gl_code, 
+			'code' => $gl_code,
 			'name' => get_gl_account_name($gl_code),
-			'dim1' => $qe_line['dimension_id'], 
-			'dim2' => $qe_line['dimension2_id'], 
-			'amount' => $part, 
+			'dim1' => $qe_line['dimension_id'],
+			'dim2' => $qe_line['dimension2_id'],
+			'amount' => $part,
 			'descr' => $qe_line['memo']
 		);
 	}
@@ -512,57 +532,63 @@ function quickentry_calculate($base, $id, $taxgroup=null, $date=null) {
 //
 //	Simple English version of number to words conversion.
 //
-function _number_to_words($number) {
-	$Bn = floor($number / 1000000000); /* Billions (giga) */ 
-	$number -= $Bn * 1000000000; 
-	$Gn = floor($number / 1000000);  /* Millions (mega) */ 
-	$number -= $Gn * 1000000; 
-	$kn = floor($number / 1000);     /* Thousands (kilo) */ 
-	$number -= $kn * 1000; 
-	$Hn = floor($number / 100);      /* Hundreds (hecto) */ 
-	$number -= $Hn * 100; 
-	$Dn = floor($number / 10);       /* Tens (deca) */ 
+function _number_to_words($number)
+{
+	$Bn = floor($number / 1000000000); /* Billions (giga) */
+	$number -= $Bn * 1000000000;
+	$Gn = floor($number / 1000000);  /* Millions (mega) */
+	$number -= $Gn * 1000000;
+	$kn = floor($number / 1000);     /* Thousands (kilo) */
+	$number -= $kn * 1000;
+	$Hn = floor($number / 100);      /* Hundreds (hecto) */
+	$number -= $Hn * 100;
+	$Dn = floor($number / 10);       /* Tens (deca) */
 	$n = $number % 10;               /* Ones */
 
-	$res = ''; 
+	$res = '';
 
-	if ($Bn) 
-		$res .= _number_to_words($Bn) . ' Billion'; 
-	if ($Gn) 
-		$res .= (empty($res) ? '' : ' ') . _number_to_words($Gn) . ' Million'; 
-	if ($kn) 
-		$res .= (empty($res) ? '' : ' ') . _number_to_words($kn) . ' Thousand'; 
-	if ($Hn) 
-		$res .= (empty($res) ? '' : ' ') . _number_to_words($Hn) . ' Hundred'; 
+	if ($Bn)
+		$res .= _number_to_words($Bn) . ' Billion';
+	if ($Gn)
+		$res .= (empty($res) ? '' : ' ') . _number_to_words($Gn) . ' Million';
+	if ($kn)
+		$res .= (empty($res) ? '' : ' ') . _number_to_words($kn) . ' Thousand';
+	if ($Hn)
+		$res .= (empty($res) ? '' : ' ') . _number_to_words($Hn) . ' Hundred';
 
-	$ones = array('', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 
-		'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 
-		'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 
-		'Nineteen'); 
-	$tens = array('', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 
-		'Seventy', 'Eighty', 'Ninety'); 
+	$ones = array(
+		'', 'One', 'Two', 'Three', 'Four', 'Five', 'Six',
+		'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen',
+		'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen',
+		'Nineteen'
+	);
+	$tens = array(
+		'', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty',
+		'Seventy', 'Eighty', 'Ninety'
+	);
 
 	if ($Dn || $n) {
-		if (!empty($res)) 
-			$res .= ' and '; 
-		if ($Dn < 2) 
-			$res .= $ones[$Dn * 10 + $n]; 
+		if (!empty($res))
+			$res .= ' and ';
+		if ($Dn < 2)
+			$res .= $ones[$Dn * 10 + $n];
 		else {
-			$res .= $tens[$Dn]; 
-			if ($n) 
-				$res .= '-' . $ones[$n]; 
-		} 
-	} 
+			$res .= $tens[$Dn];
+			if ($n)
+				$res .= '-' . $ones[$n];
+		}
+	}
 
-	if (empty($res)) 
-		$res = 'zero'; 
-	return $res; 
-} 
+	if (empty($res))
+		$res = 'zero';
+	return $res;
+}
 
-function price_in_words($amount, $document=0) {
+function price_in_words($amount, $document = 0)
+{
 	// use local price_in_words() if the hook is defined
 	$price = hook_price_in_words($amount, $document);
-	if ($price) 
+	if ($price)
 		return $price;
 
 	// Only usefor Remittance and Receipts as default
@@ -577,16 +603,18 @@ function price_in_words($amount, $document=0) {
 		$frac = sprintf("%0{$dec}d", round2($frac, 0));
 		$and = _('and');
 		$frac = " $and $frac/$divisor";
-	}
-	else
+	} else
 		$frac = '';
 	return _number_to_words(intval($amount)) . $frac;
 }
 
-function get_js_open_window($width, $height) {
+function get_js_open_window($width, $height)
+{
 
-	$js =" 
+	$js = " 
 	
+	var newWindow=null;
+
 	function multipleScreenPopup(url, title, w, h, centered = true, moveRight = 0, moveDown = 0, resizable = \"no\") {
            var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
            var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
@@ -604,27 +632,40 @@ function get_js_open_window($width, $height) {
                 top = dualScreenTop + moveDown;
           }
 
-          var newWindow = window.open(url, title, 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=' + resizable + ', width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
-          if (window.focus) {
+          newWindow = window.open(url, title, 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=' + resizable + ', width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+		  
+		  newWindow.onload = function(){
+		     var win = newWindow.windows;
+			 win.focus(); 
+		  }
+		
+		  if (window.focus) {
               newWindow.focus();
 		  }
+
+	
        }
+
+  
 	
 	function openWindow(url, title) {
-		 var width = ".$width.";
-		 var height =".$height.";
+		 var width = " . $width . ";
+		 var height =" . $height . ";
+		 
 	     return  multipleScreenPopup(url, title, width, height);
 	}
 
     function deleteConfirm() {
 	  return confirm('是否删除？');
 	}\n\n";
-				
+
 	$js .= get_js_lookup_window();
 	return $js;
 }
 
-function get_js_lookup_window() {
+function get_js_lookup_window()
+{
 	$js = "function lookupWindow(url, title) {
 		var u = url.split('#');
 		if (u.length == 2) {
@@ -637,7 +678,8 @@ function get_js_lookup_window() {
 	return $js;
 }
 
-function get_js_select_combo_item() {
+function get_js_select_combo_item()
+{
 	$js = "function selectComboItem(doc, client_id, value){
 		var element = doc.getElementById(client_id);
 		if (typeof(element) != 'undefined' && element != null && element.tagName === 'SELECT' ){
@@ -662,7 +704,8 @@ function get_js_select_combo_item() {
 	return $js;
 }
 
-function get_blanace_value(){
+function get_blanace_value()
+{
 	$js = "\n\nfunction get_blanace_value(obj,client_id,col) {
 		    var element = $('.'+client_id);
 			var b = col - $(obj).val();
@@ -670,11 +713,12 @@ function get_blanace_value(){
 			element.html(b);
 	      }
 		";
-	return $js;	
+	return $js;
 }
 
-function get_js_select_table_item() {
-	
+function get_js_select_table_item()
+{
+
 	$js = "function selectTableItem(obj,doc,client_id,col){
 		var element = doc.getElementById(client_id);
 		var select_element = doc.getElementsByName('select_text'); 
@@ -693,7 +737,8 @@ function get_js_select_table_item() {
 }
 
 /* for space search option */
-function get_js_set_combo_item() {
+function get_js_set_combo_item()
+{
 	$js = "function setComboItem(doc, client_id, value, text){
 		var element = doc.getElementById(client_id);
 		var search = doc.getElementById('_'+client_id+'_edit');
@@ -725,7 +770,8 @@ function get_js_set_combo_item() {
   Setting focus on element $name in $form.
   If $form<0 $name is element id.
 */
-function set_focus($name, $form_no=0) {
+function set_focus($name, $form_no = 0)
+{
 	global $Ajax;
 	$Ajax->addFocus(true, $name);
 	$_POST['_focus'] = $name;
@@ -734,10 +780,11 @@ function set_focus($name, $form_no=0) {
 //	Set default focus on first field $name if not set yet
 //	Returns unique name if $name=null
 //	
-function default_focus($name=null, $form_no=0) {
-	static $next; 
-	if ($name==null) 
-		$name = uniqid('_el',true);
+function default_focus($name = null, $form_no = 0)
+{
+	static $next;
+	if ($name == null)
+		$name = uniqid('_el', true);
 	if (!isset($_POST['_focus']))
 		set_focus($name);
 
@@ -746,11 +793,13 @@ function default_focus($name=null, $form_no=0) {
 /*
 	Reset focus to next control element (e.g. link).
 */
-function reset_focus() {
+function reset_focus()
+{
 	unset($_POST['_focus']);
 }
 
-function get_formula_change_source($id){
+function get_formula_change_source($id)
+{
 	$js = "
 	   $('#SourceId').onchange(a){
 		alert(1);
@@ -758,14 +807,13 @@ function get_formula_change_source($id){
 
 	cache_js_file(nuk, $js);
 	add_js_ufile($fpath);
-
-
 }
 
-function get_js_date_picker() {
+function get_js_date_picker()
+{
 	global $SysPrefs, $tmonths;
 
-	$fpath = user_js_cache().'/'.'date_picker.js';
+	$fpath = user_js_cache() . '/' . 'date_picker.js';
 
 	if (!file_exists($fpath) || $SysPrefs->go_debug) {
 
@@ -774,8 +822,8 @@ function get_js_date_picker() {
 		$how = user_date_format();				// 0 = us/ca, 1 = eu, au, nz, 2 = jp, sw
 		$sep = $dateseps[user_date_sep()];		// date separator
 		$wstart = (($date_system == 1 || $date_system == 2 || $date_system == 3) ? 6 : ($how == 0 || $how == 3 ? 0 : 1));	// weekstart (sun = 0, mon = 1)
-		$months = array(_('一月'),_('二月'),_('三月'),_('四月'),_('五月'),_('六月'),_('七月'),_('八月'),_('九月'),_('十月'),_('十一月'),_('十二月'));
-		$wdays = array(_('日'),_('一'),_('二'),_('三'),_('四'),_('五'),_('六'));
+		$months = array(_('一月'), _('二月'), _('三月'), _('四月'), _('五月'), _('六月'), _('七月'), _('八月'), _('九月'), _('十月'), _('十一月'), _('十二月'));
+		$wdays = array(_('日'), _('一'), _('二'), _('三'), _('四'), _('五'), _('六'));
 		$wno = _('周'); // week no
 
 		if ($date_system == 1)
@@ -947,8 +995,7 @@ function get_js_date_picker() {
 			$js .= "
 				return jwday(t);
 ";
-		}
-		else
+		} else
 			$js .= "
 				var date = new Date(year,month-1,day)
 				return date.getDay();
@@ -1068,7 +1115,7 @@ function get_js_date_picker() {
 				table += \"  <td colspan='2' class='next'><a href='javascript:changeCCMonth(1);'>&#9654;</a><br><a href='javascript:changeCCYear(1);'>&#9654;</a></td>\";
 				table += \"</tr>\";
 				table += \"<tr>\";
-				table += \"<th class='weekno' title='"._('Week')."'>\"+wno+\"</th>\";
+				table += \"<th class='weekno' title='" . _('Week') . "'>\"+wno+\"</th>\";
 				for (var n=0; n<7; n++)
 					table += \"<th>\" + wdays[(wstart+n)%7]+\"</th>\";
 				table += \"</tr>\";
@@ -1182,8 +1229,7 @@ function get_js_date_picker() {
 					selectedDay = $cday;
 					selectedYear = $cyear;
 ";
-		}
-		else {
+		} else {
 			$js .= "
 					selectedMonth = getCurrentMonth();
 					selectedDay = getCurrentDay();
@@ -1266,7 +1312,8 @@ function get_js_date_picker() {
 	return '';
 }
 
-function alert($msg) {
+function alert($msg)
+{
 	echo "\n<script type=\"text/javascript\">\n"
 		. "<!--\n"
 		. "alert('$msg');\n"
@@ -1275,26 +1322,29 @@ function alert($msg) {
 }
 
 if (!function_exists('_vd')) {
-	function _vd($mixed, $title = '', $exit = false) {
-		$str = (!empty($title) ? ($title .':') : '') .'<pre>';
+	function _vd($mixed, $title = '', $exit = false)
+	{
+		$str = (!empty($title) ? ($title . ':') : '') . '<pre>';
 		$str .= print_r($mixed, true); //var_dump($mixed);
 		$str .= "</pre>\n";
-		display_notification('<table><tr><td>'.$str.'</td></tr></table>');
+		display_notification('<table><tr><td>' . $str . '</td></tr></table>');
 		if ($exit)
 			exit;
 	}
 }
 
-function _vl($mixed, $title = '', $exit = false) {
-	error_log((!empty($title) ? ($title.':') : '') . print_r($mixed, true));
+function _vl($mixed, $title = '', $exit = false)
+{
+	error_log((!empty($title) ? ($title . ':') : '') . print_r($mixed, true));
 	if ($exit)
 		exit;
 }
 
-function display_backtrace($cond=true, $msg='') {
+function display_backtrace($cond = true, $msg = '')
+{
 	if ($cond) {
-		if ($msg) 
-			$str = "<center><span class='headingtext'>".$msg."</span></center>\n";
+		if ($msg)
+			$str = "<center><span class='headingtext'>" . $msg . "</span></center>\n";
 		else
 			$str = '';
 		$str .= get_backtrace(true);
@@ -1314,7 +1364,8 @@ if (!isset($payment_services)) {
 *	Payment link generation. Options provided during invoice generation:
 *	company_email, comment, amount, currency
 */
-function payment_link($name, $options) {
+function payment_link($name, $options)
+{
 	global $payment_services;
 
 	$link = @$payment_services[$name];
@@ -1323,59 +1374,59 @@ function payment_link($name, $options) {
 
 	$patterns = array();
 	foreach ($options as $id => $option)
-		$patterns['<'.$id.'>'] = urlencode($options[$id]);
+		$patterns['<' . $id . '>'] = urlencode($options[$id]);
 
 	return strtr($link, $patterns);
 }
 
-function trans_editor_link($type, $trans_no) {
+function trans_editor_link($type, $trans_no)
+{
 	global $path_to_root;
 
 	$editor_url = array(
-	
+
 		//ST_SOURCEDATA => "/sales/sales_order_entry.php?ModifyQuotationNumber=%d",
 		ST_WORKORDER => "/manufacturing/work_order_entry.php?trans_no=%d",
 	);
 
-	return !isset($editor_url[$type]) ? '--' :
-		(is_closed_trans($type, $trans_no) ? set_icon(ICON_CLOSED, _('Closed')) :
-			pager_link(_('Edit'), sprintf($editor_url[$type], $trans_no, $type), ICON_EDIT));
+	return !isset($editor_url[$type]) ? '--' : (is_closed_trans($type, $trans_no) ? set_icon(ICON_CLOSED, _('Closed')) :
+		pager_link(_('Edit'), sprintf($editor_url[$type], $trans_no, $type), ICON_EDIT));
 }
 
 
 
 function get_manufacturing_trans_view_str($type, $trans_no, $label = '', $icon = false, $class = '', $id = '')
 {
-    $viewer = 'manufacturing/view/';
+	$viewer = 'manufacturing/view/';
 
-   // if ($type == ST_MANUISSUE) {
-   //     $viewer .= 'wo_issue_view.php';
-  //  } elseif ($type == ST_MANURECEIVE) {
-  //      $viewer .= 'wo_production_view.php';
-  //  } elseif ($type == ST_WORKORDER) {
-   //     $viewer .= 'work_order_view.php';
-   // } else {
-   //     return null;
-    //}
+	// if ($type == ST_MANUISSUE) {
+	//     $viewer .= 'wo_issue_view.php';
+	//  } elseif ($type == ST_MANURECEIVE) {
+	//      $viewer .= 'wo_production_view.php';
+	//  } elseif ($type == ST_WORKORDER) {
+	//     $viewer .= 'work_order_view.php';
+	// } else {
+	//     return null;
+	//}
 
-   // $viewer .= '?trans_no=' . $trans_no;
+	// $viewer .= '?trans_no=' . $trans_no;
 
-   // if ($label == '') {
-   //     $label = $trans_no;
-   // }
+	// if ($label == '') {
+	//     $label = $trans_no;
+	// }
 
-    return viewer_link($label, $viewer, $class, $id, $icon);
+	return viewer_link($label, $viewer, $class, $id, $icon);
 }
 
 
 
 function get_trans_view_str($type, $trans_no, $label = '', $icon = false, $class = '', $id = '')
 {
-    
-    $view_str = get_manufacturing_trans_view_str($type, $trans_no, $label, $icon, $class, $id);
-    if ($view_str != null) {
-        return $view_str;
-    }
 
-    return null;
+	$view_str = get_manufacturing_trans_view_str($type, $trans_no, $label, $icon, $class, $id);
+	if ($view_str != null) {
+		return $view_str;
+	}
+
+	return null;
 }

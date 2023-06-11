@@ -246,7 +246,7 @@ CREATE TABLE `0_users` (
 	`phone` varchar(30) NOT NULL DEFAULT '',
 	`email` varchar(100) DEFAULT NULL,
 	`language` varchar(20) DEFAULT NULL,
-	`date_format` tinyint(1) NOT NULL DEFAULT '0',
+	`date_format` tinyint(1) NOT NULL DEFAULT '2',
 	`date_sep` tinyint(1) NOT NULL DEFAULT '0',
 	`tho_sep` tinyint(1) NOT NULL DEFAULT '0',
 	`dec_sep` tinyint(1) NOT NULL DEFAULT '0',

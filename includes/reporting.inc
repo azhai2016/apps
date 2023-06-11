@@ -25,7 +25,7 @@ function print_link($link_text, $rep, $pars = array(), $dir = '', $icon=false, $
 	$pars = access_string($link_text);
 
 	if (user_graphic_links() && $icon)
-		$pars[0] = set_icon($icon, $pars[0]);
+		$pars[0] =  ($icon, $pars[0]);
 
 	return "<a target='_blank' onclick='if(confirm('是否真的导出吗？')==false) return false;' style='text-decoration:none;color:#000' href='$url'$class $pars[1]>$pars[0]$link_text</a>";
 }

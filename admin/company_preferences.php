@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 	Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -8,20 +9,24 @@
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 	See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
-***********************************************************************/
+ ***********************************************************************/
 $page_security = 'SA_SETUPCOMPANY';
 $path_to_root = '..';
-include($path_to_root.'/includes/session.php');
+include($path_to_root . '/includes/session.php');
+
+add_access_extensions();
 
 page(_($help_context = '公司设置'));
 
-include_once($path_to_root.'/includes/date_functions.inc');
-include_once($path_to_root.'/includes/ui.inc');
+include_once($path_to_root . '/includes/date_functions.inc');
+include_once($path_to_root . '/includes/ui.inc');
 
-include_once($path_to_root.'/admin/db/company_db.inc');
-include_once($path_to_root.'/reporting/includes/tcpdf.php');
+include_once($path_to_root . '/admin/db/company_db.inc');
+include_once($path_to_root . '/reporting/includes/tcpdf.php');
 
 //-------------------------------------------------------------------------------------------------
+
+
 
 if (isset($_POST['update']) && $_POST['update'] != '') {
 	$input_error = 0;
@@ -30,7 +35,7 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 		set_focus('login_tout');
 		$input_error = 1;
 	}
-	if (strlen($_POST['coy_name'])==0) {
+	if (strlen($_POST['coy_name']) == 0) {
 		$input_error = 1;
 		display_error(_('必须输入公司名称。'));
 		set_focus('coy_name');
@@ -41,10 +46,10 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 	//	$input_error = 1;
 	//}
 	//if (!check_num('tax_last', 1)) {
-//		display_error(_('最后纳税期必须为正数。'));
-//		set_focus('tax_last');
-//		$input_error = 1;
-//	}
+	//		display_error(_('最后纳税期必须为正数。'));
+	//		set_focus('tax_last');
+	//		$input_error = 1;
+	//	}
 	if (!check_num('round_to', 1)) {
 		display_error(_('四舍五入计算字段必须为正数。'));
 		set_focus('round_to');
@@ -64,32 +69,28 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 		if ($_FILES['pic']['error'] == UPLOAD_ERR_INI_SIZE) {
 			display_error(_('文件大小超过了允许的最大值。'));
 			$input_error = 1;
-		}
-		elseif ($_FILES['pic']['error'] > 0) {
+		} elseif ($_FILES['pic']['error'] > 0) {
 			display_error(_('上载徽标文件时出错。'));
 			$input_error = 1;
 		}
 		$result = $_FILES['pic']['error'];
-		$filename = company_path().'/images';
+		$filename = company_path() . '/images';
 		if (!file_exists($filename))
 			mkdir($filename);
 
-		$filename .= '/'.clean_file_name($_FILES['pic']['name']);
+		$filename .= '/' . clean_file_name($_FILES['pic']['name']);
 
-		 //But check for the worst
-		if (!in_array( substr($filename,-4), array('.jpg', '.JPG', '.png', '.PNG'))) {
+		//But check for the worst
+		if (!in_array(substr($filename, -4), array('.jpg', '.JPG', '.png', '.PNG'))) {
 			display_error(_('只支持jpg和png文件——文件扩展名为.jpg或.png'));
 			$input_error = 1;
-		}
-		elseif ( $_FILES['pic']['size'] > ($SysPrefs->max_image_size * 1024)) { //File Size Check
-			display_error(_('文件大小超过了允许的最大值。允许的最大大小（KB）为').' '.$SysPrefs->max_image_size);
+		} elseif ($_FILES['pic']['size'] > ($SysPrefs->max_image_size * 1024)) { //File Size Check
+			display_error(_('文件大小超过了允许的最大值。允许的最大大小（KB）为') . ' ' . $SysPrefs->max_image_size);
 			$input_error = 1;
-		}
-		elseif ( $_FILES['pic']['type'] == 'text/plain' ) {  //File type Check
-			display_error( _('只能上传图形文件'));
+		} elseif ($_FILES['pic']['type'] == 'text/plain') {  //File type Check
+			display_error(_('只能上传图形文件'));
 			$input_error = 1;
-		}
-		elseif (file_exists($filename)) {
+		} elseif (file_exists($filename)) {
 			$result = unlink($filename);
 			if (!$result) {
 				display_error(_('无法删除现有图片'));
@@ -100,14 +101,13 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 		if ($input_error != 1) {
 			$result  =  move_uploaded_file($_FILES['pic']['tmp_name'], $filename);
 			$_POST['coy_logo'] = clean_file_name($_FILES['pic']['name']);
-			if(!$result) {
+			if (!$result) {
 				display_error(_('上传徽标文件时出错'));
 				$input_error = 1;
-			}
-			else {
+			} else {
 				$msg = check_image_file($filename);
-				if ( $msg) {
-					display_error( $msg);
+				if ($msg) {
+					display_error($msg);
 					unlink($filename);
 					$input_error = 1;
 				}
@@ -115,7 +115,7 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 		}
 	}
 	if (check_value('del_coy_logo')) {
-		$filename = company_path().'/images/'.clean_file_name($_POST['coy_logo']);
+		$filename = company_path() . '/images/' . clean_file_name($_POST['coy_logo']);
 		if (file_exists($filename)) {
 			$result = unlink($filename);
 			if (!$result) {
@@ -130,11 +130,12 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 	//if ($_POST['round_to'] <= 0)
 	//	$_POST['round_to'] = 1;
 	if ($input_error != 1) {
-		update_company_prefs(
-			get_post(
-				array('coy_name', 'coy_no', 'gst_no', 'tax_prd', 'tax_last', 'postal_address', 'phone', 'fax', 'email', 'coy_logo', 'domicile', 'use_dimension', 'curr_default', 'f_year', 'shortname_name_in_list', 'no_customer_list'=>0, 'no_supplier_list'=>0, 'base_sales', 'ref_no_auto_increase'=>0, 'dim_on_recurrent_invoice'=>0, 'long_description_invoice'=>0, 'max_days_in_docs'=>180, 'time_zone'=>0, 'company_logo_report'=>0, 'barcodes_on_stock'=>0, 'print_dialog_direct'=>0, 'add_pct', 'round_to', 'login_tout', 'auto_curr_reval', 'bcc_email', 'alternative_tax_include_on_docs', 'suppress_tax_rates', 'use_manufacturing', 'use_fixed_assets')
-			)
-		);
+		$post =	array('coy_name', 'coy_no', 'gst_no', 'tax_prd', 'tax_last', 'postal_address', 'phone', 'fax', 'email', 'coy_logo', 'domicile', 'use_dimension', 'curr_default', 'f_year', 'shortname_name_in_list', 'no_customer_list' => 0, 'no_supplier_list' => 0, 'base_sales', 'ref_no_auto_increase' => 0, 'dim_on_recurrent_invoice' => 0, 'long_description_invoice' => 0, 'max_days_in_docs' => 180, 'time_zone' => 0, 'company_logo_report' => 0, 'barcodes_on_stock' => 0, 'print_dialog_direct' => 0, 'add_pct', 'round_to', 'login_tout', 'auto_curr_reval', 'bcc_email', 'alternative_tax_include_on_docs', 'suppress_tax_rates', 'use_manufacturing', 'use_fixed_assets');
+		foreach ($types_item as $key => $value) {
+			$post[$key] = '';
+		}
+
+		update_company_prefs(get_post($post));
 
 		$_SESSION['wa_current_user']->timeout = $_POST['login_tout'];
 		display_notification_centered(_('公司信息已更新'));
@@ -209,20 +210,41 @@ if (!isset($myrow['long_description_invoice'])) {
 	set_company_pref('long_description_invoice', 'setup.company', 'tinyint', 1, '0');
 	$myrow['long_description_invoice'] = get_company_pref('long_description_invoice');
 }
+
+log_b($myrow);
+
+foreach ($types_item as $key => $value) {
+	if (!isset($myrow[$key])) {
+		set_company_pref($key, 'qms.setup', 'tinyint', 1, '0');
+		$myrow[$key] = get_company_pref($key);
+	}
+}
+
+foreach ($types_item as $key => $value) {
+
+	$_POST[$key] = $myrow[$key];
+}
+
+
 $_POST['long_description_invoice']  = $myrow['long_description_invoice'];
 $_POST['version_id']  = $myrow['version_id'];
 $_POST['add_pct'] = $myrow['add_pct'];
 $_POST['login_tout'] = $myrow['login_tout'];
 if ($_POST['add_pct'] == -1)
 	$_POST['add_pct'] = '';
-$_POST['round_to'] = $myrow['round_to'];	
-$_POST['auto_curr_reval'] = $myrow['auto_curr_reval'];	
+$_POST['round_to'] = $myrow['round_to'];
+$_POST['auto_curr_reval'] = $myrow['auto_curr_reval'];
 $_POST['del_coy_logo']  = 0;
 $_POST['bcc_email']  = $myrow['bcc_email'];
 $_POST['alternative_tax_include_on_docs']  = $myrow['alternative_tax_include_on_docs'];
 $_POST['suppress_tax_rates']  = $myrow['suppress_tax_rates'];
 $_POST['use_manufacturing']  = $myrow['use_manufacturing'];
 $_POST['use_fixed_assets']  = $myrow['use_fixed_assets'];
+
+
+
+$_POST['计划是否需要审核']  = $myrow['计划是否需要审核'];
+
 
 start_outer_table(TABLESTYLE2);
 
@@ -290,6 +312,10 @@ table_section_title(_('用户界面选项'));
 //check_row(_('查询供货商列表:'), 'no_supplier_list', null);
 text_row_ex(_('登录超时:'), 'login_tout', 10, 10, '', null, null, _('秒'));
 text_row_ex(_('文档中的最大日范围：'), 'max_days_in_docs', 10, 10, '', null, null, _('天'));
+
+foreach ($types_item as $key => $value) {
+	check_row(_($key), $key, null);
+}
 
 end_outer_table(1);
 

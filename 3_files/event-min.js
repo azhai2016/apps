@@ -1,1 +1,0 @@
-define("event",["event-dom","event-custom"],function(e){var t,n=e("event-dom"),r=e("event-custom");return t=function(e){var t=n,v=r,o=t;return o.Target=v.Target,e=o}()});

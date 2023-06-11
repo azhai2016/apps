@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) CbSMS.
 Released under the terms of the GNU General Public License, GPL,
@@ -20,6 +21,7 @@ include_once $path_to_root . '/includes/ui/db_pager_view.inc';
 class db_pager
 {
     public $sql;
+    public $proc_sql = null;
     public $name;
     public $columns; // column definitions (head, type, order)
 
@@ -33,19 +35,19 @@ class db_pager
     public $data = array();
 
     public $curr_page,
-    $max_page,
-    $last_page,
-    $prev_page,
-    $next_page,
+        $max_page,
+        $last_page,
+        $prev_page,
+        $next_page,
         $first_page;
 
     public $page_len,
-        $rec_count;
+        $rec_count, $rowcount;
 
     public $select,
-    $where,
-    $from,
-    $group,
+        $where,
+        $from,
+        $group,
         $order;
     public $extra_where = array();
 
@@ -74,6 +76,12 @@ class db_pager
         $this->page_len = $page_len;
         $this->set_sql($sql);
     }
+
+    public function set_proc_sql($sql)
+    {
+        $this->proc_sql = $sql;
+        $this->ready = false;
+    }
     //
     //    Parse base sql select query    or use an associative array.
     //
@@ -83,7 +91,7 @@ class db_pager
 
         if ($sql != $this->sql) {
             $this->sql = $sql;
-         
+
             $this->ready = false;
 
             if (is_array($sql)) {
@@ -102,11 +110,10 @@ class db_pager
                     if ($SysPrefs->go_debug) {
                         display_error('Invalid sql input for db_pager');
                     }
-
                 }
 
                 $parts = preg_split('/\sWHERE(?!.*WHERE.*)\s/si', $sql, 2); // last occurence
-           
+
                 if (count($parts) == 2) {
                     $this->from = $parts[0];
                     $sql = $parts[1];
@@ -122,9 +129,8 @@ class db_pager
                         $this->group = $parts[1];
                     }
                     $this->where = $sql;
-                }
-                else {
-                    $this->from = $parts[0];  
+                } else {
+                    $this->from = $parts[0];
                 }
             }
         }
@@ -139,11 +145,12 @@ class db_pager
                 $where = array($where);
             }
 
-            if (count($where) == count($this->extra_where) &&
-                !count(array_diff($this->extra_where, $where))) {
+            if (
+                count($where) == count($this->extra_where) &&
+                !count(array_diff($this->extra_where, $where))
+            ) {
                 return;
             }
-
         }
         $this->extra_where = $where;
         $this->ready = false;
@@ -214,7 +221,6 @@ class db_pager
                     if (!@($this->columns[$c]['type'] == 'insert')) {
                         $i++;
                     }
-
                 }
             }
             while ($row = db_fetch_assoc($result)) {
@@ -311,7 +317,7 @@ class db_pager
                     unset($c['head']);
                     break;
             }
-         
+
             $this->columns[] = $c;
         }
     }
@@ -322,13 +328,14 @@ class db_pager
     //
     public function _sql_gen($count = false)
     {
+
         $select = $this->select;
         $from = $this->from;
         $where = $this->where;
         $group = $this->group;
         $order = $this->order;
 
- 
+
 
         if ($this->extra_where && count($this->extra_where) > 0) {
             $where .= ($where == '' ? '' : ' AND ') . implode(' AND ', $this->extra_where);
@@ -337,12 +344,15 @@ class db_pager
         if ($where) {
             $where = " WHERE ($where)";
         }
-        
+
+
         if ($count) {
             return "SELECT COUNT(*) FROM ($this->sql) tmp_count";
         }
 
         $sql = "$select FROM $from $where";
+
+
 
         if ($group) {
             $sql .= " GROUP BY $group";
@@ -356,7 +366,6 @@ class db_pager
             if (isset($col['ord_priority'])) {
                 $columns[$col['ord_priority']] = $col;
             }
-
         }
         krsort($columns);
 
@@ -365,7 +374,6 @@ class db_pager
                 if ($col['ord'] != '' && isset($col['name'])) {
                     $ord[] = $col['name'] . ' ' . $col['ord'];
                 }
-
             }
         }
 
@@ -395,13 +403,14 @@ class db_pager
 
         if ($this->ready == false) {
             $sql = $this->_sql_gen(true);
-      
+
             $result = db_query($sql, 'Error reading record set');
             if ($result == false) {
                 return false;
             }
 
             $row = db_fetch_row($result);
+            $this->rowcount = $row[0];
             $this->rec_count = $row[0];
             $this->max_page = $this->page_len ? ceil($this->rec_count / $this->page_len) : 0;
 
@@ -412,7 +421,6 @@ class db_pager
                     if (isset($col['ord']) && $col['ord'] != '' && !isset($col['name'])) {
                         display_warning("Result field names must be set for all initially ordered db_pager columns.");
                     }
-
                 }
             }
             $this->set_page(1);
@@ -420,6 +428,12 @@ class db_pager
         }
         return true;
     }
+
+    public function get_count()
+    {
+        return $this->rowcount;
+    }
+
     //
     //    Set current page in response to user control.
     //
@@ -442,13 +456,11 @@ class db_pager
             if (!$this->prev_page || !$this->first_page) {
                 set_focus($this->name . '_page_next');
             }
-
         } elseif ($sort != -1) {
             $this->sort_table($sort);
         } else {
             $this->query();
         }
-
     }
     //
     //    Set check function to mark some rows.
@@ -459,7 +471,6 @@ class db_pager
         if (array_search($func, array_column($this->marker, 'func')) === false) {
             $this->marker[] = array('func' => $func, 'txt' => $notice, 'class' => $markercl, 'txt_class' => $msgclass);
         }
-
     }
     //
     //    Set handler to display additional row between titles and pager body.
@@ -511,7 +522,6 @@ class db_pager
         } else {
             return '';
         }
-
     }
 };
 //-----------------------------------------------------------------------------
@@ -566,5 +576,4 @@ function refresh_pager($name)
     if (isset($_SESSION[$name])) {
         $_SESSION[$name]->ready = false;
     }
-
 }
