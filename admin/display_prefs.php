@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -30,15 +31,36 @@ if (isset($_POST['setprefs'])) {
     } else {
         $_POST['theme'] = clean_file_name($_POST['theme']);
         $chg_theme = user_theme() != $_POST['theme'];
-        $chg_lang = 'English';//$_SESSION['language']->code != $_POST['language'];
+        $chg_lang = 'English'; //$_SESSION['language']->code != $_POST['language'];
         $chg_date_format = user_date_format() != $_POST['date_format'];
         $chg_date_sep = user_date_sep() != $_POST['date_sep'];
 
         set_user_prefs(get_post(
-            array('prices_dec', 'qty_dec', 'rates_dec', 'percent_dec', 'date_format', 'date_sep', 'tho_sep', 'dec_sep', 'print_profile', 'theme', 'page_size', 'language', 'startup_tab', 'query_size' => 10, 'transaction_days' => 30, 'save_report_selections' => 0, 'def_print_destination' => 0, 'def_print_orientation' => 0)));
+            array(
+                'prices_dec' => 'prices_dec',
+                'qty_dec' => 'qty_dec',
+                'rates_dec' => 'rates_dec',
+                'percent_dec' => 'percent_dec',
+                'date_format' => 'date_format',
+                'date_sep' => 'date_sep',
+                'tho_sep' => 'tho_sep',
+                'dec_sep' => 'dec_sep',
+                'print_profile' => 'print_profile',
+                'theme' => 'theme',
+                'page_size' => 'page_size',
+                'language' => 'language',
+                'startup_tab' => 'startup_tab',
+                'query_size' => 10,
+                'transaction_days' => 30,
+                'save_report_selections' => 0,
+                'def_print_destination' => 0,
+                'def_print_orientation' => 0
+            )
+        ));
 
         set_user_prefs(check_value(
-            array('show_gl', 'show_codes', 'show_hints', 'rep_popup', 'graphic_links', 'sticky_doc_date', 'use_date_picker')));
+            array('show_gl', 'show_codes', 'show_hints', 'rep_popup', 'graphic_links', 'sticky_doc_date', 'use_date_picker')
+        ));
 
         if ($chg_lang) {
             $_SESSION['language']->set_language('English');
@@ -61,7 +83,6 @@ if (isset($_POST['setprefs'])) {
         } else {
             display_notification_centered(_('显示设置内容已更新.'));
         }
-
     }
 }
 
@@ -104,12 +125,17 @@ if (!isset($_POST['language'])) {
 
 table_section_title(_('报表'));
 
-text_row_ex(_('保存报表天数:'), 'save_report_selections', 5, 5, '', user_save_report_selections());
+//text_row_ex(_('保存报表天数:'), 'save_report_selections', 5, 5, '', user_save_report_selections());
 
 yesno_list_row(_('默认打印格式:'), 'def_print_destination', user_def_print_destination(), $name_yes = _('Excel'), $name_no = _('PDF/Printer'));
 
-yesno_list_row(_('默认打印方向:'), 'def_print_orientation', user_def_print_orientation(),
-    $name_yes = _('横向'), $name_no = _('纵向'));
+yesno_list_row(
+    _('默认打印方向:'),
+    'def_print_orientation',
+    user_def_print_orientation(),
+    $name_yes = _('横向'),
+    $name_no = _('纵向')
+);
 
 table_section(2);
 

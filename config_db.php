@@ -20,7 +20,7 @@ $def_coy - the default company that is pre-selected on login
 
 $def_coy = 0;
 
-$tb_pref_counter = 1;
+$tb_pref_counter = 2;
 
 /*$host = '192.168.8.16';
 
@@ -52,5 +52,16 @@ $mssql_db_connections = array(
     'tbpref' => '0_',
     'dbuser' => 'root',
     'dbpassword' => 'azsOFT2022',
+  ),
+  1 => 
+  array (
+    'name' => '江苏宿迁卫民医药连锁有限公司',
+    'host' => 'localhost',
+    'port' => '3306',
+    'dbuser' => 'root',
+    'dbpassword' => 'azsOFT2022',
+    'dbname' => 'fbapp',
+    'collation' => 'utf8',
+    'tbpref' => '1_',
   ),
 );

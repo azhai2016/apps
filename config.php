@@ -62,7 +62,7 @@ $app_title = 'FB-SAAS';
 $build_version = date('d.m.Y', filemtime($path_to_root . '/CHANGELOG.txt'));
 
 // Powered by
-$power_by = '相帮软件';
+$power_by = '药事通软件';
 $power_url = 'http://fourborther.cn';
 
 /* No check on edit conflicts. Maybe needed to be set to 1 in certains Windows Servers */

@@ -37,6 +37,7 @@ function find_submit($prefix, $numeric = true)
 		foreach ($_POST as $postkey => $postval) {
 			if (strpos($postkey, $prefix) === 0) {
 				$id = substr($postkey, strlen($prefix));
+				log_b($id);
 				return $numeric ? (int)$id : $id;
 			}
 		}
