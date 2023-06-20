@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -10,51 +11,54 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
  ***********************************************************************/
 date_default_timezone_set("Asia/Shanghai");
- $path_to_root = '.';
+$path_to_root = '.';
 
 if (!file_exists($path_to_root . '/config_db.php')) {
-    header('Location: ' . $path_to_root . '/install/index.php');
+  header('Location: ' . $path_to_root . '/install/index.php');
 }
 
 $page_security = 'SA_OPEN';
 
 
-require $path_to_root.'/vendor/autoload.php';
+require $path_to_root . '/vendor/autoload.php';
 
-include_once $path_to_root.'/includes/route.php';
+include_once $path_to_root . '/includes/route.php';
 
-include_once $path_to_root.'/includes/calendar.php';
+include_once $path_to_root . '/includes/calendar.php';
 
 //增加路由功能
 $route = new Route();
 
 include_once 'includes/session.php';
 
+
+
+
+
 $route_list = array(
-    array('GET', '/system', 'system'),
+  array('GET', '/system', 'system'),
 );
 
 add_access_extensions();
 
-if (isset($installed_extensions)){
-    
-    foreach ($installed_extensions as $rows) {
-          if ($rows['active']==1) {   
-            if (isset($rows['SubPath']) && is_array($rows['SubPath'])) {
-              foreach ($rows['SubPath'] as $paths) {
-                $route_list[]=array('GET','/'.$paths,$paths);
-              }  
-            }
-            $route_list[]=array('GET','/'.$rows['name'],$rows['name']);
-          }
+if (isset($installed_extensions)) {
 
+  foreach ($installed_extensions as $rows) {
+    if ($rows['active'] == 1) {
+      if (isset($rows['SubPath']) && is_array($rows['SubPath'])) {
+        foreach ($rows['SubPath'] as $paths) {
+          $route_list[] = array('GET', '/' . $paths, $paths);
+        }
+      }
+      $route_list[] = array('GET', '/' . $rows['name'], $rows['name']);
     }
+  }
 }
 
 $application = $route->Lite($route_list);
 
 $app = &$_SESSION['App'];
 //if (isset($_GET['application'])) {
-$app->selected_application = $application;//$_GET['application'];
+$app->selected_application = $application; //$_GET['application'];
 //}
 $app->display();

@@ -129,6 +129,9 @@ function display_db_pager(&$pager)
                 case 'small_width':
                     label_cell($cell, "style='width:50px;text-align:center'");
                     break;
+                case 'datetime_width':
+                    label_cell($cell, "style='width:140px'");
+                    break;
                 case 'money_width':
                     label_cell($cell, "style='width:80px;text-align:right'");
                     break;

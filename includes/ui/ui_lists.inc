@@ -830,7 +830,6 @@ function list_updated($name)
 function array_selector($name, $selected_id, $items, $options = null)
 {
 	global $Ajax;
-
 	$opts = array(		// default options
 		'spec_option' => false, 	// option text or false
 		'spec_id' => 0,		// option id

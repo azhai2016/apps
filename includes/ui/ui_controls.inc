@@ -34,6 +34,7 @@ function get_post($name, $dflt='') {
 }  */
 
 
+
 function get_post($name, $default = '')
 {
 	if (is_array($name)) {
@@ -51,6 +52,16 @@ function get_post($name, $default = '')
 		return $value;
 	}
 	return $default ?? '';
+
+	/*
+	if (is_array($name)) {
+		return array_map('get_post', array_keys($name), array_values($name));
+	}
+	$value = $_POST[$name] ?? null;
+	if (is_numeric($value)) {
+		return input_num($name, $value);
+	}
+	return $value ?? $default; */
 }
 
 //---------------------------------------------------------------------------------
@@ -266,10 +277,10 @@ function hyperlink_back($center = true, $no_menu = true, $type_no = 0, $trans_no
 	start_table(false, "width='" . $width . "'");
 	start_row();
 
-	if ($no_menu)
-		echo "<td align=center><a href='javascript:window.print();'>" . _('打印') . "</a></td>\n";
+	//if ($no_menu)
+	//	echo "<td align=center><a href='javascript:window.print();'>" . _('打印') . "</a></td>\n";
 
-	echo "<td align=center><a href='javascript:goBack(" . ($final ? '-2' : '') . ");'>" . ($no_menu ? _('关闭') : _('返回')) . "</a></td>\n";
+	echo "<td align=center><a href='javascript:goBack(" . ($final ? '-2' : '') . ");'>" . _('返回') . "</a></td>\n";
 	end_row();
 	end_table();
 	if ($center)

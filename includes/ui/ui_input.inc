@@ -704,6 +704,8 @@ function genter_list_cells($label, $selected_id, $name, $array = null)
 }
 
 
+
+
 function select_row($label, $name, $value, $size, $max, $title = null, $params = '', $post_label = '')
 {
 	echo "<tr><td class='label'>" . $label . "</td>";

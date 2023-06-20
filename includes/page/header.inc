@@ -68,9 +68,9 @@ function send_scripts()
 		// compress also static files
 		if (!file_exists($fpath) || $SysPrefs->go_debug) {
 			// don't need to compress minified files
-			if (strpos($basename, '.min.js') !== false)
+			if (strpos($basename, '.min.js') !== false) {
 				copy($js_path . $jsfile, $fpath);
-			else
+			} else
 				cache_js_file($fpath, file_get_contents($js_path . $jsfile));
 		}
 

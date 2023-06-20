@@ -4,3 +4,4 @@
 /logs/*
 /modules/
 *.log
+*.xlsx

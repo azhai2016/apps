@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -54,7 +55,10 @@ if (($Mode == 'ADD_ITEM' || $Mode == 'UPDATE_ITEM') && check_csrf_token()) {
 
     if (can_process($Mode == 'ADD_ITEM')) {
         if ($selected_id != -1) {
-            update_user_prefs($selected_id, get_post(array('user_id', 'real_name', 'phone', 'email', 'role_id', 'language', 'print_profile', 'rep_popup' => 0,'sale_area')));
+            update_user_prefs($selected_id, get_post(array(
+                'user_id' => '', 'real_name' => '', 'phone' => '', 'email' => '',
+                'role_id' => '', 'rep_popup' => 0
+            )));
 
             if ($_POST['password'] != '') {
                 update_user_password($selected_id, $_POST['user_id'], md5($_POST['password']));
@@ -62,12 +66,12 @@ if (($Mode == 'ADD_ITEM' || $Mode == 'UPDATE_ITEM') && check_csrf_token()) {
 
             display_notification_centered(_('所选用户已被更新。'));
         } else {
-            add_user($_POST['user_id'], $_POST['real_name'], md5($_POST['password']), $_POST['phone'], $_POST['email'], $_POST['role_id'], $_POST['language'], $_POST['print_profile'], check_value('rep_popup'),$_POST['sale_area']);
+            add_user($_POST['user_id'], $_POST['real_name'], md5($_POST['password']), $_POST['phone'], $_POST['email'], $_POST['role_id'], '', '', check_value('rep_popup'), '');
             $id = db_insert_id();
             // use current user display preferences as start point for new user
             $prefs = $_SESSION['wa_current_user']->prefs->get_all();
 
-            update_user_prefs($id, array_merge($prefs, get_post(array('print_profile', 'rep_popup' => 0, 'language'))));
+            update_user_prefs($id, array_merge($prefs, get_post(array('rep_popup' => 0))));
 
             display_notification_centered(_('已添加新用户。'));
         }
@@ -105,7 +109,7 @@ $result = get_users(check_value('show_inactive'));
 start_form();
 start_table(TABLESTYLE);
 
-$th = array(_('登录名'), _('名称'), _('电话'), _('Email'), _('最后一次访问'), _('访问角色'),_('销售区域'),'', '');
+$th = array(_('登录名'), _('名称'), _('电话'), _('Email'), _('最后一次访问'), _('访问角色'), _('销售区域'), '', '');
 
 inactive_control_column($th);
 table_header($th);
@@ -129,7 +133,7 @@ while ($myrow = db_fetch($result)) {
     label_cell($last_visit_date, 'nowrap');
     label_cell($myrow['role']);
     label_cell($myrow['sale_area']);
-    
+
     if ($not_me) {
         inactive_control_cell($myrow['id'], $myrow['inactive'], 'users', 'id');
     } elseif (check_value('show_inactive')) {
@@ -180,7 +184,7 @@ if ($selected_id != -1) {
     $_POST['language'] = user_language();
     $_POST['print_profile'] = user_print_profile();
     $_POST['rep_popup'] = user_rep_popup();
-    $_POST['pos'] = '';//user_pos();
+    $_POST['pos'] = ''; //user_pos();
 }
 $_POST['password'] = '';
 password_row(_('密码:'), 'password', $_POST['password']);
@@ -196,7 +200,7 @@ security_roles_list_row(_('访问角色:'), 'role_id', null);
 
 //languages_list_row(_('语言:'), 'language', null);
 //pos_list_row(_("POS") . ':', 'pos', null);
-hidden('pos','');
+hidden('pos', '');
 //print_profiles_list_row(_('打印配置文件') . ':', 'print_profile', null, _('浏览器打印支持'));
 //check_row(_('使用弹出窗口查看报告:'), 'rep_popup', $_POST['rep_popup'], false, _('如果浏览器直接支持pdf文件，请将此选项设置为启用'));
 

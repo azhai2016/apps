@@ -3,6 +3,9 @@ define('VARLIB_PATH', $path_to_root . '/tmp');
 define('VARLOG_PATH', $path_to_root . '/tmp');
 define('LOG_PATH', $path_to_root . '/log');
 define('SECURE_ONLY', null);
+date_default_timezone_set('Asia/Shanghai');
+
+
 
 class SessionManager
 {
