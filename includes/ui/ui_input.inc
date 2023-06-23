@@ -610,7 +610,7 @@ function text_input($name, $value = null, $size = '', $max = '', $title = '', $p
 	if ($value === null)
 		$value = get_post($name);
 
-	return "<input " . $params . " type='text' name='" . $name . "' size='" . $size . "' maxlength='" . $max . "' value='" . $value . "'" . ($title ? " title='" . $title . "'" : '') . ">";
+	return "<input type='text'  " . $params . " name='" . $name . "' size='" . $size . "' maxlength='" . $max . "' value='" . $value . "'" . ($title ? " title='" . $title . "'" : '') . ">";
 }
 
 //-----------------------------------------------------------------------------------
@@ -622,6 +622,7 @@ function text_cells($label, $name, $value = null, $size = '', $max = '', $title 
 	default_focus($name);
 	if ($label != null)
 		label_cell($label, $labparams);
+
 	echo '<td>';
 
 	echo text_input($name, $value, $size, $max, $title, $inparams);

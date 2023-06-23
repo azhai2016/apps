@@ -611,7 +611,7 @@ function price_in_words($amount, $document = 0)
 function get_js_open_window($width, $height)
 {
 
-	$js = " 
+	$js = "
 	
 	var newWindow=null;
 
@@ -656,9 +656,14 @@ function get_js_open_window($width, $height)
 	     return  multipleScreenPopup(url, title, width, height);
 	}
 
+
+
     function deleteConfirm() {
 	  return confirm('是否删除？');
 	}\n\n";
+
+
+
 
 	$js .= get_js_lookup_window();
 	return $js;

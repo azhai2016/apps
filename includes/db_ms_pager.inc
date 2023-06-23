@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) CbSMS.
 Released under the terms of the GNU General Public License, GPL,
@@ -33,19 +34,19 @@ class db_ms_pager
     public $data = array();
 
     public $curr_page,
-    $max_page,
-    $last_page,
-    $prev_page,
-    $next_page,
+        $max_page,
+        $last_page,
+        $prev_page,
+        $next_page,
         $first_page;
 
     public $page_len,
         $rec_count;
 
     public $select,
-    $where,
-    $from,
-    $group,
+        $where,
+        $from,
+        $group,
         $order;
     public $extra_where = array();
 
@@ -55,7 +56,7 @@ class db_ms_pager
     public $main_tbl; // table and key field name for inactive ctrl and edit/delete links
     public $key; // key field name
 
-    public $show_columns="*";
+    public $show_columns = "*";
     public $sql_where = "";
     //  db_pager constructor
     //  accepts $sql query either as:
@@ -86,7 +87,7 @@ class db_ms_pager
         if ($sql != $this->sql) {
             $this->sql = $sql;
             $this->ready = false;
-        } 
+        }
     }
     //
     //    Set additional constraint on record set
@@ -98,11 +99,12 @@ class db_ms_pager
                 $where = array($where);
             }
 
-            if (count($where) == count($this->extra_where) &&
-                !count(array_diff($this->extra_where, $where))) {
+            if (
+                count($where) == count($this->extra_where) &&
+                !count(array_diff($this->extra_where, $where))
+            ) {
                 return;
             }
-
         }
         $this->extra_where = $where;
         $this->ready = false;
@@ -177,7 +179,7 @@ class db_ms_pager
     //
     public function set_page($to)
     {
-    
+
         switch ($to) {
             case 'next':
                 $page = $this->curr_page + 1;
@@ -202,7 +204,7 @@ class db_ms_pager
         }
 
         $max = $this->max_page;
- 
+
 
         if ($page > $max) {
             $page = $max;
@@ -274,33 +276,31 @@ class db_ms_pager
             if (isset($col['ord_priority'])) {
                 $columns[$col['ord_priority']] = $col;
             }
-
         }
         krsort($columns);
 
         foreach ($columns as $col) {
-           
+
             if (isset($col['ord'])) {
                 if ($col['ord'] != '' && isset($col['name'])) {
                     $ord[] = $col['name'] . ' ' . $col['ord'];
                 }
-
             }
         }
 
 
         if (count($ord)) {
-             $orderBy = implode(',', $ord);
+            $orderBy = implode(',', $ord);
         } else {
             if ($this->orderBy) {
-              $orderBy = $this->orderBy;
+                $orderBy = $this->orderBy;
             }
         }
 
         $page_len = $this->page_len;
-        $offset =  empty($this->curr_page)?1:$this->curr_page;
-    
-        $sql = $this->sql.sprintf(",@OrderBy='%s',@pagenumber=%d,@pagesize=%d",$orderBy,$offset,$page_len);
+        $offset =  empty($this->curr_page) ? 1 : $this->curr_page;
+
+        $sql = $this->sql . sprintf(",@OrderBy='%s',@pagenumber=%d,@pagesize=%d", $orderBy, $offset, $page_len);
 
         return $sql;
     }
@@ -313,19 +313,19 @@ class db_ms_pager
         if ($this->ready == false) {
 
             $sql = $this->_sql_gen(true);
-            $result = mssql_db_query($sql,0,'sqlserver 查询错误');
-  
+            $result = mssql_db_query($sql, 0, 'sqlserver 查询错误');
+
             if ($result == false) {
                 return false;
             }
 
             $row = mssqldb_fetch_assoc($result);
-         
+
             if (!$row) {
                 return false;
             }
             $this->rec_count = $row['TotalRows'];
-          
+
             $this->max_page = $row['TotalPages'];
             $this->set_page(1);
             $this->ready = true;
@@ -354,25 +354,22 @@ class db_ms_pager
             if (!$this->prev_page || !$this->first_page) {
                 set_focus($this->name . '_page_next');
             }
-
         } elseif ($sort != -1) {
             $this->sort_table($sort);
         } else {
             $this->query();
         }
-
     }
     //
     //    Set check function to mark some rows.
     //
     public function set_marker($func, $notice = '', $markercl = 'overduebg', $msgclass = 'overduefg')
     {
-      
+
         // add a marker only when it is not exist
         if (array_search($func, array_column($this->marker, 'func')) === false) {
             $this->marker[] = array('func' => $func, 'txt' => $notice, 'class' => $markercl, 'txt_class' => $msgclass);
         }
-
     }
     //
     //    Set handler to display additional row between titles and pager body.
@@ -424,7 +421,6 @@ class db_ms_pager
         } else {
             return '';
         }
-
     }
 };
 //-----------------------------------------------------------------------------
@@ -453,14 +449,14 @@ class db_ms_pager
 //  during display, but can be used in format handlers for 'spec' and 'insert'
 //    type columns.
 
-function &new_mssql_db_pager($name, $sql, $coldef, $table = null,$key = null, $page_len = 0)
+function &new_mssql_db_pager($name, $sql, $coldef, $table = null, $key = null, $page_len = 0)
 {
-   
+
     if (isset($_SESSION[$name]) && ($_SERVER['REQUEST_METHOD'] == 'GET' || $_SESSION[$name]->sql != $sql)) {
         unset($_SESSION[$name]);
     }
 
-   
+
     if (!isset($_SESSION[$name])) {
         $_SESSION[$name] = new db_ms_pager($sql, $name, $table, $page_len);
         $_SESSION[$name]->main_tbl = $table;
@@ -469,7 +465,7 @@ function &new_mssql_db_pager($name, $sql, $coldef, $table = null,$key = null, $p
         $_SESSION[$name]->set_columns($coldef);
     }
 
- 
+
     return $_SESSION[$name];
 }
 
@@ -481,5 +477,4 @@ function refresh_ms_pager($name)
     if (isset($_SESSION[$name])) {
         $_SESSION[$name]->ready = false;
     }
-
 }

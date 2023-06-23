@@ -30,11 +30,11 @@ function navi_button($name, $value, $enabled = true, $icon = false)
     return "<button " . ($enabled ? '' : 'disabled') . " class='navibutton' type='submit' name='" . $name . "' id='" . $name . "' value='" . $value . "'>" . ($icon ? "<img src='" . $path_to_root . '/themes/' . user_theme() . '/images/' . $icon . "'>" : '') . "<span>" . $value . "</span></button>\n";
 }
 
+
 function navi_button_cell($name, $value, $enabled = true, $align = 'left')
 {
     label_cell(navi_button($name, $value, $enabled), "align='" . $align . "'");
 }
-
 //-----------------------------------------------------------------------------
 //
 //    Sql paged table view. Call this function inside form.
@@ -249,8 +249,16 @@ function display_db_pager(&$pager)
             display_note($marker['txt'], 0, 0, "class='" . $marker['txt_class'] . "'");
         }
     }
+
     br();
+
+
+
+
+
     div_end();
+
+
 
     return true;
 }

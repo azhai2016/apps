@@ -472,6 +472,12 @@ class db_pager
             $this->marker[] = array('func' => $func, 'txt' => $notice, 'class' => $markercl, 'txt_class' => $msgclass);
         }
     }
+
+    public function set_script()
+    {
+        echo "<script>alert(1)</script>";
+    }
+
     //
     //    Set handler to display additional row between titles and pager body.
     //    Return array of column contents.
