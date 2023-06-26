@@ -37,7 +37,7 @@ function find_submit($prefix, $numeric = true)
 		foreach ($_POST as $postkey => $postval) {
 			if (strpos($postkey, $prefix) === 0) {
 				$id = substr($postkey, strlen($prefix));
-				log_b($id);
+
 				return $numeric ? (int)$id : $id;
 			}
 		}
@@ -381,6 +381,38 @@ function button_ex($name, $value, $title = false, $icon = false,  $aspect = '')
 			. ($aspect ? " aspect='$aspect'" : '')
 			. $rel
 			. " >" . set_icon($icon) . "</button>\n";
+	} else
+		return "<input type='submit' class='editbutton' name='"
+			. htmlentities(strtr($name, array(
+				'.' => '=2E', '=' => '=3D', // ' '=>'=20','['=>'=5B'
+			)))
+			. "' value='$value'"
+			. ($title ? " title='$title'" : '')
+			. ($aspect ? " aspect='$aspect'" : '')
+			. $rel
+			. " >\n";
+}
+
+function button_ex2($name, $value, $title = false, $icon = false,  $aspect = '')
+{
+	// php silently changes dots,spaces,'[' and characters 128-159
+	// to underscore in POST names, to maintain compatibility with register_globals
+	$rel = '';
+	if ($aspect == 'selector') {
+		$rel = " rel='$value'";
+		$value = _('选择');
+	}
+	if (user_graphic_links() && $icon) {
+		if ($value == _('Delete')) // Helper during implementation
+			$icon = ICON_DELETE;
+		return "<button style='text-decoration-line: none;'  type='submit' class='editbutton' name='"
+			. html_specials_encode(strtr($name, array(
+				'.' => '=2E', '=' => '=3D', // ' '=>'=20','['=>'=5B'
+			)))
+			. "' value='$value'" . ($title ? " title='$title'" : " title=''")
+			. ($aspect ? " aspect='$aspect'" : '')
+			. $rel
+			. " >" . set_icon($icon) . "<span style='color:#0066cc'>$value</span></button>\n";
 	} else
 		return "<input type='submit' class='editbutton' name='"
 			. htmlentities(strtr($name, array(

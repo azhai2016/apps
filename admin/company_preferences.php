@@ -146,8 +146,6 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 
 start_form(true);
 
-
-
 $myrow = get_company_prefs();
 
 $_POST['coy_name'] = $myrow['coy_name'];
@@ -211,7 +209,7 @@ if (!isset($myrow['long_description_invoice'])) {
 	$myrow['long_description_invoice'] = get_company_pref('long_description_invoice');
 }
 
-log_b($myrow);
+
 
 foreach ($types_item as $key => $value) {
 	if (!isset($myrow[$key])) {

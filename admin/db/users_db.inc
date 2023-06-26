@@ -55,7 +55,7 @@ function update_user_prefs($id, $prefs)
 		$prefs[$name] = $name . '=' . db_escape($value);
 	}
 	$sql .= implode(',', $prefs) . " WHERE id=" . db_escape($id);
-	log_b($sql);
+
 
 	return db_query($sql, 'could not update user display prefs for ' . $id);
 }
