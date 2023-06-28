@@ -64,7 +64,11 @@ function send_scripts()
 	$js = '';
 	foreach ($js_static as $jsfile) {
 		$basename = basename($jsfile);
+
 		$fpath = user_js_cache() . '/' . $basename;
+		if (!is_dir(dirname($fpath))) {
+			mkdir(dirname($fpath), 0755, true);
+		}
 		// compress also static files
 		if (!file_exists($fpath) || $SysPrefs->go_debug) {
 			// don't need to compress minified files
