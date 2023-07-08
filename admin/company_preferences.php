@@ -131,9 +131,17 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 	//	$_POST['round_to'] = 1;
 	if ($input_error != 1) {
 		$post =	array('coy_name', 'coy_no', 'gst_no', 'tax_prd', 'tax_last', 'postal_address', 'phone', 'fax', 'email', 'coy_logo', 'domicile', 'use_dimension', 'curr_default', 'f_year', 'shortname_name_in_list', 'no_customer_list' => 0, 'no_supplier_list' => 0, 'base_sales', 'ref_no_auto_increase' => 0, 'dim_on_recurrent_invoice' => 0, 'long_description_invoice' => 0, 'max_days_in_docs' => 180, 'time_zone' => 0, 'company_logo_report' => 0, 'barcodes_on_stock' => 0, 'print_dialog_direct' => 0, 'add_pct', 'round_to', 'login_tout', 'auto_curr_reval', 'bcc_email', 'alternative_tax_include_on_docs', 'suppress_tax_rates', 'use_manufacturing', 'use_fixed_assets');
+
 		foreach ($types_item as $key => $value) {
-			$post[$key] = '';
+			if (is_array($value)) {
+				$name = $value['name'];
+				foreach ($value['data'] as $k => $v) {
+					$post[$k] = get_post($k);
+				}
+			}
 		}
+
+		log_b($post);
 
 		update_company_prefs(get_post($post));
 
@@ -209,19 +217,35 @@ if (!isset($myrow['long_description_invoice'])) {
 	$myrow['long_description_invoice'] = get_company_pref('long_description_invoice');
 }
 
-
-
 foreach ($types_item as $key => $value) {
-	if (!isset($myrow[$key])) {
-		set_company_pref($key, 'qms.setup', 'tinyint', 1, '0');
-		$myrow[$key] = get_company_pref($key);
+	if (is_array($value)) {
+		$name = $value['name'];
+		foreach ($value['data'] as $k => $v) {
+			if (!isset($myrow[$k])) {
+				set_company_pref($k, $name, $v['type'], $v['length'], $v['default']);
+				$_SESSION['SysPrefs']->prefs[$k] = $v['default'];
+				$myrow[$k] = get_company_pref($k);
+			}
+		}
 	}
 }
 
+log_b($myrow);
+
 foreach ($types_item as $key => $value) {
 
-	$_POST[$key] = $myrow[$key];
+	if (is_array($value)) {
+		foreach ($value['data'] as $k => $v) {
+			if (!isset($_POST[$k])) {
+				$_POST[$k] = $myrow[$k];
+			}
+		}
+	} else {
+		$_POST[$key] = $myrow[$key];
+	}
 }
+
+log_b($_POST);
 
 
 $_POST['long_description_invoice']  = $myrow['long_description_invoice'];
@@ -238,11 +262,6 @@ $_POST['alternative_tax_include_on_docs']  = $myrow['alternative_tax_include_on_
 $_POST['suppress_tax_rates']  = $myrow['suppress_tax_rates'];
 $_POST['use_manufacturing']  = $myrow['use_manufacturing'];
 $_POST['use_fixed_assets']  = $myrow['use_fixed_assets'];
-
-
-
-$_POST['计划是否需要审核']  = $myrow['计划是否需要审核'];
-
 
 start_outer_table(TABLESTYLE2);
 
@@ -275,8 +294,6 @@ text_row_ex(_('办公电话:'), 'coy_no', 25);
 //check_row(_('发票上显示说明内容:'), 'long_description_invoice', $_POST['long_description_invoice']);
 
 
-table_section(2);
-
 //table_section_title(_('财务相关'));
 //fiscalyears_list_row(_('会计年度:'), 'f_year', $_POST['f_year']);
 //text_row_ex(_('税期: '), 'tax_prd', 10, 10, '', null, null, _('月'));
@@ -285,15 +302,11 @@ table_section(2);
 //check_row(_('降低单据的税率:'), 'suppress_tax_rates', null);
 //check_row(_('自动重估货币账户:'), 'auto_curr_reval', $_POST['auto_curr_reval']);
 
-table_section_title(_('其他项目'));
+table_section_title(_('全局设置'));
 label_row(_('数据库版本:'), $_POST['version_id']);
-//sales_types_list_row(_('自动计算相应的价格:'), 'base_sales', $_POST['base_sales'], false, _('没有基础价格表') );
-
-//text_row_ex(_('新增成本价格从std:'), 'add_pct', 10, 10, '', null, null, '%');
-//hidden('add_pct');
-
-//$curr = '';//get_currency($_POST['curr_default']);
 text_row_ex(_('小数点保留:'), 'round_to', 10, 10, '', null, null, 0);
+text_row_ex(_('登录超时:'), 'login_tout', 10, 10, '', null, null, _('秒'));
+text_row_ex(_('文档中的最大日范围：'), 'max_days_in_docs', 10, 10, '', null, null, _('天'));
 label_row('', '&nbsp;');
 
 
@@ -301,18 +314,25 @@ label_row('', '&nbsp;');
 //check_row(_('生产:'), 'use_manufacturing', null);
 //check_row(_('资产').':', 'use_fixed_assets', null);
 //number_list_row(_('用户需求:'), 'use_dimension', null, 0, 2);
-
-table_section_title(_('用户界面选项'));
-
 //check_row(_('列表中显示短名称:'), 'shortname_name_in_list', $_POST['shortname_name_in_list']);
 //check_row(_('打开直接打印报告对话框:'), 'print_dialog_direct', null);
 //check_row(_('查询客户列表:'), 'no_customer_list', null);
 //check_row(_('查询供货商列表:'), 'no_supplier_list', null);
-text_row_ex(_('登录超时:'), 'login_tout', 10, 10, '', null, null, _('秒'));
-text_row_ex(_('文档中的最大日范围：'), 'max_days_in_docs', 10, 10, '', null, null, _('天'));
+table_section(2);
 
-foreach ($types_item as $key => $value) {
-	check_row(_($key), $key, null);
+
+foreach ($types_item as $keys => $values) {
+
+	if (is_array($values)) {
+		table_section_title(_($keys));
+		foreach ($values['data'] as $key => $value) {
+			if ($value['type'] == 'int') {
+				check_row(_($key), _($key), get_post($key), null);
+			} else {
+				text_row_ex(_($key), $key, $value['length'], $value['length'], '', get_post($key), null, _(''));
+			}
+		}
+	}
 }
 
 end_outer_table(1);

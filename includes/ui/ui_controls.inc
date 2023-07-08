@@ -35,7 +35,7 @@ function get_post($name, $dflt='') {
 
 
 
-function get_post($name, $default = '')
+function get_post($name, $default = '', $isnum = true)
 {
 	if (is_array($name)) {
 		$result = array();
@@ -47,7 +47,7 @@ function get_post($name, $default = '')
 	if (isset($_POST[$name])) {
 		$value = $_POST[$name];
 		if (is_numeric($value)) {
-			return input_num($name, $value);
+			return $isnum ? input_num($name, $value) : $value;
 		}
 		return $value;
 	}

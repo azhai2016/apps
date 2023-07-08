@@ -19,6 +19,7 @@ class Logger
     public function __construct($file, $level, $write_log = true, $log_file_append = true)
     {
 
+        date_default_timezone_set('Asia/Shanghai');
         $out = floor((time() - filectime($file)) / 86400) > 0;
         if ($out) {
             $log_data = file_get_contents($file);
@@ -28,13 +29,13 @@ class Logger
         }
 
         $this->file = $file;
+
         $this->write_log = $write_log;
         $this->log_file_append = $log_file_append;
 
         $this->level = $level;
         $this->path = $this->file;
         $this->start();
-
     }
 
     public function info($string, $name = '')
@@ -124,7 +125,9 @@ class Logger
 
         if (!empty($log_entry)) {
 
-            $log_entry = array_map(function ($v) {return print_r($v, true);}, $log_entry);
+            $log_entry = array_map(function ($v) {
+                return print_r($v, true);
+            }, $log_entry);
 
             $log_line .= date('H:m:s', $log_entry['timestamp']) . " ";
 
@@ -141,11 +144,9 @@ class Logger
 
                 $log_line .= "\t" . $message;
                 $log_line .= PHP_EOL . "\n" . PHP_EOL;
-
             } else {
                 $log_line .= $log_entry['message'];
             }
-
         }
 
         return $log_line;
@@ -161,20 +162,29 @@ class Logger
         $level_name = '';
 
         switch ($level) {
-            case 0:$level_name = 'FATAL';
+            case 0:
+                $level_name = 'FATAL';
                 break;
-            case 1:$level_name = 'ERROR';
+            case 1:
+                $level_name = 'ERROR';
                 break;
-            case 2:$level_name = 'WARN';
+            case 2:
+                $level_name = 'WARN';
                 break;
-            case 3:$level_name = 'INFO';
+            case 3:
+                $level_name = 'INFO';
                 break;
-            case 4:$level_name = 'CODE';
+            case 4:
+                $level_name = 'CODE';
                 break;
-            case 5:$level_name = 'DEBUG';
+            case 5:
+                $level_name = 'DEBUG';
                 break;
-            default:'';
+            default:
+                '';
         }
+
+        date_default_timezone_set('Asia/Shanghai');
 
         $log_entry = [
             'timestamp' => time(),
@@ -184,8 +194,8 @@ class Logger
         ];
 
         $output_line = $this->format_log_entry($log_entry) . PHP_EOL;
-        fputs($this->stream, $output_line);
 
+        fputs($this->stream, $output_line);
     }
 
     private function start()
@@ -199,12 +209,10 @@ class Logger
         if (true === $this->write_log) {
             $this->stream = fopen($this->path, $mode);
         }
-
     }
 
     private function close()
     {
         return fclose($this->stream);
     }
-
 }

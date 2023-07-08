@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 	Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -8,15 +9,16 @@
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 	See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
-***********************************************************************/
+ ***********************************************************************/
 
-include_once($path_to_root.'/includes/prefs/userprefs.inc');
+include_once($path_to_root . '/includes/prefs/userprefs.inc');
 if (!defined('TB_PREF'))
 	define('TB_PREF', '&TB_PREF&');
 
 //--------------------------------------------------------------------------
 
-class current_user {
+class current_user
+{
 	var $user = 0;
 	var $loginname;
 	var $username;
@@ -31,15 +33,16 @@ class current_user {
 	var $old_db;
 	var $logged;
 	var $ui_mode = 0;
-	var $login_attempt=0;
-	var $sale_area_code='';
-	var $sale_area='';
+	var $login_attempt = 0;
+	var $sale_area_code = '';
+	var $sale_area = '';
 	var $prefs;
 	var $cur_con; // current db connection (can be different from $company for superuser)
 
-	function __construct() {
+	function __construct()
+	{
 		global $def_coy;
-		
+
 		$this->loginname = '';
 		$this->username = '';
 		$this->name = '';
@@ -51,16 +54,19 @@ class current_user {
 		$this->sale_area = '';
 	}
 
-	function logged_in(){
+	function logged_in()
+	{
 		return $this->logged;
 	}
 
-	function set_company($company) {
+	function set_company($company)
+	{
 		$this->company = (int)$company;
 	}
 
 
-	function login($company, $loginname, $password) {
+	function login($company, $loginname, $password)
+	{
 		global $security_areas, $security_groups, $security_headings, $path_to_root, $dflt_lang, $SysPrefs;
 
 		$this->set_company($company);
@@ -91,15 +97,15 @@ class current_user {
 			}
 
 			$this->old_db = isset($myrow['full_access']);
-			if (! @$myrow['inactive']) {
-				if ($this->old_db) { 
+			if (!@$myrow['inactive']) {
+				if ($this->old_db) {
 					// Transition code:
 					// db was not yet upgraded after source update to v.2.2
 					// give enough access for admin user to continue upgrade
 					if (!isset($security_groups) || !isset($security_headings)) {
 						echo "<center><br><br><font size='5' color='red'><b>";
 						echo _('在软件升级之前，您必须包括旧配置中的旧$security\u组和$security\u标题数组。php文件。');
-						echo '<br>'."<a href=".$path_to_root."/index.php>"._('返回').'</a>';
+						echo '<br>' . "<a href=" . $path_to_root . "/index.php>" . _('返回') . '</a>';
 						echo '</b></font><br><br></center>';
 						exit;
 					}
@@ -112,17 +118,16 @@ class current_user {
 						echo '</b></font><br><br></center>';
 						exit;
 					}
-				}
-				else {
+				} else {
 					$this->role_set = array();
 					$this->access = $myrow['role_id'];
 					// store area codes available for current user role
 					$role = get_security_role($this->access);
-					if (!$role) 
+					if (!$role)
 						return false;
-					foreach( $role['areas'] as $code ) {
+					foreach ($role['areas'] as $code) {
 						// filter only area codes for enabled security sections
-						if (in_array($code&~0xff, $role['sections'])) 
+						if (in_array($code & ~0xff, $role['sections']))
 							$this->role_set[] = $code;
 					}
 				}
@@ -134,15 +139,14 @@ class current_user {
 				$this->user = @$myrow['id'];
 				$this->email = @$myrow['email'];
 				if (!empty(@$myrow['sale_area'])) {
-					$_sale_area_ary = preg_split('/_/',$myrow['sale_area']);
+					$_sale_area_ary = preg_split('/_/', $myrow['sale_area']);
 					$this->sale_area_code = $_sale_area_ary[0];
 					$this->sale_area = $_sale_area_ary[1];
-				} 
-				else {
-				  $this->sale_area_code = '';
-				  $this->sale_area = '';
+				} else {
+					$this->sale_area_code = '';
+					$this->sale_area = '';
 				}
-				
+
 				update_user_visitdate($this->username);
 				$this->logged = true;
 				$this->login_attempt = 0;
@@ -154,7 +158,8 @@ class current_user {
 		return $this->logged;
 	}
 
-	function reset_password($company, $email) {
+	function reset_password($company, $email)
+	{
 		global $SysPrefs;
 
 		$this->set_company($company);
@@ -170,21 +175,22 @@ class current_user {
 			$hash = md5($password);
 
 			update_user_password($user['id'], $user['user_id'], $hash);
-			
+
 			$sender = get_company_pref('email');
 			if (empty($sender))
 				$header = '';
 			else
 				$header = "From: $sender";
 
-			mail($email, _('New password for').' '.$SysPrefs->app_title, $password, $header);
+			mail($email, _('New password for') . ' ' . $SysPrefs->app_title, $password, $header);
 
 			return true;
 		}
 		return false;
 	}
 
-	function check_user_access() {
+	function check_user_access()
+	{
 		global $security_groups;
 
 		if ($this->old_db) // notification after upgrade
@@ -193,28 +199,31 @@ class current_user {
 			return !isset($security_groups) && is_array($this->role_set);
 	}
 
-	function can_access($sec_area) {
+	function can_access($sec_area)
+	{
 		global $security_groups, $security_areas;
 
 		if (isset($security_groups))
 			return is_admin_company() && in_array(20, $security_groups[$this->access]);
 
-		if ($sec_area === 'SA_OPEN') 
+		if ($sec_area === 'SA_OPEN')
 			return true;
-		if ($sec_area === 'SA_DENIED' || $sec_area === '') 
+		if ($sec_area === 'SA_DENIED' || $sec_area === '')
 			return false;
 
 		$code = $security_areas[$sec_area][0];
 
 		// only first registered company has site admin privileges
-		return $code && in_array($code, $this->role_set) && ($this->company == 0 || (($code&~0xff) != SS_SADMIN));
+		return $code && in_array($code, $this->role_set) && ($this->company == 0 || (($code & ~0xff) != SS_SADMIN));
 	}
 
-	function can_access_page($page_level) {
+	function can_access_page($page_level)
+	{
 		return $this->can_access($page_level);
 	}
 
-	function check_application_access($waapp) {
+	function check_application_access($waapp)
+	{
 		if (!$this->hide_inaccessible_menu_items())
 			return true;
 
@@ -226,7 +235,8 @@ class current_user {
 		return false;
 	}
 
-	function check_module_access($module) {
+	function check_module_access($module)
+	{
 
 		if (!$this->hide_inaccessible_menu_items())
 			return true;
@@ -248,7 +258,8 @@ class current_user {
 		return false;
 	}
 
-	function hide_inaccessible_menu_items() {
+	function hide_inaccessible_menu_items()
+	{
 		global $SysPrefs;
 
 		if (!isset($SysPrefs->hide_inaccessible_menu_items) || $SysPrefs->hide_inaccessible_menu_items == 0)
@@ -257,11 +268,13 @@ class current_user {
 		return true;
 	}
 
-	function set_db_connection($id = -1) {
+	function set_db_connection($id = -1)
+	{
 		return set_global_connection($id);
 	}
 
-	function update_prefs($prefs) {
+	function update_prefs($prefs)
+	{
 		global $SysPrefs;
 
 		if (!$SysPrefs->allow_demo_mode)
@@ -273,9 +286,10 @@ class current_user {
 
 //--------------------------------------------------------------------------
 
-function round2($number, $decimals=0) {
+function round2($number, $decimals = 0)
+{
 	$delta = ($number < 0 ? -.0000000001 : .0000000001);
-	return round($number+$delta, $decimals);
+	return round($number + $delta, $decimals);
 }
 
 /*
@@ -283,14 +297,15 @@ function round2($number, $decimals=0) {
 	(defualt is 0). When $decimals is set to 'max' maximum available precision is used 
 	(decimals depend on value) and trailing zeros are trimmed.
 */
-function number_format2($number, $decimals=0) {
+function number_format2($number, $decimals = 0)
+{
 	global $SysPrefs;
 	$tsep = $SysPrefs->thoseps[user_tho_sep()];
 	$dsep = $SysPrefs->decseps[user_dec_sep()];
 
 	if ($number == '')
 		$number = 0;
-	if($decimals==='max')
+	if ($decimals === 'max')
 		$dec = 15 - floor(log10(abs($number)));
 	else {
 		$delta = ($number < 0 ? -.0000000001 : .0000000001);
@@ -310,22 +325,26 @@ function number_format2($number, $decimals=0) {
 */
 define('FLOAT_COMP_DELTA', 0.004);
 
-function floatcmp($a, $b) {
+function floatcmp($a, $b)
+{
 	return $a - $b > FLOAT_COMP_DELTA ? 1 : ($b - $a > FLOAT_COMP_DELTA ? -1 : 0);
 }
 
 /*
 *	Current ui mode.
 */
-function fallback_mode() {
-	return $_SESSION['wa_current_user']->ui_mode==0;
+function fallback_mode()
+{
+	return $_SESSION['wa_current_user']->ui_mode == 0;
 }
 
-function price_format($number) {
+function price_format($number)
+{
 	return number_format2($number, user_price_dec());
 }
 
-function price_decimal_format($number, &$dec) {
+function price_decimal_format($number, &$dec)
+{
 	$dec = user_price_dec();
 	$str = strval($number);
 	$pos = strpos($str, '.');
@@ -335,15 +354,17 @@ function price_decimal_format($number, &$dec) {
 			$dec = $len;
 	}
 	return number_format2($number, $dec);
-}	
+}
 
-function qty_format($number, $stock_id, &$dec) {
+function qty_format($number, $stock_id, &$dec)
+{
 	$dec = get_qty_dec($stock_id);
 	return number_format2($number, $dec);
 }
 
 /* and get_qty_dec */
-function get_qty_dec($stock_id=null) {
+function get_qty_dec($stock_id = null)
+{
 	global $path_to_root;
 	//include_once($path_to_root.'/inventory/includes/db/items_units_db.inc');
 	if ($stock_id != null)
@@ -356,31 +377,39 @@ function get_qty_dec($stock_id=null) {
 /*
 *	Maximum precision format. Strips trailing unsignificant digits.
 */
-function maxprec_format($number) {
+function maxprec_format($number)
+{
 	return number_format2($number, 'max');
 }
 
-function exrate_format($number) {
-	return number_format2($number,
-	$_SESSION['wa_current_user']->prefs->exrate_dec());
+function exrate_format($number)
+{
+	return number_format2(
+		$number,
+		$_SESSION['wa_current_user']->prefs->exrate_dec()
+	);
 }
 
-function percent_format($number) {
-	return number_format2($number,
-	$_SESSION['wa_current_user']->prefs->percent_dec());
+function percent_format($number)
+{
+	return number_format2(
+		$number,
+		$_SESSION['wa_current_user']->prefs->percent_dec()
+	);
 }
 
-function user_numeric($input) {
+function user_numeric($input)
+{
 	global $SysPrefs;
 
 	$num = trim($input);
 	$sep = $SysPrefs->thoseps[user_tho_sep()];
-	if ($sep!='')
-		$num = str_replace( $sep, '', $num);
+	if ($sep != '')
+		$num = str_replace($sep, '', $num);
 
 	$sep = $SysPrefs->decseps[user_dec_sep()];
-	if ($sep!='.')
-		$num = str_replace( $sep, '.', $num);
+	if ($sep != '.')
+		$num = str_replace($sep, '.', $num);
 
 	if (!is_numeric($num))
 		return false;
@@ -389,56 +418,67 @@ function user_numeric($input) {
 
 	if ($num == (int)$num)
 		return (int)$num;
-	
+
 	return $num;
 }
 
-function user_company() {
+function user_company()
+{
 	global $def_coy;
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->company : $def_coy;
 }
 
-function user_pos() {
+function user_pos()
+{
 	return $_SESSION['wa_current_user']->pos;
 }
 
-function user_language() {
+function user_language()
+{
 	return $_SESSION['wa_current_user']->prefs->language();
 }
 
-function user_qty_dec() {
+function user_qty_dec()
+{
 	return $_SESSION['wa_current_user']->prefs->qty_dec();
 }
 
-function user_price_dec() {
+function user_price_dec()
+{
 	global $SysPrefs;
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->price_dec() : 2;
 }
 
-function user_exrate_dec() {
+function user_exrate_dec()
+{
 	global $SysPrefs;
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->exrate_dec() : 4;
 }
 
-function user_percent_dec() {
+function user_percent_dec()
+{
 	global $SysPrefs;
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->percent_dec() : 1;
 }
 
-function user_show_gl_info() {
+function user_show_gl_info()
+{
 	return $_SESSION['wa_current_user']->prefs->show_gl_info();
 }
 
-function user_show_codes() {
+function user_show_codes()
+{
 	return $_SESSION['wa_current_user']->prefs->show_codes();
 }
 
-function user_date_format() {
+function user_date_format()
+{
 	global $SysPrefs;
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->date_format() : $SysPrefs->dflt_date_fmt;
 }
 
-function user_date_display() {
+function user_date_display()
+{
 	$fmt = 'm/d/Y';
 	if (isset($_SESSION['wa_current_user']))
 		$fmt = $_SESSION['wa_current_user']->prefs->date_display();
@@ -447,130 +487,157 @@ function user_date_display() {
 		$user_date_fmt = user_date_format();
 		switch ($user_date_fmt) {
 			case 0:
-				$fmt = 'm'.$sep.'d'.$sep.'Y'; break;
+				$fmt = 'm' . $sep . 'd' . $sep . 'Y';
+				break;
 			case 1:
-				$fmt = 'd'.$sep.'m'.$sep.'Y'; break;
+				$fmt = 'd' . $sep . 'm' . $sep . 'Y';
+				break;
 			case 2:
-				$fmt = 'Y'.$sep.'m'.$sep.'d'; break;
+				$fmt = 'Y' . $sep . 'm' . $sep . 'd';
+				break;
 			case 3:
-				$fmt = 'M'.$sep.'j'.$sep.'Y'; break;
+				$fmt = 'M' . $sep . 'j' . $sep . 'Y';
+				break;
 			case 4:
-				$fmt = 'j'.$sep.'M'.$sep.'Y'; break;
+				$fmt = 'j' . $sep . 'M' . $sep . 'Y';
+				break;
 			default:
-				$fmt = 'Y'.$sep.'M'.$sep.'j';
+				$fmt = 'Y' . $sep . 'M' . $sep . 'j';
 		}
 	}
 }
 
-function user_date_sep() {
+function user_date_sep()
+{
 	global $SysPrefs;
 	return isset($_SESSION['wa_current_user']->prefs->date_sep) ? $_SESSION['wa_current_user']->prefs->date_sep() : $SysPrefs->dflt_date_sep;
 }
 
-function user_tho_sep() {
+function user_tho_sep()
+{
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->tho_sep() : 0;
 }
 
-function user_dec_sep() {
+function user_dec_sep()
+{
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->dec_sep() : 0;
 }
 
-function user_theme() {
+function user_theme()
+{
 	return isset($_SESSION['wa_current_user']) ? $_SESSION['wa_current_user']->prefs->get_theme() : 'default';
 }
 
-function user_pagesize() {
+function user_pagesize()
+{
 	return $_SESSION['wa_current_user']->prefs->get_pagesize();
 }
 
-function user_hints() {
+function user_hints()
+{
 	return $_SESSION['wa_current_user']->prefs->show_hints();
 }
 
-function user_print_profile() {
+function user_print_profile()
+{
 	return $_SESSION['wa_current_user']->prefs->print_profile();
 }
 
-function user_rep_popup() {
+function user_rep_popup()
+{
 	return $_SESSION['wa_current_user']->prefs->rep_popup();
 }
 
-function user_query_size() {
+function user_query_size()
+{
 	return $_SESSION['wa_current_user']->prefs->query_size();
 }
 
-function user_graphic_links() {
+function user_graphic_links()
+{
 	return $_SESSION['wa_current_user']->prefs->graphic_links();
 }
 
-function sticky_doc_date() {
+function sticky_doc_date()
+{
 	return $_SESSION['wa_current_user']->prefs->sticky_date();
 }
 
-function user_startup_tab() {
+function user_startup_tab()
+{
 	return $_SESSION['wa_current_user']->prefs->start_up_tab();
 }
 
-function user_transaction_days() {
+function user_transaction_days()
+{
 	return $_SESSION['wa_current_user']->prefs->transaction_days();
 }
 
-function user_save_report_selections() {
+function user_save_report_selections()
+{
 	return $_SESSION['wa_current_user']->prefs->save_report_selections();
 }
 
-function user_use_date_picker() {
+function user_use_date_picker()
+{
 	return $_SESSION['wa_current_user']->prefs->use_date_picker();
 }
 
-function user_def_print_destination() {
+function user_def_print_destination()
+{
 	return $_SESSION['wa_current_user']->prefs->def_print_destination();
 }
 
-function user_def_print_orientation() {
+function user_def_print_orientation()
+{
 	return $_SESSION['wa_current_user']->prefs->def_print_orientation();
 }
 
-function user_check_access($sec_area) {
+function user_check_access($sec_area)
+{
 	return $_SESSION['wa_current_user']->can_access($sec_area);
 }
 
-function set_user_prefs($prefs) {
+function set_user_prefs($prefs)
+{
 	$_SESSION['wa_current_user']->update_prefs($prefs);
 }
 
-function add_user_js_data() {
+function add_user_js_data()
+{
 	global $path_to_root, $SysPrefs;
 
 	$ts = $SysPrefs->thoseps[user_tho_sep()];
 	$ds = $SysPrefs->decseps[user_dec_sep()];
 
 	$js = "\n"
-	  . "var user = {\n"
-	  . "theme: '". $path_to_root . '/themes/'. user_theme().'/'."',\n"
-	  . "loadtxt: '"._('Requesting data...')."',\n"
-	  . "date: '".Today()."',\n"	// server date
-	  . "datesys: ".$SysPrefs->date_system.",\n"
-	  . "datefmt: ".user_date_format().",\n"
-	  . "datesep: '".$SysPrefs->dateseps[user_date_sep()]."',\n"
-	  . "ts: '$ts',\n"
-	  . "ds: '$ds',\n"
-	  . "pdec : " . user_price_dec() . "}\n";
+		. "var user = {\n"
+		. "theme: '" . $path_to_root . '/themes/' . user_theme() . '/' . "',\n"
+		. "loadtxt: '" . _('Requesting data...') . "',\n"
+		. "date: '" . Today() . "',\n"	// server date
+		. "datesys: " . $SysPrefs->date_system . ",\n"
+		. "datefmt: " . user_date_format() . ",\n"
+		. "datesep: '" . $SysPrefs->dateseps[user_date_sep()] . "',\n"
+		. "ts: '$ts',\n"
+		. "ds: '$ds',\n"
+		. "pdec : " . user_price_dec() . "}\n";
 
-	  add_js_source($js);
+	add_js_source($js);
 }
 
-function user_js_cache($id=null) {
+function user_js_cache($id = null)
+{
 	global $path_to_root;
 
 	if (!$id)
 		$id = @$_SESSION['wa_current_user']->user;
 	if (!$id)
 		$id = 0; // before login
-	return $path_to_root.'/company/'.user_company().'/js_cache/'.$id;
+	return $path_to_root . '/company/' . user_company() . '/js_cache/' . $id;
 }
 
-function session_timeout() {
+function session_timeout()
+{
 	$tout = @get_company_pref('login_tout'); // mask warning for db ver. 2.2
 	return $tout ? $tout : ini_get('session.gc_maxlifetime');
 }
@@ -579,25 +646,29 @@ function session_timeout() {
 *	Inserts $elements into $array at position $index.
 *	$elements is list of any objects
 */
-function array_insert(&$array, $index, $elements) {
+function array_insert(&$array, $index, $elements)
+{
 	if (!is_array($elements)) $elements = array($elements);
 
 	$head  = array_splice($array, 0, $index);
 	$array = array_merge($head, $elements, $array);
 }
 
-function array_remove(&$array, $index, $len=1) {
+function array_remove(&$array, $index, $len = 1)
+{
 	array_splice($array, $index, $len);
 }
 
-function array_substitute(&$array, $index, $len, $elements) {
+function array_substitute(&$array, $index, $len, $elements)
+{
 	array_splice($array, $index, $len);
 	array_insert($array, $index, $elements);
 }
 
-function array_append(&$array, $elements) {
-	foreach($elements as $key => $el) {
-		if(is_int($key))
+function array_append(&$array, $elements)
+{
+	foreach ($elements as $key => $el) {
+		if (is_int($key))
 			$array[] = $el;
 		else
 			$array[$key] = $el;
@@ -608,9 +679,10 @@ function array_append(&$array, $elements) {
 *	Search $needle in $haystack or in $haystack[][$valuekey]
 *	returns $needle found or null.
 */
-function array_search_value($needle, $haystack, $valuekey=null) {
+function array_search_value($needle, $haystack, $valuekey = null)
+{
 	if (is_array($haystack)) {
-		foreach($haystack as $key => $value) {
+		foreach ($haystack as $key => $value) {
 			$val = isset($valuekey) ? @$value[$valuekey] : $value;
 			if ($needle == $val)
 				return $value;
@@ -623,15 +695,16 @@ function array_search_value($needle, $haystack, $valuekey=null) {
 *	Search $needle in $haystack or in $haystack[][$valuekey]
 *	returns array of keys of $haystack elements found
 */
-function array_search_keys($needle, $haystack, $valuekey=null) {
+function array_search_keys($needle, $haystack, $valuekey = null)
+{
 	$keys = array();
 	if (is_array($haystack)) {
-		foreach($haystack as $key => $value) {
+		foreach ($haystack as $key => $value) {
 			$val = isset($valuekey) ? @$value[$valuekey] : $value;
 			if ($needle == $val)
 				$keys[] = $key;
 		}
-	}	
+	}
 	return $keys;
 }
 
@@ -639,33 +712,35 @@ function array_search_keys($needle, $haystack, $valuekey=null) {
 *	Find first (single) $needle in $haystack or in $haystack[][$valuekey]
 *	returns $haystack element found or null
 */
-function array_search_key($needle, $haystack, $valuekey=null) {
+function array_search_key($needle, $haystack, $valuekey = null)
+{
 	$keys = array_search_keys($needle, $haystack, $valuekey);
 	return @$keys[0];
 }
 
 // Recalculate report columns if orientation is landscape.
-function recalculate_cols(&$cols) {
+function recalculate_cols(&$cols)
+{
 	$factor = (user_pagesize() == 'A4' ? 1.4 : 1.3);
-	foreach($cols as $key => $col)
-		$cols[$key] = intval($col * $factor); 
+	foreach ($cols as $key => $col)
+		$cols[$key] = intval($col * $factor);
 }
 
-function flush_dir($path, $wipe = false) {
+function flush_dir($path, $wipe = false)
+{
 	if (!file_exists($path))
 		return;
 	$dir = @opendir($path);
-	if(!$dir)
+	if (!$dir)
 		return;
 
-	while(false !== ($fname = readdir($dir))) {
-		if($fname=='.' || $fname=='..' || $fname=='CVS' || (!$wipe && $fname=='index.php')) continue;
-		if(is_dir($path.'/'.$fname)) {
-			flush_dir($path.'/'.$fname, $wipe);
-			if ($wipe) @rmdir($path.'/'.$fname);
-		}
-		else
-			@unlink($path.'/'.$fname);
+	while (false !== ($fname = readdir($dir))) {
+		if ($fname == '.' || $fname == '..' || $fname == 'CVS' || (!$wipe && $fname == 'index.php')) continue;
+		if (is_dir($path . '/' . $fname)) {
+			flush_dir($path . '/' . $fname, $wipe);
+			if ($wipe) @rmdir($path . '/' . $fname);
+		} else
+			@unlink($path . '/' . $fname);
 	}
 }
 
@@ -673,7 +748,8 @@ function flush_dir($path, $wipe = false) {
 *	Returns current path to company private folder.
 *	(Current path can change after chdir).
 */
-function company_path($comp=null) {
+function company_path($comp = null)
+{
 	global $path_to_root, $SysPrefs;
 
 	$comp_path = $SysPrefs->comp_path;
@@ -682,9 +758,10 @@ function company_path($comp=null) {
 		$comp = user_company();
 
 	// if path is relative, set current path_to_root
-	return ($comp_path[0] == '.' ? $path_to_root.'/'.basename($comp_path) : $comp_path).'/'.$comp;
+	return ($comp_path[0] == '.' ? $path_to_root . '/' . basename($comp_path) : $comp_path) . '/' . $comp;
 }
 
-function is_admin_company() {
+function is_admin_company()
+{
 	return $this->company == 0;
 }

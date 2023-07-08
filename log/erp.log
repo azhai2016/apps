@@ -1,87 +1,367 @@
-17:06:07 [DEBUG] : next
-17:06:16 [DEBUG] : next
-17:06:19 [DEBUG] : next
-17:06:20 [DEBUG] : next
-17:06:20 [DEBUG] : next
-17:06:22 [DEBUG] : next
-17:06:26 [DEBUG] : next
-17:06:27 [DEBUG] : next
-17:06:27 [DEBUG] : next
-17:06:28 [DEBUG] : next
-17:06:28 [DEBUG] : next
-17:06:29 [DEBUG] : next
-17:06:29 [DEBUG] : next
-17:06:30 [DEBUG] : next
-17:06:30 [DEBUG] : next
-17:06:31 [DEBUG] : next
-17:06:32 [DEBUG] : next
-17:06:35 [DEBUG] : next
-17:06:36 [DEBUG] : next
-17:06:37 [DEBUG] : next
-17:06:37 [DEBUG] : next
-17:06:38 [DEBUG] : next
-17:06:38 [DEBUG] : next
-17:06:39 [DEBUG] : next
-17:06:40 [DEBUG] : next
-17:06:41 [DEBUG] : next
-17:06:26 [DEBUG] : ../../../company/1/attachments/PaST2Uo72lQ-UsOoJg9GzAxx
-18:06:50 [DEBUG] : Array
+09:07:34 [DEBUG] : 邮件发送成功
+10:07:34 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
 (
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/plain
+    [Encoding] => 8bit
+    [ErrorInfo] => 
+    [From] => 
+    [FromName] => 
+    [Sender] => 
+    [Subject] => 
+    [Body] => 
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => 
+    [MIMEHeader:protected] => 
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => mail
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => localhost
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 0
+    [Debugoutput] => html
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => 
+    [to:protected] => Array
+        (
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => 
+    [message_type:protected] => 
+    [boundary:protected] => Array
+        (
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 1
+    [uniqueid:protected] => 
 )
 
-18:06:57 [DEBUG] : Array
+10:07:34 [DEBUG] : 邮件发送成功
+10:07:56 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
 (
-    [upload_file] => 上传
-    [_focus] => 
-    [_modified] => 0
-    [_confirmed] => 
-    [_token] => qeeFToiK0Kp99FR8BvfLhQxx
-    [fields[A]] => 
-    [fields[B]] => 
-    [fields[C]] => 
-    [fields[D]] => 
-    [fields[E]] => 
-    [fields[F]] => 
-    [fields[G]] => 
-    [fields[H]] => 
-    [fields[I]] => 
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/plain
+    [Encoding] => 8bit
+    [ErrorInfo] => 
+    [From] => 
+    [FromName] => 
+    [Sender] => 
+    [Subject] => 
+    [Body] => 
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => 
+    [MIMEHeader:protected] => 
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => mail
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => localhost
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 0
+    [Debugoutput] => html
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => 
+    [to:protected] => Array
+        (
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => 
+    [message_type:protected] => 
+    [boundary:protected] => Array
+        (
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 1
+    [uniqueid:protected] => 
 )
 
-18:06:58 [DEBUG] : 
-18:06:01 [DEBUG] : 
-18:06:01 [DEBUG] : Array
+10:07:24 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
 (
-    [target_field] => goods_id
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/plain
+    [Encoding] => 8bit
+    [ErrorInfo] => 
+    [From] => 
+    [FromName] => 
+    [Sender] => 
+    [Subject] => 
+    [Body] => 
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => 
+    [MIMEHeader:protected] => 
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => mail
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => localhost
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 0
+    [Debugoutput] => html
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => 
+    [to:protected] => Array
+        (
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => 
+    [message_type:protected] => 
+    [boundary:protected] => Array
+        (
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 1
+    [uniqueid:protected] => 
 )
 
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => goods
-)
-
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => soec
-)
-
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => factory
-)
-
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => units
-)
-
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => approve_no
-)
-
-18:06:01 [DEBUG] : Array
-(
-    [target_field] => qty
-)
-
-18:06:01 [DEBUG] : 
+10:07:59 [DEBUG] : OK
+17:07:16 [DEBUG] : 执行2023-07-07 17:34:00
+17:07:42 [DEBUG] : 执行2023-07-07 17:37:00
+17:07:00 [DEBUG] : 执行2023-07-07 17:48:00
+18:07:00 [DEBUG] : 执行2023-07-07 18:03:00

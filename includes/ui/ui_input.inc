@@ -789,7 +789,6 @@ function link_row_ex($label, $name, $size, $max = null, $title = null, $value = 
 function date_cells($label, $name, $title = null, $check = null, $inc_days = 0, $inc_months = 0, $inc_years = 0, $params = null, $submit_on_change = false, $show_time = false)
 {
 	global $path_to_root, $Ajax;
-
 	$hours = array_map(function ($n) {
 		return str_pad($n, 2, '0', STR_PAD_LEFT);
 	}, range(0, 23));
@@ -847,7 +846,6 @@ function date_cells($label, $name, $title = null, $check = null, $inc_days = 0, 
 			$name . '_hour',
 			'',
 			$hours,
-
 			array(
 				'select_submit' => $submit_on_change,
 				'class' => array('nosearch'),

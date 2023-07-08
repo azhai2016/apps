@@ -1,7 +1,7 @@
 <?php
 
 /* List of installed additional extensions. If extensions are added to the list manually make sure they have unique and so far never used extension_ids as a keys, and $next_extension_id is also updated. More about format of this file yo will find in FA extension system documentation.*/
-$next_extension_id = 12; // unique id for next installed extension
+$next_extension_id = 15; // unique id for next installed extension
 
 $installed_extensions = array (
   3 => 
@@ -62,6 +62,21 @@ $installed_extensions = array (
     'SubPath' => 
     array (
       0 => 'qms',
+    ),
+  ),
+  14 => 
+  array (
+    'package' => 'mini_rebate',
+    'name' => '销售折让系统',
+    'version' => '0.1.1',
+    'available' => '',
+    'type' => 'extension',
+    'path' => 'modules/mini_rebate',
+    'active' => false,
+    'description' => '-- MINI_销售折让系统  --',
+    'SubPath' => 
+    array (
+      0 => 'mini_rebate',
     ),
   ),
 );

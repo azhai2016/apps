@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) FrontAccounting, LLC.
 Released under the terms of the GNU General Public License, GPL,
@@ -123,7 +124,7 @@ $thoseps = array(',', '.', ' ');
 $decseps = array('.', ',');
 
 // default dateformats and dateseps indexes used before user login
-$dflt_date_fmt = 0;
+$dflt_date_fmt = 2;
 $dflt_date_sep = 0;
 
 // default PDF pagesize taken from /reporting/includes/tcpdf.php

@@ -63,4 +63,19 @@ $installed_extensions = array (
       0 => 'qms',
     ),
   ),
+  14 => 
+  array (
+    'package' => 'mini_rebate',
+    'name' => '销售折让系统',
+    'version' => '0.1.1',
+    'available' => '',
+    'type' => 'extension',
+    'path' => 'modules/mini_rebate',
+    'active' => false,
+    'description' => '-- MINI_销售折让系统  --',
+    'SubPath' => 
+    array (
+      0 => 'mini_rebate',
+    ),
+  ),
 );
