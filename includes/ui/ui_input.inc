@@ -704,12 +704,28 @@ function text_row($label, $name, $value, $size, $max, $title = null, $params = '
 
 //-----------------------------------------------------------------------------------
 
-function text_row_ex($label, $name, $size, $max = null, $title = null, $value = null, $params = null, $post_label = null)
+function text_row_ex($label, $name, $size, $max = null, $title = null, $value = null, $params = null, $post_label = null,$link=null)
 {
 	echo "<tr><td class='label'>" . $label . "</td>";
 	text_cells_ex(null, $name, $size, $max, $value, $title, $params, $post_label);
-
 	echo "</tr>\n";
+}
+
+function text_row_and_btn($label, $name, $size, $max = null, $title = null, $value = null, $params = null, $post_label = null,$link=null)
+{
+	echo "<tr><td class='label'>" . $label . "</td>";
+	if (!isset($_POST[$name]) || $_POST[$name] == '') {
+			$_POST[$name] = '';
+	}
+	echo "<td><input style=\"float:left;\" type=\"text\" name=\"$name\" size=\"$size\" maxlength=\"$max\" value=\"" . $_POST[$name] . "\"" . ($title ? " title='$title'" : '') . " >";
+
+	if ($link){
+		echo '<div style="float:left;padding-left:5px;padding-top:3px;" id="_' . $name . '_search" onclick="javascript:lookupWindow(&quot;' . $link . '&quot;, &quot;&quot;);">
+		<span class="search_btn_txt">' . _('搜索') . "</span>
+		<i class='fas fa-search'></i>
+		</div>";
+	}
+	echo "</td></tr>\n";
 }
 
 function text_row_date_ex($label, $name, $size, $max = null, $title = null, $value = null, $params = null, $post_label = null)
@@ -1301,12 +1317,13 @@ function bank_balance_row($bank_acc, $parms = '')
 
 function ahref($label, $href, $target = '', $onclick = '')
 {
-	echo "<a href='$href' target='$target' onclick='$onclick'>" . $label . "</a>";
+	echo "<a href='$href' target='$target' onclick='".$onclick."'   >" . $label . "</a>";
 }
 
 function ahref_cell($label, $href, $target = '', $onclick = '')
 {
-	echo "<td align='center'>&nbsp;&nbsp;";
+	echo '<td align="center">';
 	ahref($label, $href, $target, $onclick);
-	echo "&nbsp;&nbsp;</td>";
+	echo '</td>';
+
 }

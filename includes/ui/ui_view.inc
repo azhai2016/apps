@@ -725,12 +725,12 @@ function get_js_select_table_item()
 {
 
 	$js = "function selectTableItem(obj,doc,client_id,col){
+
 		var element = doc.getElementById(client_id);
 		var select_element = doc.getElementsByName('select_text'); 
 		var select_client_id = doc.getElementsByName('select_client_id');
 		var select_button = doc.getElementsByName('select_button'); 
 		var sendtext =$(obj).parents('tr').children('td:gt('+col+')').html(); 	
-	
 		if (typeof(sendtext) != 'undefined' && sendtext != null){
 			$(select_element).val(sendtext); 
 			$(select_client_id).val(client_id);
@@ -740,6 +740,27 @@ function get_js_select_table_item()
 	}";
 	return $js;
 }
+
+
+function get_js_select_input_item()
+{
+
+	$js = "function selectInputItem(obj,doc,elename,client_id,col){
+
+		var element = doc.getElementById(client_id);
+		var select_element = doc.getElementsByName(elename); 
+		var select_button = doc.getElementsByName('select_button'); 
+		var sendtext =$(obj).parents('tr').children('td:gt('+col+')').html(); 	
+		if (typeof(sendtext) != 'undefined' && sendtext != null){
+			$(select_element).val(sendtext); 
+			//$(select_client_id).val(client_id);
+			$(select_button).click();		
+		} 		
+		window.close();
+	}";
+	return $js;
+}
+
 
 /* for space search option */
 function get_js_set_combo_item()

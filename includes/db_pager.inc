@@ -308,7 +308,7 @@ class db_pager
 
             switch ($c['type']) {
                 case 'inactive':
-                    $this->inactive_ctrl = true;
+                    $this->inactive_ctrl = true;break;
                 case 'insert':
                 default:
                     $c['head'] = $h;

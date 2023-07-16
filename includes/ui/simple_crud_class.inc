@@ -183,12 +183,14 @@ class simple_crud
 		$this->get_posts();
 		if ($this->update_check()) {
 			if ($this->db_update()) {
+				log_b('---' . $mode . '----');
 				$this->selected_id = $this->_none;
 				$this->Mode = '';
 				return;
 			}
 		}
 		$this->Mode = $mode;
+		log_b($this->Mode);
 	}
 
 	//	Add new record
@@ -277,11 +279,11 @@ class simple_crud
 				else {
 
 					submit("{$base}UPDATE[{$this->selected_id}]", _('更新数据'), true, _('提交更新'), $async);
-					echo '<span style="padding:0 10px;"></span>';
+					/*echo '<span style="padding:0 10px;"></span>';
 					if ($this->opt['delete']) {
 						submit("{$base}Delete[{$this->selected_id}]", _('删除'), true, _('提交删除'), $async, ICON_DELETE);
 						echo '<span style="padding:0 10px;"></span>';
-					}
+					} */
 					if ($this->opt['clone']) {
 						submit("{$base}CLONE[{$this->selected_id}]", _('复制'), true, _('复制当前数据'), $async);
 					}

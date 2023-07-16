@@ -1,367 +1,2871 @@
-09:07:34 [DEBUG] : 邮件发送成功
-10:07:34 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
+11:07:34 [DEBUG] : Array
 (
-    [Priority] => 
-    [CharSet] => iso-8859-1
-    [ContentType] => text/plain
-    [Encoding] => 8bit
-    [ErrorInfo] => 
-    [From] => 
-    [FromName] => 
-    [Sender] => 
-    [Subject] => 
-    [Body] => 
-    [AltBody] => 
-    [Ical] => 
-    [MIMEBody:protected] => 
-    [MIMEHeader:protected] => 
-    [mailHeader:protected] => 
-    [WordWrap] => 0
-    [Mailer] => mail
-    [Sendmail] => /usr/sbin/sendmail
-    [UseSendmailOptions] => 1
-    [ConfirmReadingTo] => 
-    [Hostname] => 
-    [MessageID] => 
-    [MessageDate] => 
-    [Host] => localhost
-    [Port] => 25
-    [Helo] => 
-    [SMTPSecure] => 
-    [SMTPAutoTLS] => 1
-    [SMTPAuth] => 
-    [SMTPOptions] => Array
-        (
-        )
-
-    [Username] => 
-    [Password] => 
-    [AuthType] => 
-    [oauth:protected] => 
-    [Timeout] => 300
-    [dsn] => 
-    [SMTPDebug] => 0
-    [Debugoutput] => html
-    [SMTPKeepAlive] => 
-    [SingleTo] => 
-    [SingleToArray:protected] => Array
-        (
-        )
-
-    [do_verp] => 
-    [AllowEmpty] => 
-    [DKIM_selector] => 
-    [DKIM_identity] => 
-    [DKIM_passphrase] => 
-    [DKIM_domain] => 
-    [DKIM_copyHeaderFields] => 1
-    [DKIM_extraHeaders] => Array
-        (
-        )
-
-    [DKIM_private] => 
-    [DKIM_private_string] => 
-    [action_function] => 
-    [XMailer] => 
-    [smtp:protected] => 
-    [to:protected] => Array
-        (
-        )
-
-    [cc:protected] => Array
-        (
-        )
-
-    [bcc:protected] => Array
-        (
-        )
-
-    [ReplyTo:protected] => Array
-        (
-        )
-
-    [all_recipients:protected] => Array
-        (
-        )
-
-    [RecipientsQueue:protected] => Array
-        (
-        )
-
-    [ReplyToQueue:protected] => Array
-        (
-        )
-
-    [attachment:protected] => Array
-        (
-        )
-
-    [CustomHeader:protected] => Array
-        (
-        )
-
-    [lastMessageID:protected] => 
-    [message_type:protected] => 
-    [boundary:protected] => Array
-        (
-        )
-
-    [language:protected] => Array
-        (
-        )
-
-    [error_count:protected] => 0
-    [sign_cert_file:protected] => 
-    [sign_key_file:protected] => 
-    [sign_extracerts_file:protected] => 
-    [sign_key_pass:protected] => 
-    [exceptions:protected] => 1
-    [uniqueid:protected] => 
+    [pager_list] => 1
+    [_focus] => pager_list
 )
 
-10:07:34 [DEBUG] : 邮件发送成功
-10:07:56 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
+14:07:00 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (id,
+        `title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '',
+        '1212',
+        '2121',
+        '212121',
+        '2121',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+14:07:40 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (id,
+        `title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        0,
+        '12121',
+        '212',
+        '12121',
+        '2121',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+14:07:45 [DEBUG] : 
+14:07:32 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (`title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '2121',
+        '21',
+        '2212',
+        '2121',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+14:07:09 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (`title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '212',
+        '121',
+        '2121',
+        '21',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+14:07:28 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (`title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '2121',
+        '21',
+        '2121',
+        '212',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+14:07:29 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (`title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '22121',
+        '2121',
+        '3232',
+        '323',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+16:07:14 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas` (`title`,`description`,`sql_text`,`status`,`is_active`
+    ) values (
+        '221221',
+        '321',
+        '321321',
+        '3213',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         title = VALUES(title),
+         description = VALUES(description),
+         sql_text = VALUES(sql_text),
+         status = VALUES(status),
+         is_active = VALUES(is_active)
+    
+16:07:21 [DEBUG] : 0
+16:07:24 [DEBUG] : Array
 (
-    [Priority] => 
-    [CharSet] => iso-8859-1
-    [ContentType] => text/plain
-    [Encoding] => 8bit
-    [ErrorInfo] => 
-    [From] => 
-    [FromName] => 
-    [Sender] => 
-    [Subject] => 
-    [Body] => 
-    [AltBody] => 
-    [Ical] => 
-    [MIMEBody:protected] => 
-    [MIMEHeader:protected] => 
-    [mailHeader:protected] => 
-    [WordWrap] => 0
-    [Mailer] => mail
-    [Sendmail] => /usr/sbin/sendmail
-    [UseSendmailOptions] => 1
-    [ConfirmReadingTo] => 
-    [Hostname] => 
-    [MessageID] => 
-    [MessageDate] => 
-    [Host] => localhost
-    [Port] => 25
-    [Helo] => 
-    [SMTPSecure] => 
-    [SMTPAutoTLS] => 1
-    [SMTPAuth] => 
-    [SMTPOptions] => Array
-        (
-        )
-
-    [Username] => 
-    [Password] => 
-    [AuthType] => 
-    [oauth:protected] => 
-    [Timeout] => 300
-    [dsn] => 
-    [SMTPDebug] => 0
-    [Debugoutput] => html
-    [SMTPKeepAlive] => 
-    [SingleTo] => 
-    [SingleToArray:protected] => Array
-        (
-        )
-
-    [do_verp] => 
-    [AllowEmpty] => 
-    [DKIM_selector] => 
-    [DKIM_identity] => 
-    [DKIM_passphrase] => 
-    [DKIM_domain] => 
-    [DKIM_copyHeaderFields] => 1
-    [DKIM_extraHeaders] => Array
-        (
-        )
-
-    [DKIM_private] => 
-    [DKIM_private_string] => 
-    [action_function] => 
-    [XMailer] => 
-    [smtp:protected] => 
-    [to:protected] => Array
-        (
-        )
-
-    [cc:protected] => Array
-        (
-        )
-
-    [bcc:protected] => Array
-        (
-        )
-
-    [ReplyTo:protected] => Array
-        (
-        )
-
-    [all_recipients:protected] => Array
-        (
-        )
-
-    [RecipientsQueue:protected] => Array
-        (
-        )
-
-    [ReplyToQueue:protected] => Array
-        (
-        )
-
-    [attachment:protected] => Array
-        (
-        )
-
-    [CustomHeader:protected] => Array
-        (
-        )
-
-    [lastMessageID:protected] => 
-    [message_type:protected] => 
-    [boundary:protected] => Array
-        (
-        )
-
-    [language:protected] => Array
-        (
-        )
-
-    [error_count:protected] => 0
-    [sign_cert_file:protected] => 
-    [sign_key_file:protected] => 
-    [sign_extracerts_file:protected] => 
-    [sign_key_pass:protected] => 
-    [exceptions:protected] => 1
-    [uniqueid:protected] => 
+    [0] => 11
 )
 
-10:07:24 [DEBUG] : PHPMailer\PHPMailer\PHPMailer Object
+16:07:24 [DEBUG] : 0
+16:07:09 [DEBUG] : 12
+17:07:27 [DEBUG] : 14
+09:07:53 [DEBUG] : Array
 (
-    [Priority] => 
-    [CharSet] => iso-8859-1
-    [ContentType] => text/plain
-    [Encoding] => 8bit
-    [ErrorInfo] => 
-    [From] => 
-    [FromName] => 
-    [Sender] => 
-    [Subject] => 
-    [Body] => 
-    [AltBody] => 
-    [Ical] => 
-    [MIMEBody:protected] => 
-    [MIMEHeader:protected] => 
-    [mailHeader:protected] => 
-    [WordWrap] => 0
-    [Mailer] => mail
-    [Sendmail] => /usr/sbin/sendmail
-    [UseSendmailOptions] => 1
-    [ConfirmReadingTo] => 
-    [Hostname] => 
-    [MessageID] => 
-    [MessageDate] => 
-    [Host] => localhost
-    [Port] => 25
-    [Helo] => 
-    [SMTPSecure] => 
-    [SMTPAutoTLS] => 1
-    [SMTPAuth] => 
-    [SMTPOptions] => Array
-        (
-        )
-
-    [Username] => 
-    [Password] => 
-    [AuthType] => 
-    [oauth:protected] => 
-    [Timeout] => 300
-    [dsn] => 
-    [SMTPDebug] => 0
-    [Debugoutput] => html
-    [SMTPKeepAlive] => 
-    [SingleTo] => 
-    [SingleToArray:protected] => Array
-        (
-        )
-
-    [do_verp] => 
-    [AllowEmpty] => 
-    [DKIM_selector] => 
-    [DKIM_identity] => 
-    [DKIM_passphrase] => 
-    [DKIM_domain] => 
-    [DKIM_copyHeaderFields] => 1
-    [DKIM_extraHeaders] => Array
-        (
-        )
-
-    [DKIM_private] => 
-    [DKIM_private_string] => 
-    [action_function] => 
-    [XMailer] => 
-    [smtp:protected] => 
-    [to:protected] => Array
-        (
-        )
-
-    [cc:protected] => Array
-        (
-        )
-
-    [bcc:protected] => Array
-        (
-        )
-
-    [ReplyTo:protected] => Array
-        (
-        )
-
-    [all_recipients:protected] => Array
-        (
-        )
-
-    [RecipientsQueue:protected] => Array
-        (
-        )
-
-    [ReplyToQueue:protected] => Array
-        (
-        )
-
-    [attachment:protected] => Array
-        (
-        )
-
-    [CustomHeader:protected] => Array
-        (
-        )
-
-    [lastMessageID:protected] => 
-    [message_type:protected] => 
-    [boundary:protected] => Array
-        (
-        )
-
-    [language:protected] => Array
-        (
-        )
-
-    [error_count:protected] => 0
-    [sign_cert_file:protected] => 
-    [sign_key_file:protected] => 
-    [sign_extracerts_file:protected] => 
-    [sign_key_pass:protected] => 
-    [exceptions:protected] => 1
-    [uniqueid:protected] => 
+    [condations] => 
+    [field] => 2212
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 
 )
 
-10:07:59 [DEBUG] : OK
-17:07:16 [DEBUG] : 执行2023-07-07 17:34:00
-17:07:42 [DEBUG] : 执行2023-07-07 17:37:00
-17:07:00 [DEBUG] : 执行2023-07-07 17:48:00
-18:07:00 [DEBUG] : 执行2023-07-07 18:03:00
+09:07:53 [DEBUG] : Array
+(
+    [condations] => 
+    [field] => 1122
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 
+)
+
+09:07:24 [DEBUG] : Array
+(
+    [condations] => 
+    [field] => 2121
+    [operator] => 21
+    [query_name] => 2121
+    [description] => 
+    [fm_id] => 
+    [condation] => suppliers
+    [is_active] => 0
+)
+
+09:07:44 [DEBUG] : Array
+(
+    [condation] => suppliers
+    [field] => 32323
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 212121
+    [fm_id] => 13
+)
+
+09:07:30 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 21212
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 2121
+    [fm_id] => 13
+)
+
+09:07:30 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '2121',
+        'suppliers',
+        'AAAAA',
+        '21212',
+        '=',
+        ''
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+09:07:21 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 2121
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 2221
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+09:07:21 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '2221',
+        'suppliers',
+        'AAAAA',
+        '2121',
+        '=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+09:07:55 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:20 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:42 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:02 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:22 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 2332
+    [operator] => &gt;
+    [query_name] => AAAAA
+    [description] => 2212
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+10:07:22 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '2212',
+        'suppliers',
+        'AAAAA',
+        '2332',
+        '&gt;',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+10:07:22 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:28 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:29 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:31 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:32 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:37 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:25 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:52 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:38 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:22 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:07 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:59 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:36 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:17 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:40 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:06 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:22 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 3323
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 3323
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+10:07:22 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '3323',
+        'suppliers',
+        'AAAAA',
+        '3323',
+        '=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+10:07:22 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:54 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:59 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:03 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=0 
+        and `condition`='suppliers'
+10:07:14 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=0 
+        and `condition`='suppliers'
+10:07:26 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:28 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:20 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:21 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:30 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:33 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:55 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:59 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:07 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:09 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'and id='13'
+10:07:59 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+10:07:01 [DEBUG] : Array
+(
+    [_random] => 49270.9307670837
+    [_token] => NqjMewEk7pG_X-JI1_MsyAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+10:07:02 [DEBUG] : Array
+(
+    [_random] => 1056442.6006500197
+    [_token] => ZqS19uHdJc9V3TWaXyoMDwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+10:07:02 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:04 [DEBUG] : Array
+(
+    [_random] => 579584.6340473609
+    [_token] => EP_IWTvKK1jSR4w6kPJqWgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersNEW] => 添加
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:07 [DEBUG] : Array
+(
+    [_random] => 30247.326587397172
+    [_token] => Xh-LRubNiU6_BybkfhPJXAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => NEW
+        )
+
+    [suppliersRESET] => 取消
+    [is_active] => 
+    [description] => 
+    [query_name] => 
+    [operator] => =
+    [field] => 
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:07 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:08 [DEBUG] : Array
+(
+    [_random] => 99789.89121604853
+    [_token] => u3rUnddcFofTvPyzKAB6vgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [13] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:08 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'and id='13'
+10:07:52 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+10:07:54 [DEBUG] : Array
+(
+    [_random] => 234167.67765478525
+    [_token] => _tVXeb9OtjFfdyXKMAKxJQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+10:07:57 [DEBUG] : Array
+(
+    [_random] => 841994.0202628551
+    [_token] => 6NrRBAeajIdilMDJ3VtbWwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+10:07:57 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:59 [DEBUG] : Array
+(
+    [_random] => 579108.5188178183
+    [_token] => D-8u2m9J-OmuY73mgwfCgwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [3323] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:59 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'and id='3323'
+10:07:08 [DEBUG] : Array
+(
+    [_random] => 644744.3365092793
+    [_token] => XiIth6hN3AN5tYBfTYdEPAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [3323] => Edit
+        )
+
+    [is_active] => 
+    [description] => 
+    [query_name] => 
+    [operator] => =
+    [field] => 
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+10:07:08 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'and id='3323'
+10:07:10 [DEBUG] : Array
+(
+    [_random] => 545851.0358288069
+    [_token] => h6Rgfcw-TxIPV_QPNRNEPAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [3323] => Edit
+        )
+
+    [is_active] => 
+    [description] => 
+    [query_name] => 
+    [operator] => =
+    [field] => 
+    [_tabs_sel] => settings
+    [tabs_settings] => 
+    [formulas] => 13
+)
+
+10:07:12 [DEBUG] : Array
+(
+    [_random] => 1098419.6998406386
+    [_token] => msjl4hNpqsq_0rusFHQ8Cwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+10:07:12 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:14 [DEBUG] : Array
+(
+    [_random] => 513135.4860865071
+    [_token] => zRJRZ3jhmn1Mt4dnoQj7-gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersNEW] => 添加
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:33 [DEBUG] : Array
+(
+    [_random] => 564048.4504174412
+    [_token] => 1yIagwszWokNV3je39BEyQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => NEW
+        )
+
+    [suppliersADD] => 新增
+    [is_active] => 1
+    [description] => 
+    [query_name] => AAAAA
+    [operator] => =
+    [field] => supply_id
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:33 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => supply_id
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+10:07:33 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'
+10:07:36 [DEBUG] : Array
+(
+    [_random] => 266873.8565238503
+    [_token] => Cw7yWRLNGobGvm2hI3cukQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [supply_id] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:36 [DEBUG] : SELECT * FROM `&TB_PREF&mr_formulas_params` where 1=1 and `fm_id`=13 
+        and `condition`='suppliers'and id='supply_id'
+10:07:22 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+10:07:24 [DEBUG] : Array
+(
+    [_random] => 424382.4617812156
+    [_token] => vtVLznp2sFO7CfUk3fX5OAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+10:07:25 [DEBUG] : Array
+(
+    [_random] => 481558.6524277553
+    [_token] => nAyPwG1waCr_NI3-E259Vgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+10:07:25 [DEBUG] : 
+10:07:28 [DEBUG] : Array
+(
+    [_random] => 482445.5981379632
+    [_token] => bdq5Gcr-xTMMRpK2LP5T2Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [supply_id] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+10:07:28 [DEBUG] : 
+11:07:07 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+11:07:09 [DEBUG] : Array
+(
+    [_random] => 1130693.9156984314
+    [_token] => h0LnTFZFWca6NR4VWI0daAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+11:07:11 [DEBUG] : Array
+(
+    [_random] => 617683.2918034244
+    [_token] => uKNK_tw60QlMYzGLyBHdkwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+11:07:11 [DEBUG] : 
+11:07:51 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+11:07:53 [DEBUG] : Array
+(
+    [_random] => 772522.0689471189
+    [_token] => _olQMqAXhlTHKVT9yiaDfgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+11:07:54 [DEBUG] : Array
+(
+    [_random] => 449959.0006012234
+    [_token] => XgIZGsGPrUjLsbD-Ru8RcAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+11:07:54 [DEBUG] : 
+11:07:56 [DEBUG] : Array
+(
+    [_random] => 680598.8692110386
+    [_token] => -aKIcW2VsOlX-8sTLksbWwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [supply_id] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+11:07:56 [DEBUG] : supply_id
+11:07:38 [DEBUG] : Array
+(
+    [_random] => 329878.3289573323
+    [_token] => ik__zFH0ValUQQZAtP-fZQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [supply_id] => Edit
+        )
+
+    [suppliersRESET] => 取消
+    [is_active] => 1
+    [description] => 
+    [query_name] => AAAAA
+    [operator] => =
+    [field] => supply_id
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+11:07:38 [DEBUG] : 
+11:07:41 [DEBUG] : Array
+(
+    [_random] => 1119149.4174825791
+    [_token] => GO_JBll0INRTzHkyk2rjZAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [2121] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+11:07:41 [DEBUG] : 2121
+11:07:42 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+11:07:46 [DEBUG] : Array
+(
+    [_random] => 288344.119983744
+    [_token] => q9Elpd6zruSeOQICukYCoAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+11:07:47 [DEBUG] : Array
+(
+    [_random] => 560454.8660408213
+    [_token] => 8Qp1j-lyWS2RfCsK_gf7TQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+11:07:47 [DEBUG] : 
+11:07:49 [DEBUG] : Array
+(
+    [_random] => 1182749.9181814084
+    [_token] => KqzTN6OdPhCQJCTMrEG3Mgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersEdit] => Array
+        (
+            [3323] => Edit
+        )
+
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+11:07:49 [DEBUG] : 3323
+11:07:09 [DEBUG] : 
+11:07:15 [DEBUG] : 
+11:07:29 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 3232
+    [operator] => =
+    [query_name] => 3323
+    [description] => 32
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+11:07:36 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 3443
+    [operator] => =
+    [query_name] => 4343
+    [description] => 434
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+11:07:24 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='13' 
+     and `condition`='suppliers'and `field`= '13'
+11:07:10 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+11:07:12 [DEBUG] : Array
+(
+    [_random] => 540051.3306909029
+    [_token] => Ag2mevA5Y-MM5JL10zBLmgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+11:07:14 [DEBUG] : Array
+(
+    [_random] => 769869.58132864
+    [_token] => hnOS1OIEaNBceH7AZeydFAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+11:07:16 [DEBUG] : Array
+(
+    [formulas] => 13
+    [_tabs_sel] => suppliers
+    [suppliersDelete] => Array
+        (
+            [3232] => Delete
+        )
+
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_focus] => formulas
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => -V94D1T0weawTTShPATWtQxx
+)
+
+11:07:16 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='3232' 
+     and `condition`='suppliers'and `field`= '3232'
+11:07:59 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+11:07:01 [DEBUG] : Array
+(
+    [_random] => 1075756.4861435005
+    [_token] => SA6GYPoSbwe9TMzZwgexmgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+11:07:03 [DEBUG] : Array
+(
+    [_random] => 221685.14279186254
+    [_token] => RP4ku9o56NfcLIGTEoep1wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+11:07:05 [DEBUG] : Array
+(
+    [formulas] => 13
+    [_tabs_sel] => suppliers
+    [suppliersDelete] => Array
+        (
+            [3232] => Delete
+        )
+
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_focus] => formulas
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => pqSMYmr021tgsO6iqngsjAxx
+)
+
+11:07:05 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='13' 
+     and `condition`='suppliers'and `field`= '3232'
+11:07:09 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+14:07:48 [DEBUG] : Array
+(
+    [_random] => 166810.50170054947
+    [_token] => doVpJDMiGt7W9ucdrG5ZhAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [formulas] => 13
+)
+
+14:07:54 [DEBUG] : Array
+(
+    [_random] => 758307.0174431439
+    [_token] => KE9_sCWm_pUN9Q9ztaFKFAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 14
+)
+
+14:07:55 [DEBUG] : Array
+(
+    [_random] => 11676.076012953758
+    [_token] => _n2PUezY7pDI2dI8HxN7wQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 14
+    [is_active] => 1
+    [status] => 21
+    [sql_text] => 2121
+    [description] => 121
+    [title] => 212
+    [_formulas_update] =>  
+    [formulas] => 
+    [_tabs_sel] => settings
+)
+
+14:07:57 [DEBUG] : Array
+(
+    [_random] => 802840.9816854484
+    [_token] => aw-5Zuc3GPf9Ko9797P_4Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+14:07:59 [DEBUG] : Array
+(
+    [_random] => 446506.63293335837
+    [_token] => iasVJnD2LBhtUabZSqY-eAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+14:07:03 [DEBUG] : Array
+(
+    [_random] => 572775.6273766736
+    [_token] => QulTwAuHGyq1TjUpD_f3YQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [suppliersNEW] => 添加
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+14:07:24 [DEBUG] : Array
+(
+    [_random] => 642194.9712674426
+    [_token] => KZJN4X39_Z0ROEhSKnJb2Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => NEW
+        )
+
+    [suppliersADD] => 新增
+    [is_active] => 1
+    [description] => 
+    [query_name] => AAAAA
+    [operator] => =
+    [field] => 2121
+    [_tabs_sel] => suppliers
+    [formulas] => 13
+)
+
+14:07:24 [DEBUG] : Array
+(
+    [condition] => suppliers
+    [field] => 2121
+    [operator] => =
+    [query_name] => AAAAA
+    [description] => 
+    [is_active] => 1
+    [fm_id] => 13
+)
+
+14:07:32 [DEBUG] : Array
+(
+    [_random] => 164706.7011677142
+    [_token] => yu3Kkw0cFBRcl2DTQ3uAzAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => settings
+    [tabs_settings] => 
+    [formulas] => 13
+)
+
+14:07:34 [DEBUG] : Array
+(
+    [_random] => 556201.6608365381
+    [_token] => kGIkLEAj3WKHvkiFUoIPOgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+14:07:48 [DEBUG] : Array
+(
+    [_random] => 1174003.0111503939
+    [_token] => S2wLU5qtSsPBeehfExAk_gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => settings
+    [tabs_settings] => 
+    [formulas] => 13
+)
+
+14:07:50 [DEBUG] : Array
+(
+    [_random] => 627714.158621278
+    [_token] => 5joG-n9gQSa35kPwiffczgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+14:07:51 [DEBUG] : Array
+(
+    [_random] => 145969.47379818535
+    [_token] => xRNcrEVCSzuiuxkz5zTN1gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => products
+    [tabs_products] => 
+    [formulas] => 13
+)
+
+14:07:51 [DEBUG] : Array
+(
+    [_random] => 1018114.9824774996
+    [_token] => XZKpmavuGqCy83bNeB4mSAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [productsMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => indicator
+    [tabs_indicator] => 
+    [formulas] => 13
+)
+
+14:07:53 [DEBUG] : Array
+(
+    [_random] => 1183813.6353467698
+    [_token] => GKUC0w1_bCCxghWm1wDkQgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => products
+    [tabs_products] => 
+    [formulas] => 13
+)
+
+14:07:53 [DEBUG] : Array
+(
+    [_random] => 1048847.7392081264
+    [_token] => DTZK5fFMANMRsaxIu6ll5Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [productsMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+14:07:54 [DEBUG] : Array
+(
+    [_random] => 481700.7184819078
+    [_token] => Z4OypB1RolGhDMPE33xLCQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => settings
+    [tabs_settings] => 
+    [formulas] => 13
+)
+
+14:07:51 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+14:07:56 [DEBUG] : Array
+(
+    [_random] => 484173.284514231
+    [_token] => Eua2jUr8d_5rnZF3qrPkMQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 14
+)
+
+14:07:58 [DEBUG] : Array
+(
+    [_random] => 423992.49806097563
+    [_token] => LdPLas_3YP7lSpB_7gr9cgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 14
+    [is_active] => 1
+    [status] => 21
+    [sql_text] => 2121
+    [description] => 121
+    [title] => 212
+    [_formulas_update] =>  
+    [formulas] => 
+    [_tabs_sel] => settings
+)
+
+14:07:07 [DEBUG] : Array
+(
+    [_random] => 129275.2806114847
+    [_token] => lbKJ5olBCwRKgwkPxJtSlQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+14:07:20 [DEBUG] : Array
+(
+    [_random] => 421251.57038698555
+    [_token] => rve0gzpAAvFKLfP1FODbxQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicator
+    [tabs_indicator] => 
+    [formulas] => 13
+)
+
+14:07:21 [DEBUG] : Array
+(
+    [_random] => 796412.7550931101
+    [_token] => rtAKtXLthZ9m7j7JqFWZMAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => products
+    [tabs_products] => 
+    [formulas] => 13
+)
+
+14:07:22 [DEBUG] : Array
+(
+    [_random] => 238709.99025594912
+    [_token] => zE8D6iJIZAj3XQYsIsRkhQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [productsMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => indicator
+    [tabs_indicator] => 
+    [formulas] => 13
+)
+
+14:07:23 [DEBUG] : Array
+(
+    [_random] => 262662.7004628972
+    [_token] => fpSKFPRvMQbkqedY_nLsLAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => products
+    [tabs_products] => 
+    [formulas] => 13
+)
+
+14:07:24 [DEBUG] : Array
+(
+    [_random] => 742462.9373859346
+    [_token] => srpWusKbumlrQ4Qrok0JKgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [productsMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => suppliers
+    [tabs_suppliers] => 
+    [formulas] => 13
+)
+
+14:07:50 [DEBUG] : Array
+(
+    [_random] => 68667.31881811874
+    [_token] => GVrHg2m_HiO-6i3pL4B04gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [suppliersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_tabs_sel] => indicator
+    [tabs_indicator] => 
+    [formulas] => 13
+)
+
+14:07:17 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='13' 
+     and `condition`='suppliers'and `field`= '2121'
+14:07:20 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='13' 
+     and `condition`='suppliers'and `field`= '3443'
+14:07:01 [DEBUG] : Array
+(
+    [condition] => indicators
+    [field] => 供货商
+    [operator] => =
+    [query_name] => [suppliers]
+    [description] => 
+    [is_active] => 
+    [fm_id] => 13
+)
+
+14:07:59 [DEBUG] : DELETE FROM &TB_PREF&mr_formulas_params
+     WHERE `fm_id`='13' 
+     and `condition`='indicators'and `field`= '2222'
+15:07:41 [DEBUG] : 
+15:07:43 [DEBUG] : 
+15:07:46 [DEBUG] : 
+15:07:50 [DEBUG] : 
+15:07:54 [DEBUG] : 
+15:07:35 [DEBUG] : 
+15:07:35 [DEBUG] : 
+15:07:42 [DEBUG] : 
+15:07:45 [DEBUG] : 
+15:07:49 [DEBUG] : 
+15:07:50 [DEBUG] : 
+15:07:52 [DEBUG] : 
+15:07:54 [DEBUG] : 
+15:07:55 [DEBUG] : 
+15:07:02 [DEBUG] : 
+15:07:05 [DEBUG] : 
+15:07:07 [DEBUG] : 
+15:07:01 [DEBUG] : 
+15:07:05 [DEBUG] : 
+15:07:08 [DEBUG] : 
+15:07:10 [DEBUG] : 
+15:07:11 [DEBUG] : 
+15:07:13 [DEBUG] : 
+15:07:38 [DEBUG] : Array
+(
+    [_random] => 984947.0419989962
+    [_token] => 84hf1Qo8e3QWcIAf0kkz1wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@products]
+    [operator] => in
+    [field] => products
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:38 [DEBUG] : 
+15:07:40 [DEBUG] : Array
+(
+    [_random] => 299447.2015951063
+    [_token] => CjPDQRWdkSVNAzcxqOnkLQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@products]
+    [operator] => in
+    [field] => products
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:40 [DEBUG] : 
+15:07:42 [DEBUG] : Array
+(
+    [_random] => 950578.1348694426
+    [_token] => yRyw1BW9h8mrdl737L24owxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:42 [DEBUG] : 
+15:07:11 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:14 [DEBUG] : Array
+(
+    [_random] => 19426.19365030775
+    [_token] => x2lXstDxi1IHdHSDiIZlYgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:15 [DEBUG] : Array
+(
+    [_random] => 213226.21640484824
+    [_token] => bHXoeGk5RHOBpB5JYrJFmgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:15 [DEBUG] : 
+15:07:15 [DEBUG] : 
+15:07:16 [DEBUG] : Array
+(
+    [_random] => 42113.0770854416
+    [_token] => fFRduU8eJHR6uSaIlrRcDgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:16 [DEBUG] : Array
+(
+    [suppliers] => Edit
+)
+
+15:07:16 [DEBUG] : 
+15:07:22 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:23 [DEBUG] : Array
+(
+    [_random] => 302419.4583484494
+    [_token] => nbWHnlnOwH4hExKMbUkMDgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:24 [DEBUG] : Array
+(
+    [_random] => 912995.9772806298
+    [_token] => ijEs7VjVjqcyJc_yEjNIzwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:24 [DEBUG] : 
+15:07:26 [DEBUG] : Array
+(
+    [_random] => 750846.9364038577
+    [_token] => GXaR--DXnuKd-2SA92QSigxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:26 [DEBUG] : 
+15:07:21 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:28 [DEBUG] : Array
+(
+    [_random] => 162774.26880309277
+    [_token] => c-ZioxVg54WbXvEffE0mNgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:29 [DEBUG] : Array
+(
+    [_random] => 1132720.4256271322
+    [_token] => QdAIEfve7k9jbm3PKkaPmwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:29 [DEBUG] : 
+15:07:31 [DEBUG] : Array
+(
+    [_random] => 902171.8551546407
+    [_token] => 0culB6Gob8Ne6kxFE8m_5gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:31 [DEBUG] : suppliers
+15:07:33 [DEBUG] : Array
+(
+    [_random] => 583554.4321857133
+    [_token] => 8PEOs560qhRV4G-5Eyb9ogxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:33 [DEBUG] : 
+15:07:34 [DEBUG] : Array
+(
+    [_random] => 948184.0453868461
+    [_token] => f0hCA1RHhlH3dm2uUW-mdAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [products] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:34 [DEBUG] : products
+15:07:35 [DEBUG] : Array
+(
+    [_random] => 149256.9535864347
+    [_token] => RSEkj-2I0sBFUOUljwi-jgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [products] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@products]
+    [operator] => in
+    [field] => products
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:35 [DEBUG] : 
+15:07:37 [DEBUG] : Array
+(
+    [_random] => 199998.52828131046
+    [_token] => BpjrLbu3K6m2A7dUVmuH3Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:37 [DEBUG] : suppliers
+15:07:43 [DEBUG] : Array
+(
+    [_random] => 868970.8916777187
+    [_token] => naWJd3PXRg8UJR5nSWMKEQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsUPDATE] => Array
+        (
+            [suppliers] => 更新数据
+        )
+
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:43 [DEBUG] : 
+15:07:15 [DEBUG] : Array
+(
+    [_random] => 168064.93622477626
+    [_token] => IN2lsBeFAq3QEeq96jXicAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => UPDATE
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:15 [DEBUG] : 
+15:07:18 [DEBUG] : Array
+(
+    [_random] => 563934.4912400573
+    [_token] => 1T8iGhhwbRp-QFLJ7cGYKwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:18 [DEBUG] : suppliers
+15:07:21 [DEBUG] : Array
+(
+    [_random] => 284837.474161303
+    [_token] => VgoMbom0YijWOfeMdh0TNAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsUPDATE] => Array
+        (
+            [suppliers] => 更新数据
+        )
+
+    [is_active] => 1
+    [description] => 商品信息1
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:21 [DEBUG] : 
+15:07:09 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:11 [DEBUG] : Array
+(
+    [_random] => 499217.1685799015
+    [_token] => zns5e2GEGvxYH6MnxHfefwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:13 [DEBUG] : Array
+(
+    [_random] => 431445.07090076356
+    [_token] => o6WXTEyyJDQWfrrhF1xjmAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:03 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:05 [DEBUG] : Array
+(
+    [_random] => 656330.2762356339
+    [_token] => yvpPNDK3cFbGVo2zk3MKewxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:07 [DEBUG] : Array
+(
+    [_random] => 899583.7058906083
+    [_token] => PZmH-dJ47Lh3CV6Y2oca6gxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:59 [DEBUG] : Array
+(
+    [formulas] => 
+    [_focus] => formulas
+    [_tabs_sel] => settings
+)
+
+15:07:02 [DEBUG] : Array
+(
+    [_random] => 77246.58778094129
+    [_token] => wfKASKwIGKhrnnpLyxvbFgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [is_active] => 
+    [status] => 
+    [sql_text] => 
+    [description] => 
+    [title] => 
+    [_tabs_sel] => settings
+    [_formulas_update] =>  
+    [formulas] => 13
+)
+
+15:07:03 [DEBUG] : Array
+(
+    [_random] => 830356.3261139864
+    [_token] => Cpq-2f_MlP5XQrCXUTR4Ggxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [selected_id] => 13
+    [is_active] => 1
+    [status] => 212
+    [sql_text] => 2121
+    [description] => 2122
+    [title] => 12112
+    [_tabs_sel] => indicators
+    [tabs_indicators] => 
+    [formulas] => 13
+)
+
+15:07:03 [DEBUG] : 
+15:07:06 [DEBUG] : Array
+(
+    [_random] => 173018.50908144756
+    [_token] => TJXeQ8TIqG95AzE0vgpIOgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:06 [DEBUG] : suppliers
+15:07:09 [DEBUG] : Array
+(
+    [_random] => 819426.36527537
+    [_token] => vtbajCvqXXjpSlUifaVOuAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 商品信息1
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:09 [DEBUG] : 
+15:07:10 [DEBUG] : Array
+(
+    [_random] => 987187.6531326779
+    [_token] => y3FOnNIcxk_zQ5siJp1IrQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [products] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:10 [DEBUG] : products
+15:07:12 [DEBUG] : Array
+(
+    [_random] => 461095.2777496587
+    [_token] => 31QPdzf4Pw9lXmCk7yjLygxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [products] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 商品信息
+    [query_name] => [@products]
+    [operator] => in
+    [field] => products
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:12 [DEBUG] : 
+15:07:18 [DEBUG] : Array
+(
+    [_random] => 1231027.3492425734
+    [_token] => uQzLSO0vcyfaAJUOS2A3Mwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:18 [DEBUG] : suppliers
+15:07:24 [DEBUG] : Array
+(
+    [_random] => 369834.7357619717
+    [_token] => qFYA09QXWacoZeGJCxAdpQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsUPDATE] => Array
+        (
+            [suppliers] => 更新数据
+        )
+
+    [is_active] => 1
+    [description] => 供货商信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:24 [DEBUG] : suppliers
+15:07:31 [DEBUG] : Array
+(
+    [_random] => 1205676.2351121842
+    [_token] => gxMe31spc2iDhq2YIsoVhwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => UPDATE
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 供货商信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:31 [DEBUG] : 
+15:07:34 [DEBUG] : Array
+(
+    [_random] => 778575.2658203288
+    [_token] => kF1f0QgLajlb0Bhc2hGLGgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:34 [DEBUG] : suppliers
+15:07:36 [DEBUG] : Array
+(
+    [_random] => 1130283.7252484278
+    [_token] => g0gzC4E0Fl0QaLUY47xmxgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsRESET] => 取消
+    [is_active] => 1
+    [description] => 供货商信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:36 [DEBUG] : 
+15:07:39 [DEBUG] : Array
+(
+    [_random] => 637980.0763658452
+    [_token] => q3XzFYSpEdbsFFIxDuofLgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [0] => 
+        )
+
+    [indicatorsEdit] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:39 [DEBUG] : suppliers
+15:07:42 [DEBUG] : Array
+(
+    [_random] => 219399.61455039404
+    [_token] => 1CRaTbgg_W2RYoPqPJx7Jwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => formulas
+    [indicatorsMode] => Array
+        (
+            [suppliers] => Edit
+        )
+
+    [indicatorsUPDATE] => Array
+        (
+            [suppliers] => 更新数据
+        )
+
+    [is_active] => 1
+    [description] => 供货商信息
+    [query_name] => [@suppliers]
+    [operator] => in
+    [field] => suppliers
+    [_tabs_sel] => indicators
+    [formulas] => 13
+)
+
+15:07:42 [DEBUG] : suppliers
+15:07:35 [DEBUG] : Edit
+15:07:18 [DEBUG] : UPDATE
+15:07:19 [DEBUG] : UPDATE
+15:07:20 [DEBUG] : UPDATE
+15:07:55 [DEBUG] : UPDATE
+15:07:57 [DEBUG] : UPDATE
+15:07:58 [DEBUG] : UPDATE
+15:07:53 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:53 [DEBUG] : UPDATE
+15:07:54 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:54 [DEBUG] : UPDATE
+15:07:55 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:55 [DEBUG] : UPDATE
+15:07:57 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:57 [DEBUG] : UPDATE
+15:07:02 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:02 [DEBUG] : UPDATE
+15:07:04 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:04 [DEBUG] : UPDATE
+15:07:10 [DEBUG] : Array
+(
+    [0] => 0
+)
+
+15:07:10 [DEBUG] : UPDATE
+15:07:13 [DEBUG] : 1
+15:07:13 [DEBUG] : ---UPDATE----
+16:07:35 [DEBUG] : 1
+16:07:35 [DEBUG] : ---UPDATE----
+16:07:06 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        'not in',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+16:07:06 [DEBUG] : 1
+16:07:06 [DEBUG] : ---UPDATE----
+16:07:20 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        '8',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+16:07:20 [DEBUG] : 1
+16:07:20 [DEBUG] : ---UPDATE----
+16:07:35 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        '7',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         is_active = VALUES(is_active)
+    
+16:07:35 [DEBUG] : 1
+16:07:35 [DEBUG] : ---UPDATE----
+16:07:16 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        '7',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         field = VALUES(field),
+         is_active = VALUES(is_active)
+    
+16:07:16 [DEBUG] : 1
+16:07:16 [DEBUG] : ---UPDATE----
+16:07:41 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        '7',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:41 [DEBUG] : 1
+16:07:41 [DEBUG] : ---UPDATE----
+16:07:42 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'suppliers',
+        'not in',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:42 [DEBUG] : 1
+16:07:42 [DEBUG] : ---UPDATE----
+16:07:51 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '商品名称',
+        'indicators',
+        '[@products]',
+        'goods',
+        '条件',
+        'in',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:51 [DEBUG] : 1
+16:07:36 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '供货商信息',
+        'indicators',
+        '[@suppliers]',
+        'supplier',
+        '条件',
+        'in',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:36 [DEBUG] : 1
+16:07:03 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '销售',
+        'indicators',
+        'amount*(1*[@rate]/100)',
+        'amount',
+        '数学',
+        '=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:03 [DEBUG] : 1
+16:07:31 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '销售',
+        'indicators',
+        'amount+(1*[@rate]/100)',
+        'amount',
+        '数学',
+        '=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:31 [DEBUG] : 1
+16:07:31 [DEBUG] : ---UPDATE----
+16:07:57 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '销售',
+        'indicators',
+        'amount*(1+[@rate]/100)',
+        'amount',
+        '数学',
+        '=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+16:07:57 [DEBUG] : 1
+16:07:57 [DEBUG] : ---UPDATE----
+17:07:29 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '销售开始时间',
+        'indicators',
+        '[@begin] ',
+        'beginat',
+        '条件',
+        '&gt;=',
+        ''
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:34 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '时间开始',
+        'indicators',
+        '[@begin_time]',
+        'rq',
+        '条件',
+        '&gt;=',
+        ''
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:27 [DEBUG] : Array
+(
+    [condition] => 
+    [field] => 111
+    [operator] => =
+    [expression] => 条件
+    [query_name] => 111
+    [description] => 222
+    [is_active] => 
+)
+
+17:07:27 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '222',
+        'indicators',
+        '111',
+        '111',
+        '条件',
+        '=',
+        ''
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:55 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '日期开始',
+        'indicators',
+        '[@begin_time]',
+        'rq',
+        '条件',
+        '&gt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:55 [DEBUG] : 1
+17:07:27 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '日期结束',
+        'indicators',
+        '[@end_time]',
+        'rq',
+        '条件',
+        '&lt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:27 [DEBUG] : 1
+17:07:02 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '日期开始',
+        'indicators',
+        '[@begin_time]',
+        'rq',
+        '条件',
+        '&gt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         expression = VALUES(expression),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:02 [DEBUG] : 1
+17:07:54 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '日期结束',
+        'indicators',
+        '[@end_time]',
+        'rq',
+        '条件',
+        '&lt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:54 [DEBUG] : 1
+17:07:48 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '开始日期',
+        'indicators',
+        '[@begin_time]',
+        'rq',
+        '条件',
+        '&gt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         query_name = VALUES(query_name),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:48 [DEBUG] : 1
+17:07:29 [DEBUG] : INSERT INTO  `&TB_PREF&mr_formulas_params` 
+    (`fm_id`,`description`,`condition`,`query_name`,`field`,`expression`,`operator`,`is_active`) values (
+        '13',
+        '结束日期',
+        'indicators',
+        '[@end_time]',
+        'rq',
+        '条件',
+        '&lt;=',
+        '1'
+    ) 
+    ON DUPLICATE KEY UPDATE
+         description = VALUES(description),
+         operator = VALUES(operator),
+         is_active = VALUES(is_active)
+    
+17:07:29 [DEBUG] : 1

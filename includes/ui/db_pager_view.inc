@@ -117,10 +117,15 @@ function display_db_pager(&$pager)
                     $cell = $pager->$fun($row, $cell);
                 } elseif (function_exists($fun)) {
                     $cell = $fun($row, $cell);
+                   
                 } else {
                     $cell = '';
                 }
+                
             }
+
+ 
+
 
             switch ($coltype) { // format column
                 case 'tiny_width':
@@ -181,6 +186,15 @@ function display_db_pager(&$pager)
                     $col_value = isset($col['col_value']) ? $col['col_value'] : '-1';
                     $client_id = isset($_GET['client_id']) ? $_GET['client_id'] : get_post('client_id');
                     ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectTableItem(this,window.opener.document, "' . $client_id . '",' . $col_value . ')');
+                    break;
+
+                case 'select_input':
+                    $col_value = isset($col['col_value']) ? $col['col_value'] : '-1';
+                    $client_id = isset($_GET['client_id']) ? $_GET['client_id'] : get_post('client_id');
+                    $col_name =isset($_GET['target_id']) ? $_GET['target_id'] : get_post('target_id');
+
+                    ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectInputItem(this,window.opener.document,"'.$col_name.'", "' . $client_id . '",' . $col_value . ')');
+
                     break;
                 default:
                     (isset($col['align'])) ? label_cell($cell, "align='" . $col['align'] . "'") : label_cell($cell);
