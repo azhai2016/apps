@@ -675,6 +675,7 @@ function get_js_lookup_window()
 		var u = url.split('#');
 		if (u.length == 2) {
 			var element = document.getElementById(u[1]);
+			alert(element);
 			var options = element.options;
 			url = u[0] + '&' + u[1] + '=' + options[element.selectedIndex].value;
 		}
@@ -724,16 +725,24 @@ function get_blanace_value()
 function get_js_select_table_item()
 {
 
-	$js = "function selectTableItem(obj,doc,client_id,col){
+	$js = "function selectTableItem(obj,doc,client_id,id_col,col,item_id){
 
 		var element = doc.getElementById(client_id);
 		var select_element = doc.getElementsByName('select_text'); 
 		var select_client_id = doc.getElementsByName('select_client_id');
+		var select_element_id = doc.getElementsByName('select_id');
 		var select_button = doc.getElementsByName('select_button'); 
-		var sendtext =$(obj).parents('tr').children('td:gt('+col+')').html(); 	
+		var send_id =$(obj).parents('tr').children('td:gt('+id_col+')').html(); 
+		var sendtext =$(obj).parents('tr').children('td:gt('+col+')').html(); 
+		var selected_item_id_ele = doc.getElementsByName('selected_item_id');
+        
+		alert(item_id);
+			
 		if (typeof(sendtext) != 'undefined' && sendtext != null){
 			$(select_element).val(sendtext); 
+			$(select_element_id).val(send_id); 
 			$(select_client_id).val(client_id);
+			$(selected_item_id_ele).val(item_id);
 			$(select_button).click();		
 		} 			
 		window.close();
@@ -745,16 +754,26 @@ function get_js_select_table_item()
 function get_js_select_input_item()
 {
 
-	$js = "function selectInputItem(obj,doc,elename,client_id,col){
+	$js = "function selectInputItem(obj,doc,client_id,t_id_e,t_id_index,t_name_e,t_name_index,item_id){
 
 		var element = doc.getElementById(client_id);
-		var select_element = doc.getElementsByName(elename); 
+		var select_element = doc.getElementsByName(t_name_e); 
 		var select_button = doc.getElementsByName('select_button'); 
-		var sendtext =$(obj).parents('tr').children('td:gt('+col+')').html(); 	
-		if (typeof(sendtext) != 'undefined' && sendtext != null){
-			$(select_element).val(sendtext); 
-			//$(select_client_id).val(client_id);
-			$(select_button).click();		
+		var select_id_element = doc.getElementsByName(t_id_e); 
+		
+		var send_id_value =$(obj).parents('tr').children('td:eq('+t_id_index+')').html(); 	
+		var send_text =$(obj).parents('tr').children('td:eq('+t_name_index+')').html(); 
+		var selected_item_id_ele = doc.getElementsByName('selected_item_id');
+	
+
+		if (typeof(send_text) != 'undefined' && send_text != null){
+			$(select_element).val(send_text); 
+			$(select_id_element).val(send_id_value);
+			$(selected_item_id_ele).val(item_id);
+		
+			$(select_button).click();	
+			//var send_values = {'label':send_id_value,'name':send_id_value,'value':send_text};
+			//window.opener.postMessage(send_values, window.location.origin);	
 		} 		
 		window.close();
 	}";

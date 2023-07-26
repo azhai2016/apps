@@ -141,8 +141,6 @@ if (isset($_POST['update']) && $_POST['update'] != '') {
 			}
 		}
 
-		log_b($post);
-
 		update_company_prefs(get_post($post));
 
 		$_SESSION['wa_current_user']->timeout = $_POST['login_tout'];
@@ -230,7 +228,6 @@ foreach ($types_item as $key => $value) {
 	}
 }
 
-log_b($myrow);
 
 foreach ($types_item as $key => $value) {
 
@@ -245,7 +242,6 @@ foreach ($types_item as $key => $value) {
 	}
 }
 
-log_b($_POST);
 
 
 $_POST['long_description_invoice']  = $myrow['long_description_invoice'];

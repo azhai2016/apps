@@ -1,4 +1,5 @@
 <?php
+
 /**********************************************************************
 Copyright (C) CbSMS.
 Released under the terms of the GNU General Public License, GPL,
@@ -36,7 +37,6 @@ class renderer
             } else {
                 $ic = 'fas fa-caret-square-right';
             }
-
         } else {
             $ic = 'fas fa-caret-square-right';
         }
@@ -77,15 +77,17 @@ class renderer
         $indicator = $path_to_root . "/themes/" . user_theme() . "/images/ajax-loader.gif";
         if (!$no_menu) {
 
-            $app_icons = array('purchase' => 'fas fa-tags', 'sales' => 'fas fa-shopping-cart', 'collection' => 'fas fa-warehouse',
-            'payment' => 'fas fa-industry', 'analysis' => 'fas fa-building', 'proj' => 'fas fa-map-marked-alt',
-            'GL' => 'fas fa-book', 'FrontHrm' => 'fas fa-users',
-            'extendedhrm' => 'fas fa-users', 'school' => 'fas fa-graduation-cap',
-            'kanban' => 'fas fa-tasks', 'pos' => 'fas fa-shopping-basket',
-            'grm' => 'fas fa-commenting-o', 'trade_finance' => 'fas fa-money',
-            'weigh_bridge' => 'fas fa-balance-scale', 'additional_fields' => 'fas fa-plus-square',
-            'booking' => 'fas fa-check-square-o', 'hospital' => 'fas fa-hospital-o',
-            'Projects' => 'fas fa-check-square-o', 'system' => 'fas fa-cog');
+            $app_icons = array(
+                'purchase' => 'fas fa-tags', 'sales' => 'fas fa-shopping-cart', 'collection' => 'fas fa-warehouse',
+                'qms' => 'fas fa-industry', 'analysis' => 'fas fa-building', 'proj' => 'fas fa-map-marked-alt',
+                'GL' => 'fas fa-book', 'FrontHrm' => 'fas fa-users',
+                'extendedhrm' => 'fas fa-users', 'school' => 'fas fa-graduation-cap',
+                'kanban' => 'fas fa-tasks', 'pos' => 'fas fa-shopping-basket',
+                'grm' => 'fas fa-commenting-o', 'trade_finance' => 'fas fa-money',
+                'mini_rebate' => 'fas fa-balance-scale', 'additional_fields' => 'fas fa-plus-square',
+                'booking' => 'fas fa-check-square-o', 'hospital' => 'fas fa-hospital-o',
+                'Projects' => 'fas fa-check-square-o', 'system' => 'fas fa-cog'
+            );
 
             $applications = $_SESSION['App']->applications;
             $sel_app = $_SESSION['sel_app'];
@@ -98,10 +100,10 @@ class renderer
                     if (empty($app_icons[$app->id])) {
                         $app_icons[$app->id] = 'fas fa-cube';
                     }
-                   
+
                     echo "<a class='" . ($sel_app == $app->id ? 'selected' : 'menu_tab') . "' href='" . $path_to_root . "/" . $app->id . "' title='" . $ap_title . "' $acc[1]><i class='" . $app_icons[$app->id] . " nav-icon'></i><span class='nav-text'>" . $acc[0] . "</span></a>";
-              
-                 //   echo "<a class='" . ($sel_app == $app->id ? 'selected' : 'menu_tab') . "' href='" . $path_to_root . "/index.php?application=" . $app->id . "' title='" . $ap_title . "' $acc[1]><i class='" . $app_icons[$app->id] . " nav-icon'></i><span class='nav-text'>" . $acc[0] . "</span></a>";
+
+                    //   echo "<a class='" . ($sel_app == $app->id ? 'selected' : 'menu_tab') . "' href='" . $path_to_root . "/index.php?application=" . $app->id . "' title='" . $ap_title . "' $acc[1]><i class='" . $app_icons[$app->id] . " nav-icon'></i><span class='nav-text'>" . $acc[0] . "</span></a>";
                 }
             }
             echo "</center>";
@@ -119,7 +121,7 @@ class renderer
             echo "<tr><td class='headingtext3'>" . $db_connections[user_company()]['name'] . " | " . $_SERVER['SERVER_NAME'] . " | " . $_SESSION['wa_current_user']->name . "</td>";
             echo "<td class='logoutBarRight'><img id='ajaxmark' src='" . $indicator . "' align='center' style='visibility:hidden;' alt='ajaxmark'></td>";
             echo "<td class='logoutBarRight'>";
-            echo "<td class='logoutBarRight'><a href='".$path_to_root."/admin/dashboard.php?sel_app=$sel_app'>".$rimg.'<span>'._('仪表盘')."</span></a>\n";
+            echo "<td class='logoutBarRight'><a href='" . $path_to_root . "/admin/dashboard.php?sel_app=$sel_app'>" . $rimg . '<span>' . _('仪表盘') . "</span></a>\n";
             echo "<a class='shortcut' href='" . $path_to_root . "/admin/display_prefs.php?'>" . $pimg . '<span>' . _('选项') . "</span></a>\n";
             echo " <a class='shortcut' href='" . $path_to_root . "/admin/change_current_user_password.php?selected_id=" . $_SESSION['wa_current_user']->username . "'>" . $limg . '<span>' . _('更换密码') . "</span></a>\n";
 
@@ -139,7 +141,6 @@ class renderer
         } elseif ($title && !$is_index) {
             echo "<center><table id='title'><tr><td width='100%' class='titletext'>" . $title . "</td><td align=right>" . (user_hints() ? "<span id='hints'></span>" : '') . "</td></tr></table></center>";
         }
-
     }
 
     public function menu_footer($no_menu, $is_index)
@@ -170,11 +171,11 @@ class renderer
             echo "<table align='center' id='footer'>\n";
             echo "<tr>\n";
             echo "<td align='center' class='footer'><a target='_blank' href='" . $SysPrefs->power_url . "' tabindex='-1'><font color='#555555'>" . $SysPrefs->app_title
-            . ' ' . $version . ' - ' . _('Theme:') . ' ' . user_theme() . show_users_online() . "</font></a></td>\n";
+                . ' ' . $version . ' - ' . _('Theme:') . ' ' . user_theme() . show_users_online() . "</font></a></td>\n";
             echo "</tr>\n";
             echo "<tr>\n";
             echo "<td align='center' class='footer'><a target='_blank' href='" . $SysPrefs->power_url
-            . "' tabindex='-1'><font color='#0080c0'>" . $SysPrefs->power_by . "</font></a> &nbsp;&nbsp;&nbsp; <a href='javascript:show_sql()'>sql_debug</a></td>\n";
+                . "' tabindex='-1'><font color='#0080c0'>" . $SysPrefs->power_by . "</font></a> &nbsp;&nbsp;&nbsp; <a href='javascript:show_sql()'>sql_debug</a></td>\n";
             echo "</tr>\n";
             if ($SysPrefs->allow_demo_mode) {
                 echo "<tr>\n";
@@ -223,7 +224,6 @@ class renderer
                 } elseif (!$_SESSION['wa_current_user']->hide_inaccessible_menu_items()) {
                     echo '<span class="inactive">' . access_string($img . $appfunction->label, true) . "</span><br>\n";
                 }
-
             }
             echo '</td>';
             if (sizeof($module->rappfunctions) > 0) {
@@ -237,7 +237,6 @@ class renderer
                     } elseif (!$_SESSION['wa_current_user']->hide_inaccessible_menu_items()) {
                         echo '<span class="inactive">' . access_string($img . $appfunction->label, true) . "</span><br>\n";
                     }
-
                 }
                 echo "</td>";
             }

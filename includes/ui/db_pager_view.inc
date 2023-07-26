@@ -117,14 +117,12 @@ function display_db_pager(&$pager)
                     $cell = $pager->$fun($row, $cell);
                 } elseif (function_exists($fun)) {
                     $cell = $fun($row, $cell);
-                   
                 } else {
                     $cell = '';
                 }
-                
             }
 
- 
+
 
 
             switch ($coltype) { // format column
@@ -189,12 +187,16 @@ function display_db_pager(&$pager)
                     break;
 
                 case 'select_input':
-                    $col_value = isset($col['col_value']) ? $col['col_value'] : '-1';
                     $client_id = isset($_GET['client_id']) ? $_GET['client_id'] : get_post('client_id');
-                    $col_name =isset($_GET['target_id']) ? $_GET['target_id'] : get_post('target_id');
-
-                    ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectInputItem(this,window.opener.document,"'.$col_name.'", "' . $client_id . '",' . $col_value . ')');
-
+                    $selected_name_index = isset($col['selected_name_index']) ? $col['selected_name_index'] : '-1';
+                    $selected_id_index = isset($col['selected_id_index']) ? $col['selected_id_index'] : '-1';
+                    $target_id_ele = isset($col['target_id_ele']) ? $col['target_id_ele'] : get_post('target_id_ele');
+                    $target_name_ele = isset($col['target_name_ele']) ? $col['target_name_ele'] : get_post('target_name_ele');
+                    $selected_item_id = isset($col['selected_item_id']) ? $col['selected_item_id'] : get_post('selected_item_id');
+                    log_b($selected_item_id);
+                    ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectInputItem(this,window.opener.document,"' . $client_id . '","' . $target_id_ele  .
+                        '",' . $selected_id_index . ',"' . $target_name_ele .
+                        '",' . $selected_name_index . ',"' . $selected_item_id . '")');
                     break;
                 default:
                     (isset($col['align'])) ? label_cell($cell, "align='" . $col['align'] . "'") : label_cell($cell);

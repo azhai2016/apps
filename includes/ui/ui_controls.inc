@@ -170,13 +170,15 @@ function start_outer_table($class = false, $extra = '', $padding = '2', $spacing
 	echo "<tr valign=top><td>\n"; // outer table
 }
 
-function table_section($number = 1, $width = false, $class = null)
+function table_section($number = 1, $width = false, $class = null, $min_width = false)
 {
 	if ($number > 1) {
 		echo "</table>\n";
 		output_hidden();
-		$width = ($width ? "width='$width'" : '');
-		echo "</td><td style='border-left:1px solid #cccccc;' $width>\n"; // outer table
+		$width = ($width ? "width='$width';" : '');
+		$style = 'border-left:1px solid #cccccc;';
+		$style .= $min_width ? 'min-width:' . $min_width . 'px;' : '';
+		echo "</td><td style='" . $style . "' $width>\n"; // outer table
 	}
 	echo "<table id=" . $class . " class='tablestyle_inner " . $class . "' style=\"width:100%\">\n";
 }

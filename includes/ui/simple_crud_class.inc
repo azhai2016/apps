@@ -190,7 +190,6 @@ class simple_crud
 			}
 		}
 		$this->Mode = $mode;
-		log_b($this->Mode);
 	}
 
 	//	Add new record
