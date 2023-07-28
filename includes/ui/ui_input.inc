@@ -139,7 +139,7 @@ function hidden($name, $value = null, $echo = true)
 	$atype can contain also multiply type selectors separated by space, 
 	however make sense only combination of 'process' and one of defualt/selector/cancel
 */
-function submit($name, $value, $echo = true, $title = false, $atype = false, $icon = false)
+function submit($name, $value, $echo = true, $title = false, $atype = false, $icon = false, $border = false)
 {
 	global $path_to_root;
 
@@ -194,6 +194,7 @@ function submit($name, $value, $echo = true, $title = false, $atype = false, $ic
 		. ($atype ? 'ajaxsubmit' : 'inputsubmit')
 		. "\" type=\"submit\""
 		. $aspect
+		. ($border ? 'style="border:0"' : '')
 		. " name=\"$name\"  id=\"$id\" value=\"$value\""
 		. ($title ? " title='$title'" : '')
 		. ">"
