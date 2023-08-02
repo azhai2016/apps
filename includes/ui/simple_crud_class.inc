@@ -127,7 +127,6 @@ class simple_crud
 
 		$mod = get_post($this->name . 'Mode', '');
 
-
 		if ($mod) {
 			$val = @key($mod);
 			$this->selected_id = $val !== null ? @quoted_printable_decode($val) : $this->_none;

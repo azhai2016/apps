@@ -194,7 +194,7 @@ function submit($name, $value, $echo = true, $title = false, $atype = false, $ic
 		. ($atype ? 'ajaxsubmit' : 'inputsubmit')
 		. "\" type=\"submit\""
 		. $aspect
-		. ($border ? 'style="border:0"' : '')
+		. ($border ? 'style="border:0;background:#fff;"' : '')
 		. " name=\"$name\"  id=\"$id\" value=\"$value\""
 		. ($title ? " title='$title'" : '')
 		. ">"

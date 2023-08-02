@@ -770,7 +770,7 @@ function get_js_select_input_item()
 			$(select_element).val(send_text); 
 			$(select_id_element).val(send_id_value);
 			$(selected_item_id_ele).val(item_id);
-		
+			
 			$(select_button).click();	
 			//var send_values = {'label':send_id_value,'name':send_id_value,'value':send_text};
 			//window.opener.postMessage(send_values, window.location.origin);	
