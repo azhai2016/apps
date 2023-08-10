@@ -55,7 +55,7 @@ $mssql_db_connections = array(
   ),
   1 => 
   array (
-    'name' => '江苏宿迁卫民医药连锁有限公司',
+    'name' => '南京医药徐州恩华有限公司',
     'host' => 'localhost',
     'port' => '3306',
     'dbuser' => 'root',

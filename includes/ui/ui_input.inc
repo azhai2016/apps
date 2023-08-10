@@ -1006,10 +1006,12 @@ function file_cells($label, $name, $id = '', $submit_on_change = false)
 		$submit_on_change = "JsHttpRequest.request(\"_{$name}_update\", this.form);";
 	label_cells($label, "<input type='file' name='" . $name . "' " . $id . " onclick='" . $submit_on_change . "' >");
 }
-
-function file_row($label, $name, $id = '', $submit_on_change = false)
+function file_row($label, $name, $id = '', $submit_on_change = false, $params = null)
 {
-	echo "<tr><td class='label'>" . $label . "</td>";
+	if ($params)
+		echo "<tr><td $params>" . $label . "</td>";
+	else
+		echo "<tr><td class='label'>" . $label . "</td>";
 	file_cells(null, $name, $id, $submit_on_change);
 	echo "</tr>\n";
 }

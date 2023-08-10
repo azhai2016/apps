@@ -43,7 +43,9 @@ function display_db_pager(&$pager)
 {
     global $path_to_root;
 
+
     $pager->select_records();
+
 
     div_start("_{$pager->name}_span");
     $headers = array();
@@ -123,8 +125,6 @@ function display_db_pager(&$pager)
             }
 
 
-
-
             switch ($coltype) { // format column
                 case 'tiny_width':
                     label_cell($cell, "style='width:30px;text-align:center'");
@@ -133,6 +133,7 @@ function display_db_pager(&$pager)
                     label_cell($cell, "style='width:50px;text-align:center'");
                     break;
                 case 'datetime_width':
+
                     label_cell($cell, "style='width:140px'");
                     break;
                 case 'money_width':
@@ -193,7 +194,7 @@ function display_db_pager(&$pager)
                     $target_id_ele = isset($col['target_id_ele']) ? $col['target_id_ele'] : get_post('target_id_ele');
                     $target_name_ele = isset($col['target_name_ele']) ? $col['target_name_ele'] : get_post('target_name_ele');
                     $selected_item_id = isset($col['selected_item_id']) ? $col['selected_item_id'] : get_post('selected_item_id');
-                    log_b($selected_item_id);
+
                     ahref_cell(_('选择'), 'javascript:void(0)', '', 'selectInputItem(this,window.opener.document,"' . $client_id . '","' . $target_id_ele  .
                         '",' . $selected_id_index . ',"' . $target_name_ele .
                         '",' . $selected_name_index . ',"' . $selected_item_id . '")');
@@ -245,6 +246,7 @@ function display_db_pager(&$pager)
         echo "</div>";
         $from = ($pager->curr_page - 1) * $pager->page_len + 1;
         $to = $from + $pager->page_len - 1;
+
         if ($to > $pager->rec_count) {
             $to = $pager->rec_count;
         }

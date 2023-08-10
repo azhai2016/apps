@@ -28,6 +28,9 @@ function set_global_connection($company = -1)
         $company = user_company();
     }
 
+
+
+
     //set_mssql_connection($company);
 
     cancel_transaction(); // cancel all aborted transactions (if any)

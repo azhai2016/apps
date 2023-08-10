@@ -1,13 +1,17 @@
 <?php
 
 
-function set_mssql_connection($count = -1)
+function set_mssql_connection($count = -1, $config = null)
 {
-    if ($count<1) return;
+    if ($count < 1) return;
 
-    global $path_to_root,$mssqldb;
+    global $path_to_root, $mssqldb;
 
-    include $path_to_root . '/config_db.php';
+    if ($config) {
+        include $config;
+    } {
+        include $path_to_root . '/config_db.php';
+    }
     $connection = $mssql_db_connections[$count];
 
     $server = $connection['host'];
@@ -15,10 +19,12 @@ function set_mssql_connection($count = -1)
     $name = $connection['name'];
     $option = $connection['driver_options'];
 
-    $dsn = sprintf('sqlsrv:Server=%s,%d;Database=%s;ENCRYPT=yes;trustServerCertificate=true',
+    $dsn = sprintf(
+        'sqlsrv:Server=%s,%d;Database=%s;ENCRYPT=yes;trustServerCertificate=true',
         $server,
         $port,
-        $name);
+        $name
+    );
 
     $defaultOptions = array(
         PDO::ATTR_TIMEOUT => 30,
@@ -26,20 +32,20 @@ function set_mssql_connection($count = -1)
     );
 
     $driverOptions = $option + $defaultOptions; // 注意：这里只能使用相加，不能使用array_merge()，因为下标是数值
-  // try {
-       $mssqldb = new PDO($dsn, $connection['user'], $connection['password'], $driverOptions);
-      
+    // try {
+    $mssqldb = new PDO($dsn, $connection['user'], $connection['password'], $driverOptions);
+
     //}
-   // catch(PDOException $e) {
-   //     return ' MSSQL 数据库错误 : ' . $e->getMessage();;
-  //  }
+    // catch(PDOException $e) {
+    //     return ' MSSQL 数据库错误 : ' . $e->getMessage();;
+    //  }
 
     return $mssqldb;
 }
 
 //DB wrapper functions to change only once for whole application
 
-function mssql_db_query($sql, $exceute=0, $err_msg = null)
+function mssql_db_query($sql, $exceute = 0, $err_msg = null)
 {
     global $mssqldb, $SysPrefs, $sql_queries, $Ajax;
 
@@ -47,7 +53,7 @@ function mssql_db_query($sql, $exceute=0, $err_msg = null)
         $Ajax->activate('footer_debug');
         $sql_queries .= "<pre style='white-space:pre-wrap;word-wrap:break-word;'>$sql</pre>\n<hr>";
     }
- 
+
     $retry = MAX_DEADLOCK_RETRY;
 
     do {
@@ -59,9 +65,8 @@ function mssql_db_query($sql, $exceute=0, $err_msg = null)
             }
 
             $retry = 0;
-
         } catch (PDOException $e) {
-  
+
             sleep(1);
             $mssqldb->mssql_rollback();
             $retry--;
@@ -84,7 +89,7 @@ function mssqldb_num_fields($result)
 
 function mssqldb_field_name($result, $n)
 {
-    $fieldinfo = $result->fetchAll(\PDO::FETCH_COLUMN,$n);
+    $fieldinfo = $result->fetchAll(\PDO::FETCH_COLUMN, $n);
 
     return $fieldinfo->name;
 }
@@ -99,8 +104,8 @@ function mssqldb_fetch_row($result)
 function mssqldb_fetch_assoc($result)
 {
     $ret = $result->fetch(\PDO::FETCH_ASSOC);
-    return ($ret === null ? array(): $ret);
-} 
+    return ($ret === null ? array() : $ret);
+}
 
 
 function mssql_transaction()
@@ -145,23 +150,24 @@ function db_mssql_error_no()
 }
 
 
-function ms_escape_string($data) {
-        if ( !isset($data) or empty($data) ) return '';
-        if ( is_numeric($data) ) return $data;
+function ms_escape_string($data)
+{
+    if (!isset($data) or empty($data)) return '';
+    if (is_numeric($data)) return $data;
 
-        $non_displayables = array(
-            '/%0[0-8bcef]/',            // url encoded 00-08, 11, 12, 14, 15
-            '/%1[0-9a-f]/',             // url encoded 16-31
-            '/[\x00-\x08]/',            // 00-08
-            '/\x0b/',                   // 11
-            '/\x0c/',                   // 12
-            '/[\x0e-\x1f]/'             // 14-31
-        );
-        foreach ( $non_displayables as $regex )
-            $data = preg_replace( $regex, '', array($data) );
-        $data = str_replace("'", "''", $data );
-        return $data;
-    }
+    $non_displayables = array(
+        '/%0[0-8bcef]/',            // url encoded 00-08, 11, 12, 14, 15
+        '/%1[0-9a-f]/',             // url encoded 16-31
+        '/[\x00-\x08]/',            // 00-08
+        '/\x0b/',                   // 11
+        '/\x0c/',                   // 12
+        '/[\x0e-\x1f]/'             // 14-31
+    );
+    foreach ($non_displayables as $regex)
+        $data = preg_replace($regex, '', array($data));
+    $data = str_replace("'", "''", $data);
+    return $data;
+}
 
 function mssql_db_escape($value = '', $nullify = false)
 {
@@ -178,7 +184,7 @@ function mssql_db_escape($value = '', $nullify = false)
         $value = ($nullify) ? ('NULL') : ("''");
     } else {
         if (is_string($value)) {
-            $value = "'" .$value. "'";
+            $value = "'" . $value . "'";
             //value is a string and should be quoted;
         } else if (!is_numeric($value)) {
             //value is not a string nor numeric

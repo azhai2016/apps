@@ -207,10 +207,12 @@ class db_pager
         $sql = $this->_sql_gen(false);
 
         $result = db_query($sql, 'Error browsing database: ' . $sql);
-
+        $this->rowcount =$result->num_rows;
+     
         if ($result) {
             // setting field names for subsequent queries
             $c = 0;
+
             // add result field names to column defs for
             // col value retrieve and sort purposes
             $cnt = min(db_num_fields($result), count($this->columns));
@@ -223,6 +225,7 @@ class db_pager
                     }
                 }
             }
+     
             while ($row = db_fetch_assoc($result)) {
                 $this->data[] = $row;
             }
@@ -431,7 +434,8 @@ class db_pager
 
     public function get_count()
     {
-        return $this->rowcount;
+        log_b($this->max_page);
+        return $this->max_page;
     }
 
     //

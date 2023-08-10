@@ -262,6 +262,14 @@ class simple_crud
 			$async = true;
 		echo "<center>";
 
+		if ($this->Mode=='CUSTOM') {
+		    //submit_js_confirm("{$base}Delete[{$this->selected_id}", '是否要作废？');
+			submit("{$base}Delete[{$this->selected_id}]", _('作废数据'), true, _('作废数据'), $async,ICON_DELETE);
+			submit_center_last("{$base}Import", _('导入DDI'), false, '', ICON_ARROW_RIGHT);
+			submit_js_confirm("{$base}Import", '导入前请检查显示项是否有空项，尤其是\n\n【 列格式内容是否对应。】\n【 检查编号、数量是否为空! 】 \n【 注意不要重复导入! 】\n\n    确定要继续？');
+	
+		}
+		else
 		if ($this->Mode == '' || $this->Mode == 'RESET') {
 			if ($this->is_active) {
 				echo "已审核状态，只能查看";

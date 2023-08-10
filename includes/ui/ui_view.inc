@@ -660,7 +660,12 @@ function get_js_open_window($width, $height)
 
     function deleteConfirm() {
 	  return confirm('是否删除？');
+	};
+
+	function importConfirm() {
+		return confirm('是否执行导入数据？');
 	}\n\n";
+  
 
 
 

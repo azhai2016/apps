@@ -151,13 +151,13 @@ class db_ms_pager
         $Ajax->activate("_{$this->name}_span");
         $this->data = array();
 
-        if (!$this->_init()) {
-            return false;
-        }
+        //if (!$this->_init()) {
+        //    return false;
+       // }
 
-        if ($this->rec_count == 0) {
-            return true;
-        }
+        //if ($this->rec_count == 0) {
+        //    return true;
+        //}
 
         $sql = $this->_sql_gen(false);
 

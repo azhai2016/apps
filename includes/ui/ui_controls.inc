@@ -575,6 +575,7 @@ function tabbed_content_end()
 function tab_changed($name)
 {
 	$to = find_submit("{$name}_", false);
+
 	if (!$to)
 		return null;
 

@@ -78,4 +78,19 @@ $installed_extensions = array (
       0 => 'mini_rebate',
     ),
   ),
+  15 => 
+  array (
+    'package' => 'pfm',
+    'name' => '商品流向管理系统',
+    'version' => '0.1.1',
+    'available' => '',
+    'type' => 'extension',
+    'path' => 'modules/pfm',
+    'active' => false,
+    'description' => '-- 商品流向管理系统  --',
+    'SubPath' => 
+    array (
+      0 => 'pfm',
+    ),
+  ),
 );

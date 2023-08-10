@@ -351,6 +351,10 @@ var inserts = {
 				if (e.getAttribute('id')!=null && e.getAttribute('id').indexOf('delete_')>-1) {
 					return confirm('是否删除?');
 				}
+				else
+				if (e.getAttribute('id')!=null && e.getAttribute('id').indexOf('import_')>-1) {
+					return confirm('是否导入数据?');
+				}
 				var asp = e.getAttribute('aspect');
 				if (asp && (asp.indexOf('process') !== -1))
 					JsHttpRequest.request(this, null, 600000); // ten minutes for backup
