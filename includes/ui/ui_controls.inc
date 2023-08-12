@@ -81,7 +81,7 @@ function start_form($multi = false, $action = '', $name = '', $onsubmit = '', $i
 		$action = $_SERVER['PHP_SELF'];
 
 	if ($multi)
-		echo "<form enctype='multipart/form-data' method='post' id='$id' action='$action' $name $onsubmit>\n";
+		echo "<form enctype='multipart/form-data' target='_self' method='post' id='$id' action='$action' $name $onsubmit>\n";
 	else
 		echo "<form method='post' action='$action' $name $onsubmit >\n";
 }

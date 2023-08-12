@@ -207,8 +207,8 @@ class db_pager
         $sql = $this->_sql_gen(false);
 
         $result = db_query($sql, 'Error browsing database: ' . $sql);
-        $this->rowcount =$result->num_rows;
-     
+        $this->rowcount = $result->num_rows;
+
         if ($result) {
             // setting field names for subsequent queries
             $c = 0;
@@ -225,7 +225,7 @@ class db_pager
                     }
                 }
             }
-     
+
             while ($row = db_fetch_assoc($result)) {
                 $this->data[] = $row;
             }
@@ -311,7 +311,8 @@ class db_pager
 
             switch ($c['type']) {
                 case 'inactive':
-                    $this->inactive_ctrl = true;break;
+                    $this->inactive_ctrl = true;
+                    break;
                 case 'insert':
                 default:
                     $c['head'] = $h;
@@ -434,7 +435,7 @@ class db_pager
 
     public function get_count()
     {
-        log_b($this->max_page);
+
         return $this->max_page;
     }
 

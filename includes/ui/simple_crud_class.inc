@@ -19,7 +19,8 @@ class simple_crud
 		'delete' => true,
 		'clone' => false,
 		'update' => true,
-		'insert' => true
+		'insert' => true,
+		'import' => true
 	);
 
 	function __construct($name, $fields = null, $opt = null)
@@ -38,12 +39,14 @@ class simple_crud
 			'PAGE' => '_',
 			'SHOW' => '_show',
 			'DOWN' => '_down',
-			'UPLOAD' => '_upload'
+			'UPLOAD' => '_upload',
+			'Import' => '_import'
 		);
 		$this->views = array(
 			'' => 'list_view',			// default view
 			'Edit' => 'editor_view',
 			'Delete' => 'list_view',
+			'Import' => 'list_view',
 			'NEW' => 'editor_view',
 			'ADD' => 'editor_view',
 			'UPDATE' => 'editor_view',
@@ -58,6 +61,7 @@ class simple_crud
 		$this->tool_buttons['Delete'] = array(_('删除'), _('Remove line from document'), ICON_DELETE, '');
 		$this->tool_buttons['UPDATE'] = array(_('更新'), _('Confirm changes'), ICON_UPDATE, '');
 		$this->tool_buttons['RESET'] = array(_('取消'), _('Cancel changes'), ICON_CANCEL, '');
+		$this->tool_buttons['Import'] = array(_('导入'), _('Remove line from document'), ICON_ANGLE_DOUBLE_UP, '');
 
 		$this->fields = $fields;
 		$this->selected_id = $this->_none;
@@ -162,6 +166,8 @@ class simple_crud
 		$this->Mode = $mode;
 	}
 
+
+
 	function _down($mode)
 	{
 		$this->selected_id = $this->_none;
@@ -182,7 +188,7 @@ class simple_crud
 		$this->get_posts();
 		if ($this->update_check()) {
 			if ($this->db_update()) {
-				log_b('---' . $mode . '----');
+
 				$this->selected_id = $this->_none;
 				$this->Mode = '';
 				return;
@@ -208,6 +214,13 @@ class simple_crud
 	{
 		if ($this->delete_check())
 			$this->db_delete();
+		$this->_cancel();
+	}
+
+	function _import($mode)
+	{
+		if ($this->import_check())
+			$this->db_import();
 		$this->_cancel();
 	}
 
@@ -262,14 +275,12 @@ class simple_crud
 			$async = true;
 		echo "<center>";
 
-		if ($this->Mode=='CUSTOM') {
-		    //submit_js_confirm("{$base}Delete[{$this->selected_id}", '是否要作废？');
-			submit("{$base}Delete[{$this->selected_id}]", _('作废数据'), true, _('作废数据'), $async,ICON_DELETE);
-			submit_center_last("{$base}Import", _('导入DDI'), false, '', ICON_ARROW_RIGHT);
+		if ($this->Mode == 'CUSTOM') {
+			//submit_js_confirm("{$base}Delete[{$this->selected_id}", '是否要作废？');
+			submit_center_first("{$base}Delete", _('作废数据'), '', 'both', ICON_DELETE);
+			submit_center_last("{$base}Import", _('导入DDI'), '', 'both', ICON_ARROW_RIGHT);
 			submit_js_confirm("{$base}Import", '导入前请检查显示项是否有空项，尤其是\n\n【 列格式内容是否对应。】\n【 检查编号、数量是否为空! 】 \n【 注意不要重复导入! 】\n\n    确定要继续？');
-	
-		}
-		else
+		} else
 		if ($this->Mode == '' || $this->Mode == 'RESET') {
 			if ($this->is_active) {
 				echo "已审核状态，只能查看";
@@ -397,6 +408,12 @@ class simple_crud
 		$this->db_insert();
 	}
 
+	function delete_check()
+	{
+		display_notification(__FUNCTION__ . ' is not defined...');
+		return true;
+	}
+
 	//	Delete record
 	function db_delete()
 	{
@@ -415,11 +432,16 @@ class simple_crud
 	{
 	}
 
-
-	function delete_check()
+	function import_check()
 	{
 		display_notification(__FUNCTION__ . ' 没有声明...');
 		return true;
+	}
+
+
+	function db_import()
+	{
+		display_notification(__FUNCTION__ . ' 没有声明...');
 	}
 
 	function insert_check()
