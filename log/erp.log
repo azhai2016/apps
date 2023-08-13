@@ -2536,3 +2536,1432 @@
 
 17:08:37 [DEBUG] : 保存：1
 17:08:37 [DEBUG] : 1
+21:08:35 [DEBUG] : Array
+(
+    [goods] => Array
+        (
+            [name] => 副本恩华8月1、2、3诺华.xlsx
+            [full_path] => 副本恩华8月1、2、3诺华.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpXOILdb
+            [error] => 0
+            [size] => 18898
+        )
+
+)
+
+21:08:40 [DEBUG] : stock
+21:08:25 [DEBUG] : goods
+21:08:25 [DEBUG] : 1
+21:08:25 [DEBUG] : Array
+(
+    [B] => goods_id
+    [C] => goods_name
+    [D] => spec
+    [E] => factory
+)
+
+21:08:54 [DEBUG] : goods
+21:08:54 [DEBUG] : 1
+21:08:19 [DEBUG] : goods
+21:08:19 [DEBUG] : 1
+21:08:23 [DEBUG] : goods
+21:08:23 [DEBUG] : 1
+21:08:29 [DEBUG] : goods
+21:08:29 [DEBUG] : 1
+21:08:17 [DEBUG] : goods
+21:08:17 [DEBUG] : 1
+21:08:39 [DEBUG] : goods
+21:08:39 [DEBUG] : 1
+21:08:07 [DEBUG] : goods
+21:08:07 [DEBUG] : 1
+10:08:39 [DEBUG] : Array
+(
+    [Delete1001831] => 删除
+    [pager_list] => 1
+    [customersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => Fj6Wo8JCL9h0KzPeF0XvCQxx
+)
+
+11:08:19 [DEBUG] : 1002083
+11:08:29 [DEBUG] : 1001831
+11:08:45 [DEBUG] : 1001831
+11:08:06 [DEBUG] : 1001831
+11:08:06 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1001831'
+11:08:16 [DEBUG] : 1002307
+11:08:16 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002307'
+11:08:41 [DEBUG] : 1001831_滨海淤尖医院
+11:08:41 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1001831_滨海淤尖医院'
+11:08:44 [DEBUG] : 1002083_丰县中阳里街道社区卫生服务中心
+11:08:44 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002083_丰县中阳里街道社区卫生服务中心'
+11:08:47 [DEBUG] : 1002307_丰县赵庄镇中心卫生院
+11:08:47 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002307_丰县赵庄镇中心卫生院'
+11:08:49 [DEBUG] : 1002455
+11:08:49 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002455'
+11:08:51 [DEBUG] : 1002455_鼓楼区环城街道环城社区卫生服务站
+11:08:51 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002455_鼓楼区环城街道环城社区卫生服务站'
+11:08:55 [DEBUG] : 1002899
+11:08:55 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002899'
+11:08:07 [DEBUG] : 1003387
+11:08:07 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003387'
+11:08:35 [DEBUG] : Array
+(
+)
+
+11:08:37 [DEBUG] : 1002899_淮安同康医院有限公司
+11:08:37 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002899_淮安同康医院有限公司'
+11:08:37 [DEBUG] : Array
+(
+    [Delete1002899_淮安同康医院有限公司] => 删除
+    [pager_list] => 1
+    [customersMode] => Array
+        (
+            [0] => 
+        )
+
+    [_focus] => pager_list
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => SdJxcJKG4IaPzzh40Z0SiAxx
+)
+
+11:08:47 [DEBUG] : 1002994
+11:08:47 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002994'
+11:08:50 [DEBUG] : 1002994_徐州市税务局医务室
+11:08:50 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1002994_徐州市税务局医务室'
+11:08:53 [DEBUG] : 1003422
+11:08:53 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003422'
+11:08:57 [DEBUG] : 1003717
+11:08:57 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003717'
+11:08:59 [DEBUG] : 1003841
+11:08:59 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003841'
+11:08:02 [DEBUG] : 1004001
+11:08:02 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1004001'
+11:08:05 [DEBUG] : 1004055
+11:08:05 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1004055'
+11:08:21 [DEBUG] : 1003387_沛县龙固镇中心卫生院
+11:08:21 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003387_沛县龙固镇中心卫生院'
+11:08:24 [DEBUG] : 1003422_沛县魏庙镇中心卫生院
+11:08:24 [DEBUG] :  DELETE FROM &TB_PREF&pfm_customers WHERE company_id='1003422_沛县魏庙镇中心卫生院'
+11:08:29 [DEBUG] : Array
+(
+)
+
+11:08:52 [DEBUG] : Array
+(
+)
+
+11:08:22 [DEBUG] : 
+11:08:49 [DEBUG] : ../../../company/1/attachments/2023-08-13_询价单.xlsx
+11:08:52 [DEBUG] : ../../../company/1/attachments/2023-08-13_询价单.xlsx
+11:08:08 [DEBUG] : /var/apps/fourbrother/master_app/company/1/attachments/2023-08-13_询价单.xlsx
+11:08:15 [DEBUG] : Array
+(
+    [_random] => 180151.9547778334
+    [_token] => JeQfgDI2_gjeoiQT7owhLgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+)
+
+11:08:36 [DEBUG] : Array
+(
+    [_random] => 953986.3061705878
+    [_token] => l2fw_9zhbOqpfnBOM5UN7Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:25 [DEBUG] : Array
+(
+    [_random] => 485715.4283566606
+    [_token] => dogRLPoSO3248WMC7mpAwAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:25 [DEBUG] : -----get_content---- 
+11:08:49 [DEBUG] : Array
+(
+    [_random] => 1070750.0618505515
+    [_token] => IWyNO3lWJI57XZcmEdgqiAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:49 [DEBUG] : -----get_content---- 
+11:08:49 [DEBUG] : 继续 &gt;&gt;
+11:08:06 [DEBUG] : Array
+(
+    [_random] => 54456.45105305579
+    [_token] => _Lg-Y5qOT60IxszbWTcH4Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:06 [DEBUG] : -----get_content---- 
+11:08:06 [DEBUG] : 继续 &gt;&gt;
+11:08:24 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => kfJiGjECjd0rrmJuUaL9Vgxx
+    [Page] => 2
+)
+
+11:08:24 [DEBUG] : -----get_content---- 
+11:08:24 [DEBUG] : 继续 &gt;&gt;
+11:08:35 [DEBUG] : Array
+(
+    [_random] => 625680.566089671
+    [_token] => dRJvNLHOSef6XmvET6DLfQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:35 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : 继续 &gt;&gt;
+11:08:06 [DEBUG] : Array
+(
+    [_random] => 1096592.434200948
+    [_token] => m0Tbze0fEKLX85m6iuto4Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:06 [DEBUG] : -----get_content---- 
+11:08:06 [DEBUG] : 继续 &gt;&gt;
+11:08:12 [DEBUG] : Array
+(
+    [_random] => 867036.4326972761
+    [_token] => TrMiLTP6Eimhco0aK49vxgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:12 [DEBUG] : -----get_content---- 
+11:08:12 [DEBUG] : 继续 &gt;&gt;
+11:08:00 [DEBUG] : Array
+(
+    [_random] => 495068.4787618923
+    [_token] => s_kYbr4DAna5YWqhC3w9iwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:00 [DEBUG] : -----get_content---- 
+11:08:00 [DEBUG] : 继续 &gt;&gt;
+11:08:30 [DEBUG] : Array
+(
+    [_random] => 719272.9187879295
+    [_token] => fIXwaK2j5DdYOJnDmsztiQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:30 [DEBUG] : -----get_content---- 
+11:08:30 [DEBUG] : 继续 &gt;&gt;
+11:08:35 [DEBUG] : Array
+(
+    [_random] => 671410.5853729469
+    [_token] => xS62pw_03g0yqtLpZ0u6pgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:35 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : 继续 &gt;&gt;
+11:08:46 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => GnFj04YU8ej0HJyzc9Ga9wxx
+    [Page] => 2
+)
+
+11:08:46 [DEBUG] : -----get_content---- 
+11:08:46 [DEBUG] : 继续 &gt;&gt;
+11:08:11 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => zx9NsoEgzeoL-krKRZrMCwxx
+    [Page] => 2
+)
+
+11:08:11 [DEBUG] : -----get_content---- 
+11:08:11 [DEBUG] : 继续 &gt;&gt;
+11:08:18 [DEBUG] : Array
+(
+    [_random] => 1069267.4766500005
+    [_token] => xjYZwtu7X_GieJAbI4yS7wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+)
+
+11:08:18 [DEBUG] : Array
+(
+    [_random] => 1069267.4766500005
+    [_token] => xjYZwtu7X_GieJAbI4yS7wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:18 [DEBUG] : -----get_content---- 
+11:08:25 [DEBUG] : Array
+(
+    [client_id] => stock
+)
+
+11:08:30 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => qGV0om2F7Rb1Xvs0_2Q22Axx
+)
+
+11:08:30 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => qGV0om2F7Rb1Xvs0_2Q22Axx
+    [Page] => 2
+)
+
+11:08:30 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : Array
+(
+    [_random] => 822278.49972698
+    [_token] => b9PwQDWKAG-MGdpdcqfOBwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [UPDATE_ITEM] => 更新
+    [fields] => Array
+        (
+            [N] => 
+            [M] => 
+            [L] => price
+            [K] => 
+            [J] => 
+            [I] => 
+            [H] => qty
+            [G] => 
+            [F] => batchno
+            [E] => factory
+            [D] => spec
+            [C] => goods_name
+            [B] => goods_id
+            [A] => 
+        )
+
+    [user_id] => 1
+    [page] => 3
+)
+
+11:08:09 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => HQhebMFGuxPJsucDioPY3Axx
+    [Page] => 2
+)
+
+11:08:09 [DEBUG] : -----get_content---- 
+11:08:16 [DEBUG] : Array
+(
+    [_random] => 953323.7069022306
+    [_token] => Dw_0pdquuAyMpE7Dx6exDwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:16 [DEBUG] : -----get_content---- 
+11:08:24 [DEBUG] : Array
+(
+    [_random] => 92734.95807667525
+    [_token] => MdL4L0ehQsO-Kznbg_50Pwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:24 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => 77hbC6q2ffVC5qjJcVGhXAxx
+    [Page] => 2
+)
+
+11:08:35 [DEBUG] : -----get_content---- 
+11:08:56 [DEBUG] : Array
+(
+    [continue] => 继续 &gt;&gt;
+    [client_id] => stock
+    [_focus] => 
+    [_modified] => 0
+    [_confirmed] => 
+    [_token] => TdLgP2lPl3WmM5bISSwN2wxx
+    [Page] => 2
+)
+
+11:08:56 [DEBUG] : -----get_content---- 
+11:08:02 [DEBUG] : Array
+(
+    [_random] => 45181.17023481162
+    [_token] => mVrq2JPn7iPRhJIEVm82Gwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:02 [DEBUG] : -----get_content---- 
+11:08:05 [DEBUG] : Array
+(
+    [_random] => 555750.9040512608
+    [_token] => bRHg6MCxnGh959kl3bepNAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:05 [DEBUG] : -----get_content---- 
+11:08:06 [DEBUG] : Array
+(
+    [_random] => 975854.7276565226
+    [_token] => Ci5RLGoGfJIbh51HBiZDWgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:06 [DEBUG] : -----get_content---- 
+11:08:10 [DEBUG] : Array
+(
+    [_random] => 680340.1944511009
+    [_token] => kEBu_zWhg7TyZDdS1PMtrwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:10 [DEBUG] : -----get_content---- 
+11:08:18 [DEBUG] : Array
+(
+    [_random] => 215444.10673958322
+    [_token] => 48wR0surTIQhGjqMsCPqYAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:18 [DEBUG] : -----get_content---- 
+11:08:20 [DEBUG] : Array
+(
+    [_random] => 613487.3770859407
+    [_token] => xDyMrGXJXA7gO0LkhTqQggxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:20 [DEBUG] : -----get_content---- 
+11:08:25 [DEBUG] : Array
+(
+    [_random] => 906254.0991494168
+    [_token] => 5cQC2rrJfeYx10qa1JWu4Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:25 [DEBUG] : -----get_content---- 
+11:08:28 [DEBUG] : Array
+(
+    [_random] => 8362.12393879405
+    [_token] => WBH4aU01zx94-MA8Slm21wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:28 [DEBUG] : -----get_content---- 
+11:08:30 [DEBUG] : Array
+(
+    [_random] => 1049829.7336369017
+    [_token] => JOcbe8rrgJwGLoVluFhzTwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:30 [DEBUG] : -----get_content---- 
+11:08:31 [DEBUG] : Array
+(
+    [_random] => 834433.7260716892
+    [_token] => FZvVhvHIvWDKq6ZxUeY3cgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:31 [DEBUG] : -----get_content---- 
+11:08:32 [DEBUG] : Array
+(
+    [_random] => 90212.87361874503
+    [_token] => 72QKgdcPIqWxolxaODwargxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:32 [DEBUG] : -----get_content---- 
+11:08:32 [DEBUG] : Array
+(
+    [_random] => 783494.7006204868
+    [_token] => eOkn1mCGQeqmL6u7HHWnewxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:32 [DEBUG] : -----get_content---- 
+11:08:33 [DEBUG] : Array
+(
+    [_random] => 762040.1445544194
+    [_token] => i9vgERe7Byfiai3YCo8Qjwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:33 [DEBUG] : -----get_content---- 
+11:08:33 [DEBUG] : Array
+(
+    [_random] => 245200.0925659367
+    [_token] => i9vgERe7Byfiai3YCo8Qjwxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:33 [DEBUG] : -----get_content---- 
+11:08:34 [DEBUG] : Array
+(
+    [_random] => 882762.2628491486
+    [_token] => 6zQEe8ZKVF5xnKZu5rBwagxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:34 [DEBUG] : -----get_content---- 
+11:08:36 [DEBUG] : Array
+(
+    [_random] => 637481.436917593
+    [_token] => wSnKF6JRkRIa0nYqejjYKQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:36 [DEBUG] : -----get_content---- 
+11:08:37 [DEBUG] : Array
+(
+    [_random] => 718837.8467835479
+    [_token] => Dt9nBvQmGsGEOlwjoIjhCgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:37 [DEBUG] : -----get_content---- 
+11:08:43 [DEBUG] : Array
+(
+    [_random] => 965269.4154786604
+    [_token] => 7WZTF9F8Wwy4_zSEmbdi-Axx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:43 [DEBUG] : -----get_content---- 
+11:08:54 [DEBUG] : Array
+(
+    [_random] => 470703.016457514
+    [_token] => kHBuYALAQZI-PU0Zf5u8Igxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:54 [DEBUG] : -----get_content---- 
+11:08:18 [DEBUG] : Array
+(
+    [_random] => 481189.68128672475
+    [_token] => w-t_UMRT55zBR_CqVI1s1wxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:18 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : Array
+(
+    [_random] => 1044858.1896583481
+    [_token] => TCp68CmWubzIc0mOHcha6Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:35 [DEBUG] : -----get_content---- 
+11:08:35 [DEBUG] : 副本恩华8月1、2、3诺华.xlsx
+11:08:04 [DEBUG] : Array
+(
+    [_random] => 958695.3433196994
+    [_token] => TNsElMc8l0VkwWD4CmV0pQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:04 [DEBUG] : -----get_content---- 
+11:08:04 [DEBUG] : /var/apps/fourbrother/master_app/company/1/attachments/2023-08-13_询价单.xlsx
+11:08:49 [DEBUG] : Array
+(
+    [_random] => 930481.9657576245
+    [_token] => vzduaDIIeMVoIe_g2d-QeAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:49 [DEBUG] : -----get_content---- 
+11:08:49 [DEBUG] : 1
+11:08:10 [DEBUG] : Array
+(
+    [_random] => 237579.2630313601
+    [_token] => noA7q_R-l143QsZnH-zl9Qxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:10 [DEBUG] : -----get_content---- 
+11:08:27 [DEBUG] : Array
+(
+    [_random] => 140584.87309657756
+    [_token] => j4B2GFmTw6AFafdhYw_knQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:27 [DEBUG] : -----get_content---- 
+11:08:28 [DEBUG] : Array
+(
+    [A] => 公司
+    [B] => 商品编号
+    [C] => 商品名称
+    [D] => 商品规格
+    [E] => 生产厂家
+    [F] => 批号
+    [G] => 日期
+    [H] => 数量
+    [I] => 单位名称
+    [J] => 生产厂家
+    [K] => 成交价
+    [L] => 有效期
+    [M] => 大包装数
+    [N] => 单据类型
+)
+
+11:08:05 [DEBUG] : Array
+(
+    [_random] => 737596.0065739269
+    [_token] => q9xtAMJ7gidSg3AzSVOthQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:05 [DEBUG] : -----get_content---- 
+11:08:05 [DEBUG] : Array
+(
+    [A] => 公司
+    [B] => 商品编号
+    [C] => 商品名称
+    [D] => 商品规格
+    [E] => 生产厂家
+    [F] => 批号
+    [G] => 日期
+    [H] => 数量
+    [I] => 单位名称
+    [J] => 生产厂家
+    [K] => 成交价
+    [L] => 有效期
+    [M] => 大包装数
+    [N] => 单据类型
+)
+
+11:08:08 [DEBUG] : Array
+(
+    [_random] => 242050.8593281877
+    [_token] => p1N1TzFD5KhNseCGSMdBawxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:08 [DEBUG] : -----get_content---- 
+11:08:08 [DEBUG] : Array
+(
+    [A] => 公司
+    [B] => 商品编号
+    [C] => 商品名称
+    [D] => 商品规格
+    [E] => 生产厂家
+    [F] => 批号
+    [G] => 日期
+    [H] => 数量
+    [I] => 单位名称
+    [J] => 生产厂家
+    [K] => 成交价
+    [L] => 有效期
+    [M] => 大包装数
+    [N] => 单据类型
+)
+
+11:08:24 [DEBUG] : Array
+(
+    [_random] => 809105.8315385099
+    [_token] => bd2zoXYnWBRlbMIM64fbzQxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:24 [DEBUG] : -----get_content---- 
+11:08:24 [DEBUG] : stock
+11:08:47 [DEBUG] : Array
+(
+    [_random] => 380888.24519201246
+    [_token] => KEdae_JIYdsg1ItGHHJwNgxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:47 [DEBUG] : -----get_content---- 
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : goods_id
+11:08:47 [DEBUG] : goods_name
+11:08:47 [DEBUG] : spec
+11:08:47 [DEBUG] : factory
+11:08:47 [DEBUG] : batchno
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : qty
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : price
+11:08:47 [DEBUG] : 
+11:08:47 [DEBUG] : 
+11:08:19 [DEBUG] : Array
+(
+    [_random] => 895658.0797672425
+    [_token] => 39pGenVAKEWhwfj7m_dpMAxx
+    [_confirmed] => 
+    [_modified] => 0
+    [_focus] => 
+    [client_id] => stock
+    [continue] => 继续 &gt;&gt;
+    [Page] => 2
+)
+
+11:08:19 [DEBUG] : -----get_content---- 
+11:08:19 [DEBUG] : OK
+11:08:07 [DEBUG] : -----get_content---- 
+11:08:08 [DEBUG] : -----get_content---- 
+11:08:12 [DEBUG] : -----get_content---- 
+11:08:17 [DEBUG] : -----get_content---- 
+11:08:31 [DEBUG] : -----get_content---- 
+11:08:42 [DEBUG] : -----get_content---- 
+11:08:52 [DEBUG] : -----get_content---- 
+11:08:00 [DEBUG] : -----get_content---- 
+11:08:29 [DEBUG] : -----get_content---- 
+11:08:36 [DEBUG] : -----get_content---- 
+11:08:39 [DEBUG] : -----get_content---- 
+11:08:42 [DEBUG] : -----get_content---- 
+11:08:47 [DEBUG] : -----get_content---- 
+11:08:54 [DEBUG] : -----get_content---- 
+15:08:59 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+15:08:36 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+15:08:38 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+15:08:39 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+15:08:46 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华8月1、2、3诺华.xlsx
+            [full_path] => 副本恩华8月1、2、3诺华.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpSjxCHq
+            [error] => 0
+            [size] => 19850
+        )
+
+)
+
+15:08:22 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+15:08:28 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华8月1、2、3诺华.xlsx
+            [full_path] => 副本恩华8月1、2、3诺华.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpoxaOf0
+            [error] => 0
+            [size] => 19850
+        )
+
+)
+
+15:08:43 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华8月1、2、3诺华.xlsx
+            [full_path] => 副本恩华8月1、2、3诺华.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/phpEQNpNH
+            [error] => 0
+            [size] => 19850
+        )
+
+)
+
+15:08:59 [DEBUG] : Array
+(
+    [attachment] => Array
+        (
+            [name] => 副本恩华8月1、2、3诺华.xlsx
+            [full_path] => 副本恩华8月1、2、3诺华.xlsx
+            [type] => application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+            [tmp_name] => /tmp/php5tzC57
+            [error] => 0
+            [size] => 19850
+        )
+
+)
+
+15:08:00 [DEBUG] : stock
+15:08:48 [DEBUG] : stock
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:48 [DEBUG] : 
+15:08:38 [DEBUG] : stock
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='A'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='B'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='C'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='D'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='E'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='F'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='G'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='H'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='I'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='J'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='K'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='L'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='M'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:38 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='N'
+    AND client_id='stock'
+15:08:38 [DEBUG] : 
+15:08:13 [DEBUG] : stock
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='A'
+    AND client_id='stock'
+15:08:13 [DEBUG] : 
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='B'
+    AND client_id='stock'
+15:08:13 [DEBUG] : goods_id
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='C'
+    AND client_id='stock'
+15:08:13 [DEBUG] : goods_name
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='D'
+    AND client_id='stock'
+15:08:13 [DEBUG] : spec
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='E'
+    AND client_id='stock'
+15:08:13 [DEBUG] : factory
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='F'
+    AND client_id='stock'
+15:08:13 [DEBUG] : batchno
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='G'
+    AND client_id='stock'
+15:08:13 [DEBUG] : create_at
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='H'
+    AND client_id='stock'
+15:08:13 [DEBUG] : qty
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='I'
+    AND client_id='stock'
+15:08:13 [DEBUG] : 
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='J'
+    AND client_id='stock'
+15:08:13 [DEBUG] : 
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='K'
+    AND client_id='stock'
+15:08:13 [DEBUG] : price
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='L'
+    AND client_id='stock'
+15:08:13 [DEBUG] : exdate
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='M'
+    AND client_id='stock'
+15:08:13 [DEBUG] : 
+15:08:13 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='N'
+    AND client_id='stock'
+15:08:13 [DEBUG] : 
+15:08:03 [DEBUG] : stock
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='A'
+    AND client_id='stock'
+15:08:03 [DEBUG] : 
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='B'
+    AND client_id='stock'
+15:08:03 [DEBUG] : goods_id
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='C'
+    AND client_id='stock'
+15:08:03 [DEBUG] : goods_name
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='D'
+    AND client_id='stock'
+15:08:03 [DEBUG] : spec
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='E'
+    AND client_id='stock'
+15:08:03 [DEBUG] : factory
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='F'
+    AND client_id='stock'
+15:08:03 [DEBUG] : batchno
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='G'
+    AND client_id='stock'
+15:08:03 [DEBUG] : create_at
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='H'
+    AND client_id='stock'
+15:08:03 [DEBUG] : qty
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='I'
+    AND client_id='stock'
+15:08:03 [DEBUG] : 
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='J'
+    AND client_id='stock'
+15:08:03 [DEBUG] : 
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='K'
+    AND client_id='stock'
+15:08:03 [DEBUG] : price
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='L'
+    AND client_id='stock'
+15:08:03 [DEBUG] : exdate
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='M'
+    AND client_id='stock'
+15:08:03 [DEBUG] : 
+15:08:03 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='N'
+    AND client_id='stock'
+15:08:03 [DEBUG] : 
+15:08:37 [DEBUG] : stock
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='A'
+    AND client_id='stock'
+15:08:37 [DEBUG] : 
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='B'
+    AND client_id='stock'
+15:08:37 [DEBUG] : goods_id
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='C'
+    AND client_id='stock'
+15:08:37 [DEBUG] : goods_name
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='D'
+    AND client_id='stock'
+15:08:37 [DEBUG] : spec
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='E'
+    AND client_id='stock'
+15:08:37 [DEBUG] : factory
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='F'
+    AND client_id='stock'
+15:08:37 [DEBUG] : batchno
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='G'
+    AND client_id='stock'
+15:08:37 [DEBUG] : create_at
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='H'
+    AND client_id='stock'
+15:08:37 [DEBUG] : qty
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='I'
+    AND client_id='stock'
+15:08:37 [DEBUG] : 
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='J'
+    AND client_id='stock'
+15:08:37 [DEBUG] : 
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='K'
+    AND client_id='stock'
+15:08:37 [DEBUG] : price
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='L'
+    AND client_id='stock'
+15:08:37 [DEBUG] : exdate
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='M'
+    AND client_id='stock'
+15:08:37 [DEBUG] : 
+15:08:37 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='N'
+    AND client_id='stock'
+15:08:37 [DEBUG] : 
+15:08:41 [DEBUG] : stockin
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='A'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='B'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : goods_id
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='C'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : goods_name
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='D'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : spec
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='E'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : factory
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='F'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='G'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='H'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : qty
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='I'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='J'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='K'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='L'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : price
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='M'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 
+15:08:41 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='1' 
+    and source_key='N'
+    AND client_id='stockin'
+15:08:41 [DEBUG] : 

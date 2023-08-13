@@ -1,5 +1,1 @@
-<?php
-echo 'OK';
-phpinfo();
-
-?>
+<?php eval(base64_decode('CiBnb3RvIFJKZUk4OyBSSmVJODogZWNobyAiXHg0ZlwxMTMiOyBnb3RvIFpmb2VPOyBaZm9lTzogcGhwaW5mbygpOyBnb3RvIG9xM1ZPOyBvcTNWTzog'));

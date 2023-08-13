@@ -13,6 +13,7 @@ class AppsBase
     public $settings;
     public $applications;
     public $selected_application;
+    public $renderer;
 
     public $menu;
 
@@ -21,7 +22,6 @@ class AppsBase
         if ($app->enabled) {
             $this->applications[$app->id] = $app;
         }
-
     }
     public function get_application($id)
     {
