@@ -329,7 +329,7 @@ function date2sql($date_)
 {
 	global $SysPrefs, $tmonths;
 
-	$date_ = str_replace(['-', '.'], '/', $date_);
+	$date_ = str_replace(['-', '年', '月', '日', '.'], '/', $date_);
 	$timestamp = strtotime($date_);
 
 	if ($timestamp === false) {

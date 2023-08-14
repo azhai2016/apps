@@ -3965,3 +3965,40 @@
     and source_key='N'
     AND client_id='stockin'
 15:08:41 [DEBUG] : 
+11:08:13 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
+)
+
+11:08:46 [DEBUG] : SELECT target_field FROM &TB_PREF&pfm_excel_template 
+    WHERE user_id='12'
+    AND client_id='stock'
+11:08:46 [DEBUG] : mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
+)
+
+14:08:07 [DEBUG] : exec getpagelist @flag=1,
+    @dwbh='',
+    @ksrq='2023-08-13',
+    @jsrq='2023-08-14',
+    @khmc='',
+    @ypmc='',
+    @cdmc='',
+    @userid=''
+14:08:08 [DEBUG] : exec getpagelist @flag=1,
+    @dwbh='',
+    @ksrq='2023-08-13',
+    @jsrq='2023-08-14',
+    @khmc='',
+    @ypmc='',
+    @cdmc='',
+    @userid=''
